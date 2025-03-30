@@ -229,6 +229,9 @@ div.fixed {
   font-family: "Comfortaa", sans-serif;
   font-weight: 350;
   font-size: 16px;
+  /* Permette lo scrolling se il menu è troppo alto */
+  max-height: 70vh;  /* Il menu non supererà il 70% dello schermo */
+  overflow-y: auto;
 }
 
 .dropdown:hover .dropdown-content {
