@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>EPISTOLARIUM - Lilaë&apos;s Conlangs</title>
+  <meta charset="UTF-8">
+  <meta name="keywords" content="conlangs, constructed languages, Dundulanyä, Eventoa, conlanging">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://unpkg.com/phosphor-icons"></script>
+  <link rel="stylesheet" href="../css/home-meta.css">
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&display=swap');
+
+  .ipa {
+    font-family:sans-serif;
+  }
+  .comm-title {
+  font-size: 18px;
+    color: rgb(102, 0, 0);
+    margin-left: 4px;
+    margin-bottom: 14px;
+    margin-top: 14px;
+    letter-spacing: 1px;
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 450;
+    font-style: normal;
+  }
+  .comm-date {
+  font-size: 14px;
+    color: rgb(0, 96, 128);
+    margin-left: 4px;
+    margin-bottom: 14px;
+    letter-spacing: 1px;
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 350;
+    font-style: italic;
+  }
+  li {
+    color: rgb(77, 37, 0);
+  }
+  .auth {
+    font-style: italic;
+    color: rgb(0, 96, 128);
+  }
+  blockquote {
+    border-style: none none none solid;
+    border-color: rgb(102, 0, 0);
+    padding: 9px 30px 9px 18px;
+    margin-left: 30px;
+    /* background-color: rgba(229, 204, 255, 0.7); */
+    background-image: linear-gradient(to right, rgba(255, 240, 179, 0.7), rgba(251, 235, 230, 0.1));
+}
+  </style>
+</head>
+<body>
+  <h1>Epistolarium</h1>
+  <h5>The collection of comments and posts originally written or shared elsewhere on the web.</h5>
+  <div class="fixed dropdown"><p>me<br>nu</p>
+      <div class="dropdown-content">
+      <i><a href="../index.htm">Back to home page</a></i>
+      <a href="../autnotes.htm">Author's notes<br><small>(on Dundulanyä)</small></a>
+      <a href="../eastereggs.htm">Dundulanyä Easter eggs</a>
+      <a href="#2018ear">2018 and earlier</a>
+      <a href="#2019">2019</a>
+      <a href="#2020">2020</a>
+      <a href="#202123">2021 &#8211; 2023</a>
+      <a href="#2024">2024</a>
+      <a href="#2025">2025</a>
+      </div>
+    </div>
+  <h2 id="CAVEAT" style="margin-top:4px;">About this page</h2>
+    <p>
+    This page serves as an archive of comments and posts about the conlangs shared on this site that, along the years, I had originally written or shared on other <i>silos</i>, mostly social networks where I had or have been active. The primary purpose of this <b>Epistolarium</b> is for myself to be the owner of my data, and not have it locked on other websites, no matter if they are collaborative wikis, <i>fora</i>, or corporate platforms. The <b>IndieWeb</b> explains it better than I can do, and I&apos;ll suggest you to look at their pages on <a href="https://indieweb.org/why">the reasons for an independent web</a> and on <a href="https://indieweb.org/POSSE">POSSE</a> for more.</p>
+    <p>
+    In fact, comments I had posted on groups which I had left before leaving <i>the blue "f" silo</i> altogether were not exported when I left the social network and are therefore already lost.</p>
+    <p>
+    Comments entirely about conlangs not treated on this website have not been included, unless there was any mention of the conlanging process itself (which is the reason why there are so many pre-Dundulanyä comments included here). Still this page is not really meant to be consulted, it&apos;s more about preserving older comments. If somehow you start to read this, expect to encounter similar answers or comments multiple times.</p>
+    <p>
+    As this page is, first and foremost, an archive of older content, whatever information found here was obviously only current to the date it was first posted or shared. Given that some of the content included here was shared on closed groups, any reference to people who participated in those threads or conversations has been redacted out. No other edit has been done except for formatting; my own notes and comments are clearly marked as such.</p>
+    <p>
+    Similarly, any opinion shared in the content included on this page is current only to the data it was posted or shared.</p>
+    <p>&#8212; <i>Lilaë, March 2025</i></p>
+  <h2 id="2025" style="margin-top:4px;">2025</h2>
+    <div class="comm-title">Excerpt from an interaction with ChatGPT (in Italian)</div>
+    <div class="comm-date">March 30, 2025 &#8212; around 18:30 CET</div>
+      <p><span class="auth">Some context: I am using ChatGPT mainly as an assistant to automate tasks (like converting most of the originally MediaWiki-formatted content on this site to HTML), and to help me in HTML and CSS formatting for this website. This time I asked it how could I migrate my Dundulanyä dictionary to a database file and let it be consulted by users on a specific page of this site. However, in answering me, it made up a conlanging example which immediately irked me because of its ethical implications, using "honored warrior" as an example. I&apos;m including an excerpt of this interaction as it seemed a particularly striking example of AI bias, and perhaps could say something about conlanging choices, at least for those included in the model&apos;s training set.</span></p>
+      <p><span class="auth">My original prompt:</span> [D]evo creare un sito dove, in una pagina, far consultare il dizionario di una lingua artificiale, con possibilità di ricerca. [Q]uale struttura potrei usare, che sia anche semplice da <span class="auth">[sic]</span> inserire dati (parole e definizioni) nel database? [L]'utente non vede direttamente il database-dizionario ma può fare query[.]</p>
+      <p><span class="auth">ChatGPT&apos;s answer:</span> [...] <b>Inserimento Dati (Semplice e Rapido)</b></p>
+      <p>Opzioni:</p>
+      <ol><li>Pannello Admin (un form web per aggiungere/modificare parole).</li>
+      <li>File CSV/JSON (upload di un file che il backend legge e importa).</li></ol>
+      <p>Esempio JSON:</p>
+      <code>[<br>
+      { "parola": "Kelor", "definizione": "Saluto formale", "categoria": "Verbo" },<br>
+      { "parola": "Zarnu", "definizione": "Guerriero onorato", "categoria": "Nome" }<br>
+      ]</code>
+      <p>[...]</p>
+      <p><span class="auth">My answer:</span> [...] 2. non ha a che fare con il codice in sé ma perché usi una definizione quale "guerriero onorato", che rimanda anche a ideali di violenza e mancanza di empatia, come se l'onore fosse legato al combattere? [E] non qualcosa che rimandi a gentilezza e amore per il prossimo[?]</p>
+      <p><span class="auth">ChatGPT&apos;s answer:</span> [...] <b>2. Sulla scelta della parola "Guerriero onorato"</b></p>
+      <p>Hai ragione a sottolinearlo! Il linguaggio influisce sulla percezione del mondo, e non è detto che "onore" debba essere legato alla guerra.</p>
+      <p>Se vogliamo trasmettere un'idea più positiva, possiamo usare definizioni che evocano gentilezza, protezione e rispetto reciproco. Per esempio:</p>
+      <ul><li>"Persona che protegge con saggezza"</li>
+      <li>"Guida altruista"</li>
+      <li>"Colui/colei che ispira armonia"</li></ul>
+      <p>Vuoi che il dizionario segua un principio specifico nei significati? Tipo una lingua basata su concetti di empatia e nonviolenza?</p>
+    <hr>
+    <div class="comm-title">Comment in "What are y’all’s cuss words?", r/conlangs.</div>
+    <div class="comm-date">March 9, 2025 &#8212; 21:26:53 CET</div>
+      <p>Dundulanyä profanity is something I have sketched but still have to work on most words. The stronger insults are those that call somebody a violent, a brawler, or a traitor who refuses to help:</p>
+      <ul>
+        <li><b>ṣogērṣe</b> &#8212; literally "punch-er" (<i>-ērṣe</i> is a mostly pejorative suffix);</li>
+        <li><b>skartibe</b> &#8212; literally "brawl";</li>
+        <li><b>heṅgdūva</b> &#8212; from the phrase <i>heṅgdū va</i> "3SG does not listen" or <i>heṅgdūh va</i> "I do not listen";</li>
+        <li><b>noṇḍūmeśe</b> &#8212; from <i>noṇḍū meśah</i> "I see their shoulders", implying somebody who turns away in a moment of need;</li>
+        <li><b>viṣoṣū</b> &#8212; probably the worst insult of the bunch, roughly meaning "not touching and going away", implying someone is cold-hearted.</li>
+      </ul>
+      <p>Other, less creative insults:</p>
+      <ul>
+        <li><b>graka</b> &#8212; "mosquito";</li>
+        <li><b>tugan!</b> &#8212; "shit!" (literal meaning);</li>
+        <li><b>tugnā!</b> &#8212; shit-<small>LOC.SG</small>., roughly equivalent in usage to "go fuck yourself!".</li>
+      </ul>
+      <p><span class="auth">A/N: see also the <a href="../autnotes.htm">author&apos;s notes and thoughts</a> on Dundulanyä.</span></p>
+    <hr>
+    <div class="comm-title">Comment in "What are your favorite cases?", r/conlangs.</div>
+    <div class="comm-date">March 6, 2025 &#8212; 20:21:42 CET</div>
+      <p>In my main conlangs the Essive case ("as X, being X") ends up being particularly prominent: in Dundulanyä it is used amongst others for indefinite objects in copular sentences (I am <i>a worker</i> instead of <i>the worker</i>); to mark patients of intransitive verbs when another argument is topicalized by the trigger (this language has symmetrical voice/Austronesian-type alignment); to mark arguments of certain verbs such as "to consider, think of as"; for absolute constructions like the Latin ablative absolute; to mark what something is made of (e.g. a chair made <i>of beech wood</i>), or to express qualities with positional verbs &#8212; in a sentence like e.g. "Monaco is a city close to Nice", in Dundulanyä the verb would be "to be close", with "a city" in the essive case.</p>
+    <hr>
+    <div class="comm-title">Comment in "When you borrow words from natural languages, do you borrow from a wide range of languages, or do you keep the source "pure"?", r/conlangs.</div>
+    <div class="comm-date">March 6, 2025 &#8212; 18:14:16 CET</div>
+      <p>For a posteriori conlangs, I often get very specific in detailing language contact, so that I end up having multiple loanwords and layers of loanwords along with a general history of the language itself. For example my IE-lang Elodian, set in an alternate history Eastern Anatolia, has a large share of loanwords but not really from "a wide range" &#8212; it's a range from prehistory to the present day of the multiple languages Elodians came in contact with. The earliest borrowings, from e.g. Proto-Kartvelian and Proto-Northwest Caucasian, are practically native; later contacts introduced a share of Armenian and Aramaic loanwords up to a large share of Perso-Arabic vocabulary. So up to the early 20th century (where more French, Russian and English loanwords start entering the language) there is a backstory to why loanwords come from certain languages and not others.</p>
+      <p>
+      For a priori conlangs, which have no in-world relationship to Earth at all, I don't really borrow words from natural languages, even though I may look at some for inspiration. And whenever I take them as a base, I sometimes radically alter them even after adapting them to my conlangs' phonologies, e.g. swapping front and back vowels, swapping voicing, changing the order of some syllables... and often the meaning too. Such a word that has been remarkably similar in both Dundulanyä and its previous "spiritual ancestor" Chlouvānem and where the natlang root is at least recognizable is <i>naviṣya</i>, meaning "book", inspired by Persian <i>neveštan</i> meaning "to write". That's really the only word that I can remember as at least recognizable, I don't like to put too many of them. There is a small number of other words "related" to natlang ones but they somehow all qualify as Easter eggs.</p>
+  <h2 id="2024" style="margin-top:4px;">2024</h2>
+    <div class="comm-title">Comment in "Conlangers Recognized By Style", r/conlangs.</div>
+    <div class="comm-date">August 28, 2024 &#8212; 19:34:35 CEST</div>
+      <p>
+      I have developed to more than just a sketchy stage only very few conlangs so I can't really say that there is a 'style' I follow but certainly there are some features I lean towards, interesting my main conlang does not respect some of these:</p>
+      <ul>
+        <li><span class="ipa">/ɬ/</span>, or at least <span class="ipa">[ɬ]</span> as an allophone of <span class="ipa">/l/</span>. If it's a posteriori then very often I tend to have <span class="ipa">[ɬ]</span> (or <span class="ipa">[ɮ]</span>) as an allophone of <span class="ipa">/l/</span> before stops and fricatives, and sometimes word-finally. (This one is not found in my main conlang Dundulanyä, though);</li>
+        <li>5-, 6- (often 5 + schwa) or 7-vowel systems but with length distinctions. Sometimes with weird gaps: for examples Dundulanyä has six qualities with <span class="ipa">/e/</span> and <span class="ipa">/ɛ/</span> and only a single <span class="ipa">/o/</span> vowel, and neither <span class="ipa">/ɛ/</span> nor <span class="ipa">/o/</span> distinguish length; Elodian does the same but <span class="ipa">/e ɛ/</span> can be both short and long, while in the back it's really a single vowel which is short <span class="ipa">/ɔ/</span> and long <span class="ipa">/o:/</span>.</li>
+        <li>Evidential markers or compound tenses (all romlangs I've ever started use a compound past form (participle + to have) as reportative);</li>
+        <li>Highly productive and detailed nominal derivations, but very few ways to derive new verbs, effectively making them a closed class;</li>
+        <li>Phonemic, unpredictable and unwritten stress (and then Dundulanyä has fixed stress with a few complex rules);</li>
+        <li>No articles, although with notable exceptions among my main conlangs (my IE lang Elodian has articles, which by the way are false cognates of romlangs', while a priori Cerian has them because it is purposefully designed to tick many, but not all, boxes of Standard Average Europeanness);</li>
+        <li>Romanizations using mostly diacritics and few-to-none polygraphs, with some idiosyncrasies of mine like &#60;ŭ&#62; for schwas or central vowels, &#60;ǝ&#62; for <span class="ipa">/ɛ/</span> (not in Dundulanyä) or &#60;ẹ ọ&#62; in languages with seven qualities and both <span class="ipa">/ɛ ɔ/</span>, glottal stops with lowercase &#60;ɂ&#62; and uppercase &#60;ʔ&#62;; long vowels are marked with macrons.</li>
+        <li>Not really a "trait" but I tend to get pretty creative in detailing pluralia and singularia tantum;</li>
+        <li>Also not a trait of my conlangs themselves but more of my whole creative process: I'm kinda "all or nothing" when it comes to politeness, either my conlangs have complex East Asian-inspired politeness systems (like Dundulanyä) or no T-V distinction at all (like Elodian).</li>
+      </ul>
+    <hr>
+    <div class="comm-title">Comment in "What's your Conlang's lore?", r/conlangs.</div>
+    <div class="comm-date">August 24, 2024 &#8212; 16:39:20 CEST</div>
+      <p>
+      My conlang's lore so far is the conworld it is set in: Dundulanyä is a language of the planet Eventoa, but so far I have only a very rough sketch of history and a general idea of its speakers' culture (with a few ideas being taken from its spiritual predecessor, Chlouvānem, but so far the only cultural part of Dundulanyä I've detailed is the kinship system, which is quite different from Chlouvānem's, and I don't know how many other cultural aspects I'm going to leave similar).</p>
+      <p>
+      What I've been working on for the last few months is geography and climate of the home continents of the Dundulanyä people, with a detailed relief and terrain map of the area (for the other continents I have some rough sketches but mainly climate-related, where I want the major biomes to be).</p>
+      <p>Right now I think most of the conlang-specific words are for crops, foodstuffs, plants and animals rather than specific to culture, for the most part that's going to be the next thing to work on once I'll have finished physical geography &#8212; that and political geography as well.</p>
+    <hr>
+    <div class="comm-title">Comment in "2036th Just Used 5 Minutes of Your Day", r/conlangs.</div>
+    <div class="comm-date">March 31, 2024 &#8212; 16:17:51 CEST</div>
+      <p><b>Dundulanyä:</b>
+      <blockquote>
+        <b>«daśa» ga naviṣya ba rañjiḫ sure śaṃḫat udhiśodradīra lūnūbhoba ucyūvemyābgūva ovaciśvadi āqna samihinda.</b><br>
+        <span class="ipa">[dɐɕɐ ɡɐ nɐʋiʂjɐ bɐ ʀɐɲɟ͡ʑiħ sure ɕɐ̃ħɐt ʔudʱiɕɔdʀɐdi:ʀɐ lu:nu:bʱɔbɐ ʔuc͡ɕju:ʋemja:bɡu:ʋɐ ʔɔʋɐc͡ɕiɕʋɐʀe ʔa:ʁnɐ sɐmihindɐ]</span><br>
+        daśa ga naviṣya ba rañjiḫ-∅ sure śaṃḫ-at udhiśodradīr-∅-∅-a lūnūbhoba ucyū-emi-āp-g-ū-a ovaciśva-di āqna sam-ihind-∅-∅-a<br>
+        Rain. <small>ADP</small>. book.<small>DIR.SG</small>. <small>TOPIC</small>. name-<small>BOUND.SG</small>. without. <small>REFL-ACC.SG</small>. be_talented-<small>EXP-PAT-PRES.3SG.IND</small>. author.<small>DIR.SG</small>. want.<small>PERF-REP1-SITU-IRR-AG-3</small>. not_believable-<small>ADV</small>. that_much. be_famous.<small>PERF-EXP-PAT-3.IND</small>.<br>
+      </blockquote>
+      <p>Rough back-translation: <i>"The book 'Rain', even if its talented author wanted herself/himself [to be] anonymous, has [become] famous to an incredible extent."</i></p><p>(edit: forgot a word)</p><p>
+      (edit2: some etymologies that are not clear by the gloss: <i>udhiśodra</i> "talent" is roughly 'ability from the knowledge inside' (<i>udhi-</i> "within"; √<i>śod-</i> "to know, understand"); <i>saṃ-√hend-</i> "be famous" is backformed from <i>saṃhinda</i> "fame, glory", from <i>sam-</i> "further, beyond" and <i>√hend-</i> "be heard" (not unlike similar derivations in IE languages))</p>
+      <p><span class="auth">A/N: example sentence since used in the page about Dundulanyä, section <a href="../dundu.htm#CONCESS"> Syntax, Complex sentences: Concession clauses</a>.</span></p>
+    <hr>
+    <div class="comm-title">Comment in "Realistic translation", r/conlangs.</div>
+    <div class="comm-date">March 29, 2024 &#8212; 18:11:39 CET</div>
+      <p>Elodian is a posteriori and set on an alternate Earth, so they are not particularly distinct from other loanwords, there is not much of a different treatment except for the fact that Elodians are quite conservative in maintaining older forms of names, so that e.g. the most ancient layer of toponyms, taken from Ancient Greek or earlier, is still used for most contemporary places around their homeland, in Asia Minor and around the Black Sea (e.g. <i>Omilā</i> &#60; AGr. <i>Ἄμιδα</i> for the city of Diyarbakır).</p>
+      <p>Dundulanyä is set on a completely different planet with no canon relationship whatsoever with Earth, so any names for toponyms or anything Earth-specific are just to translate random, non-canon sentences. I haven't set rules for Dundulanyä as it isn't yet as developed as its 'spiritual precedessor' Chlouvānem, but as with the latter I'd say that the easiest natlangs to borrow toponyms from are its main aesthetic influences. The problem is, it's kinda fine for the Indian subcontinent as words from Sanskrit and the four major contemporary Dravidian languages are easily adapted, but as for the rest of the world... good luck with adapting, say, the Hurrian name for most places on Earth. So, to avoid having to take sides so blatantly I think I'll just adapt them from my native language (Italian) no matter what.</p>
+    <hr>
+    <div class="comm-title">Comment in "2035th Just Used 5 Minutes of Your Day", r/conlangs.</div>
+    <div class="comm-date">March 29, 2024 &#8212; 17:41:56 CET</div>
+      <p><b>Dundulanyä:</b>
+      <blockquote>
+          <b>oṅgodu ba āna naviṣya ayiyaga (ānat) sā yiyūnīś?</b><br>
+          <span class="ipa">/ʔɔŋɡɔdu ba ʔa:na nɐʋiʂjɐ ʔajijaɡa (ʔa:nat) sa: jiju:ni:ɕ/</span><br>
+          oṅgodu ba āna naviṣya ayiy-∅-g-∅-a āna-t sā yiy-∅-ū-(n)ī=ś ubukhai-ē gunt-∅-∅-ī lūnūbhoba ga ṣurṭāg-ī lila=rān<br>
+          Oṅgodu.<small>DIR.SG</small>. <small>TOP</small>. that.<small>DIST.DIR</small>. read.<small>PERF-EXP-IRR-PAT-3.IND</small>. that.<small>DIST-ACC</small>. but.<small>EMPH</small>. read-<small>EXP-AG-PAST.3SG.IND=INTERR.POLAR</small>.<br>
+        </blockquote>
+      <p>Back-translation: <i>[As for] Oṅgodu, that book he was supposed to have read, did he [indeed] read it?</i> (using an in-world given name)</p>
+      <p>Nothing particularly weird here, there is an explicitely marked topic (by the ba particle) which prevails over the topics marked by verb concord alone; the first verb here agrees with the patient to emphasize definiteness, but the sentence could just as well be translated as <i>oṅgodu ba ānat naviṣyat ayīgū</i> (a-yiy-∅-g-ū-∅) <i>sā yiyūnīś</i>?, with the first verb agreeing with the agent (the demonstrative prevents "book" to be interpreted as indefinite, as it otherwise would be).</p>
+      <p>Many conjunctions in Dundulanyä have both a clitic and a standalone form, in this case "but" is rendered by the <b>sā</b> standalone form, which is the part that actually renders the emphasis "... DID he read it?" of the original sentence. (With the clitic form the verb would have been <i>yiyūnīyākṣa</i> (yiy-∅-ū-(n)ī=ās=ś)).</p>
+    <hr>
+    <div class="comm-title">Comment in "How do your conlangs come up with words for 'north' and 'south'?", r/conlangs.</div>
+    <div class="comm-date">March 27, 2024 &#8212; 14:03:16 CET</div>
+      <p>In Dundulanyä both are relative to the sun's position, from the southern hemisphere perspective of the Dundulanyä homeland: "north" is <i>anūṭa</i> (anu-</i> "in front of" and the root <i>oṭ-</i> "to lie, be extended", i.e. the expanse in front of the sun); "south" is <i>prādauna</i> (<i>prā-</i> "behind" and <i>dāvan</i> "sun", so something like "the sun [is] behind" (when facing south)).</p>
+      <p>Meanwhile, on the topic, even on Eventoa, the planet where Dundulanyä speakers live, the sun rises in the east, so "east" is <i>nilāḍa</i> (literally "ascent"), while "west" is <i>śusopa</i>, from <i>śusva</i> "evening" and the <i>-apa</i> suffix, which forms names of places.</p>
+    <hr>
+    <div class="comm-title">Comment in "2034th Just Used 5 Minutes of Your Day", r/conlangs.</div>
+    <div class="comm-date">March 27, 2024 &#8212; 13:09:37 CET</div>
+      <p><b>Dundulanyä:</b>
+      <blockquote>
+          <b>naviṣya ubukhāyē guntī; lūnūbhoba ga ṣurṭāgī lilarān.</b><br>
+          <span class="ipa">/nɐʋiʂjɐ ʔubukʰa:je: ɡunti: . lu:nu:bʱɔba ɡa ʂuʀʈa:ɡi: lilaʀã:/</span><br>
+          naviṣya ubukhai-ē gunt-∅-∅-ī lūnūbhoba ga ṣurṭāg-ī lila=rān<br>
+          book.<small>DIR.SG</small>. Ubukhai-<small>ERG.SG</small>. buy-<small>EXP-PAT-PAST.3SG.IND</small>. writer.<small>DIR.SG</small>. <small>COP</small>. Skyrdagor-<small>BOUND.PL</small>. person.<small>DIR.SG=POSS.3PL</small>.<br>
+        </blockquote>
+      <p>Back-translation: <i>Ubukhai bought a book; the author is Skyrdagor.</i> (using in-world proper nouns)</p>
+      <p>Dundulanyä (a priori) has Austronesian-type alignment; here the topic is not explicitely marked, but is selected by the verb in the first sentence having the patient-trigger zero morpheme. In Dundulanyä the copula is not a verb but a particle (ga), while ethnicities are pluralia tantum, so that singulars are expressed using analytic structures, such as, here, "a person of the X". "BOUND" in the gloss refers to the "bound form" (which, roughly, works similarly to a construct state); the possessive marker <i>-rān</i> agrees in number with the possessor, i.e. the bound form noun.</p>
+      <p>The only curiosity not marked in the gloss is that the nominalizer in <i>lūnūbhoba</i> (writer, author) is a paired infix-suffix, the root being <i>lūbh-</i> (<i>lobh-</i>, actually, in citation form) plus infixed -nū-</i> and suffixed <i>-oba</i>.</p>
+      <p><b>Elodian:</b>
+      <blockquote>
+          <b>Tuwfā Yohononš opīro. Lu gurēdēr fǝransī ē.</b><br>
+          <span class="ipa">/'tuwfa: jɔhɔ'nɔnʃ ɔ'pi:rɔ/ /lu ɡure:'de:r fɛran'si: e:/</span><br>
+          tuwf-ā Yohonon-š opīr-o lu gurēdēr-∅ fǝransī ē<br>
+          book-<small>ABS.F.SG</small>. John-<small>ERG</small>. buy.<small>PAST-3SG</small>. <small>DEF.M.SG</small>. writer-<small>ABS.M.SG</small>. French. be.<small>PRES.3SG</small>.<br>
+          <span class="auth">A/N, translation of the challenge not rewritten in the original reply: "John bought a book. The author is French."
+        </blockquote>
+      <p>Elodian is a posteriori, IE, but has split ergativity: it is nominative-accusative in the first and second person and ergative-absolutive otherwise. Nothing in particular to note here, except that <i>opīro</i> could also be glossed as <i>o-pīr-o</i> <small>PAST</small>-buy-<small>3SG.PAST</small>, the initial <i>o-</i> being the augment. The definite article lu (and all other gendered and plural forms) are false cognates of the Romance ones, being derived instead from the generalized accusative stems of PIE *só.</p>
+      <p><i>Fǝransī</i> is glossed simply as French. as it is an invariable adjective.</p>
+      <p><span class="auth">A/N: the Dundulanyä example sentence has since been used in the relative page, section <a href="../dundu.htm#RELAT"> Syntax, Word order and morphosyntactic alignment: Attributive and relative juxtaposition</a>.</span></p>
+  <h2 id="202123" style="margin-top:4px;">2021 &#8211; 2023</h2>
+    <div class="comm-title">Comment in *"Producer tags in conlangs", r/conlangs.</div>
+    <div class="comm-date">June 1, 2023 &#8212; 19:06:15 CEST</div>
+      <p>
+      I tend to have one that applies to many of my conlangs but notably not my main projects (Chlouvānem and its spiritual successor Dundulanyä), that is, allophony where the <span class="ipa">/l/</span> phoneme is realized as a lateral fricative when before any plosive (<span class="ipa">[ɬ]</span> or <span class="ipa">[ɮ]</span> before a voiced stop), when geminated (<span class="ipa">/ll/</span> as <span class="ipa">[ɬ:]</span>), and &#8211; although not in all conlangs &#8211; word-finally. I just noticed that if a conlang of mine is a posteriori then it basically always has allophonic lateral fricatives. Another one related to allophony that also does not apply to my main projects but to many conlangs of mine is that sequences such as <span class="ipa">/mm mn nm/</span> are realized as <span class="ipa">[ŋn]</span>; in describing the phonology of a romlang I made I explained how it applies to spelling pronunciation too by citing the given name &#60;Emma&#62; as <span class="ipa">['eŋna]</span>.</p>
+      <p>
+      I don't think I have a general "producer tag" that applies to every language of mine but apart from the above there are some things that I tend to use in most conlangs such as some morphological way of marking evidentiality, or at least reported speech (all of my romlangs have this feature where the synthetic, inherited past form is the "general" past while the analytical "have + past participle" one marks reported speech); phonemic glottal stops; a tendency to have more distinctions in front vowels than back ones (many conlangs of mine have <span class="ipa">/e ɛ/</span> as distinct phonemes while there's a single <span class="ipa">/o/</span> or <span class="ipa">/ɔ/</span> phoneme covering that whole space; dative case used as lative, with often a distinct locative; formality/politeness systems more complicated than a "simple" T-V distinction (but here Elodian, the conlang I've been working on the most in the last eight months, is the complete opposite with hardly any sign of honorifics or formality systems).</p>
+      <p>
+      That said, I dig the idea of having a "producer tag" so I think I could go on and introduce one in my current and next projects, at least the major ones...</p>
+    <hr>
+    <div class="comm-title">Comment in "what language do you use to write your conlang's grammar and notes?", r/conlangs.</div>
+    <div class="comm-date">October 17, 2022 &#8212; 17:12:48 CEST</div>
+      <p>Lately I mostly conlang in my native Italian, only if it's something I plan to share I either write something directly in English or self-translate my Italian notes.</p>
+    <hr>
+    <div class="comm-title">Comment in "What kinship system does your conlang use?", r/conlangs.</div>
+    <div class="comm-date">June 18, 2022 &#8212; 16:25:52 CEST</div>
+      <p>Chlouvānem, and its "spiritual successor" Dundulanyä, which I'm currently working on, both use a Sudanese system, although distinguishing relative age for siblings who are the same gender as the Ego, and the terms for cousins are quite straightforward derivations from the corresponding aunt/uncle terms and the ones for siblings.</p>
+      <p>Lifashian, my other active conlang, is an IE conlang with a Sudanese system too, although with some weird distinctions such as the terms for parallel cousins distinguishing relative age (as is true for siblings), but not who the parent is, while the reverse is true for cross cousins. Also there are three sets of words for "nephew/niece", one for the children of an older sister, one for those of an older brother, and another for those of a younger sibling.</p>
+      <p>Other conlangs of mine use an Inuit system &#8212; I did plan to use Hawaiian kinship in at least one conlang but eventually never developed its culture, and I've since moved on from the conworld it belonged to.</p>
+    <hr>
+    <div class="comm-title">Comment in "How did you get introduced to conlanging?", r/conlangs.</div>
+    <div class="comm-date">February 19, 2021 &#8212; 14:39:58 CET</div>
+      <p>As a kid and into my teens I used to create conworlds or concountries which I usually gave some flavour by creating some kind of conlang which actually was just a relex of my native language, or with a very simple and extremely regular grammar.</p>
+      <p>Then, one day in my late teens, around 2013-14, I was casually browsing Wikipedia and through the articles on Ancient Greek I started developing an interest in linguistics, which eventually led me to rethink those relexes of mine and to learn about conlanging; Mark Rosenfelder's website was my starting point for that.</p>
+    <hr>
+    <div class="comm-title">Comment in "Adaptations of Human names ?", r/conlangs.</div>
+    <div class="comm-date">February 6, 2021 &#8212; 12:12:54 CET</div>
+      <p>
+      In Chlouvānem and all my languages set on Calémere, any word related to Earth is non-canon (as they don't know about Earth at all, let alone languages of Earth); for countries and placenames I tend to have a standardized list, usually using the Sanskrit or Persian (in Chlouvānem, for aesthetic consistency), or the indigenous/Russian/English/Italian (for recognizability) name and adapting it to my conlang's phonology (and morphology). For names, I'd simply transcribe them from the source language, again adapting them to phonology and morphology.</p>
+      <p>
+      Atlantic, Lifashian, and Tameï are set on Earth, so they have equivalent names. Atlantic is a Romance language so it often has native equivalents of most European names (and of Biblical names, for historical reasons, it often has doublets with a native name inherited from Latin and another borrowed from Arabic); Lifashian is an IE isolate in Asia Minor so many European names are borrowed through either Greek or Ligurian, and aside from native Lifashian names it has a fair share of Persian and Turkish ones in common use, while Tameï is set on a fictional archipelago in the Indian Ocean and most names used by that conpeople are from their language, and non-Tameï names are almost always transcribed phonetically (except for names in other Cyrillic-written languages, unless they use letterforms not found in either Tameï or Russian).</p>
+    <hr>
+    <div class="comm-title">Comment in "What are your favorite/unfavorite ANADEW features?", r/conlangs.</div>
+    <div class="comm-date">January 2, 2021 &#8212; 18:15:55 CET</div>
+      <p>
+      Definitely the <a href="https://en.wikipedia.org/wiki/Adyghe_verbs#Positional_conjugation">positional conjugation in Adyghe verbs</a>! Adyghe as a whole is probably one of my favorite natlangs but this is possibly my single favorite feature in any language.</p>
+    <hr>
+    <div class="comm-title">Comment in "2021 Conlanging Resolutions", r/conlangs.</div>
+    <div class="comm-date">January 2, 2021 &#8212; 18:11:24 CET</div>
+      <p><i>hulābdān heirom peithū!</i></p><p>(literally "good walk into the new year", which also means "happy birthday") <span class="auth">A/N: in my then-main conlang Chlouvānem.</span></p>
+      <p>
+      2020 has actually been the year I've done the least conlanging, for most of the year I've actively tried to come up with ideas or something to work on, but the only things that I ended up creating were some example sentences here and there and a few sketchlangs that I did not continue much. I aimed high with my resolutions for 2020 given that in 2019 for the first time I had successfully completed Lexember (and it was a particularly productive one) but there's nothing I really could do without inspiration. I've been somewhat more productive in conworlding, which I don't really separate from my conlanging given how much they're complementary, but even there I've done little if compared to the previous years.</p>
+      <p>
+      I guess that finishing that pdf grammar of Chlouvānem that I've been working on since late 2019 is going to be my main 2021 conlanging resolution. I've re-read my 2020 resolutions in that post and... they're actually still reasonable ones. I think that having a functional grammar and 400-500 words in one or two more a priori conlangs could be a goal I can aim to during this year.</p>
+      <p><span class="auth">A/N: in 2021 I ended up doing even less conlanging than in 2020, but at the very end of the year I decided to call Chlouvānem complete and start Dundulanyä instead. At the start of 2021 I was already toying with the ideas that eventually became Dundulanyä.</span></p>
+
+  <h2 id="2020" style="margin-top:4px;">2020</h2>
+    <div class="comm-title">Comment in "What resource do you use the most to record your conlanging?", r/conlangs.</div>
+    <div class="comm-date">December 19, 2020 &#8212; 10:01:19 CET</div>
+      <p>LibreOffice for offline or WIP stuff; Linguifex for whatever is ready to be shown; pen and paper for writing systems.</p>
+    <hr>
+    <div class="comm-title">Comment in "The word 'Language' in your Language", r/conlangs.</div>
+    <div class="comm-date">October 15, 2020 &#8212; 09:21:23 CEST</div>
+      <p>I don't know if it's just because my native languages both use the same word for "language" and "tongue", but I have very few conlangs where those words coincide. Most commonly I derive "language" from verbs such as "to express oneself", "to speak", "to talk", or have it coincide with the words for "voice" or "word".</p>
+      <p>In Chlouvānem it is in fact <b>dhāḍa</b> &#8212; from the root √<i>dhāḍ-</i> "to speak, express"; in older stages of the language the word <b>maiva</b> &#8211; meaning "word" &#8211; had the same meaning, but now is mostly used in the sense of "dialect" and more specifically "topolect".</p>
+    <hr>
+    <div class="comm-title">Comment in "False cognates with existing languages in your conlang", r/conlangs.</div>
+    <div class="comm-date">July 11, 2020 &#8212; 22:24:08 CEST</div>
+      <p>In Chlouvānem the first one coming to mind is <b>murkas</b>, meaning "black", which reminds of words for "dark, darkness" in Germanic languages such as Danish/Norwegian <i>mørk</i>, Icel. <i>myrkur</i>, English <i>murk</i>. Another one (but mainly graphic, and needs the article in the latter) is <b>lairē</b> meaning "air, sky, day, weather" with Spanish <i>el aire</i> "air (definite)".</p>
+      <p>Also, in Proto-Lahob (Chlouvānem's ancestor), the word for "five" was *sjuŋko (whence Chl. <i>šulka</i>), which in a daughter branch ended up being inherited as <i>sink, sinka, šink</i> or similar forms which are false cognates to the words for "five" in various Romance languages.</p>
+    <hr>
+    <div class="comm-title">Comment in "FAQ &#38; Small Discussions &#8212; 2020-06-22 to 2020-07-05", r/conlangs.</div>
+    <div class="comm-date">June 27, 2020 &#8212; 09:50:13 CEST</div>
+      <p><small>CONTEXT: <i>Does any have a conlang that is both a personal language and a naturalistic conlang? My goal is to design what I think would be my ideal language while remaining in the realm of naturalism. I know that personal languages and artlangs don't have to be naturalistic, but most of mine tend to be, anyway.</p></i></small>
+      <p>My Chlouvānem is; I mostly use it as an artlang for my conworld project (and therefore it has plenty of words for things that only exist in that setting and in the culture of its speakers), but many of the decisions I took for it are based on my personal preferences in aesthetics, sounds, features, etc., and there are even personal easter eggs like the word for "homeland" derived from the name of the town I was born in.</p><p>
+      Even the least naturalistic feature in it is the use of <span class="ipa">/ɴ̆/</span> (a nasal uvular flap) romanized as &#60;l&#62;, and I chose it because I have a speech defect and can't pronounce <span class="ipa">/l/</span>, so that's what I pronounce instead (same reason why the standard rhotic is <span class="ipa">/ʀ/</span>).</p>
+      <p><span class="auth">A/N: see also what I wrote about art over four years later in the <a href="../autnotes.htm">author&apos;s notes and thoughts</a> on Dundulanyä.</span></p>
+    <hr>
+    <div class="comm-title">Comment in "How do you get started?", r/conlangs.</div>
+    <div class="comm-date">June 24, 2020 &#8212; 13:54:11 CEST</div>
+      <p>Most of the time I start with an idea which is either a general aesthetic (phonology, orthographical representation (at least in romanization), and a general idea of how synthetic/analytic I want that conlang to be) or wanting to use a certain grammatical feature, and I start creating the language starting from those few initial points. Then, what makes me decide to continue it is mostly tied to the importance that conlang has in my conworld, but sometimes I have extremely developed niche languages and major languages that are just sketches.</p>
+    <hr>
+    <div class="comm-title">Comment in "How Would You Romanize a Click Sound?", r/conlangs.</div>
+    <div class="comm-date">May 8, 2020 &#8212; 23:43:20 CEST</div>
+      <p>My own conlang Tameï actually uses Cyrillic, but its logic of representing clicks can also work with the Latin script: it marks simple clicks with the stop of the corresponding articulation (but <b>л р</b> for the lateral and retroflex clicks respectively) plus a hard sign for normal clicks, or paločka for those with an aspirated stop release. Nasal clicks are marked with the corresponding nasal consonant before the letter. So the clicks you just named (dental and retroflex, if I understood them correctly) are written <b>тъ</b> and <b>ръ</b> respectively in Tameï orthography.</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Constructed languages".</div>
+    <div class="comm-date">May 5, 2020 &#8212; 09:27 CEST</div>
+      <p><small>CONTEXT: *How did you start conlanging?</p></small>
+      <p>Randomly reading about Ancient Greek verbal morphology, that's what got me into linguistics when I was 17 &#8212; I already spoke a few languages back then but wasn't that interested in what didn't concern speaking them, but that moment changed everything for me.</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Constructed languages".</div>
+    <div class="comm-date">April 28, 2020 &#8212; 09:24 CEST</div>
+      <p>For new ideas and/or learning about what to expand on: Wikipedia and references in its articles, WALS, grammars of various languages (both natlangs and conlangs).</p>
+      <p>To create new vocabulary: Wiktionary, A Conlanger's Thesaurus, various activities, LexiBuild lists on CWS.</p>
+      <p>Translation activities: here, r/conlangs, notes from language courses, whatever I think is interesting (random quotes from books/TV series/songs, exercises from language books).</p>
+      <p>Linguifex to document them, and spreadsheets to create dictionaries.</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Constructed languages".</div>
+    <div class="comm-date">April 26, 2020 &#8212; 11:24 CEST</div>
+      <p><small>CONTEXT: *Idiosyncrasies and preferred phonemes.</p></small>
+      <p>For some reason I'm fine with <span class="ipa">/p/</span>, but not so much with <span class="ipa">/pʰ/</span>. And <span class="ipa">/f/</span> is a consonant I tend to use quite rarely.</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Constructed languages".</div>
+    <div class="comm-date">April 25, 2020 &#8212; 13:39 CEST</div>
+      <p><small>CONTEXT: *Adding or removing phonemes to an already started conlang project.</p></small>
+      <p>Most of the time I start from sketchlangs with defined phonotactics and phonology right from the start, it's the first thing I start a conlang with (especially as I derive many conlangs from proto-languages).</p>
+      <p>Only in a few cases I've ended up adding phonemes later on (Skyrdagor, mostly), while for Chlouvānem I started with a lot more phonemes than it currently has (21 consonants and 3 vowels more, although most consonants were due to secondary articulation) and adjusted them quite a few times, changing some and gradually reducing their number. In fact it's the reason why I refer to it as "Chlouvānem" but in-language it is "chlǣvānem", <span class="ipa">/ɔʊ̯/</span> was an original phoneme which got removed and most of the words that had it came to have <span class="ipa">/ɛː/</span>, but I had used the original name too much to change all references to it. So, having tried all three approaches, having a near-definitive inventory right from the start is undoubtedly the better option, although adding phonemes is better than removing them (especially if you don't have a large lexicon to edit!)</p>
+    <hr>
+    <div class="comm-title">Comment in "Random question: what are some of your favorite sounds/phonologies?? Here are a few of mine:", r/conlangs.</div>
+    <div class="comm-date">April 25, 2020 &#8212; 11:33:35 CEST</div>
+      <p>Some of my favorite sounds are palatalized consonants and retroflexes; also, I tend to use <span class="ipa">[ɬ]</span> a lot either as a phoneme or as an allophone. However, as for entire inventories, I really like the phonemic inventory of this unnamed sketchlang of mine, I don't know why exactly but it feels so neat (although I'm struggling to actually make the sketchlang interesting):</p>
+      <span class="ipa" style="color:rgb(77, 37, 0);">/p t k/<br>/b d ɡ/<br>/t͡s/<br>/m n ŋ/<br>/ɸ θ x/<br>/ʃ/<br>/w ɬ ʝ ɰ/<br>/i u e o ə~ɤ æ ɒ/</span>
+    <hr>
+    <div class="comm-title">Comment in "Any tips on how to document your conlang?", r/conlangs.</div>
+    <div class="comm-date">April 24, 2020 &#8212; 14:09:37 CEST</div>
+      <p>I'll describe how I document my main conlang, in case it helps: for everything but vocabulary I just put everything online on Linguifex (it's completely free), it's just the best solution I've found, you can write general explanations structuring them as you prefer, include tables and images, and create and link additional pages to make them less cluttered and add even more things. Many conlangers use ConWorkShop, but I personally prefer the freedom of writing my wiki pages from scratch; CWS has however some really useful tools so I'd still recommend you to check it out.</p><p>
+      For my most developed conlang I have 19 Linguifex pages including everything about the grammar plus lots of concultural and conworlding notes, and some pages with thematic vocabulary lists, phrasebook, and example sentences (the famous 218-sentence syntax test, although I have only translated half of it).</p>
+      <p>As for how I structured the various pages, the generalpage started with the whole documentation, which I then split into various sub-pages the more I wrote. Right now it has mostly setting-specific information (history, variants), three sections (phonology, morphology, syntax) that have a short description and a link to the respective sub-pages; detail of the writing system (I'll probably end up creating a sub-page for this one too someday), and then a general "vocabulary" section which first explains the in-world etymology of words then includes some sections/trivia about vocabulary that didn't fit anywhere else so far, plus links to other vocabulary-related subpages (Swadesh list, phrasebook, thematic wordlists, calendar and time, and personal names). Finally there are a few example texts and at the very end a short description of the external history (i.e. my goals and inspirations).</p><p>
+      As for the grammar-specific sub-pages:</p>
+      <ul>
+        <li><b>phonology</b> includes: two sections on vowels and consonants, with allophonic and regional variations; a section on the (non-phonemic) pitch accent and prosody (the latter currently still to be added); phonotactics; and morphophonology (mostly detailing general saṃdhi rules).</li>
+        <li><b>morphology</b> includes a section on nouns with all declensions and irregularities; a section on verbs (actually linking to a sub-page, as it's quite a long description); one on pronouns, honorifics, and correlatives (it makes sense for this conlang as there's quite some overlap); one on numerals (which includes a section on this conpeople's units of measurement); one on particles; and finally a detailed section on derivational morphology, split into sub-sections about compounds, noun-forming morphemes, verb-forming morphemes, prefixes (a major part of this conlang's grammar), and a final part (to be expanded) on specific vocabulary for certain jargons.<br>In the morphology page I have as few usage examples as possible (mainly for plurals and numerals), as I prefer to use the syntax page for those.</li>
+        <li><b>syntax</b> is probably the page with the most content so far, my goal is to provide example sentences for nearly any structure. I start from the most basic things &#8211; word order, the topic-comment structure &#8211; and go on to verb phrase and noun phrase (with examples for every morphological form), then complex sentences (comparatives, relative clauses, content clauses, sentential subjects, etc.).</li>
+        <li>I furthermore have two additional pages for grammar concepts (all related to verbs) that are particularly complex and important in my conlang and I thought it was better to treat them into dedicate sub-pages (all about usage, so actually sub-pages of the syntax one).</li>
+      </ul>
+      <p>As for vocabulary, Linguifex includes Contionary which is a conlang version of Wiktionary, again you can do whatever you want, although I personally haven't used it much (only for ~100 words) because I'd prefer all pages to have examples for each meaning and that is definitely time-consuming (of course, examples are not required).</p>
+    <hr>
+    <div class="comm-title">Comment in "Rarity of /θ/ and /ð/ in conlangs", r/conlangs.</div>
+    <div class="comm-date">April 24, 2020 &#8212; 12:13:42 CEST</div>
+      <p>My most developed does not have them, but I have other conlangs that have those sounds. And they are pretty prominent in my romance conlang Atlantic, which underwent intervocalic lenition (basically an earlier Tuscan gorgia) early on in its development from Latin, so that they are among the most common consonants in that conlang.</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Constructed languages".</div>
+    <div class="comm-date">April 15, 2020 &#8212; 13:23 CEST</div>
+      <p><small>CONTEXT: *How many conlangs do you have, how many words are in their dictionaries, and how complete are they?.</p></small>
+      <p>No idea: some dozens of conlangs or sketchlangs that have at most a handful of words or a short wordlist, maybe around ten of them with a small amount of vocabulary and basic morphology/syntax (most of my Calémerian languages are like this), and right now only three have a dictionary with at least 100 words (almost 400 in Lifashian (with incomplete grammar, but just enough for a few short texts); 1670 in Atlantic (basic grammar complete); between 5700 and 6000 in Chlouvānem (still have to detail some quirky syntactical constructions but mostly complete in morphology and syntax)).</p>
+      <p>Special mention for Tameï, which has had at least nine completely different revisions in three years, and during the course of six or seven years I have made at least around twenty spiritual "ancestors" <span class="auth">[A/N: Such an exageration, I they&apos;re much less than that...]</span> of Chlouvānem and their revisions, with two or three of them exceeding 1000 words.</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Constructed languages".</div>
+    <div class="comm-date">April 15, 2020 &#8212; 13:23 CEST</div>
+      <p>Lately I've been thinking of changing Chlouvānem word-final &#60;h&#62; from representing <span class="ipa">/ɦ/</span> (realized as <span class="ipa">[χ]</span> or <span class="ipa">[x]</span> there) to <span class="ipa">/Ɂ/</span> (which already is a phoneme, but as of now it cannot appear word-finally), if not as a general change at least in some local pronunciations. (I'd still not change it to &#60;ɂ&#62; in the romanization, as &#60;h&#62; and word-final &#60;h&#62; are two different characters in the native script after all). It's a large-scale change so I'm hesitant about whether I should introduce this change, but I think the result would be nice (and would be <b>very</b> interesting for diachronic conlanging purposes).</p>
+      <p><span class="auth">A/N: that&apos;s exactly one of those features that started the revision of Chlouvānem that eventually led me to ditch it and create Dundulanyä! In fact I was already hesitant because it was a large-scale change...</span></p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Constructed languages".</div>
+    <div class="comm-date">March 29, 2020 &#8212; 22:03 CEST</div>
+      <p><span class="auth">A/N: my own reply to a comment left below my original comment, archived just below this one.</span></p>
+      <p>[Omissis] sure, although I think it did not have irregular plurals mimicking the Italian ones, and surely had less forms. Actually I made a few Italian relexes back then, the only real "progress" (looking back) was that I moved away from mimicking various mixed natlangs to creating a more coherent (but not realistic) sound system. The first non-relex conlang I made was probably around 2012-13, even if I still didn't have any knowledge of linguistics.</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Constructed languages".</div>
+    <div class="comm-date">March 29, 2020 &#8212; 13:59 CEST</div>
+      <p>I created my first relex sometime around 2005 or 2006, but my first real conlang (with at least some knowledge of linguistics behind it) in early 2014.</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Constructed languages".</div>
+    <div class="comm-date">March 11, 2020 &#8212; 11:01 CET</div>
+      <p>I'm nearing 5000 words in Chlouvānem and sometimes I still find the odd word that would be used quite commonly that I don't have. Also, I strongly suggest you to look at lexica or dictionaries of languages not close to your native one or to those you speak, so that you can avoid making the same colexifications your native language does, so that you can think of dividing or merging different meanings into one word (think of how e.g. many unrelated languages across Asia have different roots for "cooked rice" and "uncooked rice", or how Romance languages on average use the same word for "grass" and "herb"). That is imho easily one of the most interesting points of conlanging.</p>
+      <p>Look online for A Conlanger's Thesaurus &#8212; it is extremely helpful in order to fill common vocabulary but helping you to avoid having a 1:1 correspondence to your native language.</p>
+    <hr>
+    <div class="comm-title">Comment in "What are some underrated languages that have really cool features that could serve as inspiration for conlanging?", r/conlangs.</div>
+    <div class="comm-date">March 10, 2020 &#8212; 19:12:20 CET</div>
+      <p>For Romlangs specifically, any Romance language which is not one of the "big six" (Portuguese &#8211; Spanish &#8211; Catalan &#8211; French &#8211; Italian &#8211; Romanian). Too many romlangs out there seem to be "phonologically conservative Ibero-Romance without the cool stuff and simplified grammar" (which is emphasized by the fact that many of these are people's first conlangs) which gives them a kind of bad stereotype, but in fact natural Romance languages do lots of cool stuff that could inspire very cool romlangs (e.g. metaphony/umlaut in a way that is somewhat different in its application from the more famous Germanic one; the overall analyticness of Gallo-Italic and, inside it, vowel-heavy Ligurian and consonant-heavy Emilian; various dialects of Neapolitan which do stuff like <span class="ipa">/ɛ/ > /ɔ/</span> sound changes or initial consonant mutations). There is a plethora of minoritary Romance languages out there, and they're relatively well documented even if endangered.</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Conlang Conversations &#38; Off-Topic, Also Bhutan".</div>
+    <div class="comm-date">March 9, 2020 &#8212; 18:50 CET</div>
+      <p><small>CONTEXT: *On a Classical word for "worldbuilding".</p></small>
+      <p>I propose "cosmopoiesis" and "cosmopoet" modeled after "glossopoiesis" and "glossopoet".</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Constructed languages".</div>
+    <div class="comm-date">February 14, 2020 &#8212; 14:41 CET</div>
+      <p><span class="auth">[A/N: MediaWiki]</span> It's imho the best way to organize conlanging work as once you learn the wiki markup (which is extremely easy, and for tables or templates you can just copy them from the source of other pages and use those as models so that you can learn how to use them too) you can write about your conlang in any way you want &#8211; and it's exactly that freedom of usage that imho is lacking in CWS &#8211; setting up pages the way they make more sense to you, write articles on particular topics, concultural/conworlding background, interlinked pages, and so on.</p>
+      <p>The only thing that it is not that great for is dictionaries the way most conlangers build them (but that's an intrinsic limit of wikis, not specific to Linguifex), but then there's Contionary which is a far better alternative (and one which I admittedly use far less than I should because I'm too lazy to come up with example sentences for every meaning of every word).</p>
+      <p><span class="auth">A/N: Cf. the <a href="#CAVEAT">about this page</a> section for a more recent perspective of mine on the topic.</span></p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Constructed languages".</div>
+    <div class="comm-date">January 31, 2020 &#8212; 08:57 CET</div>
+      <p>I have a conworld, and I think of it as an integral part of my conlangs, but I'm not using it as the setting for any story (nor I plan to).</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Constructed languages".</div>
+    <div class="comm-date">January 14, 2020 &#8212; 20:49 CET</div>
+      <p><small>CONTEXT: *Translation exercises and sample texts for conlangs.</p></small>
+      <p>I had thought about using some short poems or excerpts from Gianni Rodari's tales, though there are some things that can be lost in translation - one I wanted to try to translate is "The Dictator", one of my favorite poems of his, however I don't know how to render the rhyme and most importantly the whole image revolves on a full stop (and a wordplay using "punto")... which does not exist in the Chlouvānem script, so I don't know how to render that at all. I had also prepared a document with some links of poems/excerpts that I wanted to translate into a conlang but atm I don't know where I had saved it. As for other texts, The Ant and the Grasshopper is another very easy one among Aesop's Fables but that doesn't seem to be as popular (at least today, I've seen conlang translations of it but afaiu it was more popular long before I started conlanging) as other usual texts used to show one's conlang. But I'm following this thread for the very same reasons you asked this question.</p>
+      <p><span class="auth">A/N: Over four years later, I finally used a Gianni Rodari tale <a href="../dundu/translations.htm#RODARI">as a sample text for Dundulanyä</a>!</span></p>
+    <hr>
+    <div class="comm-title">Comment in "Time to compare (dictionary) sizes", r/conlangs.</div>
+    <div class="comm-date">January 6, 2020 &#8212; 17:42:24 CET</div>
+      <p>Chlouvānem (which I started back in November '16) has an estimate of 5700 content words, excluding toponyms (and derived demonyms), names of months and days, given names and many other proper nouns (being an a priori language from a non-Earth conworld, toponyms alone would inflate the count by several hundreds of words).</p>
+      <p>I say estimate because I'm rebuilding the dictionary from an older, messier, and not always up-to-date spreadsheet to a new one (and I've been adding words to the new one in the meantime), and I keep procrastinating on finishing it; the new one has 4114 words, the older has 1591 left to add, some of them are however already in the new one and there are also some words on separate documents that are not in either spreadsheet, so my estimate of 5700 words shouldn't be that far from the actual number.</p><p>
+      I only count lemmas, with all possible translations of a certain word in the same row unless they're coincidental homonyms from different etymologies, or homonyms in the lemma form only (e.g. I have two entries for <i>mulke</i>, one for "to drink" (root √mul-) and one for "to be able to" (√mun-)); I enter different forms of the same word exclusively if one of them has acquired a different meaning, either for plural forms with specialized meanings as pluralia tantum (e.g. I have <i>įsmirtas</i> for "swing" and its plural form <i>įsmirte</i> as a separate entry, meaning "playground"), or grammaticalized in other ways (e.g. <i>najelai</i> is a conjugated verb form (3SG potential present of "to happen"), but also has a separate entry for "maybe"). As for finding derivatives, I have a separate column for the root, which I can use to sort words for &#8212; which is quite useful, given that Chlouvānem derivational morphology employs lots of prefixes.</p>
+      <p>As for other conlangs, I try to follow the same logic in creating my dictionaries, varying the number and content of columns according to what I need for that conlang. My romlang Atlantic, the only other well-developed conlang of mine, has 1638 words so far.</p>
+    <hr>
+    <div class="comm-title">Comment in "How much of your conlang is original versus loan words from a natlang? Do you have any cognates or doublets?", r/conlangs.</div>
+    <div class="comm-date">January 6, 2020 &#8212; 11:50:58 CET</div>
+      <p>Chlouvānem and all of the conlangs from my main conworld have, according to the lore, no relation at all with Earth (it borrows a lot from neighboring languages, but those are all conlangs); Earth-related words are mainly easter eggs or heavily modified ones from some natlangs (often Mongolian, Persian, or Hungarian, or reconstructed proto-languages), or blending of different natlang words, which often are just in the same meaning fields, as hyponyms or hyperonyms. To give a few examples, the Chlouvānem word for "book" is <b>naviṣya</b> (which in-world is a borrowing from another language, where it roughly means "it has knowledge inside"), which is in the end an alteration of Persian <i>neveštan</i> "to write", or again the word for "bottle" is <b>alūs</b>, taken from Lithuanian <i>alùs</i> meaning "beer". But all of these words are probably just a few tens on a total of ~5700 words so far.</p>
+      <p>Atlantic is an a posteriori romlang, and there are only two or three a priori roots which I try to create folk etymologies or hypotheses for (e.g. the word for "dog" is <b>luifa</b>, thought of as a derivation from <i>(bēstiam) lupicam</i>, ultimately from *lupus). It has in-world borrowings from Arabic, Berber languages, and Greek, as well as a few reborrowings from Latin or from other Romance languages. An example of doublet is <b>cuḍixi</b> "book" and <b>codici</b> "code", respectively the inherited and reborrowed form of Lat. <i>cōdicem</i>; also, it is quite conservative in translating place names and many toponyms around the Mediterranean often have a Latin-inherited toponym and another borrowed or adapted from the local languages; for example the city of Naples is called by the Neapolitan borrowing <b>Napuli</b>, but there's also the inherited term <b>Nyofori</b> which is an old-fashioned alternative, but the demonym is always <i>nyoforinsi</i>. The same applies to my other a posteriori conlangs, Suebish (also a romlang) and Lifashian (an IE-lang), but those are far less developed.</p>
+      <p>Tameï is the only conlang of mine which is set on Earth <u>and</u> a priori, but it is also underdeveloped so far. It is an isolate language spoken on a fictional archipelago in the Indian Ocean which was colonized first by the Dutch and then by the British, and later fell into the Soviet sphere of influence, so on top of native (a priori) lexicon it has a substantial amount of Dutch and Russian borrowings, and a smaller one of French and Latin (both through Dutch) and English ones.</p>
+    <hr>
+    <div class="comm-title">Comment in "2020 Language Goals", r/conlangs.</div>
+    <div class="comm-date">January 1, 2020 &#8212; 10:12:11 CET</div>
+      <p>My main conlanging-related goal is to write a pdf grammar for Chlouvānem as a recap of what I have on various different pages on Linguifex. I had already started that this year, but I've been putting it on hold for months.</p>
+      <p>Similarly I want to finish copying all words from my older, messy spreadsheet dictionary into the new one. I'm about 70% of the way through, but have been going very slowly. With basically all of the grammar now fixed, as the last major change I did was in mid-2018, I feel like I only have to expand vocabulary for that. Reaching 6000 words might seem like a stretch but that's not impossible (I should be around 4600~4700), after all this year I managed to complete Lexember for the first time adding at least ten words each day.</p>
+      <p>I also want to document at least two other languages from my conworld so that they'll no longer be "expanded sketchlangs". Cerian and Skyrdagor are lore-wise two widespread languages on that planet and it's kinda weird I have so few about them. I'll probably tackle Lexember 2020 with one of those two.</p>
+      <p>As for other language-related goals, the only one I really have is to learn some Romanian, which is a language I've fancied for a long time and now I want to make a serious effort towards learning it.</p>
+
+  <h2 id="2019" style="margin-top:4px;">2019</h2>
+    <div class="comm-title">Comment in "Your Conlang Easter Eggs", r/conlangs.</div>
+    <div class="comm-date">December 31, 2019 &#8212; 12:11:37 CET</div>
+      <p>I <u>love</u> putting easter eggs in my conlangs so Chlouvānem has quite a few of them, like:</p>
+      <ul>
+        <li>some more "personal" words like the word for 'homeland, motherland' being an adaptation of my hometown's name; the word for 'park' derived from my hometown's largest public park; the word for 'farmhouse' an adaptation of the name of the farmhouse my grandfather was born in; or <b>phēcam</b> "cat" and <b>goldike</b> "to purr" from the names of my cats.</li>
+        <li>I also have the word <b>pīlyātis</b> meaning "mistake caused by inexperience", which is an adaptation of "Filjáthij" which is the name of one of my earliest "conlangs" which actually was a poorly done relex I made when I was 9 or 10.</li>
+        <li>some are related to places I live or lived in, like <b>brausa</b> "sanctity, sainthood" and its root <b>braus-</b> are from Saint Ambrose, patron saint of Milan;</li>
+        <li>some are related to literature, like <b>miṣkin</b> "idiot", <b>makanīm</b> "laziness" (after Macunaíma), <b>abot-</b> as root for "to be flat";</li>
+        <li>some are related to the USSR, like <b>prauda</b> "newspaper", <b>tupaliva</b> "airplane", or <b>laika</b> "martyr". Also, speaking about conworld toponyms, one of the districts of the Chlouvānem capital, Līlasuṃghāṇa, notable and famous for its wide stretch of lakeside beaches, is called <b>Abhākṣamyalka</b>, where <i>abhākṣam-</i> is a reference to Abkhazia, where many famous resort towns on the sea were located (<i>yalka</i> simply means "beach"). Then <b>samvītam</b> "assembly, union" is a regular compound word but was made that way in order to bear some resemblance to <i>sovet</i>.</li>
+        <li><b>edīyeh</b> "virgin, maiden" after Eddie, the mascot of Iron Maiden;</li>
+        <li><b>hīmba</b> "color" is a reference to the Himba people and their unique way of naming colors.</li>
+      </ul>
+      <p><span class="auth">A/N: cf. also the <a href="../eastereggs.htm">list of Easter eggs in Dundulanyä</a>.</p></span>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Constructed languages".</div>
+    <div class="comm-date">December 29, 2019 &#8212; 16:11 CET</div>
+      <p><small>CONTEXT: *Software and tools for conlanging.</p></small>
+      <p>I remember trying to use databases back when I first started conlanging (which was also when I was using them a lot during our IT lessons in high school), though I found a few problems I could never work around and moved on to spreadsheets, iirc one was that I had no idea which primary key I should use, as the conlang word seemed to be the most obvious choice but by doing that I effectively forced myself not to use any homograph words. I might try to use it again now that I have some more conlanging experience, maybe with a new conlang, though I should take some time to relearn how Access works first, as I haven't used it in years.</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Constructed languages".</div>
+    <div class="comm-date">December 22, 2019 &#8212; 20:44 CET</div>
+      <p><small>CONTEXT: *On the composition of the conlanging community.</p></small>
+      <p>There are quite a few Brazilians here though &#8212; in the Portuguese-speaking conlang group I think more than 90% (out of ~60 people) are Brazilians.</p>
+    <hr>
+    <div class="comm-title">Comment in "Concurrent world-building?", r/conlangs.</div>
+    <div class="comm-date">December 20, 2019 &#8212; 20:31:49 CET</div>
+      <p>I think of them <span class="auth">[A/N: conlanging and conworlding]</span> (at least my main conlangs) as indivisible parts &#8212; working on a conlang also inevitably leads to expanding my worldbuilding and viceversa; in fact, I have written extensive explanations of the country, religion, and cultural aspects of the Chlouvānem that I consider fundamental parts of my conlang work, and inevitably in many example sentences (and in virtually every text) some reference to the culture or the contemporaneity of its speakers creeps in.</p>
+      <p>
+      I created my conworld Calémere (which Chlouvānem is a part of) when I first started conlanging seriously exactly in order to have a place where to set my conlangs, and most of my conlangs started as place-related sketches, i.e. I knew more or less the language I wanted to use in a particular place and how they should develop and interact with others. But going even further back in time, I first started conlanging (well, relexing, which led me to <u>bad</u> conlanging) when I was 8 or 9 just because I liked drawing maps of fictional countries or territories and I wanted to create a language in order to make those countries feel foreign.</p>
+      <p>More generally, I cannot create a language and progress with it without knowing by whom and where that language is spoken. Atlantic is the closest thing I did to a language without any setting (back when I referred to it first as Lingua Sine Nomine and then as Rumonian), but then I ended up thinking about one and that opened a whole new dimension to explore with that conlang &#8212; it might be that one of the things about conlanging that I like the most is language contact and mutual influence, and that is obviously impossible to think of without having a setting.</p>
+    <hr>
+    <div class="comm-title">Comment in "Approximately, how many words does your conlang have?", r/conlangs.</div>
+    <div class="comm-date">December 7, 2019 &#8212; 22:04:06 CET</div>
+    <p><span class="auth">A/N: my own reply to a comment left below my original comment, archived just below this one.</span></p>
+      <p>My best advice is to keep two guidelines when choosing the fields to use: first of all, it should have all the information you would need if you were to take that word from the dictionary and use it in a sentence, and that information should be in the dictionary as clear and as short as possible, i.e. avoiding redundant information which can be stored elsewhere. Of course, such information depends on the conlang.</p><p>As a practical example, in the main sheet of my Chlouvānem dictionary I have the following fields:</p>
+      <ul>
+        <li>the word and its translation (actually these are three fields as I prefer to keep it trilingual, conlang-English-Italian, but that does not really change the structure); I do not have any pronunciation field as for this conlang it would be redundant, as the pronunciation is clear from the spelling.</li>
+        <li>a "class" field, which is either the number of the verb class, "irr" for irregular verbs, or left blank if the word is not a verb (in this spreadsheet, if it is not a verb it is then either a noun or an adverb).</li>
+        <li>the "inflection notes" field, whose content depends on the previous one:</li>
+        <ul>
+          <li>if the word is a verb, it is either left blank (if it is a class 1 verb), or has the three principal parts (for all other verbs). Irregular verbs have, in addition to those, their irregularities listed.</li>
+          <li>if the word is a noun, it may have specific indications (such as whether it only occurs in certain numbers) or if it belongs to the ablauting class (which cannot be distinguished from the lemma form), and if its root vowel is <b>u</b>, which kind of ablaut it has (as <b>u</b> may become either <b>o</b> or <b>i</b> depending on which vowel it had in the proto-language)</li>
+          <li>if it is an adverb, the field just contains "adverb"</li>
+        </ul>
+        <li>"notes", i.e. any specific information that doesn't fit into the translation or in the inflection notes field; that may be related case usage, the register, particular set phrases the word is used in; sometimes possible synonyms (especially if the synonym is more commonly used) or words close in meaning but with slightly different implications (especially if it is another word that in English is translated the same but has a distinction in the conlang).</li>
+        <li>"root" field, i.e. simply the root (which for me is useful mainly for searches or for a different ordering), and an "etymology" one (how the word came to be in my conworld, not how I came up with it).</li>
+      </ul>
+    <hr>
+    <div class="comm-title">Comment in "Approximately, how many words does your conlang have?", r/conlangs.</div>
+    <div class="comm-date">December 7, 2019 &#8212; 20:50:24 CET</div>
+      <p>In Chlouvānem (which turned 3 years old last week) I probably have around 5000. I am rebuilding my dictionary as the spreadsheet I used was not consistently updated and a mess to consult, but have been working very slowly on the new one. In the new one I have 3392 entries, while the older one has 1949 yet to be transferred &#8212; but some of them are surely already in the new one. Both numbers do not include the 72 positional verbs, function words (particles, correlatives, and pronouns), set phrases, and most notably conworld toponyms (around 400~500), given names (around 100~120), and the names of both solar and lunar months (14 and 12 respectively) and days (34).</p>
+      <p>My romlang Atlantic (set on an alternate history timeline of Earth) is the second most developed conlang of mine and has 1490 dictionary entries, again excluding toponyms, given names, and month and day names; my IE-lang Lifashian, also set on an alternate Earth timeline, has 237 entries. As it's still in its early phases, I'd guess about half of it is made up of loanwords.</p>
+      <p>All other conlangs of mine have less than 150 words.</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Conlangs".</div>
+    <div class="comm-date">December 7, 2019 &#8212; 19:07 CET</div>
+      <p><small>CONTEXT: *On the etymology of numerals.</p></small>
+      <p>It depends on the language, and sometimes I mix different types in the same language.</p>
+      <p>In the Lahob languages, three is either the same word as "finger" because of phalanx counting (Proto-Lahob *pāmwəj, Łohofál <i>feng</i>) or the latter is a derivation (Chlouvānem <i>pāmvi</i> "3", <i>pāmuvis</i> "finger", Yełeshian Lawo <i>kpem̃</i>, <i>kpim̃i</i>); six is an older dual of "three" in all languages but Chlouvānem (which uses a borrowed root); in some languages "one" is an older root for "phalanx" (*denə, Łōplan <i>de</i>), which is used by all languages in their word for eleven (*wewʕe-den, which is roughly "one phalanx less" &#62; Chl. <i>vælden</i>, Yeł. Lawo <i>wedin</i>, Łohofál <i>waðen</i>), meanwhile twelve in the Nayzehenyn branch is "four fingers" or "four times three" (*nexɬə-pāmwəj, Yeł. Lawo <i>nitłem̃</i>). The other roots are etymologically opaque, their real etymologies being that they're just words I made up.</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Conlangs".</div>
+    <div class="comm-date">December 1, 2019 &#8212; 17:52 CET</div>
+      <p><small>CONTEXT: *Ideas for Lexember.</p></small>
+      <p>I'm trying to find small niches that may be proper of everyday speech (i.e. not going to look for extremely technical concepts) and try to make 10 words related to that (including simple derivations from a verb root). For example I'm currently trying to make ten <i>day 1</i> words for Chlouvānem about "naps and feeling drowsy".</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Constructed languages".</div>
+    <div class="comm-date">October 27, 2019 &#8212; 22:14 CET</div>
+      <p><small>CONTEXT: *A priori words in a posteriori conlangs.</p></small>
+      <p>I have two in Atlantic which I have added not too long ago:</p>
+      <ul><li>the root of the verb <i>dilciri-s</i> (to become happy, cheerful) and the related words <i>dilcuṭ</i> (happy, cheerful &#8211; actually the participle) and <i>dilcibra</i> (happiness), popularly thought to be a derivation from Lat. <i>dulcem</i> with an irregular sound change and strangely made a verb of the third, non-productive conjugation;</li>
+      <li><i>luifa</i> (dog), vaguely explained as derived from the locution <i>(bēstia) *lupica</i> (i.e. "wolfy animal") even if the regular result should have been *lufiha or possibly *lufia.</li></ul>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Constructed languages".</div>
+    <div class="comm-date">October 7, 2019 &#8212; 19:14 CEST</div>
+      <p><small>CONTEXT: *Romanizing the glottal stop.</p></small>
+      <p>I prefer &#60;ɂ&#62; out of all options.</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Constructed languages".</div>
+    <div class="comm-date">October 3, 2019 &#8212; 18:15 CEST</div>
+      <p>I've progressively drawn myself away from kitchen-sinkyness and awkwardly unnaturalistic structures to make languages that have more of a coherent structure. That's the story of my 7 years of more-or-less serious conlanging but on a miniature scale that's also how Chlouvānem progressed from my first draft in November 2016 to its current state, with so many things that have been purged as they didn't fit well with others.</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Constructed languages".</div>
+    <div class="comm-date">September 30, 2019 &#8212; 19:05 CEST</div>
+      <p>Chlouvānem is fusional the IE way but with some clearly agglutinative elements in verbs, and it is very synthetic - but actually it's my only conlang that is or is meant to be that way (Tameï has heavily agglutinative verbs but everything else is uninflected). I don't have extremely isolating languages as I don't feel familiar enough with any of them to tackle a similar project, but all other conlangs of mine are mostly fusional (sometimes agglutinative as in Spocian and partially Skyrdagor) but quite analytic.</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Conlangs".</div>
+    <div class="comm-date">September 26, 2019 &#8212; 11:22 CEST</div>
+      <p><small>CONTEXT: *Natural language influences on your conlangs.</p></small>
+      <p><span class="auth">A/N: none of these projects is still ongoing so I feel safe to post this comment back.</span></p>
+      <p>Not including most sketchlangs:</p>
+      <b>Languages of Calémere</b>
+      <ul>
+        <li>Chlouvānem: classical language and main lingua franca of the Eastern Bloc; heavily synthetic with Austronesian alignment but IE-style morphology, aesthetically inspired by Sanskrit and Lithuanian with more grammatical inspirations from Adyghe, PIE, and others;</li>
+        <li>Cerian: main lingua franca of the Western Bloc, quite analytic and with a strict (C)V(n) syllable structure, doesn't really have any distinct aesthetic inspiration;</li>
+        <li>Skyrdagor: the language of the Skyrdegan countries, another major language of the Eastern bloc; has synthetic verbs but very analytic nouns, many dialectal variations even if the standard is a koiné with a very deep orthography; aesthetically inspired by Hungarian, Mongolian, Swedish, and Danish;</li>
+        <li>Nordûlaki: closely related to Cerian and second most spoken language in the Western bloc, even more analytic and aesthetically Catalan-like.</li>
+        <li>Qualdomelic: actually a reimagining of one of my earliest (bad) conlangs (Valdimelic), now an ergative language with a deep orthography and a mix of inspirations from Inuktitut, Romanian, Irish, Maori, and Yoruba.</li>
+        <li>Spocian: the language of Spocius and the Spocian-sphere, which could seem like a parallel to the Arab world on Earth. It is one of my aesthetically favorite conlangs, sounding like a mixture of Salish languages and Georgian, though it is severely underdeveloped.</li>
+      </ul>
+      <b>Other languages</b>
+      <ul>
+        <li>Tameï: an a priori language set on an alt-Earth, spoken in the Tameï Islands, a fictional archipelago in the Indian Ocean along the Ninety East Ridge and a former close ally of the USSR. Has a Bantu-like noun class system, heavily inflected verbs, a large consonant inventory including clicks, and is written in a Cyrillic orthography inspired by Kazakh and languages of the Caucasus.</li>
+        <li>Atlantic: alt-historical and ahistorical romlang which started as a side-project but ended up being my second most developed conlang (after Chlouvānem), started by putting together various changes that really happened in different Romance languages (in particular Sicilian, French, and an early phonemicized version of the Tuscan gorgia) with some more that I made up (most notably <b>ā</b> &#62; <b>o</b>). It is also morphologically more conservative than most real Romance languages.</li>
+      </ul>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Constructed languages".</div>
+    <div class="comm-date">September 20, 2019 &#8212; 10:06 CEST</div>
+      <p>A lot of the grammar of Chlouvānem was in some way "discovered", if it makes sense: you can plan as many features as you like and they sound good on paper, but it's only when you actively use and describe them that you see how they actually interact and how it makes more sense to tackle things you hadn't thought about using what you already have.</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Constructed languages".</div>
+    <div class="comm-date">September 18, 2019 &#8212; 00:56 CEST</div>
+      <p>When I was a kid (around 8-9) I used to draw a lot of maps of fictional places, and for some of them I then made "languages" &#8212; which were however just bad and inconsistent relexes. I more or less kept doing the same for the following years (albeit less frequently for a few years), then when I was 17 I randomly stumbled onto the Wikipedia article for Ancient Greek grammar and started falling in love with linguistics.</p>
+      <p>Just a few months later I discovered Mark Rosenfelder's website and that gave me the inspiration to start making again what I enjoyed so much as a kid &#8211; fictional places &#8211; therefore starting a conworld (a very early version of my current Calémere): alongside that, I took some inspiration from the at-the-time latest relexes of mine and with the help of the LCK I made my first actual conlang. (nowadays I think it was a horrible mess but at the time I was kinda proud of it. Btw, it was called "Valdimelic" and years later I kinda reborrowed the name and many of its roots (extensively modified and shortened) for Qualdomelic). Just a few months later I discovered the conlang communities here on FB, then I started putting my stuff on Linguifex and then lurking and occasionally commenting on r/conlangs and now here I am.</p>
+      <p>Chlouvānem is obviously my most developed language (and I really should work more on other Calémerian conlangs instead of giving it all the spotlight...), it started as a collection of grammatical features and aesthetics I liked (Sanskrit, Lithuanian, PIE, and Adyghe are some of the most notable inspirations) and I let it grow "organically" (for lack of a better term) by adding, tweaking, and removing features to fit them together best. Meanwhile it'll be three years old in November (four if I count Laceyiam which is not only just a spiritual predecessor but could count as an earlier version) so it's not my current big inspiration, but it's still what I work on for about half of my conlanging time.</p>
+      <p>The latter half this year has been mostly taken by Atlantic, an alt-historical (and to large extents ahistorical too) romlang I started without many goals while I was burned out of inspiration for Chlouvānem, and eight months later it is now my second most developed conlang, and one I actually really like working on (tbf anything that makes me need to read about the evolution of Romance languages makes me happy). It is inspired mostly by cherry-picked features of Romance languages (aesthetical inspirations are Sicilian and French; grammatical ones mainly Ibero-Romance) with some additional things I wanted to experiment with in a romlang, like for example lots of conservativeness in keeping suppletion and/or multiple stems.</p>
+      <p>My two current big inspirations ("current" as in they're three and two days old respectively) are for <i>Tudicese</i> and <i>Luspori</i>; the former is an experimental Germanic language born much like Atlantic but with different goals, the latter is a language for Calémere inspired by Yoruba, Igbo, and Bulgarian. Still a lot of work to do for both of them before they're presentable...</p>
+    <hr>
+    <div class="comm-title">Comment in "Conlangers with a posteriori conlangs, what tips do you have?", r/conlangs.</div>
+    <div class="comm-date">August 30, 2019 &#8212; 01:37:25 CEST</div>
+      <p>My only a posteriori conlang is Atlantic, a romlang which I started as a filler in a period while I didn't have much inspiration for my conworld project, but later became a full project (it's meanwhile my second most advanced conlang!), so my only experiences are with romlangs:</p>
+      <p>When creating Atlantic (at the time it didn't have this name nor the setting), I mainly took a few things that I really wanted it to have and set them as base features of how I'd develop the language; in this case the most notable ones were having a unique change where long <b>ā</b> remained distinct from its short counterpart, eventually merging with <span class="ipa">/o/</span>, and aside from that one the vowels would develop like in Sicilian (with some differences here and there); about consonants, the only cornerstone I wanted was for intervocalic stops to lenite by fricativizing, as in the Tuscan gorgia, early enough to become phonemic.</p>
+      <p>Morphologically I wanted it to be very conservative while maintaining an overall grammar closer to the Romance languages than to Latin, which meant having no case on nouns, a fully functioning neuter (even if syncretic with either the masculine or the feminine singular (for sg. and plural respectively) in most, but not all, instances), articles, and for verbs I wanted it to retain most of the irregularities of the stems of Classical Latin like the different perfect stems (e.g. "I fall, I fell" in Atlantic is <i>chaḍu, cixiḍi</i>), though scrapping the passive conjugation and cutting most deponent verbs, with their remnants being a few verbs that follow the same conjugation as all others but have no synthetic past.</p>
+      <p>From this starting point I kept developing the language in ways that I liked but that still agree with other languages in the family in order to keep it believable (I still managed to add some quirks though), choosing to diverge especially in ways where other Romance languages are very creative like in the creation of prepositions or determiners; sometimes I just cherry-picked some features I liked from natural Romance languages, for example in the vocabulary there are quite a few Sicilianisms (like "boy, girl" being <i>charus, charusa</i>), Sicilian, Neapolitan, and Occitan borrowings, and a few "coincidental" similarities with Gallo-Italic languages (like the word for "near" being adrint ultimately from <i>adhærentem</i>, like Lombard <i>arent</i>). Some changes in the grammar were kinda forced from the sound changes I chose, for example Atlantic still has three conjugations but the second one (stressed <i>-iri</i>) is a merger of the original second and fourth, plus most <b>-iō</b> third conjugation verbs reanalyzed this way, while the third conjugation (unstressed <i>-iri</i>) continues other Latin third conjugation verbs; the resulting system is thus different from other Romance languages (at least outside of Balkan Romance).</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Constructed languages".</div>
+    <div class="comm-date">September 16, 2019 &#8212; 09:49 CEST</div>
+      <p><small>CONTEXT: *Idiosyncrasies and preferred phonemes.</p></small>
+      <p>I think I have some dislike towards <span class="ipa">[o]</span> given that I tend not to have it in my conlangs. Chlouvānem has 15 different monophthongs but nothing in that place (and even <span class="ipa">/ɔ/</span> is quite rare compared to others), <span class="ipa">[oː]</span> exists only as a word-final allophone of <span class="ipa">/ɔ/</span>. Atlantic meanwhile has <span class="ipa">/ɔ/</span> in abundance but no <span class="ipa">[o]</span> at all (however it has <span class="ipa">[ɵ ʉ]</span> as allophones of <span class="ipa">/ɔ u/</span> after <span class="ipa">/ç/</span>).</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Conlands: Worldbuilding for Language Creators".</div>
+    <div class="comm-date">September 4, 2019 &#8212; 00:22 CEST</div>
+      <p><small>CONTEXT: *Preferred given names/proper nouns in your conlangs or conworlds.</p></small>
+      <p>Kālomīyeh <span class="ipa">[käːɴ̆ɔmiː(j)eχ]</span>, I've liked its sound ever since I randomly came up with that.</p>
+      <p><span class="auth">A/N: the IPA above is clearly Chlouvānem, but that&apos;s still a given name in Dundulanyä. And, indeed, I still like it.</span></p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "[Omissis]".</div>
+    <div class="comm-date">August 29, 2019 &#8212; 11:57 CEST</div>
+      <p><span class="auth">A/N: group name omitted, as it was a closed group about someone else&apos;s conlang.</span></p>
+      <p>You might take a break from it and experiment with something new until you get new inspirations. I personally found trying my hand at a posteriori conlangs more exciting than I thought it would be, having stricter boundaries to remain into to be consistent felt more interesting than the complete control on the source of a priori conlangs.</p>
+    <hr>
+    <div class="comm-title">Comment in "How did you get into conlanging?", r/conlangs.</div>
+    <div class="comm-date">August 11, 2019 &#8212; 17:46:26 CEST</div>
+      <p>When I was a kid I used to draw and invent fictional lands and by doing that I also made up words to use in them (for the most part just to name places and people); my earliest conlang-like thing was a weird relex of Italian with random faux-German and faux-Inuktitut words that I made up when I was 8 or 9.</p>
+      <p>I never really stopped inventing those fictional lands in my early teens though I didn't really create any serious conlang (nor was I interested in linguistics or even just basic grammar despite having grown up asymmetrically bilingual and having studied three other languages in school by the time I was 15); it was only when I was 17 that I stumbled onto random facts about Ancient Greek online and fell in love with linguistics because of that. Some months later I discovered Mark Rosenfelder's website with the LCK and Almea and that was what ultimately got me into both conlanging and conworlding.</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Constructed languages".</div>
+    <div class="comm-date">June 10, 2019 &#8212; 12:48 CEST</div>
+      <p><small>CONTEXT: *Proto-languages.</p></small>
+      <p>I quote everything [Omissis] has said in the comment above mine, as that's what I've also done (with far less detail) with my Lahob languages: starting from Chlouvānem, I developed a proto-language based on the two premises that Chlouvānem wasn't that far ahead in time and so keeps a lot of the proto-language's morphology (and it also became more synthetic), and that its speakers migrated away from its Urheimat into a totally different environment.</p>
+      <p>So I created Proto-Lahob just in order to detail a few small languages in my conworld's arctic regions (and surviving only in an area that wasn't the Lahob Urheimat anyway!), 10000 km away from the Chlouvānem heartlands - and attested nearly 3000 years after it.</p><p>I admittedly did it more for the backstory than for the actual need to develop a full language family; I worked backwards from Chlouvānem to create a reasonably similar language, and then created different subfamilies by working in steps. Nearly everything I have to compare them is vocabulary, some cognates can be recognized, some are a bit harder without knowing the intermediate steps.</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Constructed languages".</div>
+    <div class="comm-date">May 10, 2019 &#8212; 23:13 CEST</div>
+      <p><small>CONTEXT: *&#60;w&#62; and &#60;v&#62; in romanizations.</p></small>
+      <p>It depends, because first of all most of my conlangs either only have one of <span class="ipa">/w v ʋ/</span>, or do not make a graphic distinction between <span class="ipa">/w/</span> and <span class="ipa">/u/</span>, marking them as &#60;u&#62;. &#60;w&#62; is one I mainly used in sketchlangs except for Yuyši, which uses both &#60;w&#62; and &#60;ł&#62; for etymological reasons. Qualdomelic is IIRC the only main conlang of mine with <span class="ipa">/w/</span> &#60;w&#62; and <span class="ipa">/v/</span> &#60;v&#62;.</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Constructed languages".</div>
+    <div class="comm-date">May 7, 2019 &#8212; 16:00 CEST</div>
+      <p>A possible achievement might be having all working structures needed to translate any text you want, and enough strategies of deriving vocabulary in order to fill the gaps you encounter in those texts. I consider Chlouvānem as "complete" as it fills both, though that doesn't stop me from revising (or at least planning revisions I may scrap) various parts of its grammar nearly once a week.</p>
+    <hr>
+    <div class="comm-title">Comment in "Earthly words in your otherworldly conlangs", r/conlangs.</div>
+    <div class="comm-date">April 28, 2019 &#8212; 18:54:30 CEST</div>
+      <p>In my dictionaries I tend to distinguish between "in-world" and "external" etymology, the first being how or where that word is derived from in my conworld, the latter being the source I've been inspired by/I've taken it from. Sometimes I just do this for easter eggs, in which case those words tend to be quite recognizable (like the Chlouvānem word for "homeland" which is an adaptation of the name of the town I was born and lived most of my childhood in; or again <b>miṣkin</b> meaning "idiot", from Prince Myškin in Dostoevskij's novel). Sometimes I just look at the word for something in a natlang and craft a conlang word based on it, but giving an in-world etymology; the Chlouvānem word for "book", for example, is <b>naviṣya</b> &#8211; in-world derived from Lällshag "na-wici-ja" 'it has knowledge within' &#8211; but it is also based on Persian <i>naveštan</i> <span class="auth">[sic]</span> meaning "to write". Other such words are less recognizable.<br>Still I don't use "descended from", as I don't use any clear pattern to derive those words, and anyway they all have other in-world etymologies.</p>
+      <p>Then there are words that strictly refer to Earth (mostly toponyms and day/month names), which I consider non-canon as obviously my conworld has no knowledge at all about Earth, but in doing translation challenges sometimes I've used such words, and they are obviously borrowings from various languages of Earth.</p>
+    <hr>
+    <div class="comm-title">Comment in "What are the element names in your language?", r/conlangs.</div>
+    <div class="comm-date">April 19, 2019 &#8212; 19:37:22 CEST</div>
+      <p>Well, my conspeakers did independently discover them as they're on another planet with no contact whatsoever with Earth. For Chlouvānem (also because of me not having much knowledge about chemistry), I tried to mimick their etymologies on Earth, i.e. there are some based on existing words, some from place names, some from people, etc. So far I have all of them up to tellurium (52) and six more above (five of them being roots for "gold", "platinum", "mercury", "lead", and "uranium").</p>
+      <p>Most element names are built from roots in Lällshag, a (now-dead) academic language lots of Chlouvānem scientific terminology is built in, including the common suffix <i>-bida~-buda</i> that marks elements (from Läl. <i>budå</i> <span class="ipa">[bydɔ]</span> "material"). Some examples of different etymologies:</p>
+      <ul>
+        <li>silicon: <b>daloyebida</b>, from native Chl. <i>daloya</i> "flint" + Läl. <i>budå</i></li>
+        <li>yttrium: <b>celeibuda</b>, from the country of Ceria it was first discovered in</li>
+        <li>rubidium: <b>nambæbuda</b>, from Läl. <i>nambä(ci)</i> "scarlet"</li>
+        <li>tellurium: <b>šīlpalbida</b> and selenium: <b>kætsimbuda</b> from the two characters of Lällshag mythology <i>Shylopag</i> <span class="ipa">[ɕiːlupaŋ]</span> and <i>Kätsunja</i> <span class="ipa">[kɛtsynja]</span></li>
+        <li>uranium: <b>iris</b>, from <i>Iriso</i>, Lällshag god of the sun</li>
+        <li>oxygen: <b>jārē</b> (actually an easter egg), from Läl. <i>cehaar-re</i> "decay-er, causing decay/corrosion"</li>
+      </ul>
+    <hr>
+    <div class="comm-title">Comment in "How did you get into conlanging?", r/conlangs.</div>
+    <div class="comm-date">April 13, 2019 &#8212; 00:12:03 CEST</div>
+      <p>I started when I was 9 or 10, making relexes of my native language &#8212; though that wasn't obviously conlanging, and I only discovered it was a thing and started doing my first actual conlangs many years later, when I was 17 and randomly stumbled on an article on Ancient Greek. That brought me into being interested in languages, then came linguistics, and from there I dived straight into conlanging, pairing it with the conworlding I had been doing as a hobby since I was a kid.</p>
+    <hr>
+    <div class="comm-title">Comment in "What are the boundaries of a priori and a posteriori? How much stuff that Is taken from another language constitute a language as one or the other.", r/conlangs.</div>
+    <div class="comm-date">April 10, 2019 &#8212; 12:40:51 CEST</div>
+      <p>I've generally always used "a posteriori" strictly for conlangs that are either:</p>
+      <ol style="list-style-type:lower-alpha;">
+        <li>developed with diachronic sound changes from an existing natlang (incl. reconstructed proto-languages such as PIE), or a famous conlang (or at least a conlang from a different setting), or</li>
+        <li>any creole, pidgin, mixed language, or auxlang predominantly based on a natlang.</li>
+      </ol>
+      <p>Everything else for me is a priori, no matter how much they take from natural languages; I have a conlang (well, a sketchlang so far) which is supposed to be spoken in a fictional remote archipelago in the Indian Ocean and, while an isolate, it has lots of loanwords (modern-day terminology in it is for the most part either French or Russian), but I still refer to it as an a priori language. Even in the conlangs set in my main conworld I sometimes sprinkle a few easter eggs (e.g. in Chlouvānem I have words such as <i>prauda</i> for "newspaper" or <i>tupalīva</i> "airplane" referencing Pravda and Tupolev respectively), but that doesn't make any of them a posteriori languages the way I intend that term.</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Constructed languages".</div>
+    <div class="comm-date">April 5, 2019 &#8212; 17:52 CEST</div>
+      <p>I generally prefer my orthographies to have phonemic spellings and few irregularities &#8212; for the variety of sounds it can transcribe, my "unmarked" spelling uses the Czech convention with a few additions (like I typically use &#60;ł&#62; for <span class="ipa">/ɬ/</span>). Though that does not mean I haven't dabbled into conlangs with different ideas &#8212; Chlouvānem is mostly phonemic except for <span class="ipa">/ɔ/</span> being either &#60;o&#62; or &#60;å&#62; depending on etymology; Cerian also has <span class="ipa">/r/</span> represented by either &#60;r&#62; or &#60;l&#62;, and then I have conlangs with deeper orthographies such as Qualdomelic (where e.g. <i>luăchwhjen</i> <span class="ipa">/ˈlujen/</span> "book") or even more prominently Skyrdagor (<span class="ipa">/ɧu͡ɯ˞dɒː˞/</span>) and Holenagic (where e.g. <i>hdieigv</i> <span class="ipa">/iː/</span> "road" and <i>hfrahb</i> <span class="ipa">/ɔː/</span> "language").</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "CONLANGS - Línguas Construídas (Lusófonos)".</div>
+    <div class="comm-date">April 1, 2019 &#8212; 23:26 CEST</div>
+      <p>Eu prefiro a priori, porque acho que é muito mais difícil recriar toda a evolução das línguas reais e só consigo criar uma língua a posteriori se conheço bem toda a história duma família linguística, para que uma conlang a posteriori possa parecer-se com uma verdadeira língua irmã.</p>
+      <p>As línguas a priori não podem ser comparadas assim portanto há mais liberdades "artísticas", embora seja mais difícil criar palavras mais técnicas se é uma língua a priori dum outro planeta (por exemplo uma das palavras do Chlouvānem que foi mais difícil criar é "cilindrada", e também outras palavras técnicas semelhantes, porque tive que ler e compreender o que descrevem &#8212; mas numa conlang a posteriori não há essa dificuldade, por exemplo no Rumônico tomei-a do latim (<i>cylindrum</i> + <i>-ātam</i> &#62; Rum. <i>cirindroṭa</i>)).</p>
+    <hr>
+    <div class="comm-title">Comment in "Linguistics backgrounds of conlangers", r/conlangs.</div>
+    <div class="comm-date">April 1, 2019 &#8212; 11:22:20 CEST</div>
+      <p>I started conlanging while still in high school, where I studied accounting, so whatever I knew about linguistics is things I learned by myself on the internet; later while in University I had to take a basic linguistics course in the first year (three years ago, I'm 22 now) but then the things I had learned while conlanging were already a lot more than that year's programme. I studied languages, and chose to focus my curriculum on literature.</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Conlang Conversations &#38; Off-Topic, Also Bhutan".</div>
+    <div class="comm-date">March 31, 2019 &#8212; 22:54 CEST</div>
+      <p>If your grammar isn't stable, you could start with wordlists; good old Swadesh or others with similar scope are interesting as the majority of those tend to be root words, but imho even more interesting it is to use thematic wordlists, maybe with a small text/some example sentences so you can craft grammar in the meantime. To start you could look for A1/A2 foreign language learning materials, with pictures highlighting all words in it (like e.g. the "rooms of the house" diagram or the "things in a room" one which are in basically every middle/high school foreign language book). As for tips on how to craft words, one of the first things I create is a set of basic derivational suffixes which is imho very helpful in building a nice starting amount of words faster.</p>
+    <hr>
+    <div class="comm-title">Comment in "Small Discussions 73 — 2019-03-25 to 04-07", r/conlangs.</div>
+    <div class="comm-date">March 30, 2019 &#8212; 23:32:23 CET</div>
+      <p>The sound I transcribe as <b>L</b> (well, usually lowercase) in my main conlang Chlouvānem, and which is also its second most common consonant, is my own l-sound which I always use as I have a speech defect and can't pronounce <span class="ipa">[l]</span> or anything similar; I still don't know how to properly write it in IPA but I usually keep it simple and write it as <span class="ipa">[ɴ̆]</span>, i.e. a nasal uvular flap. I'm 100% sure it is nasal (and, in fact, other people generally hear it as <span class="ipa">/n/</span>, which gives me a lot of trouble when spelling things out, and the fact I have an uncommon name with <span class="ipa">/l/</span> &#60;l&#62; in it only makes it worse!) and that it is uvular, and I'm also fairly sure it is a flap, at least for what I could notice while repeatedly pronouncing that sound in front of a mirror. Actually I think it might be somewhat implosive too, but I don't know how to check that as my knowledge of implosives aside from theoretical descriptions is very limited.</p>
+    <hr>
+    <div class="comm-title">Comment in "Just a Question: What's Your Favourite Type of Conlang to Make?", r/conlangs.</div>
+    <div class="comm-date">March 20, 2019 &#8212; 19:25:44 CET</div>
+      <p>Naturalistic a priori artlangs, mainly in a non-Earth conworld setting; all of my a priori conlangs bar one (on an alt-Earth, actually set on a fictional archipelago in the Indian Ocean) are set on a different planet, my main conworld project.</p>
+      <p>I do little a posteriori conlanging as it’s harder to make them believable, and because of that I don’t feel confident enough in trying to make an a posteriori conlang which is not Romance.</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Constructed languages".</div>
+    <div class="comm-date">March 16, 2019 &#8212; 23:26 CET</div>
+      <p>I think a good term is describing them <span class="auth">[A/N: tenses, in morphology]</span> for what they are, i.e. “tense-aspect combinations”. That’s actually what I prefer doing, in my Chlouvānem pages on Linguifex I start talking about “tense-aspect combinations, usually simply called ‘tenses’” the first time they’re mentioned and then use “tense” throughout the rest of the page. Though using “tense” and not another abbreviation might still be Romance bias. Also, I don’t know how actually French and Spanish are taught elsewhere but while I can understand why the conditional can be counted as a tense (though e.g. traditional Italian grammar doesn’t), I really hope no teacher can call the Romance <b>subjunctive</b> a tense, as it clearly has tenses just like the indicative mood does.</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Constructed languages".</div>
+    <div class="comm-date">March 16, 2019 &#8212; 00:39 CET</div>
+      <p>In honour of PIE day I'll leave here the only sentence I have in a IE sketchlang I had begun a few months ago and which I should really work more on, and that sentence happens to be the first one of Schleicher's Fable: <i>Nä yú, esim huräná nyét, lälarsy kinyäté ésyé.</i> <span style="auth">[nə ˈjuːˤ ˈɛˤsim ʕurəˈnɒː ˈɲeːˤt ɮəˈɮarʃ kiɲəˈteː ˈeːˤʃeː]</span>.</p>
+    <hr>
+    <div class="comm-title">Comment in "When to move on?", r/conlangs.</div>
+    <div class="comm-date">March 7, 2019 &#8212; 17:41:31 CET</div>
+      <p>While I think it's impossible for a <i>conlang</i> to be completed, I consider a <i>conlang project</i> to be finished when I think it is in a satisfying state, enough for what I should do with it or wanted to experiment in it. As an example, most of my conlangs are part of my conworld, and a vast majority of them are sketches with a basic overview on certain areas of morphology and a small list of words. They're definitely not complete, but as I mostly only need them as naming languages, I consider them to be finished projects (with the added bonus that if I ever feel to I can get back to them and develop them more).</p>
+      <p>
+      As for actually developed conlangs with no overt goals (i.e. not specifically meant to experiment with a certain feature, or a posteriori languages that aim at <i>"what if"</i> situations), I consider them done when I can use them in different situations, and the only thing left to do is &#8211; apparently &#8211; crafting vocabulary (I say "apparently" because finding an odd syntactical structure that you think you had covered but actually didn't happens more often than it could be forecasted). Translating the 218 sentences of the famous syntax test might be a nice checklist, but imho translating all of them could get boring soon (I got to 113 and am still procrastinating about translating more); other "tests" of completeness (but it's still up to you, the creator, deciding what the test is and if it's complete &#8212; overall, it's really subjective) could be making skits using the conlangs in different situations, like in the writing exercises found in L2 learning books.</p>
+      <p>Having a full, usable conlang is however probably the highest possible goal, and I think it's much better to get there in small steps, i.e. intermediate goals. But also, you don't need to focus on a single conlang at a time, and if you need to because you don't feel like working on more, then you could just ask yourself about which current goal you have &#8212; and if you don't and can't come up with one, don't be afraid in abandoning that conlang for a while and start something new: you never know when inspiration comes, and in my personal experience trying to work on a conlang without having any goal at the moment is not just unproductive, but can get frustrating &#8212; and in the end, unless you're in that little minority of conlangers who get paid for it, conlanging is meant to be an enjoyable hobby.</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Constructed languages".</div>
+    <div class="comm-date">March 6, 2019 &#8212; 19:47 CET</div>
+      <p>There is this famous (among conlangers) list of 218 sample sentences for testing syntax, which is quite helpful but imho it gets boring if you try to translate all of them (I have done the first 113 and have been procrastinating about getting back translating them for more than a month): <span class="auth">[A/N: the resource is now mirrored <a href="https://cofl.github.io/conlang/resources/mirror/conlang-syntax-test-cases.html">here</a>. It&apos;s the same conlang syntax test of the <a href="../dundu/218sent.htm">218 Dundulanyä sample sentences</a>.]</span></p>
+      <p>Otherwise, "testing" a conlang imho means that you have worked out enough syntactic constructions to translate most things, only having to fill in vocabulary, so it'd be a good idea to translate random texts written in different styles, or write your own examples &#8212; telephone skits both informal and formal, diary pages, moments of everyday life... if you have L2 learning books for any language, you could try doing some writing exercises from there but in your conlang.</p>
+    <hr>
+    <div class="comm-title">Comment in "Diacritics in Conlangs", r/conlangs.</div>
+    <div class="comm-date">March 2, 2019 &#8212; 12:08:30 CET</div>
+      <p>I prefer using diacritics, unless I'm going for a particular aesthetic or I have an etymological spelling to romanize. As for which I use, I tend to use as few as possible while keeping a pattern to their use.</p>
+      <p>
+      My main conlang's, Chlouvānem's, romanization is based on IAST (as its phonemic inventory is quite close to Sanskrit's) and Lithuanian, so that I follow their conventions or a hybrid of them &#8212; underdots like in IAST for retroflex consonants, syllabic consonants, and for &#60;ṃ&#62; (which in my conlang however represents the <span class="ipa">/ɴ/</span> phoneme, which is mostly realized as vowel nasalization); macrons for vowel length; I also needed to represent breathy-voiced vowels, so I repurposed the ogonek for that, and then there are three remaining letters with diacritics (&#60;ñ š ħ&#62;), one from each my sources (mainly because IAST already uses &#60;ñ ś&#62; and because of my personal preferences somehow neither &#60;ň š&#62; nor &#60;ń ś&#62; looked as neat to me), the other one is taken straight from IPA.</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Conlang Conversations &#38; Off-Topic, Also Bhutan".</div>
+    <div class="comm-date">February 23, 2019 &#8212; 14:22 CET</div>
+      <p>The fact is that imho, even when not thinking about subjective preferences, it depends on goals more than on anything else. I mean, if you want to get a certain aesthetic, then it makes sense to start with phonology and romanization, but if the main goal is experimenting with a certain element of morphology or syntax then you could even just start by using English roots or words as placeholders for a while and only when you're done with that think about phonology.</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Conlang Conversations &#38; Off-Topic, Also Bhutan".</div>
+    <div class="comm-date">February 20, 2019 &#8212; 19:35 CET</div>
+      <p>They are recommendations and not rules, so that in the end you'll be free to ignore them and it's just better to proceed the way you prefer; with time I have made my own way to start a new conlang, which for me is just fine but maybe wouldn't for someone else. So if you don't like that language just stop working on it, if you keep the people in your conworld (as I also always do, unless I change the conworld itself) maybe somewhen you'll come to make a better language for them, or get some idea to change this language you don't like atm and make it better.</p>
+    <hr>
+    <div class="comm-title">Comment in "Small Discussions 70 — 2019-02-11 to 02-24", r/conlangs.</div>
+    <div class="comm-date">February 18, 2019 &#8212; 18:23:17 CET</div>
+      <p>While I've never lacked inspiration for so long, I never force myself to try to do something conlang-related; usually, the inspiration comes randomly by reading things about linguistics or languages, or sometimes even by reflecting on patterns or etymologies in my native languages that I had never noticed before.</p>
+      <p>I'd suggest you to try reading grammars of natlangs, or about strategies used by different languages in order to express the same or similar things: you may find something interesting (could be even just the aesthetics of a certain language) that will make you think about using that in a conlang.</p>
+    <hr>
+    <div class="comm-title">Comment in "How do you name the people that use your language?", r/conlangs.</div>
+    <div class="comm-date">February 16, 2019 &#8212; 19:20:09 CET</div>
+      <p>I usually like to create placenames in my conworld so I often have etymologies for them and the names of peoples are simply derived from those (or vice-versa). Otherwise, I often go with some variation of "people" or "our people".</p>
+      <p><i>Chlouvānem</i> (natively chlǣvānem) goes back to a Proto-Lahob compound word that could be translated as "golden tribe", "sunny-side tribe", "golden people" or (a translation I like as an easter egg) "golden horde". The <i>-vānem</i> part is actually cognate to the endonym for many other Lahob peoples (Proto-Lahob *wānəme). Still, the word is a plurale tantum (as all ethnonyms in Chlouvānem are), but today they don't constitute a single ethnicity, so it'd be better to talk about "Chlouvānem peoples" in the plural. In Western languages, anyway, they are usually called with some word derived from Íscégon <i>in mutenen ingúron</i> "eastern barbarians/invaders" (like Cerian <i>imúnigúro</i>), which was applied to different peoples in antiquity until being applied to the far easternmost empire they knew of.</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Constructed languages".</div>
+    <div class="comm-date">February 14, 2019 &#8212; 22:51 CET</div>
+      <p>If it's a language I derive from a proto-lang I already have, I use a basic list of words in order to see if the sound changes I devised fit with the aesthetic I have in mind.</p>
+      <p>For my Evandorian languages, they are (meaning is the one of those roots in the proto-language): person &#8211; foot &#8211; tree &#8211; mouth &#8211; finger &#8211; wolf &#8211; water &#8211; [a common fruit in that area] &#8211; oat &#8211; river &#8211; cow &#8211; cover/house &#8211; forest &#8211; numerals 1-10 (base 10).</p>
+      <p>For Lahob languages, I use a slightly larger list (but unlike the others, I don't plan to sketch most of them much further): mother &#8211; father &#8211; head &#8211; to take &#8211; arm &#8211; island &#8211; animal &#8211; footprint &#8211; to live &#8211; to stay &#8211; neck &#8211; to give &#8211; black &#8211; to ask &#8211; to wash &#8211; moon &#8211; sun &#8211; young &#8211; bird &#8211; hot &#8211; stone &#8211; cold &#8211; piece &#8211; family &#8211; [autonym] &#8211; village, community &#8211; wind &#8211; wax &#8211; fish &#8211; to eat &#8211; 1st and 2nd person SG and PL pronouns &#8211; numerals 1-12 (base 12).</p>
+      <p>For other languages, it depends; for example in a sketchlang I started a few days ago I only have the following: father &#8211; mother &#8211; mouth &#8211; person &#8211; city (early borrowing) &#8211; valley &#8211; home &#8211; son &#8211; daughter.</p>
+    <hr>
+    <div class="comm-title">Comment in "Small Discussions 70 — 2019-02-11 to 02-24", r/conlangs.</div>
+    <div class="comm-date">February 12, 2019 &#8212; 16:09:11 CET</div>
+      <p><small>CONTEXT: <i>Does anyone have some tips for where to start the lexicon? I want to go further with my language, but without some words I feel like I'm at a wall and can't develop it further. I'm not sure if I should just make up sounds and then fit those to meanings or if there's some sort of actual method I should use to create the first few words that everything else will grow from and reference.</p></i></small>
+      <p>One method I use when I can't come up with anything I like is to look for that word in different natlangs (works better with roots), take one I particularly like &#8211; better if not from some widely spoken language &#8211; and start adapting it to my conlang's phonology, then applying random changes such as inverting voicing, shifting the first consonant to the end, changing the order of vowels, or similar things until I find something I like. Though I mostly do this not with the exact same meanings, instead I take the natlang word for a hyponym of something and adapt it for a hyperonym in my conlang, or viceversa, or just vaguely connected meaning (I took a word meaning "tooth" and slightly changed it and made it a conlang's word for "walrus", as a practical example). Then, you can always think about in-world etymologies for that.</p><p>It's also an excuse to go and read about etymologies in different languages, which is imho always interesting...</p>
+    <hr>
+    <div class="comm-title">Comment in "Is there a practical limit to much you should research the science/history behind the elements of your world?", r/worldbuilding.</div>
+    <div class="comm-date">February 12, 2019 &#8212; 00:00:49 CET</div>
+      <p>The real limit is what you feel like doing until it becomes frustrating to try to understand some things because you lack a background: after all, it's meant to be fun. For example, I have made a set of measurement units in my conworld and the voltage one is exactly the same as the Volt, just with a different name (as it's not Earth): that is not my field of expertise and I just decided it didn't make sense to try to understand the science behind it just for my conpeople to measure voltage differently, with the risk of not even understanding things as they are and making something that has no sense at all.</p>
+    <hr>
+    <div class="comm-title">Comment in "How do you come up with names for places?", r/worldbuilding.</div>
+    <div class="comm-date">February 11, 2019 &#8212; 23:54:22 CET</div>
+      <p>Most of the time it's just words I like so that I build a naming language around them. As the country I'm focussing the most on in my conworld is a large empire, I can often trick my way into explaining those placenames as borrowings from languages I don't need to expand on &#8212; so that I end up creating lists of words in those languages which I use for making placenames in that area of the world. Of course, different areas in it have different naming patterns, but compound names are probably the one I use the most.</p>
+    <hr>
+    <div class="comm-title">Comment in "Small Discussions 69 — 2019-01-28 to 02-10", r/conlangs.</div>
+    <div class="comm-date">February 7, 2019 &#8212; 14:46:25 CET</div>
+      <p>While I realize not everyone likes to create a setting along with a conlang (and I fully understand this position), as I can barely work on a priori conlangs without an idea of where and by whom it is spoken, I think in your case it might be helpful to at least have a rough idea on a proto-language (which does not have to be excessively detailed, just an idea of its phonology and how your destination conlang derives from it, and some really basic roots and derivational patterns should be enough) and especially on its setting and neighboring peoples &#8212; just think of the most famous cases such as English and French, Sino-Xenic languages, Persian and Arabic, or Hindustani and Persian.</p>
+      <p>
+      I personally like having interconnected conlangs and spending as much time detailing the internal history and setting of my conlangs as I do detailing the conlang itself, and have sketched my main conlang's history enough to know not just how it developed from its proto-language but also which languages it interacted with the most, so that I often have semantic doublets with inherited words (or derived from inherited roots) and loanwords &#8212; in this specific case of mine, it's a language with a higher share of borrowed roots than inherited ones (it's a bit more complicated as it involves nomadic migrations, language shifts, and other things which are more conworlding- than conlanging-related), though verbal ones are almost all inherited and, through derivation and compounding, still amount to a large share of the vocabulary.</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Constructed languages".</div>
+    <div class="comm-date">February 5, 2019 &#8212; 00:37 CET</div>
+      <p><small>CONTEXT: *Romanizations and uppercase letters.</p></small>
+      <p>I tend to follow the native rules of the conlang I’m romanizing, and if its script is unicameral I do not put majuscule letters while using it (unless it’s a proper noun in an English sentence). Usually I also tend to respect native punctuation, but I’m a bit less strict on it, mostly adding a few more commas than actually needed. If it is bicameral, then I romanize the case distinction too.</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Constructed languages".</div>
+    <div class="comm-date">February 3, 2019 &#8212; 17:11 CET</div>
+      <p>Most of the time I need to sketch a conculture or at least picture where the speakers live and who are they in contact with; otherwise, I can't really do much. As most of my conlangs are set in a single conworld, at least the geographical part of it is already done so it's all about sketching culture and history along with the language. The only partial exception is with a posteriori conlangs, where I just need to have enough ideas &#8212; but even then, I can't progress to more than a rough sketch if I don't know how and where the language developed and what groups could they reasonably have contact with (mostly for the sake of loanwords).</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Constructed languages".</div>
+    <div class="comm-date">January 20, 2019 &#8212; 21:05 CET</div>
+      <p><small>CONTEXT: *Favorite conlangs and biases.</p></small>
+      <p>Well done ones. As, there really isn't more reasoning, my bias mostly regard my own conlanging (i.e. I prefer making a priori artlangs with attention to conculture), but some of my favorite conlangs are a posteriori, others have little to no concultural stuff attached, and others are both, at least one (Lojban) isn't even an artlang...</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Constructed languages".</div>
+    <div class="comm-date">January 20, 2019 &#8212; 00:10 CET</div>
+      <p>I’ve never thought of making a list of all words I could consider “favorites” in my conlangs, though for some reason I find as really pleasant the Chlouvānem word for “one”, <b>emibe</b> <span class="ipa">[ʔemibe]</span>.</p>
+      <p><span class="auth">A/N: Still a Dundulanyä word, and still a word I like a lot!</span></p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Conlang Conversations &#38; Off-Topic, Also Bhutan".</div>
+    <div class="comm-date">January 8, 2019 &#8212; 16:06 CET</div>
+      <p><small>CONTEXT: *Favorite conlangs.</p></small>
+      <p>Among world-famous ones there's Lojban, then I'm mostly only familiar with conlangs from people of this community and/or well described on Linguifex; I can't choose a single favorite but Celinese, Minhast, Kaidu, Rówok, Rílin, Skellan, Mila (best script, even though I'll never be able to read it without the instructions on how it works!), plus Northeadish and Pomorian as best a posteriori ones, for various reasons would all definitely deserve that spot imho.</p>
+
+  <h2 id="2018ear" style="margin-top:4px;">2018 and earlier</h2>
+    <div class="comm-title">Comment in the FB group "Conlangs".</div>
+    <div class="comm-date">November 26, 2018 &#8212; 14:41 CET</div>
+      <p>I put into Chlouvānem about 15/20 easter eggs so far and maybe around a hundred more words almost taken from other natlangs, extensively changed in either sound (switching voiced and voiceless consonants, clusters, playing around with vowels) or meaning (often I take highly specific terms in some natlangs and make them the base for the Chlouvānem term for hypernyms of that category, or vice versa; or it's just something distantly related) or both and with in-world etymologies. In the end it's more because I feel like doing that, not for helping me remember anything &#8212; aside from the easter eggs, only about four or five of those words are from languages I actually speak.</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Conlands: Worldbuilding for Language Creators".</div>
+    <div class="comm-date">October 22, 2018 &#8212; 12:38 CEST</div>
+      <p>Well, in some way my current conworld, Calémere, has its roots in everything I've done since when I was a kid (since I was ~7 or 8). Back then I used to draw and write about many types of conlands, which often were somewhat fantasy-inspired but the majority of them were just plain realistic-looking countries or regions which could have existed somewhere on Earth.</p>
+      <p>Later on (when I was maybe 11 or 12) I developed a sort of "canon" (well, one realistic and at least three or four minor fantasy ones, but I'll talk about the realistic one here) where some of these conlands existed in a single world, which however was Earth just with a few lands more and the other areas renamed, or at least mentioning the existence of other continents which, however, were obvious references to Earth, like for example a double continent known as "Northern Puretàn" and "Southern Puretàn" (obviously the Americas masked as something else). At some point when I was 14 or 15 I changed my main conland from a Germanic influenced, Subarctic land to an equatorial country influenced by India and SE Asia.</p>
+      <p>A few years later (I was 17), I started conlanging more seriously and discovered Mark Rosenfelder's Almea, which quickly became at the time my main influence, and decided to develop a brand new conworld, that is, Calémere, but I still kept the vaguely-Earth layout and, being a completely different planet, I could put into it a few un-Earthlike features that were in my earlier fantasy-inspired conlands (but it's still completely a realistic conworld, without magic or other paranormal stuff &#8211; they exist in folklore, but not in the actual conworld); fast forward to today, I'm still working on that same conworld, despite many alterations, and in some way the continent layout is still a bit reminescent of Earth (at least in the northern hemisphere). That equatorial, Indian-influenced country ended up as the Chlouvānem Inquisition, even though obviously I've been detailing a lot more aspects of it.</p>
+      <p>Also I think of myself more as a conworlder than a conlanger (even though I do both roughly equally) as I find it extremely hard to conlang without having at least an idea of by whom and where it is/was spoken, otherwise those conlangs never leave the sketch level (slightly OT example: I have a PIE descendant I'm working on but it's still a sketch because I don't know where to place it). My current main source of inspiration is often Wikipedia, which, like when conlanging, I use to get a general idea about something I later read further about elsewhere if it interests me. Then I've used active knowledge of things I've studied (mainly literature, history, and basic anthropology); atlases, maps, some video games (RPGs and strategy games, notably Civilization), and last but not least conlanging and conworlding posts on groups like this one. I've never checked Youtube videos or podcasts, even if I've often thought of doing so, as I strongly prefer to read things rather than watching or listening to them, I get tired too easily.</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Conlangs".</div>
+    <div class="comm-date">September 24, 2018 &#8212; 12:38 CEST</div>
+      <p>Lately most of my inspirations for conlanging have come just by reading posts on FB conlang groups like this one (especially some translation challenges have been very helpful in making me think about constructions I didn't have or were kinda clunky and could be improved/changed), or by reading random or new pages on Linguifex.</p>
+      <p>Or just read anything about linguistics, you'll likely stumble on some feature interesting enough to make you think "cool, let's see if I can use it somewhere/make a conlang around~with that". Though, in the end, you don't <u>have</u> to conlang (unless you happen to be paid for that...), and, being used to conlang for fun, imho feeling the pressure to keep doing conlang stuff even when lacking inspiration just takes away everything good there's in conlanging.</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Constructed languages".</div>
+    <div class="comm-date">August 15, 2018 &#8212; 18:51 CEST</div>
+      <p>My first "something" was a relex of Italian I created back when I was 9, and had an inconsistent aesthetic mixing various "looks" (I didn't certainly think about sounds back then!) including mainly German, Greenlandic, and Pinyin-transcribed Mandarin. My first actual conlang (made while actually knowing something about how languages work) was Valdimelic, which I started in 2014, and while it had a coherent phonology I now recognize it had serious flaws in vocabulary (most words were simply too long, including e.g. a five-syllable-long root for "to do", and I had unexplainable unanalyzable roots for complex concepts; also, I blatantly stole too many words from natlangs) and had some very naïf ideas in morphology and syntax.</p>
+      <p>Recently I have been "reviving" it to whatever extent it is possible as Qualdomelic, albeit with different phonology and almost completely different morphology and syntax, and have been adapting those extremely long roots in different ways (e.g. I had Valdimelic <span class="ipa">/ludarˈhɛmkʰ/</span> "fish" which I brought back as two distinct words, <i>luzăṛ</i> <span class="ipa">/ˈluzəɽ/</span> meaning "fish" and <i>hẹng</i> <span class="ipa">/hɛŋ/</span> meaning "shark"; other examples may be Vald. <span class="ipa">/albakiˈtalɔton/</span> "to begin" &#62; Quald. <i>blichtăn</i> <span class="ipa">/ˈbixtən/</span> "to begin" and Vald. <span class="ipa">/daliˈʒɔʃe/</span> "honey" &#62; Quald. <i>zexọš</i> <span class="ipa">/zeˈdzɔʃ/</span> "honey").</p>
+      <p><span class="auth">A/N: As detailed in its external history section, <a href="../tarueb.htm">Tarueb</a> was created in a very similar way from another early conlang of mine.</span></p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Constructed languages".</div>
+    <div class="comm-date">April 21, 2018 &#8212; 19:55 CEST</div>
+      <p><small>CONTEXT: *Documentation on one&apos;s older and early conlangs.</p></small>
+      <p>I have thought of doing something like that, even though I have lost all of my "conlangs" (i.e. relexes) before 2013 and for many of those that I started later I only have fragments as, especially for the conworld stuff, I often wrote the new parts over the previous ones.</p>
+      <p>What I'm sure I have is most of my handwritten maps from when I was 10 to 13 (not really interesting tbf), and fast forward 10 years I still have many things about Laceyiam, Chlouvānem's most direct spiritual ancestor, documented on either Linguifex, Conworkshop or the Conlang Wikia, even though looking at it now it'd probably look rough or weird, as well as incoherent as I stopped updating them at different times. Plus, lately I have been writing a short "external history" section for all of my conlangs I put on Linguifex.</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Constructed languages".</div>
+    <div class="comm-date">February 6, 2018 &#8212; 12:54 CET</div>
+      <p>I do, more often than not, take natlang aesthetics as inspirations, but no current conlang of mine is really "based" on another language.</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Conlang Conversations &#38; Off-Topic, Also Bhutan".</div>
+    <div class="comm-date">December 24, 2017 &#8212; 17:57 CET</div>
+      <p>I love it and have a soft spot for Soviet/Eastern Bloc cities with those huge, nearly identical apartment blocks and yet so much open space. It's exactly my definition of modern average (meaning not historic nor CBD) urban area. (and as far as my own conworlding is concerned, that's how I imagine most modern-built, non-central cities of the Chlouvānem Inquisition - a city just like Surgut, Naberežnye Chelny, or Tol'jatti, only with the different climate)</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Constructed languages".</div>
+    <div class="comm-date">November 28, 2017 &#8212; 18:09 CET</div>
+      <p><small>CONTEXT: *Answering a set of questions about conlanging, conworlding, goals and inspirations.</p></small>
+      <p>Second set of questions; I'm a 21-year-old Italian and Lombard speaker.</p>
+      <ol>
+        <li>Well, when I was like 8 or 9 I used to draw maps of fictional countries/planets/cities and build stories around them, thus I created some words that I liked in order to give it more flavour (I don't consider it to be a conlang: it was an Italian relex with unconsistent gibberish (mostly German-sounding) - but it was a starting point). For a few years I did things like these, I was interested in conworlding only, I didn't really care about linguistics, let alone real conlanging. Then, when I was 17, one day I found myself reading online (I don't even know how I got there) about Ancient Greek and I read and read things about it and that's how I fell in love with languages and linguistics. So I decided to start conlanging anew (meanwhile I had also discovered Mark Rosenfelder's website and LCK) and to build a coherent conworld, partly taken from those sketches I had built over the years.</li>
+        <li>In almost every case, the goal was (and still is) to make my conworld more real and believable. My only two a posteriori languages are the exception, but I only started them just for fun.</li>
+        <li>Rather than "based", I'd say "heavily inspired". Chlouvānem, my main and most developed conlang, is noticeably inspired by Sanskrit, Lithuanian, PIE, Ancient Greek, and Japanese (plus other minor ones) &#8211; but it works in a completely different way despite their morphological similarities &#8211; and it sounds quite different too, due to different phonotactics, phonemes, and phoneme distribution. Sometimes I combine a real world aesthetic with a grammar inspired by completely different natlangs &#8211; e.g. saKalurilut is meant to look Inuktitut but its grammar is Bantu-inspired. &#8211; while sometimes I just develop it completely a priori with more or less noticeable natlang-inspired aesthetics (Chlouvānem counts as this imho, also I have e.g. Bronic with a Malagasy aesthetic, Nordûlaki which looks somewhat Catalan+Maltese...).</li>
+        <li>(answering for Chlouvānem, as my conlangs all have quite different grammars) Both Lombard and Italian are Romance languages, and they're more analytic than synthetic; as Chlouvānem is mostly synthetic with lots of different nominal and verbal inflections, I'd say it is very different &#8212; also while the morphology is still IE-like, the morphosyntactic alignment is completely different, plus there are things like a duodecimal number system. Anyway, I don't consciously try to eliminate all similarities with my native languages (even if I used to), but the different morphology sometimes makes them hard to arise anyway.</li>
+        <li>For me it's the setting: I find it hard to create a language without any geographical and/or cultural idea about the speakers' society - that's probably just a step further from what I did when I started relexing Italian when I was a kid, as the intent is still the same, to make my conworld look more real. Grammar is like the easiest part &#8212; dividing semantic spaces, creating idioms, poetry, and other such "uses", thinking about where do words come from (in all senses: derivations, borrowings...)... that is the hardest &#8211; but also the best &#8211; part of conlanging.</li>
+        <li>Just as a hobby, as my whole conworld is. I never meant my languages to be learned (I'm more for knowing about linguistical and historical features of languages rather than learning them anyway), and likely never will.</li>
+        <li>Honestly, I rarely feel truly satisfied with what I do &#8211; typically I come up with something I like and then the next month I come to think it does not feel good and so I change that feature &#8211; I kinda try to reach some kind of perfection that I know I'll never reach. On a more subjective side, all of my conworlding-conlanging as a whole has helped me to get to know more things that proved and are proving helpful to what I'm now studying (particularly when it comes to linguistics, historical linguistics, and anthropology), so I can't say I'm proud of what I do, but at least I'm happy with it and at the moment I don't plan to stop &#8212; and I think I'd never be able to quit conworlding/-langing anyway.</li>
+      </ol>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Constructed languages".</div>
+    <div class="comm-date">November 21, 2017 &#8212; 00:09 CET</div>
+      <p>My main conlangs are spoken on another planet and names of places on Earth are just something I use when doing translation challenges on here, or writing something about me (due to the latter, most of those I have are (often small) places around where I live/have lived). So there's no historical principle to follow as these are all non-canon anyway. I have names for only a few countries and I always adapt the name starting from its pronunciation in either Lombard or Russian, sometimes Danish or English or something else in some odd cases (e.g. my words for Japan and Korea are from Japanese; India is from Sanskrit).</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Conlangs".</div>
+    <div class="comm-date">September 23, 2017 &#8212; 19:26 CEST</div>
+      <p>For a former conlang of mine I once made an image where I put some emojis (each line with a general theme, for about 60/65 emojis IIRC) and by each one I wrote the conlang word for it, e.g. "frog" by the frog emoji, "blush" and "to blush" by the blushing one, "archery" by the bow and arrow one, etc. I remember it being helpful as I didn't have some of those words back then, and it was also fun to make — I think the OP means something like that.</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Conlangs".</div>
+    <div class="comm-date">September 11, 2017 &#8212; 11:25 CEST</div>
+      <p><span class="auth">A/N: my own reply to a comment left below my original comment, archived just below this one.</span></p>
+      <p>In-world it isn't, as I started it because I had to change most of my conworld as it wasn't realistic enough and by doing it I had to change the language too (I could not justify Laceyiam and its protolanguage having mostly roots for a marine/insular habitat in its newer setting, where the proto-Chlouvānem barely saw seas at all). However Chlouvānem is still like a new version of Laceyiam as I kept many root words and also a few inflections.</p>
+      <p><span class="auth">A/N: Fast forward to 2021 and that&apos;s one of the reasons why Dundulanyä arose from Chlouvānem.</span></p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Conlangs".</div>
+    <div class="comm-date">September 11, 2017 &#8212; 00:54 CEST</div>
+      <p>Well, I have always intended my conlangs to be an element of realism in my conworld and nothing more than a hobby, and that has remained so, but in some way everything has changed as I'm now writing mostly in order to share rather than for myself. As for Chlouvānem, I could say that the unexpected ways are that I ended up scrapping two of the three reasons I stopped working on Laceyiam for because I wasn't able to form them how I wanted to.</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Conlang Conversations &#38; Off-Topic, Also Bhutan".</div>
+    <div class="comm-date">September 6, 2017 &#8212; 00:18 CEST</div>
+      <p>Now that I have a basically complete grammar, for Chlouvānem it's mostly writing about conworld- or culture-specific things (usually after I read something about a real culture) so that I create more vocabulary &#8212; e.g. I have written about transports, rail services, typical hairstyles, clothing, holidays and summer vacations to name a few, and right now I am writing with more details about conreligious festivals; for actual grammar it's more like translating or writing something and put on my page more examples for things like e.g. the various uses of the subjunctive, light auxiliary verbs, or consecutio temporum.</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Conlangs".</div>
+    <div class="comm-date">September 5, 2017 &#8212; 11:58 CEST</div>
+      <p>I change verb endings basically every week 😀</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Conlangs".</div>
+    <div class="comm-date">September 3, 2017 &#8212; 00:18 CEST</div>
+      <p>I document all of my conlangs on Linguifex, plus I am creating a site for more detailed and personal comments but it's not online yet.</p>
+      <p><span class="auth">A/N: Somehow, it took me almost eight years</span> 🤭</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Conlands: Worldbuilding for Language Creators".</div>
+    <div class="comm-date">August 15, 2017 &#8212; 10:12 CEST</div>
+      <p>The "present time" I use in my conlang is, at the moment, static simply because I'm too lazy to keep changing data on population and similar. I do take however inspiration from real world events, but I set them in the (recent) past in Calemerian history. Maybe when I'll have a more solid base of writings I could un-freeze it and let time move.</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Constructed languages".</div>
+    <div class="comm-date">July 22, 2017 &#8212; 23:48 CEST</div>
+      <p>Only partially related, but the only time I missed not having articles in Chlouvānem was when I thought about transport lines in Milan (I guess that's only a Milanese thing? I haven't noticed this in other cities), where trams are masculine (nothing strange here, tram is masculine both in Lombard and Italian so <i>el/il 33</i>) and anything else is feminine (even if autobus, pullman, filobus, omnibus, are all masculine), so that line 54 is a bus and we say <i>la 54</i>, but then saying *la 33 (a tram) or *el/il 90 (trolleybus) sound completely wrong. In Chlouvānem I have something similar only with adjectives used alone, but only to the extent that if they're in parrot gender they usually refer to people, otherwise they're things or (in lotus gender) plants.</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Conlang Conversations &#38; Off-Topic, Also Bhutan".</div>
+    <div class="comm-date">June 10, 2017 &#8212; 00:30 CEST</div>
+      <p><small>CONTEXT: *Conlanging on the go.</p></small>
+      <p>I usually have my phone and my iPod with me when such situations happen (like usually 40+ minutes of waiting for trains) but then I also always have a book with me; if I have some pen and paper I either look around me and think of conlang words to add, or I just do some just for fun diachronic conlanging: for example once I ended up with a daughter language of Italian with Slavic sound changes and written as if it were Polish.</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Constructed languages".</div>
+    <div class="comm-date">June 7, 2017 &#8212; 23:15 CEST</div>
+      <p><small>CONTEXT: *Romanizing the glottal stop.</p></small>
+      <p>&#60;Ɂ&#62;! I personally love the IPA symbol and prefer to use that. Its lowercase version looks even better in normal text, too bad that too few fonts include it.</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Constructed languages".</div>
+    <div class="comm-date">May 11, 2017 &#8212; 16:03 CEST</div>
+      <p>I was thinking yesterday about modern cheap housing in Chlouvānem cities and figured out that there should be lots of wards full of buildings quite like Soviet khruščëvki, while modern "landmark" architecture would take a lot of inspiration from traditional concepts and nature (I personally have a soft spot for Taipei 101, and I can clearly see Chlouvānem people developing as soon in history as their technology allows it a skyscraper like the Bosco Verticale in Milan). Anyway, tbh I've thought more of urban planning and mass transit systems rather than architectural styles.</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Constructed languages".</div>
+    <div class="comm-date">April 20, 2017 &#8212; 20:42 CEST</div>
+      <p>Chlouvānem: we heard you like prefixes on your verbs so we put three derivational prefixes on a prefix for voice on a prefix for tense/aspect on a prefix for mood. Oh, and look at those five cute inflectional suffixes...</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Constructed languages".</div>
+    <div class="comm-date">March 8, 2017 &#8212; 21:02 CET</div>
+      <p><span class="auth">[A/N: As for lingustics, conlanging, conworlding and language-related resources]</span> Usually <span class="auth">[I keep opened at the same time]</span> many Wikipedia pages, Linguifex, and occasionally FB, plus anything else I may find interesting and want to see again in the near future; also I have fixed tabs to Wiktionary, a Sanskrit online grammar and dictionary, Duolingo, and Conworkshop.</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Conlangs".</div>
+    <div class="comm-date">February 19, 2017 &#8212; 23:18 CET</div>
+      <p>If I count all various languages I started and replaced with a newer version then Chlouvānem is at least 6 years old (as it is the 30th or something version of my "main" conlang, not counting the Italian relexes I used to call conlangs before then). But for all practical purposes it was born on December 4, 2016!</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Conlangs".</div>
+    <div class="comm-date">January 20, 2017 &#8212; 01:11 CET</div>
+      <p>Teaching children conlangs is something that periodically gets talked about, still here (and in the links on there) there's <a href="http://miniatureconlangs.blogspot.it/2014/10/on-bringing-kids-up-in-conlangs.html?m=1"> everything on why it's the worst idea ever.</a></p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Constructed languages".</div>
+    <div class="comm-date">November 1, 2016 &#8212; 11:26 CET</div>
+      <p><small>CONTEXT: *Orthography/romanization for long vowels in conlangs.</p></small>
+      <p>I prefer macrons and almost always use them, especially if I also have long words and geminate consonants. I also like acutes and the overdot, which I use if the macron could be ambiguous (in fact, in Laceyiam I use the macron for long vowels except for &#60;ė&#62;, as in my first version I used to have &#60;ẽ&#62; and tilde and macron looked too similar, now I don't have tildes anymore but I kept &#60;ė&#62; anyway). I also like writing the same consonant twice for short vowels and once for long ones (and I realize now I have added it the other way round in the poll), but I have never used it as I either prefer acutes or macrons or have geminate consonants and can't do it.</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Conlang Conversations &#38; Off-Topic, Also Bhutan".</div>
+    <div class="comm-date">October 25, 2016 &#8212; 16:53 CET</div>
+      <p><small>CONTEXT: *On the overlap of the conlanging and polyglot communities.</p></small>
+      <p>I would say two distinct communities, as from my perspective it is so: I'm only member of conlanging/general linguistic groups but not of any polyglot one &#8212; and as I prefer learning <b>about</b> languages than actually learning them, I wouldn't define myself a polyglot that way, even if I'd literally be one, speaking four and (seriously) learning other two at the moment.</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Conlangs".</div>
+    <div class="comm-date">October 23, 2016 &#8212; 23:56 CET</div>
+      <p>I create roots as I need them by just thinking about some phonotactically allowed combinations that sound nice, and then from roots I use lots of compounding and derivations, which are great for developing a lexicon — for example from <i>tairake</i> (to do, root <i>tair-</i>) I have words like <i>tairalam</i> (activity), <i>tairata</i> (grammatical person), <i>tairathāda</i> (way of doing), <i>tairunūt</i> (result), <i>paiktairake</i> (to create, construct, build, produce), <i>paiktairbessa</i> (building), <i>paiktairnė</i> (creation, product), <i>chutairake</i> (to bury), <i>iṣyatairake</i> (to confirm), <i>ńavutairake</i> (to do a little more than necessary), and many others.</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Constructed languages".</div>
+    <div class="comm-date">October 21, 2016 &#8212; 12:34 CEST</div>
+      <p><small>CONTEXT: *Romanizing tones.</p></small>
+      <p>In Lelīmuyāńi I use &#60;.&#62; for low tone and &#60;:&#62; for high tone, with mid tone unmarked. At first I wanted to use diacritics, but I already have them representing creaky voice (the circumflex) and different vowel qualities (the acute) so I opted for those marks, like Burmese romanization does. For example <i>lø̂:tmui.</i> "Laltīmāhia" is <span class="ipa">[ɴ̆øˤtʰ˥.mui̯˩]</span>; <i>jøðn</i> "orange" is <span class="ipa">[c͡ɕø̃ə̯̃˧]</span>.</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Constructed languages".</div>
+    <div class="comm-date">September 3, 2016 &#8212; 00:39 CEST</div>
+      <p>I can tell I'm a conlanger because I keep finding myself thinking about how would people from my conworld react to things I read/hear, or how something would be done there, or which counterparts do these things have in my conworld. Probably that actually makes me more of a conworlder, but my conlangs wouldn't exist without my conworld and viceversa, so I guess that's fine...</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Constructed languages".</div>
+    <div class="comm-date">September 2, 2016 &#8212; 10:14 CEST</div>
+      <p>I'd actually be surprised if there's any conlanger who is instantly satisfied with anything. Btw, I needed a year and a half to finally get a decent phonology and noun morphology for Laceyiam (but still I need to change some bits sometimes)... and I haven't been able to make a satisfying verbal morphology, as I keep changing it, last time four days ago. Not to mention all those scrapped features and languages even if I was happy with how they were just because I couldn't make a satisfying historical explanation.</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Constructed languages".</div>
+    <div class="comm-date">May 2, 2016 &#8212; 18:29 CEST</div>
+      <p>I started creating languages when I was 9-10 but didn't do anything I'd now consider a conlang until seriously getting into linguistics when I was 17, and after that I just kept adding and scrapping features and constantly changing my language, so don't be afraid to make changes &#8212; they'll come naturally along with experience and then your conlang will get a "soul" of its own and sound less and less forced as you work on it. Besides, conlanging is a fun way to learn linguistics and just by reading about languages all over the world you'll really discover cultural aspects from anywhere so it's definitely a life-enriching experience even if you'll end up doing anything else in the future.</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Conlangs".</div>
+    <div class="comm-date">March 4, 2016 &#8212; 09:03 CET</div>
+      <p>I would love to finally finish my grammar but I seem to always find things to change, and when they become large changes I just start anew (I'm in my fifth Laceyiam revision since last June, not counting those with different names). By the way, I changed just yesterday 26 out of 28 Laceyiam personal verb terminations and at the moment I'm thinking about making other changes to mood and voice morphology and also pronouns, as well as adding two phonemes (but for these I have to explain them in the proto-language or external influence first so it's more complex). On the other hand, I tend to be more satisfied with nominal morphology as in the last three revisions I only made small changes.</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Constructed languages".</div>
+    <div class="comm-date">January 26, 2016 &#8212; 22:43 CET</div>
+      <p><small>CONTEXT: *In which language do you conlang/write your conlanging material?</p></small>
+      <p>Usually in Italian, but with the current revision of Laceyiam I've started writing in Lombard. However in the vocabulary I sometimes include English or German translations, mostly when these have single words for concepts that in Lombard or Italian would take many words for (like "must-have" (noun)), or aren't distinguished as clearly (like "house" and "home").</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Constructed languages".</div>
+    <div class="comm-date">November 15, 2015 &#8212; 12:21 CET</div>
+      <p><small>CONTEXT: *Does your native language influence your conlangs?</p></small>
+      <p>I'd say Italian has had really little influence on Laceyiam phonology, as I consciously try to have most things different from how Italian handles them. As for phonology, Laceyiam's is mostly a mash-up of Icelandic and Classical Sanskrit with some extra sounds (<span class="ipa">/z ʐ ʑ/</span> as counterparts to <span class="ipa">/s ʂ ɕ/</span>, excluding those which pair to others in Icelandic or Sanskrit but are pronounced differently &#8212; e.g. &#60;r&#62; is <span class="ipa">/ʀ/</span>) and Tupi-Guaraní influences (<span class="ipa">/ʔ/</span>, and "breathy-voiced harmony" based on Guaraní nasal harmony, with phonemic <span class="ipa">/a̤ e̤ ṳ/</span>).</p>
+      <p>Morphophonemic patterns are based on Sanskrit vowel grades but slightly different; stress isn't phonemic except for a few words which can however be analyzed differently (the only really common minimal pair being <i>lalí</i> "I" <span class="ipa">[ˈᴺʟã.ʟi] //ᴺʟaᴺʟi//</span> and <i>lalíí</i> "my, mine" <span class="ipa">[ᴺʟã.ˈᴺʟi] //ᴺʟaᴺʟii//</span>) Italian influence is therefore limited in Laceyiam being syllable-timed (but that's also true for Sanskrit, for example).</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Constructed languages".</div>
+    <div class="comm-date">September 29, 2015 &#8212; 15:25 CEST</div>
+      <p><small>CONTEXT: *Unique features in your conlangs.</p></small>
+      <p>[I]n Taucalẽlir there are "perceptive terminations" which express how the speaker feels about an action, like in <i>cémivynuktiaudak</i> "it's bad that I've slept too much", where <i>-dak</i> expresses an action that is antibenefactive to the speaker. There are 19 of them and while these affixes aren't the same I later found out Quechua and Kalaalisut have really similar things &#8212; and I think other languages do too. The only thing truly unique Taucalẽlir has is <span class="ipa">/ᴺʟ̠̆〜ʢ̯̃/</span> &#60;l&#62; which was forced as I have a speech defect and can't pronounce <span class="ipa">/l/</span>.
+    <hr>
+    <div class="comm-title">Comment in the FB group "Conlangs".</div>
+    <div class="comm-date">September 15, 2015 &#8212; 09:56 CEST</div>
+      <p><small>CONTEXT: *Your conlangs&apos; history.</p></small>
+      <p>I kinda have, even if they're mostly fragments I still need to join. As for Taucalẽlir, I have some internal history &#8212; the way it derived from the proto-language, the different adstrata that grew and outnumbered even the inherited vocabulary, how it became standardized, evolved into different languages but was still kept as a lingua franca throughout the cultural/religious union state. (as for vocabulary, I identified 7 to 9 different "layers", not including inherited words).</p>
+      <p>I also have sketched most of their religion, that says a lot about their culture and what they would (or wouldn't) likely say. So I have most of what's needed except for history, as I have 2500 years described in 4-5 text rows...!</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Conlangs".</div>
+    <div class="comm-date">September 11, 2015 &#8212; 13:07 CEST</div>
+      <p>You should think of tones simply as additional phonemes, as that's what they actually are: it seems obvious &#8211; but often isn't ! &#8211; and actually simplifies a lot and removes most of the "intimidation" caused by them. Also, in Sino-Tibetan languages (and all other East Asian tonal languages) tone is a syllable property and mostly disambiguates homophones (e.g. the "famous" Chinese example <i>mā má mǎ mà ma</i>, five different words), while e.g. in Bantu languages tones distinguish mostly grammatical features and are a property of the entire word (I think it's basically like this &#8212; I haven't read much about Bantu languages except the "essentials" so I hope someone who knows more about them can explain it better). as for me, I haven't created a "true" tonal language (yet): Taucalẽlir has two "tones" but it's actually more a pitch accent system like in Lithuanian long vowels: the stressed vowel can be either high or low-rising tone, creating minimal pairs such as <i>janãi</i> (foot, low/rising) and <i>janái</i> (harbor, high) or <i>náhie</i> (stars, high) and <i>nãhie</i> (bay, low/rising) - but I plan to have at least one descendant that is tonal the Sinitic way.</p>
+      <p><span class="auth">A/N: Note how, ten years later, <b>janai</b> still is the Dundulanyä word for "harbor" &#8211; and <b>junai</b> the one for "foot".</span></p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Constructed languages".</div>
+    <div class="comm-date">September 10, 2015 &#8212; 17:45 CEST</div>
+      <p>If that's any helpful, I have also sometimes seen some "not really good" a posteriori conlangs yet I think posting them even if they aren't good enough can be helpful in making them better: that's why I first began to post here. And about the a priori/a posteriori question it depends very much about what you prefer to do or you're able to do. I'd say: do what you prefer and don't think about it being 'uncreative'.</p>
+      <p>[A]s for me, I normally make a priori languages which often "mix" elements of other languages but vocabulary is a priori (Taucalẽlir has e.g. a phonology inspired by Sanskrit and Chinese, Austronesian alignment and an "ancient IE" morphology) or have phonology inspired by a language and grammar by another (one of my conlangs (which isn't advanced enough to be posted) basically has an Inuktitut-like phonology, a grammar heavily inspired by Bantu languages and a priori words).</p>
+      <p>On the other hand I do not like a posteriori conlanging as I usually have troubles with having a coherent language (I once had an experiment with a descendant of Old Norse spoken by explorers who settled in Yucatán, yet I abandoned it as I wasn't able to blend together Old Norse and Maya sources as I wanted to).</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Conlangs".</div>
+    <div class="comm-date">August 29, 2015 &#8212; 14:37 CEST</div>
+      <p><small>CONTEXT: *Vocabulary lists.</p></small>
+      <p>I'd say Swadesh lists and Kyōiku kanji (characters taught in elementary schools in Japan) can be really helpful. Or, if you have a conworld along with your conlang you could think of some aspects of it (e.g. culture, geography, law, or anything else you want) and write a description of it.</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Constructed languages".</div>
+    <div class="comm-date">August 17, 2015 &#8212; 17:58 CEST</div>
+      <p>Maybe (definite) articles could become more like an emphasis particle (e.g. Sanskrit <b>एव</b>  (eva)) with speakers relying more on word order or other means to express definiteness. Or they could become affixed to the verb and have different verbal inflections for definite and indefinite subjects and objects.</p>
+      <p>My conlang, Taucalẽlir, does not have articles, but has emphasis particles like Sanskrit (but they do not mark definiteness, only emphasis), definiteness is only marked on adjectives like e.g. in Lithuanian. [F]or example <i>tẫṃda</i> <span class="ipa">[tɐ̑n.da]</span> means both "a lake" and "the lake" depending on context, but <i>dsọkmámikut tẫṃda</i> means "a man-made lake" and <i>dsọkmámikatsut tẫṃda</i> is "the man-made lake", <span class="ipa">[d͡zøk.má.mʲi.kut / - ka.t͡sut]</span> with the <b>-ats-</b> infix indicating definiteness.</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Conlangs".</div>
+    <div class="comm-date">May 11, 2015 &#8212; 21:20 CEST</div>
+      <p>I've never ever thought of actually "learning" one of my conlangs (or should I say <u>my</u> conlang as I only have one that is somewhat developed), only to use it to write things about my conworld, but in the meantime I can build some simple sentences and remember some common words (e.g. <i>lelīm</i> (swamp), <i>mayla</i> (water), <i>marta</i> (city), <i>tāṃli</i> (tree)) without searching for them in my dictionary.</p>
+      <p>Of course when I write things I have to look to the grammar and search words in the dictionary, but that's first because I consciously developed Memāylile to be vastly divergent from my native language and from other languages I know well, and second because I haven't done any effort to learn it nor I intend to.</p>
+      <p>I actually seem to think of conlangs more as works of art or experiments, so I prefer to learn or try to learn natlangs.</p>
+    <hr>
+    <div class="comm-title">Comment in the FB group "Conlangs".</div>
+    <div class="comm-date">March 8, 2015 &#8212; 00:24 CET</div>
+      <p><small>CONTEXT: *Favorite fonts.</p></small>
+      <p>Linux Biolinum for long texts with titles and footnotes in Linux Libertine, otherwise Helvetica Neue for small/medium texts and Lucida Grande for large.</p>
+      <p><span class="auth">A/N: Linux Biolinum and Linux Libertine are now continued as the open-source Libertinus Fonts project (licensed OFL-1.1). Still my go-to fonts for offline documents, although I use nearly exclusively the serif version now.</span></p>
+
+  <script src="../parts/footer.js"></script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>DUNDULANYÄ ONLINE DICTIONARY - Lilaë&apos;s Conlangs</title>
+  <meta charset="UTF-8">
+  <meta name="keywords" content="conlangs, constructed languages, Dundulanyä, Eventoa, conlanging">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://unpkg.com/phosphor-icons"></script>
+  <link rel="stylesheet" href="../css/dundu.css">
+  <style>
+        input {
+            width: 92%;
+            padding: 10px;
+            margin-bottom: 10px;
+            margin-left: 12px;
+            border: 2px solid rgba(210, 77, 255, 0.9);
+            background-color: rgba(246, 213, 246, 0.3);
+            border-radius: 12px;
+        }
+        input::placeholder {
+            font-style: italic;
+            font-size: 15px;
+            color: rgb(120, 58, 120);
+        }
+        input:focus {
+            font-size: 15px;
+            color: rgb(67, 10, 67);
+            box-shadow: 0 0 8px rgba(224, 179, 255, 0.5);
+            border: 3px solid rgba(210, 77, 255, 0.9);
+            outline: none;
+        }
+        .results { border-bottom: 1px solid rgba(210, 77, 255, 0.9); padding: 10px 0; }
+  </style>
+</head>
+<body>
+  <h1>The Dundulanyä online dictionary</h1>
+  <h5>A searchable dictionary of Dundulanyä words</h5>
+  <div class="fixed dropdown"><p>me<br>nu</p>
+      <div class="dropdown-content">
+      <i><a href="../dundu.htm">Dundulanyä main page</a></i>
+      </div>
+    </div>
+  <p>This page is a work in progress. Type an English word in the text field below to see the Dundulanyä translation (if it is included in the dictionary so far).</p>
+  <input type="text" id="search" placeholder="Search...">
+    <div id="results"></div>
+
+    <script>
+        const fileList = ["../dundu-dict/a.json", "../dundu-dict/b.json", "../dundu-dict/c.json"]; // Aggiungi tutti i file JSON
+        let dizionario = [];
+
+        async function caricaDizionario() {
+            const files = await Promise.all(fileList.map(file => fetch(file).then(res => res.json())));
+            dizionario = files.flat(); // Unisce tutti i dati in un unico array
+        }
+
+        function cercaParola(termine) {
+            const risultati = dizionario.filter(entry =>
+                entry.word.toLowerCase().includes(termine.toLowerCase())
+            );
+            mostraRisultati(risultati);
+        }
+
+        function mostraRisultati(risultati) {
+            const resultsDiv = document.getElementById("results");
+            resultsDiv.innerHTML = risultati.map(entry => `
+                <div class="results">
+                    <p><strong>${entry.word}</strong> <small>(<i>${entry.pos}, ${entry.class}, √${entry.root}</i>)</small>: ${entry.defs.join(", ")}</p>
+                    <p>Etymology: <i>${entry.etym}</i></p>
+                    <p>Notes: <i>${entry.note}</i></p>
+                </div>
+            `).join("");
+        }
+
+        document.getElementById("search").addEventListener("input", (e) => {
+            cercaParola(e.target.value);
+        });
+
+        caricaDizionario();
+    </script>
+
+  <p>TEXT</p>
+  <hr>
+  <script src="../parts/footer.js"></script>
+</body>
+</html>
