@@ -3,17 +3,17 @@ Color palette: b&w but mimicking old paper. */
 
 @font-face {
   font-family: Comfortaa;
-  src: url(../asset/Comfortaa-VariableFont_wght.ttf);
+  src: url(/asset/Comfortaa-VariableFont_wght.ttf);
 }
 
 @font-face {
   font-family: Junicode;
-  src: url(../asset/JunicodeVF-Roman.woff2);
+  src: url(/asset/JunicodeVF-Roman.woff2);
 }
 
 @font-face {
   font-family: JunicodeItalic;
-  src: url(../asset/JunicodeVF-Italic.woff2);
+  src: url(/asset/JunicodeVF-Italic.woff2);
 }
 
 body {
