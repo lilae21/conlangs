@@ -385,3 +385,27 @@ div.fixed {
   width: 100%; /* Assicura che occupi tutta la larghezza disponibile */
   height: auto; /* Assicura che non ci sia altezza fissa */
 }
+
+@media (max-width: 768px) {  /* Regole valide solo su mobile */
+  .container {
+    flex-direction: column; /* Dispone gli elementi uno sotto l'altro */
+    align-items: flex-start; /* Mantiene il titolo allineato a sinistra */
+    text-align: left;
+  }
+
+  .backwardsnav {
+    display: flex;
+    flex-direction: column; /* Mette i link uno sotto l'altro */
+    align-items: flex-end;  /* Allinea a destra */
+    width: 100%; /* Assicura che il menu non si restringa */
+    margin-top: 10px; /* Aggiunge spazio tra il titolo e il menu */
+    margin-right: 10px; /* Riduce il margine per adattarsi */
+  }
+
+  .backwardsnav a {
+    margin-left: 0; /* Rimuove il margine sinistro */
+    margin-top: 5px; /* Distanza tra i link */
+    padding: 8px 10px; /* Un po' più di padding per leggibilità */
+    width: auto; /* Impedisce che i bottoni si comprimano */
+  }
+}
