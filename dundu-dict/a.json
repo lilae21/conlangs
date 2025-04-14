@@ -1,115 +1,112 @@
 [
   {
     "word": "ābābi",
-    "defs": [
-      "square",
-      "town square"
-    ],
+    "defs": ["square", "town square"],
     "pos": "noun",
     "class": "consonant stem",
     "root": "*ābābe",
-    "etym": "",
-    "note": ""
-  }
+    "etym": null,
+    "note": null
+  },
   {
     "word": "achārgura",
-    "defs": "line segment",
+    "defs": ["line segment"],
     "pos": "noun",
     "class": "a-stem",
     "root": "chārg-",
     "etym": "chārg- 'to end, limit, border' + -ura",
-    "note":
-  }
+    "note": null
+  },
   {
     "word": "āḍadīrah",
-    "defs": "interrogative (in grammar)",
+    "defs": ["interrogative (in grammar)"],
     "pos": "verb",
     "class": "0",
     "root": "śad-",
     "etym": "śad- 'to ask' + -ndīr-",
-    "note": ""
-  }
+    "note": null
+  },
   {
     "word": "adāsau",
-    "defs": "wheel",
+    "defs": ["wheel"],
     "pos": "noun",
     "class": "au-stem",
     "root": "dā-",
     "etym": "adā-sā- (frequentative of dā- 'to spin, turn') + -u",
-    "note": ""
-  }
+    "note": null
+  },
   {
     "word": "adāsaunāṅgi",
-    "defs": "train track",
+    "defs": ["train track"],
     "pos": "noun",
     "class": "i-stem",
     "root": "nāṅgi",
     "etym": "adāsau 'wheel' + nāṅgi 'iron'",
-    "note": ""
-  }
+    "note": null
+  },
   {
     "word": "adāsauta",
-    "defs": "railway gauge",
+    "defs": ["railway gauge"],
     "pos": "noun",
     "class": "a-stem",
     "root": "dā-",
     "etym": "adāsau 'wheel' + -ta",
-    "note": ""
-  }
+    "note": null
+  },
   {
     "word": "adāsautäte",
-    "defs": "wagon (of a train)",
+    "defs": ["wagon (of a train)"],
     "pos": "noun",
     "class": "consonant stem",
     "root": "täte",
     "etym": "adāsau 'wheel' + täte 'home'",
-    "note": ""
-  }
+    "note": null
+  },
   {
     "word": "ādhra",
-    "defs": "a species of predatory bird native to Central Lusaṃrīte",
+    "defs": ["a species of predatory bird native to Central Lusaṃrīte"],
     "pos": "noun",
     "class": "a-stem",
     "root": "ādhra",
-    "etym": "",
-    "note": ""
-  }
+    "etym": null,
+    "note": null
+  },
   {
     "word": "āḍibe",
-    "defs": [ "question", "problem" ],
+    "defs": ["question", "problem"],
     "pos": "noun",
     "class": "consonant stem",
     "root": "śad-",
     "etym": "śad- 'to ask' + -ib-e",
-    "note": ""
-  }
+    "note": null
+  },
   {
     "word": "agdhakhulāvam",
-    "defs": "rickshaw taxi",
+    "defs": ["rickshaw taxi"],
     "pos": "noun",
     "class": "m-stem",
     "root": "khol-",
     "etym": "kadh- 'to pay' + khulāvam 'rickshaw'",
     "note": "formal"
-  }
+  },
   {
     "word": "agdhvu",
-    "defs": "payment",
+    "defs": ["payment"],
     "pos": "noun",
     "class": "u-stem",
     "root": "kadh-",
     "etym": "kadh- 'to pay' + -vu",
-    "note": ""
-  }
+    "note": null
+  },
   {
     "word": "agghulau",
-    "defs": "rickshaw taxi",
+    "defs": ["rickshaw taxi"],
     "pos": "noun",
     "class": "au-stem",
     "root": "khol-",
     "etym": "acronym of agdhakhulāvam 'rickshaw taxi'",
-    "note": ""
-  }
+    "note": null
+  },
   {
     "word": "akṛsura",
     "defs": ["awaited", "something waited for"],
@@ -117,8 +114,8 @@
     "class": "a-stem",
     "root": "kṛs-",
     "etym": "kṛs- 'to wait' + -ura",
-    "note": ""
-  }
+    "note": null
+  },
   {
     "word": "alaḫlura",
     "defs": ["group", "grouping", "(rare): union"],
@@ -126,71 +123,71 @@
     "class": "a-stem",
     "root": "laḫl-",
     "etym": "laḫl- 'to unite, put together' + -ura",
-    "note": ""
-  }
+    "note": null
+  },
   {
     "word": "alārvura",
-    "defs": "mother",
+    "defs": ["mother"],
     "pos": "noun",
     "class": "a-stem",
     "root": "lārv-",
     "etym": "lārv- 'to honor, wish well, celebrate' + -ura",
     "note": "formal"
-  }
+  },
   {
     "word": "amaha",
-    "defs": "abode",
+    "defs": ["abode"],
     "pos": "noun",
     "class": "a-stem",
     "root": "amaha",
-    "etym": "",
+    "etym": null,
     "note": "formal"
-  }
+  },
   {
     "word": "amamū",
-    "defs": "mother",
+    "defs": ["mother"],
     "pos": "noun",
     "class": "irr. u-stem",
     "root": "amamū",
-    "etym": "",
+    "etym": null,
     "note": "in familiar contexts: 'mā' or 'māmu'"
-  }
+  },
   {
     "word": "āmaya",
-    "defs": "collection",
+    "defs": ["collection"],
     "pos": "noun",
     "class": "a-stem",
     "root": "āmaya",
-    "etym": "",
+    "etym": null,
     "note": "also 'tūktha'"
-  }
+  },
   {
     "word": "ām̃akah",
-    "defs": [ "early", "raw", "unfinished" ],
+    "defs": ["early", "raw", "unfinished"],
     "pos": "verb",
     "class": "0",
     "root": "ām̃ak-",
-    "etym": "",
-    "note": ""
-  }
+    "etym": null,
+    "note": null
+  },
   {
     "word": "ām̃akta",
-    "defs": "the state of being raw, early, unfinished",
+    "defs": ["the state of being raw, early, unfinished"],
     "pos": "noun",
     "class": "a-stem",
     "root": "ām̃ak-",
     "etym": "ām̃ak- 'early, raw, unfinished' + -ta",
-    "note": ""
-  }
+    "note": null
+  },
   {
     "word": "ām̃akūya",
-    "defs": [ "sketch", "prototype"],
+    "defs": ["sketch", "prototype"],
     "pos": "noun",
     "class": "a-stem",
     "root": "ām̃ak-",
     "etym": "ām̃ak- 'early, raw, unfinished' + -ūya",
-    "note": ""
-  }
+    "note": null
+  },
   {
     "word": "anudroṭah",
     "defs": ["to precede", "precedent", "anterior", "previous"],
@@ -198,62 +195,62 @@
     "class": "III",
     "root": "droṭ-",
     "etym": "anu- 'in front; before' + droṭ- 'to flow, run'",
-    "note": ""
-  }
+    "note": null
+  },
   {
     "word": "anudroṭṇa",
-    "defs": "anteriority",
+    "defs": ["anteriority"],
     "pos": "noun",
     "class": "a-stem",
     "root": "droṭ-",
     "etym": "anu-droṭ- 'to precede, be anterior' + -na",
-    "note": ""
-  }
+    "note": null
+  },
   {
     "word": "anūjah",
     "defs": ["equal", "identical"],
     "pos": "verb",
     "class": "0",
     "root": "anūj-",
-    "etym": "",
-    "note": ""
-  }
+    "etym": null,
+    "note": null
+  },
   {
     "word": "anūjlalēni",
-    "defs": "equinox",
+    "defs": ["equinox"],
     "pos": "noun",
     "class": "i-stem",
     "root": "lalēni",
     "etym": "anūj- 'to be equal' + lalēni 'night'",
-    "note": ""
-  }
+    "note": null
+  },
   {
     "word": "anūjña",
-    "defs": "equality",
+    "defs": ["equality"],
     "pos": "noun",
     "class": "a-stem",
     "root": "anūj-",
     "etym": "anūj- 'to be equal' + -na",
-    "note": ""
-  }
+    "note": null
+  },
   {
     "word": "anulārva",
-    "defs": "promise",
+    "defs": ["promise"],
     "pos": "noun",
     "class": "a-stem",
     "root": "lārv-",
     "etym": "anulārv- 'to promise' + -a",
-    "note": ""
-  }
+    "note": null
+  },
   {
     "word": "anulārvah",
-    "defs": "to promise",
+    "defs": ["to promise"],
     "pos": "verb",
     "class": "0",
     "root": "lārv-",
     "etym": "anu- 'in front; before' + lārv- 'to honor, wish well, celebrate'",
-    "note": ""
-  }
+    "note": null
+  },
   {
     "word": "anunayah",
     "defs": ["to explain", "to make clear", "to clarify"],
@@ -261,8 +258,8 @@
     "class": "II",
     "root": "ne-",
     "etym": "anu- 'in front; before' + ne- 'to say'",
-    "note": ""
-  }
+    "note": null
+  },
   {
     "word": "anunīya",
     "defs": ["explanation", "clarification"],
@@ -270,15 +267,15 @@
     "class": "a-stem",
     "root": "ne-",
     "etym": "anu-ne- 'to clarify, explain, make clear' + -a",
-    "note": ""
-  }
+    "note": null
+  },
   {
     "word": "asmacura",
-    "defs": "catchy rhythm",
+    "defs": ["catchy rhythm"],
     "pos": "noun",
     "class": "a-stem",
     "root": "smac-",
     "etym": "smac- 'to rock, move, nod one's head and upper body to rhythm' + -ura",
-    "note": ""
+    "note": null
   }
 ]

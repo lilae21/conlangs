@@ -48,17 +48,27 @@
     <div id="results"></div>
 
     <script>
-        const fileList = ["../dundu-dict/a.json", "../dundu-dict/b.json", "../dundu-dict/c.json"]; // Aggiungi tutti i file JSON
+        const fileList = ["../dundu-dict/a.json", "../dundu-dict/ae.json", "../dundu-dict/b.json", "../dundu-dict/c.json"]; // Aggiungi tutti i file JSON
         let dizionario = [];
 
         async function caricaDizionario() {
-            const files = await Promise.all(fileList.map(file => fetch(file).then(res => res.json())));
-            dizionario = files.flat(); // Unisce tutti i dati in un unico array
+            try {
+                    const files = await Promise.all(fileList.map(async file => {
+                    const res = await fetch(file);
+                    if (!res.ok) throw new Error(`Errore nel file ${file}`);
+                    return res.json();
+                }));
+                dizionario = files.flat();
+                console.log("Dizionario caricato:", dizionario);
+            } catch (err) {
+                console.error("Errore nel caricamento JSON:", err);
+                document.getElementById("results").innerHTML = "<p style='color:red;'>Errore nel caricamento dei dati.</p>";
+            }
         }
 
         function cercaParola(termine) {
             const risultati = dizionario.filter(entry =>
-                entry.word.toLowerCase().includes(termine.toLowerCase())
+            entry.defs.some(def => def.toLowerCase().includes(termine.toLowerCase()))
             );
             mostraRisultati(risultati);
         }
@@ -66,7 +76,7 @@
         function mostraRisultati(risultati) {
             const resultsDiv = document.getElementById("results");
             resultsDiv.innerHTML = risultati.map(entry => `
-                <div class="results">
+                <div id="results">
                     <p><strong>${entry.word}</strong> <small>(<i>${entry.pos}, ${entry.class}, √${entry.root}</i>)</small>: ${entry.defs.join(", ")}</p>
                     <p>Etymology: <i>${entry.etym}</i></p>
                     <p>Notes: <i>${entry.note}</i></p>
