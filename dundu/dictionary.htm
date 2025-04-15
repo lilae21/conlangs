@@ -38,7 +38,8 @@
             font-weight: 600;
             color: rgb(64, 0, 128);
         }
-        .defs { font-weight: 500; }
+        .defs { font-size: 18px; font-weight: 500; }
+        .leg { font-size: 15px; font-weight: 400; font-style: italic; }
   </style>
 </head>
 <body>
@@ -85,8 +86,8 @@
                 <div id="results">
                     <blockquote>
                     <span class="word">${entry.word}</span> <small>(<i>${entry.pos}, ${entry.class}, √${entry.root}</i>)</small> &#8212; <span class="defs">${entry.defs.join(", ")}</span></br>
-                    ${entry.etym ? `Etymology: <i>${entry.etym}</i></br>` : ""}
-                    ${entry.note ? `Notes: <i>${entry.note}</i>` : ""}
+                    ${entry.etym ? `<span class="leg">Etymology:</span> ${entry.etym}</br>` : ""}
+                    ${entry.note ? `<span class="leg">Notes:</span> ${entry.note}` : ""}
                     </blockquote>
                 </div>
             `).join("");
@@ -103,9 +104,6 @@
 
         caricaDizionario();
     </script>
-
-  <p>TEXT</p>
-  <hr>
   <script src="../parts/footer.js"></script>
 </body>
 </html>
