@@ -66,20 +66,21 @@
         let dizionario = [];
 
         async function caricaDizionario() {
-            try {
-                    const files = await Promise.all(fileList.map(async file => {
-                    const res = await fetch(file);
-                    if (!res.ok) throw new Error(`Errore nel file ${file}`);
-                    return res.json();
-                }));
-                dizionario = files.flat();
-                console.log("Dizionario caricato:", dizionario);
-            } catch (err) {
-                console.error("Errore nel caricamento JSON:", err);
-                document.getElementById("results").innerHTML = "<p style='color:red;'>Errore nel caricamento dei dati.</p>";
-            }
-        }
+            dizionario = [];
 
+            for (const file of fileList) {
+                try {
+                    const res = await fetch(file);
+                    if (!res.ok) throw new Error(`Errore HTTP nel file ${file}`);
+                    const data = await res.json();
+                    dizionario.push(...data);
+                    console.log(`✔ File ${file} caricato con successo.`);
+                } catch (err) {
+                    console.error(`❌ Errore nel file ${file}:`, err.message);
+                }
+            }
+            console.log("Dati totali caricati:", dizionario.length);
+        }
         function cercaParola(termine) {
             const risultati = dizionario.filter(entry =>
             entry.defs.some(def => def.toLowerCase().includes(termine.toLowerCase()))
