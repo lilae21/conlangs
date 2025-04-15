@@ -207,6 +207,15 @@
     "note": null
   },
   {
+    "word": "Anūcāṭvāla",
+    "defs": ["the North Shore"],
+    "pos": "proper noun",
+    "class": "a-stem",
+    "root": "vāla",
+    "etym": "anūṭa 'north' + sāṭvāla 'shore, coast'",
+    "note": null
+  },
+  {
     "word": "anudroṭah",
     "defs": ["to precede", "precedent", "anterior", "previous"],
     "pos": "verb",
@@ -468,6 +477,24 @@
     "note": "Literary"
   },
   {
+    "word": "asakṣī",
+    "defs": ["ready"],
+    "pos": "adverb",
+    "class": "-",
+    "root": "sākh-",
+    "etym": "essive of *asakṣe, ultimately from 'sākh-' (to prepare)",
+    "note": null
+  },
+  {
+    "word": "asāna",
+    "defs": ["month"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "asāna",
+    "etym": null,
+    "note": null
+  },
+  {
     "word": "āśah",
     "defs": ["lentil", "lentils"],
     "pos": "noun",
@@ -484,5 +511,50 @@
     "root": "smac-",
     "etym": "smac- 'to rock, move, nod one's head and upper body to rhythm' + -ura",
     "note": "also 'smacchana'"
+  },
+  {
+    "word": "atabū",
+    "defs": ["father"],
+    "pos": "noun",
+    "class": "irr. u-stem",
+    "root": "atabū",
+    "etym": null,
+    "note": "also 'batū'; in familiar contexts 'bā' or 'bābu'. In Archaic Dundulanyä, this word also meant 'unmarried maternal uncle', however it is a rather obsolete sense in modern day usage."
+  },
+  {
+    "word": "avāḍiśuḫana",
+    "defs": ["question not to be asked", "taboo question"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "śad-",
+    "etym": "avāḍiśva- 'not to be asked' + -ḫana",
+    "note": null
+  },
+  {
+    "word": "avāḍiśvah",
+    "defs": ["not to be asked", "not able to be asked"],
+    "pos": "verb",
+    "class": "0",
+    "root": "śad-",
+    "etym": "o- 'not-' + śad- 'to ask' + -śva- 'able'",
+    "note": null
+  },
+  {
+    "word": "aviṃśvah",
+    "defs": ["inedible", "unedible", "not edible", "uneatable"],
+    "pos": "verb",
+    "class": "0",
+    "root": "yam-",
+    "etym": "o- 'not-' + yam- 'to eat' + -śva- 'able'",
+    "note": null
+  },
+  {
+    "word": "avraḍūrūkṣah",
+    "defs": ["bound form (in Dundulanyä grammar)"],
+    "pos": "noun",
+    "class": "ṛ-stem",
+    "root": "rūkṣṛ",
+    "etym": "*avraḍura (from 'vraḍ-' (to tie, bind)) + rūkṣah 'form'",
+    "note": null
   }
 ]

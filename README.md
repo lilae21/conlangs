@@ -1,11 +1,7 @@
-# conlangs
-Static website to present my conlanging and conworlding work
-
-Work in progress, plain html files to be hosted here.
+# lilae21/conlangs *repository*
+A static website to present my conlanging and conworlding work.
 
 ***
-
-Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
 This work is licensed under a
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].

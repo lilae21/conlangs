@@ -7,5 +7,86 @@
     "root": "bauji",
     "etym": "a variant of 'bauji' (grandfather)",
     "note": null
+  },
+  {
+    "word": "bāga",
+    "defs": ["group", "team", "patrol"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "bāga",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "bahane",
+    "defs": ["Taktapṣikha carp, a freshwater fish often grown in rice paddies"],
+    "pos": "noun",
+    "class": "consonant stem",
+    "root": "bahane",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "bāhram",
+    "defs": ["plucked string instrument similar to a sitar, usually with seven played strings and 18 sympathetic ones"],
+    "pos": "noun",
+    "class": "m-stem",
+    "root": "bāhram",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "baile",
+    "defs": ["small herring-like fish"],
+    "pos": "noun",
+    "class": "consonant stem",
+    "root": "baile",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "bamaku",
+    "defs": ["edible tuber (similar to oca) from Dendāɂneye"],
+    "pos": "noun",
+    "class": "u-stem",
+    "root": "bamaku",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "bārṇa",
+    "defs": ["time", "one instance"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "bārṇa",
+    "etym": null,
+    "note": "Rare, mostly remaining in the derivation 'sebāre' (again, once more). More commonly 'sara'."
+  },
+  {
+    "word": "bände",
+    "defs": ["thread", "string"],
+    "pos": "noun",
+    "class": "consonant stem",
+    "root": "bände",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "baśida",
+    "defs": ["lamp"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "baśida",
+    "etym": "From Lannä eba-sid=a (instrument-light)",
+    "note": "Also 'ranyāvam'"
+  },
+  {
+    "word": "batū",
+    "defs": ["father"],
+    "pos": "noun",
+    "class": "irr. u-stem",
+    "root": "batū",
+    "etym": null,
+    "note": "also 'atabū'; in familiar contexts 'bā' or 'bābu'. In Archaic Dundulanyä, this word also meant 'unmarried maternal uncle', however it is a rather obsolete sense in modern day usage."
   }
 ]

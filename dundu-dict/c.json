@@ -8,4 +8,13 @@
     "etym": "portmanteau of 'camidāvantaita' (tropic), pluralized",
     "note": "plurale tantum"
   }
+  {
+    "word": "cāhin",
+    "defs": ["already"],
+    "pos": "adverb",
+    "class": "-",
+    "root": "*hin",
+    "etym": "Intensive morpheme 'ca-' or 'cā-' + *hin 'now'; cf. 'kamīne' (now)",
+    "note": null
+  }
 ]

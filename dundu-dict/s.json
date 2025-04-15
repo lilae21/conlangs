@@ -1,0 +1,20 @@
+[
+  {
+    "word": "sara",
+    "defs": ["time", "one instance"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "smar-",
+    "etym": "Pre-Dundulanyä *sm̥ra. Cf. 'smra', which is morphemically the same word, but synchronically rebuilt.",
+    "note": null
+  },
+  {
+    "word": "smra",
+    "defs": ["time", "one instance"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "smar-",
+    "etym": "smar- 'to measure' + -a. Cf. 'sara', which is morphemically the same word, but inherited from Pre-Dundulanyä.",
+    "note": "Rare; more commonly its doublet 'sara'."
+  }
+]
