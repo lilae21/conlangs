@@ -270,6 +270,33 @@
     "note": null
   },
   {
+    "word": "anumyūse",
+    "defs": ["epiphrasis"],
+    "pos": "noun",
+    "class": "consonant stem",
+    "root": "myo-",
+    "etym": "anu- 'in front' + myo- 'to put (abstract, masses)' + -s-e",
+    "note": null
+  },
+  {
+    "word": "anum̃uca",
+    "defs": ["shield", "panel", "slab"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "m̃uca",
+    "etym": "anu- 'in front' + m̃uca 'shell'",
+    "note": null
+  },
+  {
+    "word": "anum̃uktäte",
+    "defs": ["panel apartment building"],
+    "pos": "noun",
+    "class": "consonant stem",
+    "root": "täte",
+    "etym": "anum̃uca 'panel' + täte 'house'",
+    "note": null
+  },
+  {
     "word": "anunayah",
     "defs": ["to explain", "to make clear", "to clarify"],
     "pos": "verb",
@@ -297,6 +324,24 @@
     "note": null
   },
   {
+    "word": "anurafta",
+    "defs": ["victory", "win"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "raft",
+    "etym": "anu-raft- 'to win' + -a",
+    "note": "Rare, literary. More commonly 'padrafta'"
+  },
+  {
+    "word": "anuraftah",
+    "defs": ["to win"],
+    "pos": "verb",
+    "class": "0",
+    "root": "raft",
+    "etym": "anu- 'in front; before' + raft- 'can, be able to'",
+    "note": "Rare, literary. More commonly 'padraftah'"
+  },
+  {
     "word": "anusoh",
     "defs": ["to emerge", "to be the result of"],
     "pos": "verb",
@@ -304,6 +349,132 @@
     "root": "so-",
     "etym": "anu- 'in front; before' + so- 'to squeeze, press, clutch'. Only attested after the usage of 'usūra' (result; total, sum; conclusion), from the unprefixed root.",
     "note": null
+  },
+  {
+    "word": "anusponah",
+    "defs": ["to infect"],
+    "pos": "verb",
+    "class": "III",
+    "root": "spon-",
+    "etym": "anu- 'in front; before' + spon- 'to poison'",
+    "note": "Also simply 'sponah' when not referring to epidemics or pandemics."
+  },
+  {
+    "word": "anusponanah",
+    "defs": ["infection", "contagion"],
+    "pos": "noun",
+    "class": "h-stem",
+    "root": "spon-",
+    "etym": "anu-spon- 'to infect' + -anah",
+    "note": null
+  },
+  {
+    "word": "anuśā",
+    "defs": ["before"],
+    "pos": "adverb",
+    "class": "-",
+    "root": "*śād",
+    "etym": "shortening of 'anuśādā' (before)",
+    "note": null
+  },
+  {
+    "word": "anuśādā",
+    "defs": ["before"],
+    "pos": "adverb",
+    "class": "-",
+    "root": "*śād",
+    "etym": "anu- 'in front; before' + *śād- 'time' + adverbializing locative -ā",
+    "note": "Rare or very formal."
+  },
+  {
+    "word": "anuśāmicodda",
+    "defs": ["archeology"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "śod-",
+    "etym": "anuśāmita 'past' + śodda 'study'",
+    "note": null
+  },
+  {
+    "word": "anuśāmita",
+    "defs": ["past"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "*śād",
+    "etym": "From earlier 'anuśādāmita', anuśādā 'before' + -āmita",
+    "note": null
+  },
+  {
+    "word": "anuślerbah",
+    "defs": ["to obey"],
+    "pos": "verb",
+    "class": "II",
+    "root": "ślerb-",
+    "etym": "anu- 'in front; before' + ślerb- 'to serve'",
+    "note": null
+  },
+  {
+    "word": "anuślerbda",
+    "defs": ["obedience"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "ślerb-",
+    "etym": "anu-ślerb- 'to obey' + -ta",
+    "note": null
+  },
+  {
+    "word": "anūṭa",
+    "defs": ["north"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "oṭ-",
+    "etym": "anu- 'in front; before' + oṭ- 'to extend, to lie' + -a",
+    "note": null
+  },
+  {
+    "word": "anutu",
+    "defs": ["space", "cosmos", "heaven", "invisible sky"],
+    "pos": "noun",
+    "class": "u-stem",
+    "root": "anutu",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "anutū",
+    "defs": ["universe", "the Universe"],
+    "pos": "noun",
+    "class": "u-stem",
+    "root": "anutu",
+    "etym": "Plural of 'anutu' (space, cosmos, heaven, invisible sky)",
+    "note": "Plurale tantum"
+  },
+  {
+    "word": "anutuśodda",
+    "defs": ["astronomy"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "śod-",
+    "etym": "anutu 'space' + śodda 'study'",
+    "note": null
+  },
+  {
+    "word": "ap̃ājura",
+    "defs": ["happiness", "joy"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "p̃āj-",
+    "etym": "p̃āj- 'to smile' + -ura",
+    "note": "Literary"
+  },
+  {
+    "word": "āśah",
+    "defs": ["lentil", "lentils"],
+    "pos": "noun",
+    "class": "ṛ-stem",
+    "root": "āśṛ",
+    "etym": null,
+    "note": "Singulare tantum"
   },
   {
     "word": "asmacura",
