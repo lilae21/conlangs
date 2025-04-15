@@ -108,6 +108,15 @@
     "note": null
   },
   {
+    "word": "àjjhana",
+    "defs": ["goal", "objective"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "śaj-",
+    "etym": "śaj- 'to hunt' + -ḫana",
+    "note": null
+  },
+  {
     "word": "akṛsura",
     "defs": ["awaited", "something waited for"],
     "pos": "noun",
@@ -189,6 +198,15 @@
     "note": null
   },
   {
+    "word": "anatura",
+    "defs": ["fetus"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "nant-",
+    "etym": "nant- 'to huddle, crouch, curl' + -ura",
+    "note": null
+  },
+  {
     "word": "anudroṭah",
     "defs": ["to precede", "precedent", "anterior", "previous"],
     "pos": "verb",
@@ -261,6 +279,15 @@
     "note": null
   },
   {
+    "word": "anunīḫana",
+    "defs": ["mystery", "arcane", "an unclear passage (in a text, etc.)"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "ne-",
+    "etym": "anu-ne- 'to clarify, explain, make clear' + -ḫana",
+    "note": null
+  },
+  {
     "word": "anunīya",
     "defs": ["explanation", "clarification"],
     "pos": "noun",
@@ -270,12 +297,21 @@
     "note": null
   },
   {
+    "word": "anusoh",
+    "defs": ["to emerge", "to be the result of"],
+    "pos": "verb",
+    "class": "III",
+    "root": "so-",
+    "etym": "anu- 'in front; before' + so- 'to squeeze, press, clutch'. Only attested after the usage of 'usūra' (result; total, sum; conclusion), from the unprefixed root.",
+    "note": null
+  },
+  {
     "word": "asmacura",
     "defs": ["catchy rhythm"],
     "pos": "noun",
     "class": "a-stem",
     "root": "smac-",
     "etym": "smac- 'to rock, move, nod one's head and upper body to rhythm' + -ura",
-    "note": null
+    "note": "also 'smacchana'"
   }
 ]
