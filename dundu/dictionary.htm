@@ -33,6 +33,12 @@
             outline: none;
         }
         .results { border-bottom: 1px solid rgba(210, 77, 255, 0.9); padding: 10px 0; }
+        .word {
+            font-size: 20px;
+            font-weight: 600;
+            color: rgb(64, 0, 128);
+        }
+        .defs { font-weight: 500; }
   </style>
 </head>
 <body>
@@ -77,15 +83,22 @@
             const resultsDiv = document.getElementById("results");
             resultsDiv.innerHTML = risultati.map(entry => `
                 <div id="results">
-                    <p><strong>${entry.word}</strong> <small>(<i>${entry.pos}, ${entry.class}, √${entry.root}</i>)</small>: ${entry.defs.join(", ")}</p>
-                    <p>Etymology: <i>${entry.etym}</i></p>
-                    <p>Notes: <i>${entry.note}</i></p>
+                    <blockquote>
+                    <span class="word">${entry.word}</span> <small>(<i>${entry.pos}, ${entry.class}, √${entry.root}</i>)</small> &#8212; <span class="defs">${entry.defs.join(", ")}</span></br>
+                    ${entry.etym ? `Etymology: <i>${entry.etym}</i></br>` : ""}
+                    ${entry.note ? `Notes: <i>${entry.note}</i>` : ""}
+                    </blockquote>
                 </div>
             `).join("");
         }
 
         document.getElementById("search").addEventListener("input", (e) => {
-            cercaParola(e.target.value);
+            const termine = e.target.value.trim();
+            if (termine.length > 1) {
+                cercaParola(termine);
+            } else {
+            document.getElementById("results").innerHTML = ""; // svuota i risultati
+            }
         });
 
         caricaDizionario();
