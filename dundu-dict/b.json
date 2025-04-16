@@ -81,6 +81,24 @@
     "note": "Also 'ranyāvam'"
   },
   {
+    "word": "bātaka",
+    "defs": ["bātaka palm fiber"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "bātaka",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "bātakäśah",
+    "defs": ["bātaka palm"],
+    "pos": "noun",
+    "class": "h-stem",
+    "root": "bātaka",
+    "etym": "bātaka (tree name) + -äśah",
+    "note": null
+  },
+  {
     "word": "batū",
     "defs": ["father"],
     "pos": "noun",
@@ -88,5 +106,23 @@
     "root": "batū",
     "etym": null,
     "note": "also 'atabū'; in familiar contexts 'bā' or 'bābu'. In Archaic Dundulanyä, this word also meant 'unmarried maternal uncle', however it is a rather obsolete sense in modern day usage."
+  },
+  {
+    "word": "batūbauji",
+    "defs": ["great-grandfather"],
+    "pos": "noun",
+    "class": "i-stem",
+    "root": "bauji",
+    "etym": "batū/atabū 'father' + bauji 'grandfather'",
+    "note": null
+  },
+  {
+    "word": "bauji",
+    "defs": ["grandfather"],
+    "pos": "noun",
+    "class": "i-stem",
+    "root": "bauji",
+    "etym": null,
+    "note": null
   }
 ]

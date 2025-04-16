@@ -1,0 +1,200 @@
+[
+  {
+    "word": "ehāṇa",
+    "defs": ["table"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "ehāṇa",
+    "etym": "Originally, according to ancient sources, probably meaning 'flat' or 'plain'",
+    "note": null
+  },
+  {
+    "word": "elāṭuma",
+    "defs": ["planet"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "elāṭuma",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "elāṭuṃdodona",
+    "defs": ["star system"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "dodona",
+    "etym": "elāṭuma 'planet' + dodona 'chain'",
+    "note": null
+  },
+  {
+    "word": "emah",
+    "defs": ["eater", "person who eats"],
+    "pos": "noun",
+    "class": "ṛ-stem",
+    "root": "yam-",
+    "etym": "yam- 'to eat' + &#60;i&#62;-ar",
+    "note": null
+  },
+  {
+    "word": "eme",
+    "defs": ["star"],
+    "pos": "noun",
+    "class": "e-stem",
+    "root": "eme",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "emeccha",
+    "defs": ["Eventoan starfruit"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "eme",
+    "etym": "eme 'star' + -(i)ccha",
+    "note": null
+  },
+  {
+    "word": "emecchäśah",
+    "defs": ["Eventoan starfruit tree"],
+    "pos": "noun",
+    "class": "h-stem",
+    "root": "eme",
+    "etym": "emeccha 'starfruit' + -äśah",
+    "note": null
+  },
+  {
+    "word": "emenīka jäthanah",
+    "defs": ["celestial navigation"],
+    "pos": "nominal ph.",
+    "class": "h-stem",
+    "root": "jäth",
+    "etym": "emenīka (instrumental pl. of 'eme' (star)) + jäthanah 'navigation'",
+    "note": null
+  },
+  {
+    "word": "emibe",
+    "defs": ["one"],
+    "pos": "numeral",
+    "class": "irreg. decl.",
+    "root": "emibe",
+    "etym": null,
+    "note": "Combining form: emibu-"
+  },
+  {
+    "word": "emibīmaiha",
+    "defs": ["only child", "only daughter"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "maiha",
+    "etym": "emibī (essive of 'emibe' (one)) + maiha 'daughter, offspring'",
+    "note": null
+  },
+  {
+    "word": "emibīna",
+    "defs": ["loneliness"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "emibe",
+    "etym": "emibī (essive of 'emibe' (one)) + -na",
+    "note": null
+  },
+  {
+    "word": "emibīp̃aiṣu",
+    "defs": ["only son"],
+    "pos": "noun",
+    "class": "u-stem apoph.",
+    "root": "p̃aiṣu",
+    "etym": "emibī (essive of 'emibe' (one)) + p̃aiṣu 'son'",
+    "note": "Cf. the generic and gender-neutral 'emibīmaiha', literally 'only daughter'"
+  },
+  {
+    "word": "emibīsulba",
+    "defs": ["singularity"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "solb-",
+    "etym": "emibī (essive of 'emibe' (one)) + sulba 'point, dot'",
+    "note": null
+  },
+  {
+    "word": "emibucerṇūṣūya",
+    "defs": ["person from one's own country or place", "fellow countryfolk", "fellow country(wo)man"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "cerṇūṣa",
+    "etym": "emibe 'one' + cerṇūṣa 'motherland' + -ūya",
+    "note": null
+  },
+  {
+    "word": "emibulilabuɂibe",
+    "defs": ["single-player game"],
+    "pos": "noun",
+    "class": "consonant stem",
+    "root": "boɂ-",
+    "etym": "emibe 'one' + lila 'person' + buɂibe 'game'",
+    "note": null
+  },
+  {
+    "word": "emibuṣarivāṇa",
+    "defs": ["monarchy"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "vāṇa",
+    "etym": "emibe 'one' + ṣarivāṇa 'state'",
+    "note": null
+  },
+  {
+    "word": "emibusaukūya",
+    "defs": ["monarchy"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "vāṇa",
+    "etym": "emibe 'one' + sauka 'womb' + -ūya",
+    "note": null
+  },
+  {
+    "word": "emibuta",
+    "defs": ["unity"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "emibe",
+    "etym": "emibe 'one' + -ta",
+    "note": null
+  },
+  {
+    "word": "emibūya",
+    "defs": ["chart", "ranking"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "emibe",
+    "etym": "emibe 'one' + -ūya",
+    "note": null
+  },
+  {
+    "word": "epena",
+    "defs": ["child", "kid"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "epena",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "epenasmorcodda",
+    "defs": ["pediatrics"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "śod-",
+    "etym": "epena 'child' + smorcodda 'medicine'",
+    "note": null
+  },
+  {
+    "word": "epenyiyachir̃e",
+    "defs": ["preschool", "kindergarten"],
+    "pos": "noun",
+    "class": "consonant stem",
+    "root": "chir̃e",
+    "etym": "epena 'child' + yäy- 'to read' + chir̃e 'courtyard'",
+    "note": "Regional denomination official in certain Republics of the CUDR"
+  }
+]

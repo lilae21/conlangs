@@ -1,0 +1,209 @@
+[
+  {
+    "word": "bhāca",
+    "defs": ["green"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "bhāca",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "bhācah",
+    "defs": ["to be green"],
+    "pos": "verb",
+    "class": "0",
+    "root": "bhāca",
+    "etym": "Cf. the substantive 'bhāca'.",
+    "note": null
+  },
+  {
+    "word": "bham̃p̃a",
+    "defs": ["lion"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "bham̃p̃a",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "Bhartośāvi",
+    "defs": ["the most important festival in the Yunyalailtulu calendar, lasting for four nights, starting on the summer solstice"],
+    "pos": "noun",
+    "class": "au-stem",
+    "root": "*śau",
+    "etym": "bhārtu 'oboe, shawm' + an unclear *śau element, possibly from the same root as 'śusva' (evening)",
+    "note": "Plurale tantum"
+  },
+  {
+    "word": "bhartośvaṭaṭe",
+    "defs": ["oboe (bhārtu) player"],
+    "pos": "noun",
+    "class": "e-stem",
+    "root": "śuṭ-",
+    "etym": "bhārtu 'oboe, shawm' + śuṭ- 'to play a wind instrument' + -aC'-e",
+    "note": null
+  },
+  {
+    "word": "bhārtu",
+    "defs": ["Dundulanyä oboe, shawm", "a wind instrument similar to the shehnai"],
+    "pos": "noun",
+    "class": "u-stem, apoph.",
+    "root": "bhārtu",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "bhaṭah",
+    "defs": ["to swell"],
+    "pos": "verb",
+    "class": "I",
+    "root": "bhaṭ-",
+    "etym": null,
+    "note": "Zero grade: abḍh-"
+  },
+  {
+    "word": "bhaṭiḫe",
+    "defs": ["swelling on the body"],
+    "pos": "noun",
+    "class": "cons. stem apoph.",
+    "root": "bhaṭ-",
+    "etym": "bhaṭ- 'to swell' + -iḫ-e",
+    "note": null
+  },
+  {
+    "word": "bhaṭṇa",
+    "defs": ["swelling", "swollenness"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "bhaṭ-",
+    "etym": "bhaṭ- 'to swell' + -na",
+    "note": null
+  },
+  {
+    "word": "bhauṭi",
+    "defs": ["foam", "froth", "lather"],
+    "pos": "noun",
+    "class": "e-stem",
+    "root": "bhoṭ-",
+    "etym": "A partially irregular vṛddhi derivation from 'bhoṭ-' (to lather)",
+    "note": "Plurale tantum"
+  },
+  {
+    "word": "bhāvaṭe",
+    "defs": ["balcony"],
+    "pos": "noun",
+    "class": "e-stem",
+    "root": "bhāvaṭe",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "bhayabe",
+    "defs": ["caretaker", "caregiver"],
+    "pos": "noun",
+    "class": "e-stem",
+    "root": "bhe-",
+    "etym": "bhe- 'to care, take care of' + -aC'-e",
+    "note": null
+  },
+  {
+    "word": "bhāyāmita",
+    "defs": ["altruism"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "bhe-",
+    "etym": "bhe- 'to care, take care of' + -āmita",
+    "note": null
+  },
+  {
+    "word": "bheh",
+    "defs": ["to care for", "to take care of"],
+    "pos": "verb",
+    "class": "II",
+    "root": "bhe-",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "bhīḍa",
+    "defs": ["cotton", "cotton fiber"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "bhīḍa",
+    "etym": "Possibly related (in Pre-Dundulanyä) to the root 'bhyoḍ-' (to be soft).",
+    "note": null
+  },
+  {
+    "word": "bhīḍäśah",
+    "defs": ["cotton plant"],
+    "pos": "noun",
+    "class": "h-stem",
+    "root": "bhīḍa",
+    "etym": "bhīḍa 'cotton' + -äśah",
+    "note": null
+  },
+  {
+    "word": "bhoṭah",
+    "defs": ["to lather"],
+    "pos": "verb",
+    "class": "III",
+    "root": "bhoṭ-",
+    "etym": null,
+    "note": "Literary. In common speech it is usually replaced by periphrases such as 'bhauṭi mīyaɂe' (to give foam)"
+  },
+  {
+    "word": "bhugra",
+    "defs": ["wing"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "bhugra",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "bhuṭa",
+    "defs": ["soap"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "bhoṭ-",
+    "etym": "bhoṭ- 'to lather' + -a",
+    "note": null
+  },
+  {
+    "word": "bhyoḍah",
+    "defs": ["to be soft"],
+    "pos": "verb",
+    "class": "III",
+    "root": "bhyoḍ-",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "bhyoḍūlte",
+    "defs": ["softener", "damper", "hair conditioner"],
+    "pos": "noun",
+    "class": "consonant stem",
+    "root": "bhyoḍ-",
+    "etym": "bhyoḍ 'to be soft' + -ūlt-e",
+    "note": null
+  },
+  {
+    "word": "bhyuḍūya",
+    "defs": ["velum"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "bhyoḍ-",
+    "etym": "bhyoḍ 'to be soft' + -ūya",
+    "note": null
+  },
+  {
+    "word": "bhyuḍvīlaḫla",
+    "defs": ["velar consonants", "the letters of the Dun. script representing velar consonants"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "laḫl-",
+    "etym": "bhyuḍūya 'velum' + laḫla 'group'",
+    "note": null
+  }
+]
