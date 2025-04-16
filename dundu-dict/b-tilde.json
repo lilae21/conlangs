@@ -7,5 +7,59 @@
     "root": "b̃amu",
     "etym": null,
     "note": "Singulare tantum"
+  },
+  {
+    "word": "b̃ila",
+    "defs": ["soil", "terrain"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "b̃ila",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "b̃ilalelfanah",
+    "defs": ["earthquake"],
+    "pos": "noun",
+    "class": "h-stem",
+    "root": "lelf",
+    "etym": "b̃ila 'soil, terrain' + lelf- 'to shake' + -anah",
+    "note": null
+  },
+  {
+    "word": "b̃oṭa",
+    "defs": ["finger"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "b̃oṭa",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "b̃oṭlobhah",
+    "defs": ["to type (e.g. on a keyboard)"],
+    "pos": "verb",
+    "class": "III",
+    "root": "lobh-",
+    "etym": "b̃oṭa 'finger' + lobh- 'to write'",
+    "note": null
+  },
+  {
+    "word": "b̃oṭlobhanah",
+    "defs": ["typing (e.g. on a keyboard)"],
+    "pos": "noun",
+    "class": "h-stem",
+    "root": "lobh-",
+    "etym": "b̃oṭlobhanah 'to type'",
+    "note": null
+  },
+  {
+    "word": "b̃ukuɂa",
+    "defs": ["feather"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "b̃ukuɂa",
+    "etym": null,
+    "note": null
   }
 ]

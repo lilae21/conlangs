@@ -72,6 +72,15 @@
     "note": null
   },
   {
+    "word": "barhah",
+    "defs": ["to mix", "to stir"],
+    "pos": "verb",
+    "class": "IV",
+    "root": "barh-",
+    "etym": null,
+    "note": null
+  },
+  {
     "word": "baśida",
     "defs": ["lamp"],
     "pos": "noun",
@@ -123,6 +132,312 @@
     "class": "i-stem",
     "root": "bauji",
     "etym": null,
+    "note": null
+  },
+  {
+    "word": "biṣe",
+    "defs": ["fly (insect)"],
+    "pos": "noun",
+    "class": "consonant stem",
+    "root": "biṣe",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "bīśah",
+    "defs": ["palm (general tree shape)"],
+    "pos": "noun",
+    "class": "h-stem",
+    "root": "bīśah",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "bobon",
+    "defs": ["not at all"],
+    "pos": "interj.",
+    "class": "-",
+    "root": "bon",
+    "etym": "reduplication of 'bon' (no, not)",
+    "note": "Colloquial."
+  },
+  {
+    "word": "bogah",
+    "defs": ["to steal"],
+    "pos": "verb",
+    "class": "III",
+    "root": "bog-",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "bogiḫe",
+    "defs": ["theft"],
+    "pos": "noun",
+    "class": "cons. stem apoph.",
+    "root": "bog-",
+    "etym": "bog- 'to steal' + -iḫ-e",
+    "note": null
+  },
+  {
+    "word": "boji",
+    "defs": ["grandfather"],
+    "pos": "noun",
+    "class": "i-stem",
+    "root": "bauji",
+    "etym": "a variant of 'bauji' (grandfather)",
+    "note": null
+  },
+  {
+    "word": "bon",
+    "defs": ["no", "false"],
+    "pos": "interj.",
+    "class": "-",
+    "root": "bon",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "bondah",
+    "defs": ["to lose", "(rare) to get lost"],
+    "pos": "verb",
+    "class": "III",
+    "root": "bond-",
+    "etym": null,
+    "note": "The 'to get lost' meaning is usually rendered by the prefixed verb 'śūbondah'"
+  },
+  {
+    "word": "bonuḍu",
+    "defs": ["false", "wrong", "no"],
+    "pos": "interj.",
+    "class": "-",
+    "root": "bon",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "borgah",
+    "defs": ["to be old"],
+    "pos": "verb",
+    "class": "III",
+    "root": "borg-",
+    "etym": null,
+    "note": "Used for inanimate things."
+  },
+  {
+    "word": "borgna",
+    "defs": ["antiquity (of an object)"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "borg-",
+    "etym": "borg- 'to be old' + -na",
+    "note": null
+  },
+  {
+    "word": "boɂah",
+    "defs": ["to play (a game)"],
+    "pos": "verb",
+    "class": "III",
+    "root": "boɂ-",
+    "etym": null,
+    "note": "Transitive verb; the intransitive meaning of the English verb is reflexive in Dundulanyä."
+  },
+  {
+    "word": "boɂaṅka",
+    "defs": ["toy"],
+    "pos": "noun",
+    "class": "a-stem apoph.",
+    "root": "boɂ-",
+    "etym": "boɂ- 'to play a game' + -ṅ-ka",
+    "note": null
+  },
+  {
+    "word": "būcah",
+    "defs": ["to be flat", "to be uniform", "to be even", "to flatten (in causative forms)", "(in mathematics) to be an integer, non-fractional"],
+    "pos": "verb",
+    "class": "0",
+    "root": "būc-",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "būcāmita",
+    "defs": ["flatness", "uniformity"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "būc-",
+    "etym": "būc- 'to be flat, uniform' + -āmita",
+    "note": null
+  },
+  {
+    "word": "būcāra",
+    "defs": ["plain (geography)", "lowland"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "būc-",
+    "etym": "būc- 'to be flat, uniform' + -āra",
+    "note": null
+  },
+  {
+    "word": "būcca",
+    "defs": ["integer", "integer number"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "būc-",
+    "etym": "būc- 'to be flat, uniform' + -ta",
+    "note": null
+  },
+  {
+    "word": "būconnah",
+    "defs": ["flattening"],
+    "pos": "noun",
+    "class": "h-stem",
+    "root": "būc-",
+    "etym": "būc-on- 'to flatten' + -anah",
+    "note": null
+  },
+  {
+    "word": "būgah",
+    "defs": ["ocarina made from a hollowed gourd"],
+    "pos": "noun",
+    "class": "h-stem",
+    "root": "būgah",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "bujremuṇṣa",
+    "defs": ["wyvern", "dragon (in folklore)", "flying demon"],
+    "pos": "noun",
+    "class": "h-stem",
+    "root": "būgah",
+    "etym": "Lannä 'bozede-monsa' (bird of fear)",
+    "note": "Not to be confused with the actual existing sentient species of Eventoa called 'dragons' in translation."
+  },
+  {
+    "word": "būkṣāma",
+    "defs": ["uncle's spouse", "maternal uncle's spouse"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "atabū",
+    "etym": "Likely a derivation from 'būttra' (maternal uncle).",
+    "note": null
+  },
+  {
+    "word": "būlabuneya",
+    "defs": ["female’s elder first female cousin through paternal aunt"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "buneya",
+    "etym": "būla- (cf. 'melahbūla' (paternal aunt)) + buneya 'female's older sister'",
+    "note": null
+  },
+  {
+    "word": "būlaglūḫam",
+    "defs": ["female’s first male cousin through paternal aunt"],
+    "pos": "noun",
+    "class": "m-stem",
+    "root": "glūḫam",
+    "etym": "būla- (cf. 'melahbūla' (paternal aunt)) + glūḫam 'female's brother'",
+    "note": null
+  },
+  {
+    "word": "būlakālike",
+    "defs": ["female’s younger first female cousin through paternal aunt"],
+    "pos": "noun",
+    "class": "consonant stem",
+    "root": "kālike",
+    "etym": "būla- (cf. 'melahbūla' (paternal aunt)) + kālike 'female's younger sister'",
+    "note": null
+  },
+  {
+    "word": "būlanaiḍe",
+    "defs": ["male’s younger first male cousin through paternal aunt"],
+    "pos": "noun",
+    "class": "consonant stem",
+    "root": "naiḍe",
+    "etym": "būla- (cf. 'melahbūla' (paternal aunt)) + naiḍe 'male's younger brother'",
+    "note": null
+  },
+  {
+    "word": "būlañältah",
+    "defs": ["male’s first female cousin through paternal aunt"],
+    "pos": "noun",
+    "class": "h-stem",
+    "root": "ñältah",
+    "etym": "būla- (cf. 'melahbūla' (paternal aunt)) + ñältah 'male's sister'",
+    "note": null
+  },
+  {
+    "word": "būlapraśke",
+    "defs": ["male’s elder first male cousin through paternal aunt"],
+    "pos": "noun",
+    "class": "consonant stem",
+    "root": "praśke",
+    "etym": "būla- (cf. 'melahbūla' (paternal aunt)) + praśke 'male's older brother'",
+    "note": null
+  },
+  {
+    "word": "būluna",
+    "defs": ["small berry from the swamplands of Dendāɂneye and of the North Shore"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "būluna",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "bumbi",
+    "defs": ["head"],
+    "pos": "noun",
+    "class": "i-stem",
+    "root": "bumbi",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "buneya",
+    "defs": ["female’s older sister"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "buneya",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "bunūgoba",
+    "defs": ["thief"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "bog-",
+    "etym": "bog- 'to steal' + &#60;nū&#62;-oba",
+    "note": null
+  },
+  {
+    "word": "burgibe",
+    "defs": ["old object"],
+    "pos": "noun",
+    "class": "consonant stem",
+    "root": "borg-",
+    "etym": "borg- 'to be old' + -ib-e",
+    "note": null
+  },
+  {
+    "word": "būttra",
+    "defs": ["uncle", "maternal uncle"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "atabū",
+    "etym": null,
+    "note": "In Archaic Dundulanyä, this word also meant 'father', however it is a rather obsolete sense in modern day usage."
+  },
+  {
+    "word": "buɂibe",
+    "defs": ["game"],
+    "pos": "noun",
+    "class": "consonant stem",
+    "root": "boɂ-",
+    "etym": "boɂ- 'to play a game' + -ib-e",
     "note": null
   }
 ]
