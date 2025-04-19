@@ -25,5 +25,68 @@
     "root": "ḍāfunädu",
     "etym": "Classical Toyubeshian 'dhaafo o-nẹẹdu' (field voice)",
     "note": "Used regionally in the Toyubeshian islands or in fandom."
+  },
+  {
+    "word": "ḍaṃla",
+    "defs": ["ice"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "ḍaṃla",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "ḍäṅga",
+    "defs": ["boat"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "ḍäṅga",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "ḍerah",
+    "defs": ["to be thick (not sparse)", "to be opaque"],
+    "pos": "verb",
+    "class": "II",
+    "root": "ḍer-",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "ḍerṇa",
+    "defs": ["density", "thickness", "opacity"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "ḍer-",
+    "etym": "ḍer- 'to be thick, opaque' + -na",
+    "note": null
+  },
+  {
+    "word": "ḍeṭah",
+    "defs": ["to point at", "to select", "to mark"],
+    "pos": "verb",
+    "class": "II",
+    "root": "ḍeṭ-",
+    "etym": null,
+    "note": "The attributive perfect 'iḍiṭa' is used to convey the sense of 'marked', as e.g. in grammar (as in 'iḍiṭa tatsampra' meaning 'marked topic')."
+  },
+  {
+    "word": "ḍeṭṇa",
+    "defs": ["index", "indexing value", "factor"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "ḍeṭ-",
+    "etym": "ḍeṭ- 'to point at, select, mark' + -na",
+    "note": null
+  },
+  {
+    "word": "ḍeṭūlte",
+    "defs": ["computer mouse"],
+    "pos": "noun",
+    "class": "consonant stem",
+    "root": "ḍeṭ-",
+    "etym": "ḍeṭ- 'to point at, select, mark' + -ūlt-e",
+    "note": null
   }
 ]

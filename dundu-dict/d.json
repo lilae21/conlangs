@@ -34,5 +34,275 @@
     "root": "dā-",
     "etym": null,
     "note": "Transitive verb."
+  },
+  {
+    "word": "daḫane",
+    "defs": ["iguana with two big fins on the back (Central Lusaṃrīte and islands)"],
+    "pos": "noun",
+    "class": "consonant stem",
+    "root": "daḫane",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "dailāmita",
+    "defs": ["honesty"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "del-",
+    "etym": "del- 'to cry, weep' + -āmita",
+    "note": null
+  },
+  {
+    "word": "dālu",
+    "defs": ["possessor", "owner"],
+    "pos": "noun",
+    "class": "u-stem",
+    "root": "dālu",
+    "etym": null,
+    "note": "Archaic; mainly found today as a component of male given names."
+  },
+  {
+    "word": "dambopa",
+    "defs": ["orchard"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "dambu",
+    "etym": "dambu 'fruit' + -opa",
+    "note": null
+  },
+  {
+    "word": "dambu",
+    "defs": ["fruit"],
+    "pos": "noun",
+    "class": "u-stem",
+    "root": "dambu",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "dambuna",
+    "defs": ["the quality of being fruitful"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "dambu",
+    "etym": "dambu 'fruit' + -na",
+    "note": null
+  },
+  {
+    "word": "dambutäte",
+    "defs": ["fruit bar", "drinking establishment serving fruit, fruit juices, or fruit based drinks; usually a temporary cart or tent in city streets"],
+    "pos": "noun",
+    "class": "consonant stem",
+    "root": "täte",
+    "etym": "dambu 'fruit' + täte 'house'",
+    "note": null
+  },
+  {
+    "word": "dambvādhu",
+    "defs": ["a tree with growing fruits", "(lit.) pregnant woman"],
+    "pos": "noun",
+    "class": "u-stem",
+    "root": "täte",
+    "etym": "dambu 'fruit' + -ādhu",
+    "note": null
+  },
+  {
+    "word": "dara",
+    "defs": ["activity", "task"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "dar-",
+    "etym": "dar- 'to do' + -a",
+    "note": "Also 'daribe'."
+  },
+  {
+    "word": "darah",
+    "defs": ["to do", "to make", "to create"],
+    "pos": "verb",
+    "class": "IV",
+    "root": "dar-",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "darca",
+    "defs": ["dance"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "darś-",
+    "etym": "darś- 'to dance' + -ta",
+    "note": null
+  },
+  {
+    "word": "daribe",
+    "defs": ["activity", "task"],
+    "pos": "noun",
+    "class": "consonant stem",
+    "root": "dar-",
+    "etym": "dar- 'to do' + -ib-e",
+    "note": "Also 'dara'."
+  },
+  {
+    "word": "daripśodda",
+    "defs": ["technology"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "śod-",
+    "etym": "daribe 'activity, task' + śodda 'study'",
+    "note": null
+  },
+  {
+    "word": "dariśah",
+    "defs": ["dancer"],
+    "pos": "noun",
+    "class": "ṛ-stem",
+    "root": "darś-",
+    "etym": "darś- 'to dance' + &#60;i&#62;-ar",
+    "note": null
+  },
+  {
+    "word": "darśah",
+    "defs": ["to dance"],
+    "pos": "verb",
+    "class": "IV",
+    "root": "darś-",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "darśanah",
+    "defs": ["dance", "ball (party)", "dancing"],
+    "pos": "noun",
+    "class": "h-stem",
+    "root": "darś-",
+    "etym": "darś- 'to dance' + -anah",
+    "note": null
+  },
+  {
+    "word": "darūlte",
+    "defs": ["(grammatical) patient"],
+    "pos": "noun",
+    "class": "consonant stem",
+    "root": "dar-",
+    "etym": "dar- 'to do' + -ūlt-e",
+    "note": null
+  },
+  {
+    "word": "darūmma",
+    "defs": ["action", "verb"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "dar-",
+    "etym": "dar- 'to do' + -ūmma",
+    "note": null
+  },
+  {
+    "word": "daṣṭe",
+    "defs": ["pole"],
+    "pos": "noun",
+    "class": "consonant stem",
+    "root": "daṣṭe",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "daśa",
+    "defs": ["rain"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "daśa",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "dauña",
+    "defs": ["tempeh (made from duñe beans)"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "duñe",
+    "etym": "Vṛddhi derivation from 'duñe' (bean name).",
+    "note": null
+  },
+  {
+    "word": "dāvan",
+    "defs": ["sun", "Eventoan sun"],
+    "pos": "noun",
+    "class": "n-stem",
+    "root": "dāvan",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "delah",
+    "defs": ["to cry", "to weep", "(intensive forms) to be honest"],
+    "pos": "verb",
+    "class": "II",
+    "root": "del-",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "delanah",
+    "defs": ["crying", "weeping"],
+    "pos": "noun",
+    "class": "h-stem",
+    "root": "del-",
+    "etym": "del- 'to cry, weep' + -anah",
+    "note": null
+  },
+  {
+    "word": "delna",
+    "defs": ["truth"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "del-",
+    "etym": "del- 'to cry, weep' + -na",
+    "note": null
+  },
+  {
+    "word": "delta",
+    "defs": ["emotion", "feeling"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "del-",
+    "etym": "del- 'to cry, weep' + -ta",
+    "note": null
+  },
+  {
+    "word": "denśe",
+    "defs": ["knee", "elbow"],
+    "pos": "noun",
+    "class": "consonant stem",
+    "root": "denśe",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "dila",
+    "defs": ["tears"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "del-",
+    "etym": "del- 'to cry, weep' + -a",
+    "note": "Singulare tantum."
+  },
+  {
+    "word": "diltya",
+    "defs": ["teardrop", "tear"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "del-",
+    "etym": "del- 'to cry, weep' + -tya",
+    "note": null
+  },
+  {
+    "word": "dinūloba",
+    "defs": ["honest person"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "del-",
+    "etym": "del- 'to cry, weep' + &#60;nū&#62;-oba",
+    "note": null
   }
 ]
