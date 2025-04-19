@@ -63,9 +63,11 @@
         <a href="dictionary-letters/b-tilde.htm">B̃</a> &middot;
         <a href="dictionary-letters/bh-tilde.htm">B̃H</a> &middot;
         <a href="dictionary-letters/c.htm">C</a> &middot;
+        <a href="dictionary-letters/ch.htm">CH</a> &middot;
+        <a href="dictionary-letters/d.htm">D</a> &middot;
+        <a href="dictionary-letters/d-dot.htm">Ḍ</a> &middot;
     </span>
   </p>
-  <p style="text-align:center;"><span class="counter"></span></p>
   <input type="text" id="search" placeholder="Search...">
     <div id="results"></div>
 
@@ -77,6 +79,9 @@
             "../dundu-dict/bh.json",
             "../dundu-dict/b-tilde.json",
             "../dundu-dict/c.json",
+            "../dundu-dict/ch.json",
+            "../dundu-dict/d.json",
+            "../dundu-dict/d-dot.json",
             "../dundu-dict/e.json",
             "../dundu-dict/l.json",
             "../dundu-dict/r.json",
@@ -99,7 +104,6 @@
                 }
             }
             console.log("Dati totali caricati:", dizionario.length);
-            document.getElementById("counter").textContent = `Number of entries: ${dizionario.length}`
         }
         function cercaParola(termine) {
             const risultati = dizionario.filter(entry =>
