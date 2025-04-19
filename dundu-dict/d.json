@@ -279,6 +279,42 @@
     "note": null
   },
   {
+    "word": "dibha",
+    "defs": ["kick"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "däbh-",
+    "etym": "däbh- 'to kick' + -a",
+    "note": null
+  },
+  {
+    "word": "dīdah",
+    "defs": ["to act", "to do", "(refl.) to behave"],
+    "pos": "verb",
+    "class": "0",
+    "root": "dīd-",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "dīdda",
+    "defs": ["behavior"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "dīd-",
+    "etym": "dīd- 'to behave' + -ta",
+    "note": null
+  },
+  {
+    "word": "dīdvartra",
+    "defs": ["duty"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "vart-",
+    "etym": "dīd- 'to act' + vartra 'need'",
+    "note": null
+  },
+  {
     "word": "dila",
     "defs": ["tears"],
     "pos": "noun",
@@ -286,6 +322,24 @@
     "root": "del-",
     "etym": "del- 'to cry, weep' + -a",
     "note": "Singulare tantum."
+  },
+  {
+    "word": "dīlla",
+    "defs": ["peas"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "dīlla",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "dīlläśah",
+    "defs": ["pea plant"],
+    "pos": "noun",
+    "class": "h-stem",
+    "root": "dīlla",
+    "etym": "dīlla 'peas' + -äśah",
+    "note": null
   },
   {
     "word": "diltya",
@@ -297,12 +351,273 @@
     "note": null
   },
   {
+    "word": "diṇḍha",
+    "defs": ["throat", "larynx"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "diṇḍha",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "diṇḍhalaḫla",
+    "defs": ["laryngeal consonants", "the letters of the Dun. script representing laryngeal consonants"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "laḫl-",
+    "etym": "diṇḍha 'throat, larynx' + laḫla 'group'",
+    "note": null
+  },
+  {
     "word": "dinūloba",
     "defs": ["honest person"],
     "pos": "noun",
     "class": "a-stem",
     "root": "del-",
     "etym": "del- 'to cry, weep' + &#60;nū&#62;-oba",
+    "note": null
+  },
+  {
+    "word": "dirūṃrūkṣah",
+    "defs": ["nominal case"],
+    "pos": "noun",
+    "class": "ṛ-stem",
+    "root": "rūkṣṛ",
+    "etym": "dirūṇa 'role' + rūkṣah 'form'",
+    "note": null
+  },
+  {
+    "word": "dirūṇa",
+    "defs": ["role", "task", "duty", "job"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "dirūṇa",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "dodona",
+    "defs": ["chain", "line", "row", "train"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "dodona",
+    "etym": "Likely ideophonic.",
+    "note": null
+  },
+  {
+    "word": "dodoñchir̃e",
+    "defs": ["train station"],
+    "pos": "noun",
+    "class": "consonant stem",
+    "root": "chir̃e",
+    "etym": "dodona 'train' + chir̃e 'courtyard'",
+    "note": null
+  },
+  {
+    "word": "doldah",
+    "defs": ["to move"],
+    "pos": "verb",
+    "class": "III",
+    "root": "dold-",
+    "etym": null,
+    "note": "Intransitive verb."
+  },
+  {
+    "word": "drādhu",
+    "defs": ["direct case argument", "main argument of a verb"],
+    "pos": "noun",
+    "class": "u-stem",
+    "root": "dar-",
+    "etym": "dar- 'to do' + -ādhu",
+    "note": null
+  },
+  {
+    "word": "dṛcya",
+    "defs": ["dance step"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "darś-",
+    "etym": "darś- 'to dance' + -tya",
+    "note": null
+  },
+  {
+    "word": "drīya",
+    "defs": ["doer", "agent"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "dar-",
+    "etym": "dar- 'to do' + -īya",
+    "note": null
+  },
+  {
+    "word": "droṭah",
+    "defs": ["to flow"],
+    "pos": "verb",
+    "class": "III",
+    "root": "droṭ-",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "dubä",
+    "defs": ["1SG pronoun sometimes used by children talking to their parents"],
+    "pos": "pronoun",
+    "class": "ä-stem",
+    "root": "dubä",
+    "etym": "Baby talk.",
+    "note": null
+  },
+  {
+    "word": "dūdha",
+    "defs": ["seed", "spermatozoon"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "dūdha",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "dūdheṣa",
+    "defs": ["pollen", "sperm", "semen"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "dūdha",
+    "etym": "dūdha 'seed, spermatozoon' + -eṣa",
+    "note": null
+  },
+  {
+    "word": "dūḍhuh",
+    "defs": ["to banquet", "to feast"],
+    "pos": "verb",
+    "class": "0",
+    "root": "dūḍhv-",
+    "etym": "Backformed from the noun 'dūḍhvi' (banquet, feast, buffet)",
+    "note": null
+  },
+  {
+    "word": "dūḍhvi",
+    "defs": ["banquet", "feast", "buffet"],
+    "pos": "noun",
+    "class": "consonant stem",
+    "root": "dūḍhv-",
+    "etym": null,
+    "note": "Plurale tantum."
+  },
+  {
+    "word": "dūhram",
+    "defs": ["office"],
+    "pos": "noun",
+    "class": "m-stem",
+    "root": "dūhram",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "dūhṛṃlila",
+    "defs": ["office worker"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "lel-",
+    "etym": "dūhram 'office' + lila 'person'",
+    "note": null
+  },
+  {
+    "word": "duljive",
+    "defs": ["cinema", "cinematography", "film", "movie"],
+    "pos": "noun",
+    "class": "consonant stem",
+    "root": "śive",
+    "etym": "dold- 'to move' + śive 'image'",
+    "note": null
+  },
+  {
+    "word": "duljivuchir̃e",
+    "defs": ["cinema (place)", "movie theater"],
+    "pos": "noun",
+    "class": "consonant stem",
+    "root": "chir̃e",
+    "etym": "duljive 'cinematography' + chir̃e 'courtyard'",
+    "note": null
+  },
+  {
+    "word": "ḍulṭhe",
+    "defs": ["bone", "pit (of a fruit)", "stone of a fruit"],
+    "pos": "noun",
+    "class": "consonant stem",
+    "root": "ḍulṭhe",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "duṃśa",
+    "defs": ["voice", "speech"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "duṃśa",
+    "etym": null,
+    "note": "More commonly 'nena'."
+  },
+  {
+    "word": "duñam̃uke",
+    "defs": ["duñe milk", "soy milk"],
+    "pos": "noun",
+    "class": "consonant stem",
+    "root": "m̃uke",
+    "etym": "duñe (bean name) + m̃uke 'milk'",
+    "note": null
+  },
+  {
+    "word": "duñe",
+    "defs": ["soybean-like bean"],
+    "pos": "noun",
+    "class": "consonant stem",
+    "root": "duñe",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "dūṇe",
+    "defs": ["box"],
+    "pos": "noun",
+    "class": "consonant stem",
+    "root": "dūṇe",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "dūprātse",
+    "defs": ["spread", "difference"],
+    "pos": "noun",
+    "class": "consonant stem",
+    "root": "prāt-",
+    "etym": "dū- 'between' + prāt- 'to diffuse, expand' + -s-e",
+    "note": null
+  },
+  {
+    "word": "dūtare",
+    "defs": ["Platecarpus-like large reptile whale"],
+    "pos": "noun",
+    "class": "consonant stem",
+    "root": "dūtare",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "dūvīshāsa",
+    "defs": ["curtain"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "hās-",
+    "etym": "dū-īs-hās- 'to be hung and interposed (of sheets, slabs)' + -a",
+    "note": "Technical or archaic."
+  },
+  {
+    "word": "dvārma",
+    "defs": ["room", "chamber"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "dvārma",
+    "etym": null,
     "note": null
   }
 ]

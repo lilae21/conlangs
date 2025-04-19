@@ -9,6 +9,24 @@
     "note": "Singulare tantum"
   },
   {
+    "word": "b̃amuchlaḍa",
+    "defs": ["tit fuck", "tit wank"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "chlaḍ-",
+    "etym": "b̃amu 'breast' + chlaḍa 'sex'",
+    "note": null
+  },
+  {
+    "word": "b̃amuchlaḍah",
+    "defs": ["to give a tit fuck"],
+    "pos": "verb",
+    "class": "0",
+    "root": "chlaḍ-",
+    "etym": "Cf. 'b̃amuchlaḍa'.",
+    "note": "Intransitive, requires a dative argument (cf. 'chlaḍah')"
+  },
+  {
     "word": "b̃ila",
     "defs": ["soil", "terrain"],
     "pos": "noun",
@@ -25,6 +43,24 @@
     "root": "lelf",
     "etym": "b̃ila 'soil, terrain' + lelf- 'to shake' + -anah",
     "note": null
+  },
+  {
+    "word": "b̃occhlaḍa",
+    "defs": ["fingering (masturbation)"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "chlaḍ-",
+    "etym": "b̃oṭa 'finger' + chlaḍa 'sex'",
+    "note": null
+  },
+  {
+    "word": "b̃occhlaḍah",
+    "defs": ["to finger (masturbate)"],
+    "pos": "verb",
+    "class": "0",
+    "root": "chlaḍ-",
+    "etym": "Cf. 'b̃occhlaḍa'.",
+    "note": "Intransitive, requires a dative argument (cf. 'chlaḍah')"
   },
   {
     "word": "b̃oṭa",

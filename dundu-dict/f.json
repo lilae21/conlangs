@@ -1,0 +1,218 @@
+[
+  {
+    "word": "falgah",
+    "defs": ["to tire", "to make tired", "to make weary"],
+    "pos": "verb",
+    "class": "I",
+    "root": "falg-",
+    "etym": null,
+    "note": "Zero grade 'fṛg-'."
+  },
+  {
+    "word": "falganah",
+    "defs": ["task that tires"],
+    "pos": "noun",
+    "class": "h-stem",
+    "root": "falg-",
+    "etym": "falg- 'to tire, make tired, make weary' + -anah",
+    "note": null
+  },
+  {
+    "word": "falgda",
+    "defs": ["tiredness", "weariness"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "falg-",
+    "etym": "falg- 'to tire, make tired, make weary' + -ta",
+    "note": null
+  },
+  {
+    "word": "faneya",
+    "defs": ["capybara"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "faneya",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "fargah",
+    "defs": ["to be unbound", "to be free", "to be unlimited", "to be limitless"],
+    "pos": "verb",
+    "class": "IV",
+    "root": "farg-",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "farguṣa",
+    "defs": ["the state/quality of being unbound, free, unlimited"],
+    "pos": "noun",
+    "class": "a-stem apoph.",
+    "root": "farg-",
+    "etym": "farg- 'to be free, unbound' + -uṣ-a",
+    "note": null
+  },
+  {
+    "word": "fä",
+    "defs": ["right", "true", "correct", "yes"],
+    "pos": "interjection",
+    "class": "-",
+    "root": "fä",
+    "etym": null,
+    "note": "Confirms the polarity of the question; see the grammar for more."
+  },
+  {
+    "word": "fäfä",
+    "defs": ["yes", "sure"],
+    "pos": "interjection",
+    "class": "-",
+    "root": "fä",
+    "etym": "Reduplication of 'fä' (right, true, yes)",
+    "note": "Colloquial."
+  },
+  {
+    "word": "fählah",
+    "defs": ["to be correct", "to be right"],
+    "pos": "verb",
+    "class": "0",
+    "root": "fähl-",
+    "etym": "Cf. the interjection 'fä' (right, true, correct, yes)",
+    "note": null
+  },
+  {
+    "word": "fählata",
+    "defs": ["truth", "the state of not being false"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "fähl-",
+    "etym": "fähl- 'to be correct' + -ta",
+    "note": null
+  },
+  {
+    "word": "fävu",
+    "defs": ["right thing"],
+    "pos": "noun",
+    "class": "u-stem",
+    "root": "fä",
+    "etym": "fä 'right, true, yes' + -vu",
+    "note": null
+  },
+  {
+    "word": "foltah",
+    "defs": ["to be bent", "to be curled", "to bend (caus.)", "to incline (caus.)"],
+    "pos": "verb",
+    "class": "III",
+    "root": "folt-",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "foltonnah",
+    "defs": ["bending", "squat", "push-up (physical exercise)"],
+    "pos": "noun",
+    "class": "h-stem",
+    "root": "folt-",
+    "etym": "folt-on- (causative of 'folt-' (to be bent, curled)) + -anah",
+    "note": null
+  },
+  {
+    "word": "foltra",
+    "defs": ["slope", "incline"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "folt-",
+    "etym": "folt- 'to be bend, curled'",
+    "note": null
+  },
+  {
+    "word": "frāgata",
+    "defs": ["bush"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "frāgata",
+    "etym": null,
+    "note": "More commonly 'mūkthe'."
+  },
+  {
+    "word": "frāgateṣa",
+    "defs": ["bushland", "wilderness"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "frāgata",
+    "etym": "frāgata 'bush' + -eṣa",
+    "note": null
+  },
+  {
+    "word": "frāṇagi",
+    "defs": ["a type of woven straw sandals"],
+    "pos": "noun",
+    "class": "consonant stem",
+    "root": "*frāṇage",
+    "etym": null,
+    "note": "Plurale tantum."
+  },
+  {
+    "word": "fulah",
+    "defs": ["hearth"],
+    "pos": "noun",
+    "class": "h-stem",
+    "root": "fulah",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "fulta",
+    "defs": ["curl"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "folt-",
+    "etym": "folt- 'to be bent, curled' + -a",
+    "note": null
+  },
+  {
+    "word": "fultaglipya",
+    "defs": ["retroflex articulation", "the curled position of the tongue in order to pronounce retroflex consonants"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "gläp-",
+    "etym": "fulta 'curl' + glipya 'tongue'",
+    "note": null
+  },
+  {
+    "word": "fultalaḫla",
+    "defs": ["retroflex consonants", "the letters of the Dun. script representing retroflex consonants"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "laḫl-",
+    "etym": "fulta(glipya) 'retroflex articulation' + laḫla 'group'",
+    "note": null
+  },
+  {
+    "word": "fultate",
+    "defs": ["articulation", "knee", "elbow"],
+    "pos": "noun",
+    "class": "consonant stem",
+    "root": "folt-",
+    "etym": "folt- 'to be bent, curled' + -aC'-e",
+    "note": "The 'articulation' sense is medical; 'knee', 'elbow' are literary."
+  },
+  {
+    "word": "fultvu",
+    "defs": ["curve"],
+    "pos": "noun",
+    "class": "u-stem",
+    "root": "folt-",
+    "etym": "folt- 'to be bent, curled' + -vu",
+    "note": "Rare; more commonly 'quḫma'."
+  },
+  {
+    "word": "fūthe",
+    "defs": ["smoke"],
+    "pos": "noun",
+    "class": "consonant stem",
+    "root": "fūthe",
+    "etym": null,
+    "note": null
+  }
+]

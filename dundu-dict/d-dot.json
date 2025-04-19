@@ -88,5 +88,50 @@
     "root": "ḍeṭ-",
     "etym": "ḍeṭ- 'to point at, select, mark' + -ūlt-e",
     "note": null
+  },
+  {
+    "word": "ḍirśādā",
+    "defs": ["often"],
+    "pos": "adverb",
+    "class": "-",
+    "root": "*śād",
+    "etym": "ḍer- 'to be dense' + *śād- 'time' + adverbializing locative -ā",
+    "note": null
+  },
+  {
+    "word": "ḍirvu",
+    "defs": ["something dense", "something opaque"],
+    "pos": "noun",
+    "class": "u-stem",
+    "root": "ḍer-",
+    "etym": "ḍer- 'to be dense' + -vu",
+    "note": null
+  },
+  {
+    "word": "ḍiṭa",
+    "defs": ["something pointed at", "selection", "something marked"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "ḍeṭ-",
+    "etym": "ḍeṭ- 'to point at, select, mark' + -a",
+    "note": null
+  },
+  {
+    "word": "ḍiṭṭya",
+    "defs": ["sign", "marking"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "ḍeṭ-",
+    "etym": "ḍeṭ- 'to point at, select, mark' + -tya",
+    "note": null
+  },
+  {
+    "word": "ḍotvi",
+    "defs": ["fat", "butter"],
+    "pos": "noun",
+    "class": "i-stem",
+    "root": "*ḍotve",
+    "etym": null,
+    "note": "Plurale tantum."
   }
 ]
