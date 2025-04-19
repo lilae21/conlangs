@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>DUNDULANYÄ ONLINE DICTIONARY - D - Lilaë&apos;s Conlangs</title>
+  <meta charset="UTF-8">
+  <meta name="keywords" content="conlangs, constructed languages, Dundulanyä, Eventoa, conlanging">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://unpkg.com/phosphor-icons"></script>
+  <link rel="stylesheet" href="../../css/dundu.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../asset/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../asset/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../asset/favicon-16x16.png">
+  <style>
+        .results {
+            border-bottom: 1px solid rgba(210, 77, 255, 0.9);
+            padding: 10px 0;
+        }
+        .word {
+            font-size: 20px;
+            font-weight: 600;
+            color: rgb(64, 0, 128);
+        }
+        .defs { font-size: 18px; font-weight: 500; }
+        .leg { font-size: 15px; font-weight: 400; font-style: italic; }
+        h5 {
+            font-family: "Comfortaa", sans-serif;
+            font-size: 22px;
+        }
+  </style>
+</head>
+<body>
+  <h1>The Dundulanyä online dictionary</h1>
+  <h5>Lemmas beginning with D</h5>
+  <div class="fixed dropdown"><p>me<br>nu</p>
+      <div class="dropdown-content">
+      <i><a href="../../dundu.htm">Dundulanyä main page</a></i>
+      <a href="../dictionary.htm">Searchable dictionary</a>
+      </div>
+    </div>
+  <div id="results"></div>
+
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+      fetch('https://lilae21.github.io/conlangs/dundu-dict/d.json')
+        .then(response => {
+          if (!response.ok) {
+            throw new Error("Errore nel caricamento del file JSON");
+          }
+          return response.json();
+        })
+        .then(data => {
+          const container = document.getElementById("results");
+          container.innerHTML = ""; // Svuota il contenuto
+
+          data.forEach(entry => {
+            const html = `
+              <blockquote>
+                <span class="word">${entry.word}</span>
+                <small>(<i>${entry.pos}, ${entry.class}, √${entry.root}</i>)</small>
+                &#8212;
+                <span class="defs">${entry.defs.join(", ")}</span><br>
+                ${entry.etym ? `<span class="leg">Etymology:</span> ${entry.etym}<br>` : ""}
+                ${entry.note ? `<span class="leg">Notes:</span> ${entry.note}` : ""}
+              </blockquote>
+            `;
+            container.innerHTML += html;
+          });
+        })
+        .catch(error => {
+          document.getElementById("results").textContent = error.message;
+        });
+    });
+    </script>
+  <script src="../../parts/footer.js"></script>
+</body>
+</html>
