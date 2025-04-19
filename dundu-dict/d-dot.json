@@ -1,0 +1,29 @@
+[
+  {
+    "word": "ḍāfukulebe",
+    "defs": ["country-like musical genre native to the Toyubeshian islands, today popular all throughout the Dundulanyä world"],
+    "pos": "noun",
+    "class": "consonant stem",
+    "root": "ḍāfukulebe",
+    "etym": "Classical Toyubeshian 'dhaafo o-kolebe' (field music)",
+    "note": null
+  },
+  {
+    "word": "ḍāfukuleblila",
+    "defs": ["ḍāfukulebe artist", "ḍāfukulebe musician"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "lel-",
+    "etym": "ḍāfukulebe + lila 'person'",
+    "note": null
+  },
+  {
+    "word": "ḍāfunädu",
+    "defs": ["ḍāfukulebe artist", "ḍāfukulebe musician"],
+    "pos": "noun",
+    "class": "u-stem",
+    "root": "ḍāfunädu",
+    "etym": "Classical Toyubeshian 'dhaafo o-nẹẹdu' (field voice)",
+    "note": "Used regionally in the Toyubeshian islands or in fandom."
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "word": "däbhah",
+    "defs": ["to kick"],
+    "pos": "verb",
+    "class": "V",
+    "root": "däbh-",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "dacya",
+    "defs": ["raindrop"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "daśa",
+    "etym": "daśa 'rain' + -tya",
+    "note": null
+  },
+  {
+    "word": "dadarṇāta",
+    "defs": ["ability"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "dar-",
+    "etym": "dadarṇā- (potential stem of 'dar-' (to do)) + -ta",
+    "note": null
+  }
+  {
+    "word": "dāh",
+    "defs": ["to turn", "to spin"],
+    "pos": "verb",
+    "class": "0",
+    "root": "dā-",
+    "etym": null,
+    "note": "Transitive verb."
+  }
+]

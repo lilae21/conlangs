@@ -54,6 +54,15 @@
     "note": null
   },
   {
+    "word": "caṃchlaḍhūttlä",
+    "defs": ["hypersexuality", "nymphomania", "satyriasis"],
+    "pos": "noun",
+    "class": "ä-stem",
+    "root": "chlaḍ-",
+    "etym": "cam- (intensive prefix) + chlaḍ- 'to have sex' + -hūttlä (disorder)",
+    "note": null
+  },
+  {
     "word": "caṃhūmuṭa",
     "defs": ["topic"],
     "pos": "noun",
@@ -189,24 +198,6 @@
     "note": "Also 'anutū', a plurale tantum which is a lemmatized pluralized form of 'anutu'."
   },
   {
-    "word": "cändah",
-    "defs": ["to be orange"],
-    "pos": "verb",
-    "class": "0",
-    "root": "cänd",
-    "etym": "Cf. the substantive 'cände'.",
-    "note": null
-  },
-  {
-    "word": "cände",
-    "defs": ["orange (color)"],
-    "pos": "noun",
-    "class": "consonant stem",
-    "root": "cänd",
-    "etym": null,
-    "note": null
-  },
-  {
     "word": "caṅgha",
     "defs": ["banana similar to Fe’i bananas, small with red peel and intense yellow pulp"],
     "pos": "noun",
@@ -249,6 +240,24 @@
     "class": "h-stem",
     "root": "canya",
     "etym": "canya + -äśah",
+    "note": null
+  },
+  {
+    "word": "cändah",
+    "defs": ["to be orange"],
+    "pos": "verb",
+    "class": "0",
+    "root": "cänd",
+    "etym": "Cf. the substantive 'cände'.",
+    "note": null
+  },
+  {
+    "word": "cände",
+    "defs": ["orange (color)"],
+    "pos": "noun",
+    "class": "consonant stem",
+    "root": "cänd",
+    "etym": null,
     "note": null
   },
   {

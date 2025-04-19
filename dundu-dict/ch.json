@@ -1,0 +1,290 @@
+[
+  {
+    "word": "chabe",
+    "defs": ["bow", "circle", "arch", "parallel (circle of latitude)"],
+    "pos": "noun",
+    "class": "consonant stem",
+    "root": "chabe",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "chablila",
+    "defs": ["archer"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "lel-",
+    "etym": "chabe 'arch' + lila 'person'",
+    "note": null
+  },
+  {
+    "word": "chārga",
+    "defs": ["end", "limit", "border"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "chārg-",
+    "etym": "chārg- 'to end' + -a",
+    "note": null
+  },
+  {
+    "word": "chārgah",
+    "defs": ["to end", "to finish", "to border"],
+    "pos": "verb",
+    "class": "0",
+    "root": "chārg-",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "chāṭi",
+    "defs": ["bamboo", "common bamboo"],
+    "pos": "noun",
+    "class": "i-stem",
+    "root": "chāṭi",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "chegah",
+    "defs": ["to enjoy", "to be pleasured"],
+    "pos": "verb",
+    "class": "II",
+    "root": "cheg-",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "chiga",
+    "defs": ["pleasure", "delight", "enjoyment"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "cheg-",
+    "etym": "cheg- 'to enjoy, be pleasured' + -a",
+    "note": null
+  },
+  {
+    "word": "chigya",
+    "defs": ["clitoris"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "cheg-",
+    "etym": "cheg- 'to enjoy, be pleasured' + -ya",
+    "note": null
+  },
+  {
+    "word": "chir̃e",
+    "defs": ["garden", "courtyard", "residential farmhouse with apartments around a shared internal courtyard", "arboretum", "grove", "vegetable garden"],
+    "pos": "noun",
+    "class": "consonant stem",
+    "root": "chir̃e",
+    "etym": null,
+    "note": "The senses 'arboretum', 'grove' and 'vegetable garden' are obsolete in contemporary Dundulanyä."
+  },
+  {
+    "word": "chiṣa",
+    "defs": ["staircase", "stairs"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "chiṣa",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "chiṣalēlte",
+    "defs": ["stairwell"],
+    "pos": "noun",
+    "class": "consonant stem",
+    "root": "le-",
+    "etym": "chiṣa 'stairs' + lēlte 'well, spring'",
+    "note": null
+  },
+  {
+    "word": "chiṣaśive",
+    "defs": ["stair-like or pyramidal representation"],
+    "pos": "noun",
+    "class": "consonant stem",
+    "root": "śive",
+    "etym": "chiṣa 'stairs' + śive 'image'",
+    "note": null
+  },
+  {
+    "word": "chiṣṭya",
+    "defs": ["step (in a staircase)"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "chiṣa",
+    "etym": "chiṣa 'stairs' + -tya",
+    "note": null
+  },
+  {
+    "word": "chlaḍa",
+    "defs": ["sex", "coitus", "sexual intercourse"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "chlaḍ-",
+    "etym": "chlaḍ- 'to have sex' + -a",
+    "note": null
+  },
+  {
+    "word": "chlaḍḍaduldibe",
+    "defs": ["sexual orientation"],
+    "pos": "noun",
+    "class": "consonant stem",
+    "root": "dold-",
+    "etym": "chlaḍa 'sex' + taduldibe 'direction, orientation'",
+    "note": null
+  },
+  {
+    "word": "chlaḍah",
+    "defs": ["to have sex", "to copulate"],
+    "pos": "verb",
+    "class": "0",
+    "root": "chlaḍ-",
+    "etym": null,
+    "note": "Intransitive, requires a dative argument"
+  },
+  {
+    "word": "chlāke",
+    "defs": ["naginata-like weapon"],
+    "pos": "noun",
+    "class": "consonant stem",
+    "root": "chlāke",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "chläh",
+    "defs": ["to be happy", "to be glad"],
+    "pos": "verb",
+    "class": "V",
+    "root": "chlä-",
+    "etym": null,
+    "note": "Perception verb."
+  },
+  {
+    "word": "chlēyāmita",
+    "defs": ["happiness", "joy"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "chlä-",
+    "etym": "chlä- 'to be happy' + -āmita",
+    "note": null
+  },
+  {
+    "word": "chlichārga",
+    "defs": ["comedy"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "chārg-",
+    "etym": "chlä- 'to be happy' + chārga 'end'",
+    "note": null
+  },
+  {
+    "word": "chlīm̃a",
+    "defs": ["golden yellow", "ochre"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "chlīm̃a",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "chlīm̃ah",
+    "defs": ["to be golden yellow", "to be ochre"],
+    "pos": "verb",
+    "class": "0",
+    "root": "chlīm̃a",
+    "etym": "Cf. the substantive 'chlīm̃a'",
+    "note": null
+  },
+  {
+    "word": "chlīm̃ida",
+    "defs": ["turmeric"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "chlīm̃a",
+    "etym": "chlīm̃a 'golden yellow' + -ida",
+    "note": null
+  },
+  {
+    "word": "chlīm̃idlulya",
+    "defs": ["turmeric flower"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "loly-",
+    "etym": "chlīm̃ida 'turmeric' + lulya 'flower'",
+    "note": null
+  },
+  {
+    "word": "chlūba",
+    "defs": ["sand"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "chlūba",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "chlublīlta",
+    "defs": ["sandy path"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "līlta",
+    "etym": "chlūba 'sand' + līlta 'path, trail'",
+    "note": null
+  },
+  {
+    "word": "chuviyāna",
+    "defs": ["sweetness (of taste)", "sweet flavor"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "chuy-",
+    "etym": "chuy- 'to be sweet (of taste)' + -na",
+    "note": null
+  },
+  {
+    "word": "chuviyāna",
+    "defs": ["sweetness (of taste)", "sweet flavor"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "chuy-",
+    "etym": "chuy- 'to be sweet (of taste)' + -na",
+    "note": null
+  },
+  {
+    "word": "chuyādhu",
+    "defs": ["dessert"],
+    "pos": "noun",
+    "class": "u-stem",
+    "root": "chuy-",
+    "etym": "chuy- 'to be sweet (of taste)' + -ādhu",
+    "note": null
+  },
+  {
+    "word": "chuyah",
+    "defs": ["to be sweet (to the taste)"],
+    "pos": "verb",
+    "class": "0",
+    "root": "chuy-",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "chuyugubhe",
+    "defs": ["sweet bean (a beige-coloured chickpea-shaped bean usually made into a sweet paste for desserts, especially in Central and Southern Lusaṃrīte)"],
+    "pos": "noun",
+    "class": "consonant stem",
+    "root": "gubhe",
+    "etym": "chuy- 'to be sweet (of taste) + gubhe 'bean'",
+    "note": null
+  },
+  {
+    "word": "chuyūya",
+    "defs": ["sugar"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "chuy-",
+    "etym": "chuy- 'to be sweet (of taste)' + -ūya",
+    "note": null
+  }
+]
