@@ -1,0 +1,20 @@
+[
+  {
+    "word": "lūla",
+    "defs": ["car", "cart"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "lūla",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "lūliccha",
+    "defs": ["toy car"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "lūla",
+    "etym": "lūla 'car' + -iccha",
+    "note": null
+  }
+]

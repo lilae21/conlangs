@@ -333,6 +333,87 @@
     "note": null
   },
   {
+    "word": "cihe",
+    "defs": ["lips"],
+    "pos": "noun",
+    "class": "e-stem",
+    "root": "cihe",
+    "etym": null,
+    "note": "Singulare tantum"
+  },
+  {
+    "word": "cihelaḫla",
+    "defs": ["labial consonants", "the letters of the Dun. script representing labial consonants"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "laḫl-",
+    "etym": "cihe 'lips' + laḫla 'group'",
+    "note": null
+  },
+  {
+    "word": "cikha",
+    "defs": ["drink offered to a guest"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "cekh-",
+    "etym": "cekh- 'to offer a guest a drink' + -a",
+    "note": null
+  },
+  {
+    "word": "cīlaya",
+    "defs": ["swamp"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "cīlaya",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "cinta",
+    "defs": ["closure", "being closed"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "cent-",
+    "etym": "cent- 'to close' + -a",
+    "note": null
+  },
+  {
+    "word": "cintamarta",
+    "defs": ["closed city"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "marta",
+    "etym": "cent- 'to close' + marta 'city'",
+    "note": null
+  },
+  {
+    "word": "comu",
+    "defs": ["cooked rice", "rice (as food)"],
+    "pos": "noun",
+    "class": "u-stem",
+    "root": "comu",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "cūñśa",
+    "defs": ["scarf"],
+    "pos": "noun",
+    "class": "a-stem",
+    "root": "cūñśa",
+    "etym": null,
+    "note": null
+  },
+  {
+    "word": "cyoh",
+    "defs": ["to want"],
+    "pos": "verb",
+    "class": "III",
+    "root": "cyo-",
+    "etym": null,
+    "note": null
+  },
+  {
     "word": "cyota",
     "defs": ["will", "willpower"],
     "pos": "noun",
