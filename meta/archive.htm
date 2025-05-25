@@ -3,7 +3,31 @@
 <head>
   <title>EPISTOLARIUM - Lilaë&apos;s Conlangs</title>
   <meta charset="UTF-8">
-  <meta name="keywords" content="conlangs, constructed languages, Dundulanyä, Eventoa, conlanging">
+
+  <!-- DublinCore metadata -->
+  <meta name="DC.title" content="The Epistolarium" />
+  <meta name="DC.creator" content="Lilaë" />
+  <meta name="DC.subject" content="conlangs, constructed languages, Dundulanyä, Dundulanya, Eventoa, conlanging, linguistics, artificial languages" />
+  <meta name="DC.description" content="The collection of comments and posts, originally written or shared elsewhere on the web by Italian conlanger Lilaë starting from 2015, about conlanging and conworlding, topics covered on his website Lilaë's Conlangs." />
+  <meta name="DC.date.created" content="2025-03-30" />
+  <meta name="DC.date.modified" content="2025-05-25" />
+  <meta name="DC.type" content="Text" />
+  <meta name="DC.format" content="text/html" />
+  <meta name="DC.identifier" content="https://lilae21.github.io/conlangs/meta/archive.htm" />
+  <meta name="DC.language" content="en" />
+  <meta name="DC.relation" content="https://lilae21.github.io/conlangs/index.htm" />
+  <meta name="DC.coverage" content="Constructed languages and worldbuilding" />
+  <meta name="DC.rights" content="CC BY-NC-SA 4.0; https://creativecommons.org/licenses/by-nc-sa/4.0/" />
+
+  <!-- DublinCore schema -->
+  <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+  <link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
+
+  <!-- Standard html metadata for compatibility-->
+  <meta name="keywords" content="conlangs, constructed languages, Dundulanyä, Dundulanya, Eventoa, conlanging" />
+  <meta name="description" content="The collection of comments and posts, originally written or shared elsewhere on the web by Italian conlanger Lilaë starting from 2015." />
+  <meta name="author" content="Lilaë" />
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://unpkg.com/phosphor-icons"></script>
   <link rel="stylesheet" href="../css/home-meta.css">
@@ -86,25 +110,25 @@
     <div class="comm-title">Excerpt from an interaction with ChatGPT (in Italian)</div>
     <div class="comm-date">March 30, 2025 &#8212; around 18:30 CET</div>
       <p><span class="auth">Some context: I am using ChatGPT mainly as an assistant to automate tasks (like converting most of the originally MediaWiki-formatted content on this site to HTML), and to help me in HTML and CSS formatting for this website. This time I asked it how could I migrate my Dundulanyä dictionary to a database file and let it be consulted by users on a specific page of this site. However, in answering me, it made up a conlanging example which immediately irked me because of its ethical implications, using "honored warrior" as an example. I&apos;m including an excerpt of this interaction as it seemed a particularly striking example of AI bias, and perhaps could say something about conlanging choices, at least for those included in the model&apos;s training set.</span></p>
-      <p><span class="auth">My original prompt:</span> [D]evo creare un sito dove, in una pagina, far consultare il dizionario di una lingua artificiale, con possibilità di ricerca. [Q]uale struttura potrei usare, che sia anche semplice da <span class="auth">[sic]</span> inserire dati (parole e definizioni) nel database? [L]'utente non vede direttamente il database-dizionario ma può fare query[.]</p>
-      <p><span class="auth">ChatGPT&apos;s answer:</span> [...] <b>Inserimento Dati (Semplice e Rapido)</b></p>
-      <p>Opzioni:</p>
+      <p lang="it"><span class="auth">My original prompt:</span> [D]evo creare un sito dove, in una pagina, far consultare il dizionario di una lingua artificiale, con possibilità di ricerca. [Q]uale struttura potrei usare, che sia anche semplice da <span class="auth">[sic]</span> inserire dati (parole e definizioni) nel database? [L]'utente non vede direttamente il database-dizionario ma può fare query[.]</p>
+      <p lang="it"><span class="auth">ChatGPT&apos;s answer:</span> [...] <b>Inserimento Dati (Semplice e Rapido)</b></p>
+      <p lang="it">Opzioni:</p>
       <ol><li>Pannello Admin (un form web per aggiungere/modificare parole).</li>
       <li>File CSV/JSON (upload di un file che il backend legge e importa).</li></ol>
-      <p>Esempio JSON:</p>
+      <p lang="it">Esempio JSON:</p>
       <code>[<br>
       { "parola": "Kelor", "definizione": "Saluto formale", "categoria": "Verbo" },<br>
       { "parola": "Zarnu", "definizione": "Guerriero onorato", "categoria": "Nome" }<br>
       ]</code>
       <p>[...]</p>
-      <p><span class="auth">My answer:</span> [...] 2. non ha a che fare con il codice in sé ma perché usi una definizione quale "guerriero onorato", che rimanda anche a ideali di violenza e mancanza di empatia, come se l'onore fosse legato al combattere? [E] non qualcosa che rimandi a gentilezza e amore per il prossimo[?]</p>
-      <p><span class="auth">ChatGPT&apos;s answer:</span> [...] <b>2. Sulla scelta della parola "Guerriero onorato"</b></p>
-      <p>Hai ragione a sottolinearlo! Il linguaggio influisce sulla percezione del mondo, e non è detto che "onore" debba essere legato alla guerra.</p>
-      <p>Se vogliamo trasmettere un'idea più positiva, possiamo usare definizioni che evocano gentilezza, protezione e rispetto reciproco. Per esempio:</p>
-      <ul><li>"Persona che protegge con saggezza"</li>
-      <li>"Guida altruista"</li>
-      <li>"Colui/colei che ispira armonia"</li></ul>
-      <p>Vuoi che il dizionario segua un principio specifico nei significati? Tipo una lingua basata su concetti di empatia e nonviolenza?</p>
+      <p lang="it"><span class="auth">My answer:</span> [...] 2. non ha a che fare con il codice in sé ma perché usi una definizione quale "guerriero onorato", che rimanda anche a ideali di violenza e mancanza di empatia, come se l'onore fosse legato al combattere? [E] non qualcosa che rimandi a gentilezza e amore per il prossimo[?]</p>
+      <p lang="it"><span class="auth">ChatGPT&apos;s answer:</span> [...] <b>2. Sulla scelta della parola "Guerriero onorato"</b></p>
+      <p lang="it">Hai ragione a sottolinearlo! Il linguaggio influisce sulla percezione del mondo, e non è detto che "onore" debba essere legato alla guerra.</p>
+      <p lang="it">Se vogliamo trasmettere un'idea più positiva, possiamo usare definizioni che evocano gentilezza, protezione e rispetto reciproco. Per esempio:</p>
+      <ul><li lang="it">"Persona che protegge con saggezza"</li>
+      <li lang="it">"Guida altruista"</li>
+      <li lang="it">"Colui/colei che ispira armonia"</li></ul>
+      <p lang="it">Vuoi che il dizionario segua un principio specifico nei significati? Tipo una lingua basata su concetti di empatia e nonviolenza?</p>
     <hr>
     <div class="comm-title">Comment in "What are y’all’s cuss words?", r/conlangs.</div>
     <div class="comm-date">March 9, 2025 &#8212; 21:26:53 CET</div>
@@ -607,8 +631,8 @@
     <hr>
     <div class="comm-title">Comment in the FB group "CONLANGS - Línguas Construídas (Lusófonos)".</div>
     <div class="comm-date">April 1, 2019 &#8212; 23:26 CEST</div>
-      <p>Eu prefiro a priori, porque acho que é muito mais difícil recriar toda a evolução das línguas reais e só consigo criar uma língua a posteriori se conheço bem toda a história duma família linguística, para que uma conlang a posteriori possa parecer-se com uma verdadeira língua irmã.</p>
-      <p>As línguas a priori não podem ser comparadas assim portanto há mais liberdades "artísticas", embora seja mais difícil criar palavras mais técnicas se é uma língua a priori dum outro planeta (por exemplo uma das palavras do Chlouvānem que foi mais difícil criar é "cilindrada", e também outras palavras técnicas semelhantes, porque tive que ler e compreender o que descrevem &#8212; mas numa conlang a posteriori não há essa dificuldade, por exemplo no Rumônico tomei-a do latim (<i>cylindrum</i> + <i>-ātam</i> &#62; Rum. <i>cirindroṭa</i>)).</p>
+      <p lang="pt">Eu prefiro a priori, porque acho que é muito mais difícil recriar toda a evolução das línguas reais e só consigo criar uma língua a posteriori se conheço bem toda a história duma família linguística, para que uma conlang a posteriori possa parecer-se com uma verdadeira língua irmã.</p>
+      <p lang="pt">As línguas a priori não podem ser comparadas assim portanto há mais liberdades "artísticas", embora seja mais difícil criar palavras mais técnicas se é uma língua a priori dum outro planeta (por exemplo uma das palavras do Chlouvānem que foi mais difícil criar é "cilindrada", e também outras palavras técnicas semelhantes, porque tive que ler e compreender o que descrevem &#8212; mas numa conlang a posteriori não há essa dificuldade, por exemplo no Rumônico tomei-a do latim (<i>cylindrum</i> + <i>-ātam</i> &#62; Rum. <i>cirindroṭa</i>)).</p>
     <hr>
     <div class="comm-title">Comment in "Linguistics backgrounds of conlangers", r/conlangs.</div>
     <div class="comm-date">April 1, 2019 &#8212; 11:22:20 CEST</div>
