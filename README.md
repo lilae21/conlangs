@@ -3,6 +3,12 @@ A static website to present my conlanging and conworlding work.
 
 ***
 
+My website is the primary public piece of documentation on my — *lilae21* — conlanging and conworlding work. Ever since about 2015 I had been sharing my work on social media *silos* or on collaborative conlanging wikis, but this project was started as a means of organizing myself my entire work.
+
+Further information on the website's [home page][https://lilae21.github.io/conlangs/index.htm].
+
+***
+
 This work is licensed under a
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
 
