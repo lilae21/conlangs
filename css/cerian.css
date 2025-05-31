@@ -13,6 +13,12 @@ Color palette: light blue/blue. */
   src: url(/conlangs/asset/JunicodeVF-Italic.woff2);
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
     background-color: rgba(230, 255, 255, 0.8);
     line-height: 1.4;
