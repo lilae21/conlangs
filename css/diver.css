@@ -13,12 +13,6 @@ Color palette: b&w but mimicking old paper. */
   src: url(/conlangs/asset/JunicodeVF-Italic.woff2);
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
     background-color: #fbf4df;
     line-height: 1.4;
@@ -239,6 +233,10 @@ div.info-introduction {
 /* footer */
 footer {
   margin-bottom: -1%;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+  padding-left: calc(50vw - 50%);
+  padding-right: calc(50vw - 50%);
   border-style: solid none none none;
   border-color: #412020;
   background-image: linear-gradient(to right, #E0C9A6, #fbf4df);

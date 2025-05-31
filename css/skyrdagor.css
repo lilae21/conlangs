@@ -13,12 +13,6 @@ Color palette: red/orange. */
   src: url(/conlangs/asset/JunicodeVF-Italic.woff2);
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
     background-color: rgba(255, 214, 204, 0.8);
     line-height: 1.4;
@@ -239,6 +233,10 @@ div.info-introduction {
 /* footer */
 footer {
   margin-bottom: 1%;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+  padding-left: calc(50vw - 50%);
+  padding-right: calc(50vw - 50%);
   border-style: solid none none none;
   border-color: rgb(179, 0, 0);
   background-image: linear-gradient(to bottom, rgba(230, 138, 0, 1), rgba(255, 214, 204, 0.8));
