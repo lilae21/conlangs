@@ -102,6 +102,19 @@ blockquote {
     background-image: linear-gradient(to right, rgba(230, 138, 0, 0.5), rgba(255, 214, 204, 0.4));
 }
 
+.gloss {
+    border-style: none none none solid;
+    border-color: rgb(153, 102, 255);
+    padding: 9px 30px 9px 18px;
+    margin-left: 30px;
+    /* background-color: rgba(229, 204, 255, 0.7); */
+    background-image: linear-gradient(to right, rgba(230, 138, 0, 0.5), rgba(255, 214, 204, 0.4));
+}
+
+.gloss b {
+    font-size: 19px;
+}
+
 /* general text */
 
 p {
