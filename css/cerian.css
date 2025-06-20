@@ -106,6 +106,7 @@ blockquote {
     border-color: rgb(26, 117, 255);
     padding: 9px 30px 9px 18px;
     margin-left: 30px;
+    margin-bottom: 6px;
     /* background-color: rgba(229, 204, 255, 0.7); */
     background-image: linear-gradient(to right, rgba(179, 209, 255, 0.7), rgba(230, 255, 255, 0.4));
 }
