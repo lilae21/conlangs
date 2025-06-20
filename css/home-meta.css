@@ -89,6 +89,10 @@ p {
   color: rgb(77, 37, 0);
 }
 
+.footnotes {
+    font-size: 14.5px;
+}
+
 /* Code. So far only on the home page */
 code {
   font-family: "Atkinson Hyperlegible Mono", monospace;
