@@ -124,8 +124,31 @@ p {
     color: #221c1a;
 }
 
+/* notes and references container */
 .footnotes {
-    font-size: 14.5px;
+  font-size: 14.5px;
+  margin: 4px 10px 24px 10px;
+  padding: 4px 10px;
+  border-radius: 6px;
+  border: 2px solid;
+  overflow: auto;
+  border-color: #221c1a;
+}
+
+.notes-head {
+  border-radius: 6px;
+  border: 2px solid;
+  border-color: #221c1a;
+  background-color: #fbf4df;
+  text-align: center;
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24px;
+  margin-top: 6px;
+  padding-top: 2px;
+  margin-bottom: 10px;
+  padding-bottom: 2px;
 }
 
 /* IPA */
