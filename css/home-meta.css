@@ -66,8 +66,7 @@ h4 {
     font-style: normal;
 }
 
-/* h5 is used only for subtitles */
-h5 {
+.subtitle {
     text-align: center;
     color: rgb(102, 0, 0);
     font-family: "JunicodeItalic", serif;
