@@ -143,8 +143,8 @@ div.langs p {
   margin-top: 8px;
 }
 
-/* h6 per i titoli delle lingue nei box */
-h6 {
+/* Titoli delle lingue nei box */
+div.langtitle {
   border-radius: 6px;
   border: 2px solid;
   text-align: center;
