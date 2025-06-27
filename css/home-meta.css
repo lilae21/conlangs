@@ -224,6 +224,19 @@ div.fixed {
   line-height: auto;
 }
 
+.menu {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 32px;
+  padding: 6px;
+  text-indent: 0;
+  text-align: center;
+  color: rgb(102, 0, 0);
+}
+
 .dropdown {
   position: relative;
   display: inline-block;

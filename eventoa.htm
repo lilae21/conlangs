@@ -38,18 +38,33 @@
   <meta property="og:locale" content="en_US">
 
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://unpkg.com/phosphor-icons"></script>
   <link rel="stylesheet" href="css/home-meta.css">
+  <!-- Icons -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.2/src/regular/style.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.2/src/fill/style.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.2/src/duotone/style.css"/>
+  <!-- Favicons -->
   <link rel="apple-touch-icon" sizes="180x180" href="asset/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="asset/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="asset/favicon-16x16.png">
 </head>
 <body>
   <h1>Eventoa</h1>
-  <div class="fixed dropdown"><p>me<br>nu</p>
+  <div class="fixed dropdown"><i class="ph-duotone ph-book menu"></i>
+  <script>
+    const menuContainer = document.querySelector('.fixed');
+    const menuIcon = menuContainer.querySelector('.menu');
+
+    menuContainer.addEventListener('mouseenter', function() {
+      menuIcon.className = 'ph-duotone ph-book-open-text menu';
+    });
+
+    menuContainer.addEventListener('mouseleave', function() {
+      menuIcon.className = 'ph-duotone ph-book menu';
+    });
+  </script>
       <div class="dropdown-content">
       <i><a href="index.htm">Back to home page</a></i>
-      <a href="#DOLG">Dolgopolsky list</a>
       <a href="#CONTINENTS">Continents</a>
       <a href="#PLANETDATA">Planetary data</a>
       </div>

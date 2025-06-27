@@ -30,9 +30,23 @@
   <meta name="description" content="Grammar of Dundulanyä, an artistic constructed language created and developed by Italian conlanger Lilaë starting in 2021 as the chief language of the conworlding project Eventoa." />
   <meta name="author" content="Lilaë" /> -->
 
+  <!-- Open Graph tags -->
+  <!-- <meta property="og:title" content="Dundulanyä">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://lilae21.github.io/conlangs/dundu.htm">
+  <meta property="og:image" content="https://lilae21.github.io/conlangs/asset/og_previews/og_dundu.png">
+  <meta property="og:description" content="Grammar of the artistic constructed language Dundulanyä, a part of the Eventoa conworld.">
+  <meta property="og:site_name" content="Lilaë's conlangs">
+  <meta property="og:locale" content="en_US"> -->
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://unpkg.com/phosphor-icons"></script>
-  <link rel="stylesheet" href="../css/dundu.css">
+  <link rel="stylesheet" href="css/dundu.css">
+  <!-- <link rel="stylesheet" media="(prefers-color-scheme: dark)" href="css/dundu-darkmode.css"> -->
+  <!-- Icons -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.2/src/regular/style.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.2/src/fill/style.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.2/src/duotone/style.css"/>
+  <!-- Favicons -->
   <link rel="apple-touch-icon" sizes="180x180" href="../asset/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="../asset/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="../asset/favicon-16x16.png">
@@ -40,7 +54,19 @@
 <body>
   <h1>TITLE</h1>
   <div class="subtitle">subtitle</div>
-  <div class="fixed dropdown"><p>me<br>nu</p>
+  <div class="fixed dropdown"><i class="ph-duotone ph-book menu"></i>
+  <script>
+    const menuContainer = document.querySelector('.fixed');
+    const menuIcon = menuContainer.querySelector('.menu');
+
+    menuContainer.addEventListener('mouseenter', function() {
+      menuIcon.className = 'ph-duotone ph-book-open-text menu';
+    });
+
+    menuContainer.addEventListener('mouseleave', function() {
+      menuIcon.className = 'ph-duotone ph-book menu';
+    });
+  </script>
       <div class="dropdown-content">
       <i><a href="../dundu.htm">Dundulanyä main page</a></i>
       <a href="#DOLG">Dolgopolsky list</a>
