@@ -272,6 +272,11 @@ td {
   margin: 0 0 20px 20px;
 }
 
+.info-introduction th {
+  text-align: left;
+  font-size: 19px;
+}
+
 /* footer */
 footer {
   margin-bottom: 1%;
