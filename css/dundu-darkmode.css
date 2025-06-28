@@ -18,11 +18,10 @@ html {
 }
 
 body {
-    background-color: rgba(40, 11, 40, 0.8);
+    background-color: rgba(35, 6, 45, 0.8);
     line-height: 1.4;
     font-family: "Junicode", serif;
     font-weight: 400;
-    font-size: 18px;
 }
 
 h1 {
@@ -100,7 +99,7 @@ caption {
     margin-left: 1.6667rem;
     margin-bottom: 0.35rem;
     /* background-color: rgba(229, 204, 255, 0.7); */
-    background-image: linear-gradient(to right, rgba(73, 4, 73, 0.7), rgba(38, 13, 38, 0.4));
+    background-image: linear-gradient(to right, rgba(73, 4, 73, 0.7), rgba(38, 13, 38, 0.05));
     color: rgb(255, 230, 255);
 }
 
@@ -131,13 +130,13 @@ table {
   border-radius: 6px;
   border: 2px solid;
   overflow: auto;
-  border-color: rgb(204, 0, 204);
+  border-color: rgba(255, 153, 255, 0.9);
 }
 
 .notes-head {
   border-radius: 6px;
   border: 2px solid;
-  border-color: rgb(204, 0, 204);
+  border-color: rgba(255, 153, 255, 0.9);
   background-color: rgba(77, 0, 102, 1);
   text-align: center;
   font-family: "Comfortaa", sans-serif;
@@ -164,7 +163,7 @@ span {
 ul {
   border-left: solid rgb(204, 0, 204);
   margin-left: 1.6667rem;
-  background-image: linear-gradient(to right, rgba(73, 4, 73, 0.7), rgba(38, 13, 38, 0.4));
+  background-image: linear-gradient(to right, rgba(73, 4, 73, 0.7), rgba(38, 13, 38, 0.05));
   list-style-type: none;
   padding: 9px 30px 9px 18px;
   line-height: 1.6;
@@ -205,7 +204,7 @@ ol li {
     border-left: solid rgb(204, 0, 204);
     padding: 1px 30px 1px 18px;
     margin-bottom: 0.45rem;
-    background-image: linear-gradient(to right, rgba(73, 4, 73, 0.7), rgba(38, 13, 38, 0.4));
+    background-image: linear-gradient(to right, rgba(73, 4, 73, 0.7), rgba(38, 13, 38, 0.05));
 }
 ol.nest {
     border-left: none;
@@ -244,12 +243,12 @@ table {
   border-collapse: collapse;
 }
 
-tr:nth-child(odd) {background-color: rgb(73, 4, 73);}
+tr:nth-child(odd) {background-color: rgb(97, 5, 97);}
 
 th {
-    background-color: rgb(97, 5, 97);
+    background-color: rgba(77, 0, 102, 0.5);
     padding: 5px 8px 5px 8px;
-    border: 1px solid #cc00cc;
+    border: 1px solid rgba(255, 153, 255, 0.9);
 }
 
 td {
@@ -283,8 +282,8 @@ footer {
   margin-right: -1%;
   margin-bottom: 1%;
   border-style: solid none none none;
-  border-color: rgb(204, 0, 204);
-  background-image: linear-gradient(to bottom, rgba(73, 4, 73, 0.7), rgba(38, 13, 38, 0.4));
+  border-color: rgba(255, 153, 255, 0.9);
+  background-image: linear-gradient(to bottom, rgba(73, 4, 73, 0.7), rgba(38, 13, 38, 0.05));
   font-family: "Comfortaa", sans-serif;
   font-weight: 350;
   font-size: 0.8889em;
