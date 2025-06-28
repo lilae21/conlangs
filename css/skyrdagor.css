@@ -13,6 +13,10 @@ Color palette: red/orange. */
   src: url(/conlangs/asset/JunicodeVF-Italic.woff2);
 }
 
+html {
+    font-size: 18px;
+}
+
 body {
     background-color: rgba(255, 214, 204, 0.8);
     line-height: 1.4;
@@ -24,9 +28,9 @@ body {
 h1 {
     text-align: center;
     color: rgb(128, 0, 0);
-    letter-spacing: 2px;
-    word-spacing: 5.5px;
-    font-size: 40px;
+    letter-spacing: 0.1111em;
+    word-spacing: 0.3056em;
+    font-size: 2.2223em;
     font-family: "Comfortaa", sans-serif;
     font-weight: 800;
     font-style: normal;
@@ -37,73 +41,70 @@ h1 {
     color: rgb(128, 0, 0);
     font-family: "JunicodeItalic", serif;
     font-weight: normal;
-    font-size: 24px;
+    font-size: 1.3333em;
     margin-top: 1%;
     margin-bottom: 2%;
 }
 
-hr {color: rgb(89, 0, 179);}
-
 /* sections */
 
 h2 {
-    font-size: 28px;
     color: rgb(128, 0, 0);
-    margin-left: 4px;
-    word-spacing: 2.5px;
-    letter-spacing: 1px;
+    font-size: 1.5556em;
+    margin-left: 0.25rem;
+    word-spacing: 0.3056em;
+    letter-spacing: 0.0555em;
     font-family: "Comfortaa", sans-serif;
     font-weight: 700;
     font-style: normal;
 }
 
 h3 {
-    font-size: 24px;
     color: rgb(128, 0, 0);
-    margin-left: 4px;
-    letter-spacing: 1px;
+    font-size: 1.3333em;
+    margin-left: 0.25rem;
+    letter-spacing: 0.0555em;
     margin-bottom: 0;
-    margin-top: 10px;
+    margin-top: 0.55rem;
     font-family: "Comfortaa", sans-serif;
     font-weight: 700;
     font-style: normal;
 }
 
 h4 {
-    font-size: 20px;
     color: rgb(128, 0, 0);
-    margin-left: 4px;
-    margin-bottom: 14px;
-    letter-spacing: 1px;
+    font-size: 1.1111em;
+    margin-left: 0.25rem;
+    margin-bottom: 0.7778rem;
+    letter-spacing: 0.0555em;
     font-family: "Comfortaa", sans-serif;
     font-weight: 550;
     font-style: normal;
 }
 
 caption {
-    font-size: 20px;
     color: rgb(128, 0, 0);
-    margin-left: 4px;
-    margin-bottom: 4px;
-    letter-spacing: 1px;
+    font-size: 1.1111em;
+    margin-left: 0.25rem;
+    margin-bottom: 0.7778rem;
+    letter-spacing: 0.0555em;
     font-family: "Comfortaa", sans-serif;
     font-weight: 550;
     font-style: normal;
-    font-size: 13pt;
 }
 
 .gloss {
     border-style: none none none solid;
     border-color: rgb(153, 102, 255);
     padding: 9px 30px 9px 18px;
-    margin-left: 30px;
-    margin-bottom: 6px;
+    margin-left: 1.6667rem;
+    margin-bottom: 0.35rem;
     /* background-color: rgba(229, 204, 255, 0.7); */
     background-image: linear-gradient(to right, rgba(230, 138, 0, 0.5), rgba(255, 214, 204, 0.4));
 }
 
 .gloss b {
-    font-size: 19px;
+    font-size: 1.0556em;
 }
 
 /* general text */
@@ -111,13 +112,13 @@ caption {
 p {
     text-align: justify;
     padding-right: 1%;
-    text-indent: 12px;
-    margin-left: 4px;
+    text-indent: 0.6667em;
+    margin-left: 0.25rem;
 }
 
 /* notes and references container */
 .footnotes {
-  font-size: 14.5px;
+  font-size: 0.8055em;
   margin: 4px 10px 24px 10px;
   padding: 4px 10px;
   border-radius: 6px;
@@ -135,17 +136,17 @@ p {
   font-family: "Comfortaa", sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 20px;
   color: rgb(128, 0, 0);
-  margin-top: 6px;
+  font-size: 1.1111em;
+  margin-top: 0.35rem;
   padding-top: 2px;
-  margin-bottom: 10px;
+  margin-bottom: 0.55rem;
   padding-bottom: 2px;
 }
 
 /* IPA */
 span {
-  font-size: 16px;
+  font-size: 0.8889em;
 }
 
 .ipa {
@@ -155,7 +156,7 @@ span {
 /* lists */
 ul {
   border-left: solid rgb(179, 0, 0);
-  margin-left: 30px;
+  margin-left: 1.6667rem;
   background-image: linear-gradient(to right, rgba(230, 138, 0, 0.5), rgba(2255, 214, 204, 0.4));
   list-style-type: none;
   padding: 9px 30px 9px 18px;
@@ -166,7 +167,7 @@ ul.nest {
     background-image: none;
     list-style-type: none;
     padding: 0;
-    margin-left: 20px;
+    margin-left: 1.1111rem;
 }
 ul.in-text {
     border-left: none;
@@ -179,23 +180,22 @@ ul.in-text li {
     border-left: solid rgb(179, 0, 0);
     list-style-type: none;
     padding: 0px 30px 0px 18px;
-    margin-bottom: 8px;
+    margin-bottom: 0.45rem;
 }
 
 /* numbered lists */
 ol {
   line-height: 1.6;
-  margin-left: -10px;
+  margin-left: -0.55rem;
 }
 ::marker {
   color: rgb(175, 106, 175);
-  font-size: 18px;
   font-style: italic;
 }
 ol li {
     border-left: solid rgb(179, 0, 0);
     padding: 1px 30px 1px 18px;
-    margin-bottom: 8px;
+    margin-bottom: 0.45rem;
     background-image: linear-gradient(to right, rgba(230, 138, 0, 0.5), rgba(255, 214, 204, 0.4));
 }
 ol.nest {
@@ -203,13 +203,13 @@ ol.nest {
     background-image: none;
     list-style-type: none;
     padding: 0;
-    margin-left: 6px;
+    margin-left: 0.3333rem;
 }
 ol.nest li {
     border-left: none;
     background-image: none;
-    margin-top: 2px;
-    margin-bottom: 4px;
+    margin-left: 0.1111rem;
+    margin-bottom: 0.25rem;
 }
 
 /* unvisited and visited links */
@@ -250,10 +250,11 @@ td {
 }
 
 /* inline tables */
-div.inlinetable {
+.inlinetable {
   margin-left: 2%;
-  margin-top: 14px;
-  margin-bottom: 14px;
+  margin-left: 0.7778em;
+  margin-bottom: 0.7778rem;
+  max-width: 95%;
 }
 
 /* introduction tables */
@@ -264,7 +265,7 @@ div.inlinetable {
 
 .info-introduction th {
   text-align: left;
-  font-size: 19px;
+  font-size: 1.0556em;
 }
 
 /* footer */
@@ -279,7 +280,7 @@ footer {
   background-image: linear-gradient(to bottom, rgba(255, 51, 51, 1), rgba(255, 214, 204, 0.8));
   font-family: "Comfortaa", sans-serif;
   font-weight: 350;
-  font-size: 16px;
+  font-size: 0.8889em;
 }
 
 /* menu */
@@ -302,7 +303,7 @@ div.fixed {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 32px;
+  font-size: 1.7777rem;
   padding: 6px;
   text-indent: 0;
   text-align: center;
@@ -329,9 +330,9 @@ div.fixed {
   overflow: hidden;
   font-family: "Comfortaa", sans-serif;
   font-weight: 350;
-  font-size: 16px;
+  font-size: 0.8889rem;
   /* Permette lo scrolling se il menu è troppo alto */
-  max-height: 70vh;  /* Il menu non supererà il 70% dello schermo */
+  max-height: 86vh;  /* Il menu non supererà l'86% dello schermo */
   overflow-y: auto;
 }
 
@@ -366,8 +367,8 @@ div.fixed {
   border: 1px solid rgba(179, 0, 0, 0.9);
   background-color: rgba(255, 179, 102, 0.3);
   padding: 8px 12px;
-  margin-right: 16px;
-  margin-bottom: 12px;
+  margin-right: 0.7222rem;
+  margin-bottom: 0.45rem;
   border-radius: 16px;
   overflow: hidden;
   display: inline-block;
@@ -378,8 +379,8 @@ div.fixed {
   background-color: rgba(230, 0, 0, 0.9);
   color: rgb(255, 255, 153);
   padding: 8px 12px;
-  margin-right: 16px;
-  margin-bottom: 12px;
+  margin-right: 0.7222rem;
+  margin-bottom: 0.45rem;
   border-radius: 16px;
   overflow: hidden;
   display: inline-block;
@@ -389,10 +390,10 @@ div.fixed {
 /* Backwards navigation */
 .backwardsnav {
   float: right;
-  margin-top: 18px;
-  margin-right: 30px;
+  margin-top: 1rem;
+  margin-right: 1.6667rem;
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 0.7778rem;
   font-family: "Comfortaa", sans-serif;
 }
 
@@ -400,7 +401,7 @@ div.fixed {
   border: 1px solid rgba(179, 0, 0, 0.9);
   background-color: rgba(255, 179, 102, 0.3);
   padding: 5px 5px;
-  margin-left: 16px;
+  margin-left: 0.8889rem;
   border-radius: 14px;
   overflow: hidden;
 }
@@ -410,7 +411,7 @@ div.fixed {
   background-color: rgba(230, 0, 0, 0.9);
   color: rgb(255, 255, 153);
   padding: 5px 5px;
-  margin-left: 16px;
+  margin-left: 0.8889rem;
   border-radius: 14px;
   overflow: hidden;
   box-shadow: 0 3px 6px rgb(204, 51, 0);
@@ -436,29 +437,28 @@ div.fixed {
     flex-direction: column; /* Mette i link uno sotto l'altro */
     align-items: flex-end;  /* Allinea a destra */
     width: 100%; /* Assicura che il menu non si restringa */
-    margin-top: 10px; /* Aggiunge spazio tra il titolo e il menu */
+    margin-top: 0.55rem; /* Aggiunge spazio tra il titolo e il menu */
     margin-right: 10px; /* Riduce il margine per adattarsi */
   }
 
   .backwardsnav a {
     margin-left: 0; /* Rimuove il margine sinistro */
-    margin-top: 5px; /* Distanza tra i link */
+    margin-top: 0.2778rem; /* Distanza tra i link */
     padding: 8px 10px; /* Un po' più di padding per leggibilità */
     width: auto; /* Impedisce che i bottoni si comprimano */
   }
 }
 
-
 /* colori */
 .colors {
   display: flex;
   flex-wrap: wrap; /* Per far andare a capo gli elementi se necessario */
-  gap: 10px; /* Distanza tra gli elementi */
+  gap: 0.5556em; /* Distanza tra gli elementi */
   justify-content: center; /* Centra gli elementi orizzontalmente */
 }
 
 .color-item {
   display: flex;
   align-items: center; /* Allinea verticalmente */
-  margin-left: 10px;
+  margin-left: 0.5556rem;
 }
