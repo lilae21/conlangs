@@ -13,6 +13,10 @@ Color palette: earthy tones. */
   src: url(/conlangs/asset/JunicodeVF-Italic.woff2);
 }
 
+html {
+    font-size: 18px;
+}
+
 body {
     background-color: rgba(251, 235, 230, 0.5);
     line-height: 1.4;
@@ -24,43 +28,43 @@ body {
 h1 {
     text-align: center;
     color: rgb(102, 0, 0);
-    letter-spacing: 2px;
-    word-spacing: 5.5px;
-    font-size: 40px;
+    letter-spacing: 0.1111em;
+    word-spacing: 0.3056em;
+    font-size: 2.2223em;
     font-family: "Comfortaa", sans-serif;
     font-weight: 800;
     font-style: normal;
 }
 
 h2 {
-  font-size: 28px;
+  font-size: 1.5556em;
   color: rgb(102, 0, 0);
-  margin-left: 4px;
-  word-spacing: 2.5px;
-  letter-spacing: 1px;
+  margin-left: 0.25rem;
+  word-spacing: 0.3056em;
+  letter-spacing: 0.0555em;
   font-family: "Comfortaa", sans-serif;
   font-weight: 700;
   font-style: normal;
 }
 
 h3 {
-    font-size: 24px;
+    font-size: 1.3333em;
     color: rgb(102, 0, 0);
-    margin-left: 4px;
-    letter-spacing: 1px;
+    margin-left: 0.25rem;
+    letter-spacing: 0.0555em;
     margin-bottom: 0;
-    margin-top: 10px;
+    margin-top: 0.55rem;
     font-family: "Comfortaa", sans-serif;
     font-weight: 700;
     font-style: normal;
 }
 
 h4 {
-    font-size: 20px;
+    font-size: 1.1111em;
     color: rgb(102, 0, 0);
-    margin-left: 4px;
-    margin-bottom: 14px;
-    letter-spacing: 1px;
+    margin-left: 0.25rem;
+    margin-bottom: 0.7778rem;
+    letter-spacing: 0.0555em;
     font-family: "Comfortaa", sans-serif;
     font-weight: 550;
     font-style: normal;
@@ -71,7 +75,7 @@ h4 {
     color: rgb(102, 0, 0);
     font-family: "JunicodeItalic", serif;
     font-weight: normal;
-    font-size: 24px;
+    font-size: 1.3333em;
     margin-top: 1%;
     margin-bottom: 2%;
 }
@@ -81,7 +85,7 @@ hr {
 }
 
 p {
-  text-indent: 12px;
+  text-indent: 0.6667em;
   line-height: 1.5;
   text-align: justify;
   padding-right: 1%;
@@ -89,7 +93,7 @@ p {
 }
 
 .footnotes {
-    font-size: 14.5px;
+    font-size: 0.8055em;
 }
 
 /* Code. So far only on the home page */
@@ -111,7 +115,7 @@ ul.in-text li {
     border-left: solid rgb(204, 82, 0);
     list-style-type: none;
     padding: 0px 30px 0px 18px;
-    margin-bottom: 8px;
+    margin-bottom: 0.45rem;
 }
 
 .row {
@@ -134,7 +138,7 @@ ul.in-text li {
   border: 2px solid;
   text-align: center;
   overflow: auto;
-  margin-bottom: 20px; /* Aggiunge spazio tra le righe */
+  margin-bottom: 1.1112rem; /* Aggiunge spazio tra le righe */
 }
 
 div.langs p {
@@ -151,10 +155,10 @@ div.langtitle {
   font-family: "Comfortaa", sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 24px;
-  margin-top: 3px;
+  font-size: 1.3333em;
+  margin-top: 0.1666rem;
   padding-top: 3px;
-  margin-bottom: 12px;
+  margin-bottom: 0.6667rem;
   padding-bottom: 3px;
 }
 
@@ -193,7 +197,7 @@ footer {
   background-image: linear-gradient(to bottom, rgba(255, 240, 179, 0.7), rgba(251, 235, 230, 0.4));
   font-family: "Comfortaa", sans-serif;
   font-weight: 350;
-  font-size: 16px;
+  font-size: 0.8889em;
 }
 
 /* menu */
@@ -216,7 +220,7 @@ div.fixed {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 16px;
+  font-size: 0.8889em;
   padding: 6px;
   text-indent: 0;
   text-align: center;
@@ -230,7 +234,7 @@ div.fixed {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 32px;
+  font-size: 1.7777rem;
   padding: 6px;
   text-indent: 0;
   text-align: center;
@@ -257,9 +261,9 @@ div.fixed {
   overflow: hidden;
   font-family: "Comfortaa", sans-serif;
   font-weight: 350;
-  font-size: 16px;
+  font-size: 0.8889rem;
   /* Permette lo scrolling se il menu è troppo alto */
-  max-height: 70vh;  /* Il menu non supererà il 70% dello schermo */
+  max-height: 86vh;  /* Il menu non supererà l'86% dello schermo */
   overflow-y: auto;
 }
 
