@@ -1,46 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Lilaë&apos;s Conlangs</title>
+  <title>About me - Lilaë&apos;s Conlangs</title>
   <meta charset="UTF-8">
 
   <!-- DublinCore metadata -->
-  <!-- <meta name="DC.title" content="Grammar of the Dundulanyä language">
+  <meta name="DC.title" content="About Lilaë">
   <meta name="DC.creator" content="Lilaë">
   <meta name="DC.subject" content="conlangs, constructed languages, Dundulanyä, Dundulanya, Eventoa, conlanging, linguistics, artificial languages">
-  <meta name="DC.description" content="Grammar of Dundulanyä, an artistic constructed language created and developed by Italian conlanger Lilaë starting in 2021 as the chief language of the conworlding project Eventoa.">
-  <meta name="DC.date.created" content="2025-03-30">
-  <meta name="DC.date.modified" content="2025-06-21">
+  <meta name="DC.description" content="Italian conlanger Lilaë introduces himself.">
+  <meta name="DC.date.created" content="2025-06-28">
+  <meta name="DC.date.modified" content="2025-06-28">
   <meta name="DC.type" content="Text">
   <meta name="DC.format" content="text/html">
-  <meta name="DC.identifier" content="https://lilae21.github.io/conlangs/dundu.htm">
+  <meta name="DC.identifier" content="https://lilae21.github.io/conlangs/meta/aboutme.htm">
   <meta name="DC.language" content="en">
-  <meta name="DC.language" content="it">
-  <meta name="DC.language" content="pt">
   <meta name="DC.relation" content="https://lilae21.github.io/conlangs/index.htm">
   <meta name="DC.coverage" content="Constructed languages and worldbuilding">
-  <meta name="DC.rights" content="CC BY-NC-SA 4.0; https://creativecommons.org/licenses/by-nc-sa/4.0/"> -->
+  <meta name="DC.rights" content="CC BY-NC-SA 4.0; https://creativecommons.org/licenses/by-nc-sa/4.0/">
+  <meta name="DC.relation.isFormatOf" content="https://raw.githubusercontent.com/lilae21/lilae21/refs/heads/main/README.md">
+  <meta name="DC.source" content="https://github.com/lilae21/lilae21">
+  <meta name="DC.relation.hasVersion" content="https://github.com/lilae21/lilae21/blob/main/README.md">
 
   <!-- DublinCore schema -->
-  <!-- <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
-  <link rel="schema.DCTERMS" href="http://purl.org/dc/terms/"> -->
+  <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
+  <link rel="schema.DCTERMS" href="http://purl.org/dc/terms/">
 
   <!-- Standard html metadata for compatibility-->
-  <!-- <meta name="keywords" content="conlangs, constructed languages, Dundulanyä, Dundulanya, Eventoa, conlanging">
-  <meta name="description" content="Grammar of Dundulanyä, an artistic constructed language created and developed by Italian conlanger Lilaë starting in 2021 as the chief language of the conworlding project Eventoa.">
-  <meta name="author" content="Lilaë"> -->
+  <meta name="keywords" content="conlangs, constructed languages, conlanging">
+  <meta name="description" content="Italian conlanger Lilaë introduces himself.">
+  <meta name="author" content="Lilaë">
 
-  <!-- Open Graph tags -->
-  <!-- <meta property="og:title" content="Dundulanyä">
+  <meta property="og:title" content="About me">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://lilae21.github.io/conlangs/dundu.htm">
-  <meta property="og:image" content="https://lilae21.github.io/conlangs/asset/og_previews/og_dundu.png">
-  <meta property="og:description" content="Grammar of the artistic constructed language Dundulanyä, a part of the Eventoa conworld.">
+  <meta property="og:url" content="https://lilae21.github.io/conlangs/meta/aboutme.htm">
+  <meta property="og:image" content="https://lilae21.github.io/conlangs/asset/og_previews/og_main.png">
+  <meta property="og:description" content="Italian conlanger Lilaë introduces himself.">
   <meta property="og:site_name" content="Lilaë's conlangs">
-  <meta property="og:locale" content="en_US"> -->
+  <meta property="og:locale" content="en_US">
+
+  <!-- Import element definition and auto-register -->
+  <script type="module" src="https://cdn.jsdelivr.net/npm/zero-md@3?register"></script>
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/dundu.css">
+  <link rel="stylesheet" href="../css/dundu.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+
+    h1 {
+      font-family: "La Belle Aurore", serif;
+      font-size: 60px;
+    }
+  </style>
   <!-- <link rel="stylesheet" media="(prefers-color-scheme: dark)" href="css/dundu-darkmode.css"> -->
   <!-- Icons -->
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.2/src/regular/style.css">
@@ -52,8 +63,8 @@
   <link rel="icon" type="image/png" sizes="16x16" href="../asset/favicon-16x16.png">
 </head>
 <body>
-  <h1>TITLE</h1>
-  <div class="subtitle">subtitle</div>
+  <h1>lilaë</h1>
+  <!-- <div class="subtitle">subtitle</div>
   <div class="fixed dropdown"><i class="ph-duotone ph-book menu"></i>
   <script>
     const menuContainer = document.querySelector('.fixed');
@@ -73,9 +84,16 @@
       <a href="#LJAK">Leipzig-Jakarta list</a>
       <a href="#SWA">Swadesh list</a>
       </div>
-    </div>
-  <p>TEXT</p>
-  <hr>
+    </div> -->
+  <!-- Simply set the `src` attribute to your MD file and win -->
+  <zero-md src="https://raw.githubusercontent.com/lilae21/lilae21/refs/heads/main/README.md">
+    <template>
+      <link rel="stylesheet" href="../css/dundu.css">
+      <style>
+        li { margin-bottom: 0.65rem; }
+      </style>
+    </template>
+  </zero-md>
   <script src="../parts/footer.js"></script>
 </body>
 </html>
