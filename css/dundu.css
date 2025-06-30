@@ -291,7 +291,6 @@ td {
   border: 1px solid #d580ff;
   border-radius: 8px;
   box-shadow: 0.1rem 0.25rem 0.8rem rgba(172, 0, 230, 0.15);
-  padding-top: 0.5rem;
   width: fit-content;
 }
 
@@ -299,14 +298,18 @@ td {
   text-align: left;
 }
 
-.inlinetable:has(caption) {
+.has-caption {
   padding-top: 0.5rem;
 }
 
 /* introduction tables */
 .info-introduction {
   float: right;
-  margin: 0 0 20px 20px;
+  margin: 0 0 1.1rem 1.1rem;
+  border: 1px solid #d580ff;
+  border-radius: 8px;
+  box-shadow: 0.1rem 0.25rem 0.8rem rgba(172, 0, 230, 0.15);
+  width: fit-content;
 }
 
 .info-introduction th {
