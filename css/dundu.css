@@ -92,17 +92,41 @@ caption {
     font-style: normal;
 }
 
-.gloss {
+/* .gloss {
     border-style: none none none solid;
     border-color: rgb(153, 102, 255);
     padding: 9px 30px 9px 18px;
     margin-left: 1.6667rem;
     margin-bottom: 0.35rem;
     background-image: linear-gradient(to right, rgba(229, 204, 255, 0.7), rgba(242, 230, 255, 0.4));
+} */
+
+.gloss {
+    border-left: 0.3rem solid rgb(153, 102, 255);
+    background: linear-gradient(to right, rgba(229, 204, 255, 0.7), rgba(236, 229, 255, 0.5));
+    padding: 0.75rem 1.7rem 0.75rem 1.1rem;
+    margin-left: 1.6667rem;
+    margin-bottom: 0.6rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
 }
 
 .gloss b {
     font-size: 1.0556em;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 0.2rem;
+}
+
+.gloss i {
+    display: block;
+    margin-top: 0.3rem;
+    color: rgb(62, 0, 62);
+}
+
+.gloss:hover {
+    transform: translateX(0.2778rem);
+    box-shadow: 0 0.25rem 0.9rem rgba(172, 0, 230, 0.1);
 }
 
 /* general text */
@@ -118,28 +142,24 @@ p {
 .footnotes {
   font-size: 0.8055em;
   margin: 4px 10px 24px 10px;
-  padding: 4px 10px;
   border-radius: 6px;
   border: 2px solid;
   overflow: auto;
-  border-color: rgb(153, 102, 255);
+  border-color: rgb(210, 77, 255);
 }
 
 .notes-head {
-  border-radius: 6px;
-  border: 2px solid;
-  border-color: rgb(153, 102, 255);
-  background-color: rgba(229, 204, 255, 1);
+  border-bottom: 2px solid rgb(210, 77, 255);
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  background-color: rgba(236, 179, 255, 1);
   text-align: center;
   font-family: "Comfortaa", sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 1.1111em;
+  font-size: 1.2223em;
   color: rgb(64, 0, 128);
-  margin-top: 0.35rem;
-  padding-top: 2px;
-  margin-bottom: 0.55rem;
-  padding-bottom: 2px;
+  padding: 0.6rem;
 }
 
 /* IPA */
@@ -152,19 +172,23 @@ span {
 }
 
 /* lists */
+
 ul {
-  border-left: solid rgb(153, 102, 255);
-  margin-left: 1.6667rem;
-  background-image: linear-gradient(to right, rgba(229, 204, 255, 0.7), rgba(242, 230, 255, 0.4));
-  list-style-type: none;
-  padding: 9px 30px 9px 18px;
-  line-height: 1.6;
+    border-left: 0.3rem solid rgb(153, 102, 255);
+    background: linear-gradient(to right, rgba(229, 204, 255, 0.7), rgba(236, 229, 255, 0.5));
+    padding: 0.75rem 1.7rem 0.75rem 1.1rem;
+    list-style-type: none;
+    margin-left: 1.6667rem;
+    margin-bottom: 0.6rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
 }
+
 ul.nest {
     border-left: none;
     background-image: none;
     list-style-type: none;
-    padding: 0;
+    padding: 0.2rem 0 0 0;
     margin-left: 1.1111rem;
 }
 ul.in-text {
@@ -174,11 +198,15 @@ ul.in-text {
     padding: 0;
     margin-left: 2%;
 }
+
 ul.in-text li {
-    border-left: solid rgb(153, 102, 255);
-    list-style-type: none;
-    padding: 0px 30px 0px 18px;
-    margin-bottom: 0.45rem;
+    border-left: 0.3rem solid rgb(153, 102, 255);
+    background: linear-gradient(to right, rgba(229, 204, 255, 0.7), rgba(236, 229, 255, 0.5));
+    padding: 0.4rem 1.7rem 0.4rem 1.1rem;
+    margin-left: 1%;
+    margin-bottom: 0.6rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
 }
 
 /* numbered lists */
@@ -188,19 +216,24 @@ ol {
 }
 ::marker {
   color: rgb(175, 106, 175);
-  font-style: italic;
+  font-family: "Comfortaa", sans-serif;
+  font-size: 0.85em;
 }
+
 ol li {
-    border-left: solid rgb(153, 102, 255);
-    padding: 1px 30px 1px 18px;
-    margin-bottom: 0.45rem;
-    background-image: linear-gradient(to right, rgba(229, 204, 255, 0.7), rgba(242, 230, 255, 0.4));
+    border-left: 0.3rem solid rgb(153, 102, 255);
+    background: linear-gradient(to right, rgba(229, 204, 255, 0.7), rgba(236, 229, 255, 0.5));
+    padding: 0.4rem 1.7rem 0.4rem 1.1rem;
+    margin-left: 1.6667rem;
+    margin-bottom: 0.6rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
 }
 ol.nest {
     border-left: none;
     background-image: none;
     list-style-type: none;
-    padding: 0;
+    padding: 0.2rem 0 0 0;
     margin-left: 0.3333rem;
 }
 ol.nest li {
@@ -231,6 +264,7 @@ img {
 table {
   line-height: 1.8;
   border-collapse: collapse;
+  padding: 0.5rem;
 }
 
 tr:nth-child(odd) {background-color: #f1ddff;}
@@ -249,10 +283,24 @@ td {
 
 /* inline tables */
 .inlinetable {
-  margin-left: 2%;
   margin-left: 0.7778em;
   margin-bottom: 0.7778rem;
-  max-width: 95%;
+  max-width: 94vw;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  border: 1px solid #d580ff;
+  border-radius: 8px;
+  box-shadow: 0.1rem 0.25rem 0.8rem rgba(172, 0, 230, 0.15);
+  padding-top: 0.5rem;
+  width: fit-content;
+}
+
+.inlinetable-wrapper {
+  text-align: left;
+}
+
+.inlinetable:has(caption) {
+  padding-top: 0.5rem;
 }
 
 /* introduction tables */
@@ -293,6 +341,7 @@ div.fixed {
   text-align: center;
   background-color: rgba(236, 179, 255, 0.9);
   margin: 14px 14px 14px 100px;
+  z-index: 9999;
 }
 
 .fixed p {
@@ -335,9 +384,10 @@ div.fixed {
   width: max(40%, 250px);
   bottom: 110%;
   right: 0%;
+  margin-bottom: 4px;
   /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
   border-radius: 17px 45px 5px 45px;
-  z-index: 1;
+  z-index: 9998;
   overflow: hidden;
   font-family: "Comfortaa", sans-serif;
   font-weight: 350;
@@ -347,9 +397,9 @@ div.fixed {
   overflow-y: auto;
 }
 
-.dropdown:hover .dropdown-content {
+/* .dropdown:hover .dropdown-content {
   display: block;
-}
+} */
 
 /* Links inside the menu */
 .dropdown-content a {

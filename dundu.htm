@@ -5,28 +5,28 @@
   <meta charset="UTF-8">
 
   <!-- DublinCore metadata -->
-  <meta name="DC.title" content="Grammar of the Dundulanyä language" />
-  <meta name="DC.creator" content="Lilaë" />
-  <meta name="DC.subject" content="conlangs, constructed languages, Dundulanyä, Dundulanya, Eventoa, conlanging, linguistics, artificial languages" />
-  <meta name="DC.description" content="Grammar of Dundulanyä, an artistic constructed language created and developed by Italian conlanger Lilaë starting in 2021 as the chief language of the conworlding project Eventoa." />
-  <meta name="DC.date.created" content="2025-03-30" />
-  <meta name="DC.date.modified" content="2025-06-27" />
-  <meta name="DC.type" content="Text" />
-  <meta name="DC.format" content="text/html" />
-  <meta name="DC.identifier" content="https://lilae21.github.io/conlangs/dundu.htm" />
-  <meta name="DC.language" content="en" />
-  <meta name="DC.relation" content="https://lilae21.github.io/conlangs/index.htm" />
-  <meta name="DC.coverage" content="Constructed languages and worldbuilding" />
-  <meta name="DC.rights" content="CC BY-NC-SA 4.0; https://creativecommons.org/licenses/by-nc-sa/4.0/" />
+  <meta name="DC.title" content="Grammar of the Dundulanyä language">
+  <meta name="DC.creator" content="Lilaë">
+  <meta name="DC.subject" content="conlangs, constructed languages, Dundulanyä, Dundulanya, Eventoa, conlanging, linguistics, artificial languages">
+  <meta name="DC.description" content="Grammar of Dundulanyä, an artistic constructed language created and developed by Italian conlanger Lilaë starting in 2021 as the chief language of the conworlding project Eventoa.">
+  <meta name="DC.date.created" content="2025-03-30">
+  <meta name="DC.date.modified" content="2025-06-30">
+  <meta name="DC.type" content="Text">
+  <meta name="DC.format" content="text/html">
+  <meta name="DC.identifier" content="https://lilae21.github.io/conlangs/dundu.htm">
+  <meta name="DC.language" content="en">
+  <meta name="DC.relation" content="https://lilae21.github.io/conlangs/index.htm">
+  <meta name="DC.coverage" content="Constructed languages and worldbuilding">
+  <meta name="DC.rights" content="CC BY-NC-SA 4.0; https://creativecommons.org/licenses/by-nc-sa/4.0/">
 
   <!-- DublinCore schema -->
-  <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
-  <link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
+  <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
+  <link rel="schema.DCTERMS" href="http://purl.org/dc/terms/">
 
   <!-- Standard html metadata for compatibility-->
-  <meta name="keywords" content="conlangs, constructed languages, Dundulanyä, Dundulanya, Eventoa, conlanging" />
-  <meta name="description" content="Grammar of Dundulanyä, an artistic constructed language created and developed by Italian conlanger Lilaë starting in 2021 as the chief language of the conworlding project Eventoa." />
-  <meta name="author" content="Lilaë" />
+  <meta name="keywords" content="conlangs, constructed languages, Dundulanyä, Dundulanya, Eventoa, conlanging">
+  <meta name="description" content="Grammar of Dundulanyä, an artistic constructed language created and developed by Italian conlanger Lilaë starting in 2021 as the chief language of the conworlding project Eventoa.">
+  <meta name="author" content="Lilaë">
 
   <!-- Open Graph tags -->
   <meta property="og:title" content="Dundulanyä">
@@ -41,20 +41,61 @@
   <link rel="stylesheet" href="css/dundu.css">
   <!-- <link rel="stylesheet" media="(prefers-color-scheme: dark)" href="css/dundu-darkmode.css"> -->
   <!-- Icons -->
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.2/src/regular/style.css"/>
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.2/src/fill/style.css"/>
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.2/src/duotone/style.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.2/src/regular/style.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.2/src/fill/style.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.2/src/duotone/style.css">
   <!-- Favicons -->
   <link rel="apple-touch-icon" sizes="180x180" href="asset/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="asset/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="asset/favicon-16x16.png">
   <style>
-  .declension {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 50px;
+  .inlinetable-wrapper .inlinetable {
       text-align: center;
+      vertical-align: top;
+      margin-right: 2.4rem;
   }
+
+.dualtable {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  overflow-x: auto;
+  padding: 1rem 0;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.dualtable > .inlinetable {
+  flex: 1 1 40vw;
+  max-width: 40vw;
+  min-width: 280px;
+  margin-right: 0;
+  overflow-x: auto;
+  box-sizing: border-box;
+  display: block;
+}
+
+.dualtable > .inlinetable table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.inlinetable-wrapper:not(.dualtable) .inlinetable {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 2.4rem;
+  /* altre regole specifiche per inline-block */
+}
+
+@media (max-width: 768px) {
+  .dualtable > .inlinetable {
+    flex-basis: 100%;
+    max-width: 100%;
+    margin-right: 0;
+  }
+}
   </style>
 </head>
 
@@ -77,8 +118,8 @@
     <!-- meta -->
       <i><a href="index.htm">Back to home page</a></i>
       <small><a href="autnotes.htm">Author's notes</a>
-      <a href="https://cals.info/language/dundulanya/">Dundulanyä on CALS</a>
-      <a href="https://conworkshop.com/view_language.php?l=DUA">Dundulanyä on ConWorkShop</a>
+      <a href="https://cals.info/language/dundulanya/" target="_blank">Dundulanyä on CALS</a>
+      <!-- <a href="" target="_blank">Dundulanyä on ConWorkShop</a> -->
       <a href="eastereggs.htm">Easter eggs</a></small>
     <!-- more -->
       <a href="dundu/translations.htm">Translations</a>
@@ -422,7 +463,8 @@
       <li><i>-hh-</i> becomes <i><b>-hl-</b></i>;</li>
       </ul>
       <p>In stop sandhi, a few further changes apart from basic voicing, retroflex and linguolabial assimilation occur. The following tables show sandhi changes for stops (aspirated stops follow the same rules as their unaspirated ones, with aspiration emerging in the latter element):</p>
-      <div class="inlinetable declension" style="overflow-x:auto;"><table>
+      <div class="inlinetable-wrapper" style="overflow-x:auto;">
+      <div class="inlinetable"><table>
       <caption>Unvoiced stop sandhi</caption>
         <tr>
           <th></th>
@@ -504,7 +546,7 @@
           <td>-ɂk-</td>
           <td>-ɂɂ-</td>
         </tr>
-      </table><table>
+      </table></div><div class="inlinetable"><table>
       <caption>Voiced stop sandhi</caption>
         <tr>
           <th></th>
@@ -586,7 +628,7 @@
           <td>-ɂg-</td>
           <td>-ɂɂ-</td>
         </tr>
-      </table></div>
+      </table></div></div>
       <p>Geminated stops preceded by any other consonant are degeminated (e.g. <i>-mpp-</i> to <i>-mp-</i>).</p>
       <p>The consonants <b>h</b> and <b>ḫ</b> fortify preceding plosives (except <b>ɂ</b>), turning them into aspirated ones. <b>-Ch-</b> sequences results in an aspirate, while <b>-Cḫ-</b> ones in a geminated aspirate plosive. The sequences <b>-ɂh-</b> and <b>-ɂḫ-</b> both result in <b>-ḫḫ-</b>.</p>
       <p><b>h</b>, furthermore, changes to <b>r̃</b> in front of linguolabials.</p>
@@ -715,7 +757,7 @@
     <td>Explicit topic</td>
     <td>Temporal complement</td>
     <td>(Anti)benefactives</td>
-    <td>Compl. of manner;<br/>essive case</td>
+    <td>Compl. of manner;<br>essive case</td>
     <td>Locative complements</td>
     <td>Semantic patient</td>
     <td>Semantic agent</td>
@@ -732,7 +774,7 @@
     <td>Unmarked topic</td>
     <td>Temporal complement</td>
     <td>(Anti)benefactives</td>
-    <td>Compl. of manner;<br/>essive case</td>
+    <td>Compl. of manner;<br>essive case</td>
     <td>Locative complements</td>
     <td>Semantic patient</td>
     <td>Semantic agent</td>
@@ -1903,7 +1945,7 @@
         <td colspan="2">-</td>
     </tr>
     <tr>
-    <th>Contained masses of heterogeneous solids<br/>Mixed bundles</th>
+    <th>Contained masses of heterogeneous solids<br>Mixed bundles</th>
     <td>(utyuva)</td>
     <td colspan="2">-</td>
     <td><i>&#8730;tyu-</i> <small>(0)</small></td>
@@ -1915,7 +1957,7 @@
     <td><i>&#8730;śro-</i> <small>(III)</small></td>
   </tr>
   <tr>
-    <th>Sheets, paper sheets<br/>Slabs, rocks<br/>Flowers</th>
+    <th>Sheets, paper sheets<br>Slabs, rocks<br>Flowers</th>
     <td>(ahāsa)</td>
     <td colspan="2">-</td>
     <td><i>&#8730;hās-</i> <small>(0)</small></td>
@@ -1926,7 +1968,7 @@
     <td><i>&#8730;yug-</i> <small>(0)</small></td>
   </tr>
   <tr>
-    <th>Large objects that cannot be carried<br/>Wild animals</th>
+    <th>Large objects that cannot be carried<br>Wild animals</th>
     <td>(-edīya)</td>
     <td>(utūṣa)</td>
     <td>(achāsa)</td>
@@ -2807,7 +2849,7 @@
         <p>The first and second apophonical declensions have the same patterns, but slightly different endings; the first apophonical declension has the same endings as the (non-apophonical) first consonant stem declension, while the second the same endings as non-apophonical <i>-a</i> nouns (with the exception of locative singular and the singular and plural bound forms).</p>
         <p>Root nouns have the same apophonical pattern as <i>-i, -u, -ṛ</i> nouns, but the endings are directly added to the root, triggering the appropriate sandhi changes.</p>
         <!-- first row -->
-        <div class="inlinetable declension" style="overflow-x:auto;"><table>
+        <div class="inlinetable-wrapper" style="overflow-x:auto;"><div class="inlinetable"><table>
         <caption>Root nouns</caption>
           <tr>
             <th rowspan="2"></th>
@@ -2874,6 +2916,8 @@
             <td>śūṭī</td>
           </tr>
         </table>
+        </div>
+        <div class="inlinetable">
         <table>
         <caption>1st apophonical declension</caption> <!-- first row, middle -->
           <tr>
@@ -2942,6 +2986,8 @@
             <td>hailkiḫ</td>
           </tr>
         </table>
+        </div>
+        <div class="inlinetable">
         <table>
         <caption>2nd apophonical declension</caption> <!-- first row, last -->
           <tr>
@@ -3010,10 +3056,11 @@
             <td>sauṣa</td>
           </tr>
         </table>
+        </div>
       </div>
       <p>Apophonical nouns ending in <i>-i, -u, -ṛ</i> are mainly distinguished by having different patterns from the first and second apophonical declensions. <i>-ṛ</i> nouns are extremely rare, and only three such nouns figure among the general usage vocabulary: <i>khaikṛ</i> (II) "goose", <i>gāṃsṛ</i> "passage, ford" (I, with the synchronically irregular zero grade <i>gas-</i>), and <i>mētṛ</i> (V) "vessel, pot, cooking pot". </p>
       <!-- second row -->
-      <div class="inlinetable declension" style="overflow-x:auto;"><table>
+      <div class="inlinetable-wrapper" style="overflow-x:auto;"><div class="inlinetable"><table>
         <caption>Apophonical nouns in <i>-i</i></caption>
           <tr>
             <th rowspan="2"></th>
@@ -3079,8 +3126,8 @@
             <td>marjev</td>
             <td>mārjī</td>
           </tr>
-        </table>
-        <table>
+        </table></div>
+        <div class="inlinetable"><table>
         <caption>Apophonical nouns in <i>-u</i></caption> <!-- second row, middle -->
           <tr>
             <th rowspan="2"></th>
@@ -3146,8 +3193,8 @@
             <td>p̃eṣov</td>
             <td>p̃aiṣū</td>
           </tr>
-        </table>
-        <table>
+        </table></div>
+        <div class="inlinetable"><table>
         <caption>Apophonical nouns in <i>-ṛ</i></caption> <!-- second row, last -->
           <tr>
             <th rowspan="2"></th>
@@ -3213,7 +3260,7 @@
             <td>khekaru</td>
             <td>khaikāh<sup>1</sup></td>
           </tr>
-        </table>
+        </table></div>
       </div>
     <p>Table notes:</p>
     <ol>
@@ -3222,7 +3269,7 @@
       <h4 id="NOMTABLESNOABL">Non-apophonical declensions</h4>
         <p>The following tables show the non-apophonical declensions.</p>
         <!-- first row -->
-        <div class="inlinetable declension" style="overflow-x:auto;"><table>
+        <div class="inlinetable-wrapper" style="overflow-x:auto;"><div class="inlinetable"><table>
         <caption>Non-apoph. 1st declension</caption>
           <tr>
             <th rowspan="2"></th>
@@ -3288,8 +3335,8 @@
             <td>śiviv</td>
             <td>śivī</td>
           </tr>
-        </table>
-        <table>
+        </table></div>
+        <div class="inlinetable"><table>
         <caption>Non-apoph. consonant stem, 2nd decl.<br>(glottal declension)<sup>1</sup></caption> <!-- first row, middle -->
           <tr>
             <th rowspan="2"></th>
@@ -3355,8 +3402,8 @@
             <td>nādēv</td>
             <td>nādē</td>
           </tr>
-        </table>
-        <table>
+        </table></div>
+        <div class="inlinetable"><table>
         <caption>Non apophonical <i>-a</i> stems</caption> <!-- first row, last -->
           <tr>
             <th rowspan="2"></th>
@@ -3423,7 +3470,7 @@
             <td>buneyev</td>
             <td>buneye</td>
           </tr>
-        </table>
+        </table></div>
       </div>
     <p>Table notes:</p>
     <ol>
@@ -3431,7 +3478,7 @@
       <li>Morphemically <b>buney</b>, as the vocative of <i>-a</i> nouns is the stem without the final <i>-a</i>; as per regular sandhi, syllable-final <b>ey</b> becomes <b>ī</b>.</li>
     </ol>
     <!-- second row -->
-        <div class="inlinetable declension" style="overflow-x:auto;"><table>
+        <div class="inlinetable-wrapper" style="overflow-x:auto;"><div class="inlinetable"><table>
         <caption>Non apophonical <i>-i</i> stems</caption>
           <tr>
             <th rowspan="2"></th>
@@ -3497,8 +3544,8 @@
             <td>ilūvīv</td>
             <td>ilūvī</td>
           </tr>
-        </table>
-        <table>
+        </table></div>
+        <div class="inlinetable"><table>
         <caption>Non-apophonical <i>-u</i> stems</caption> <!-- second row, 2nd -->
           <tr>
             <th rowspan="2"></th>
@@ -3564,8 +3611,8 @@
             <td>kulārūv</td>
             <td>kulārū</td>
           </tr>
-        </table>
-        <table>
+        </table></div>
+        <div class="inlinetable"><table>
         <caption>Non apophonical <i>-e</i> stems</caption> <!-- second row, 3rd -->
           <tr>
             <th rowspan="2"></th>
@@ -3631,8 +3678,8 @@
             <td>emev</td>
             <td>emayi</td>
           </tr>
-        </table>
-        <table>
+        </table></div>
+        <div class="inlinetable"><table>
         <caption>Non apophonical <i>-o</i> stems</caption> <!-- second row, last -->
           <tr>
             <th rowspan="2"></th>
@@ -3698,10 +3745,10 @@
             <td>p̃op̃ov</td>
             <td>p̃op̃avi</td>
           </tr>
-        </table>
+        </table></div>
       </div>
       <!-- third row -->
-        <div class="inlinetable declension" style="overflow-x:auto;"><table>
+        <div class="inlinetable-wrapper" style="overflow-x:auto;"><div class="inlinetable"><table>
         <caption>Non apophonical <i>-ä</i> stems</caption>
           <tr>
             <th rowspan="2"></th>
@@ -3764,8 +3811,8 @@
             <td>śośäv</td>
             <td>śośä</td>
           </tr>
-        </table>
-        <table>
+        </table></div>
+        <div class="inlinetable"><table>
         <caption>Non-apophonical <i>-ṛ</i> stems</caption> <!-- third row, 2nd -->
           <tr>
             <th rowspan="2"></th>
@@ -3832,8 +3879,8 @@
             <td>śuthru</td>
             <td>śuthāh<sup>1</sup></td>
           </tr>
-        </table>
-        <table>
+        </table></div>
+        <div class="inlinetable"><table>
         <caption>Non apophonical consonant stems</caption> <!-- third row, 3rd -->
           <tr>
             <th rowspan="2"></th>
@@ -3900,8 +3947,8 @@
             <td>glūḫmu</td>
             <td>glūḫām</td>
           </tr>
-        </table>
-        <table>
+        </table></div>
+        <div class="inlinetable"><table>
         <caption>Non apophonical <i>-ai</i> stems</caption> <!-- third row, last -->
           <tr>
             <th rowspan="2"></th>
@@ -3966,7 +4013,7 @@
             <td>lanaiv</td>
             <td>lanai</td>
           </tr>
-        </table>
+        </table></div>
       </div>
     <p>Table notes:</p>
     <ol>
@@ -3995,8 +4042,8 @@
         <p><b>irāḍe</b> "animal (including humans)" is a consonant stem noun in the singular and dual, but declines as an <b>-a</b> stem noun in the plural, i.e. direct pl. <i>irāḍai</i>.</p>
       <h4 id="SINGPLURTANTUM">Singularia and pluralia tantum</h4>
         <p>The following tables include categories of <i><b>singularia</b></i> and <i><b>pluralia tantum</b></i> in Dundulanyä:
-        <div class="inlinetable declension" style="overflow-x:auto;">
-          <table style="max-width:47%;">
+        <div class="inlinetable-wrapper dualtable" style="overflow-x:auto;">
+          <div class="inlinetable"><table>
           <caption><b>Pluralia tantum</b></caption>
           <tr><th rowspan="6">Many collective nouns:</th>
             <td><b>sūmi</b> "hair"</td></tr>
@@ -4005,7 +4052,7 @@
             <tr><td><b>padalīsi</b> "sons and daughters"</td></tr>
             <tr><td><b>gauṃsiḫi</b> "cutlery"</td></tr>
             <tr><td><b>lampai</b> "dishes, dishware"</td></tr>
-          <tr><th rowspan="9" style="max-width:250px;">Things heterogeneous in form, considered as a single entity:</th>
+          <tr><th rowspan="9">Things heterogeneous in form, considered as a single entity:</th>
             <td><b>katanai</b> "clutter"</td></tr>
             <tr><td><b>dūḍhvi</b> "banquet, buffet"</td></tr>
             <tr><td><b>frāṇagi</b> (a type of sandals made from straw rope)</td></tr>
@@ -4016,35 +4063,36 @@
     <tr><td><b>ḍotvi</b> "fat"</td></tr>
     <tr><td><b>prāvṛḍḍi</b> "controller"</td></tr>
 
-    <tr><th rowspan="4" style="max-width:250px;">Actions and processes involving multiple people:</th>
+    <tr><th rowspan="4">Actions and processes involving multiple people:</th>
         <td><b>vāb̃nīyai</b> "elections"</td></tr>
     <tr><td><b>viṣlāviḫi</b> "protest, riot"</td></tr>
     <tr><td><b>lipmūyai</b> "traffic jam"</td></tr>
     <tr><td><b>kardātatalavibi</b> "hide-and-seek" (sometimes also found as dual)</td></tr>
 
-    <tr><th rowspan="3" style="max-width:250px;">Certain time spans, festivals, or holidays:</th>
+    <tr><th rowspan="3">Certain time spans, festivals, or holidays:</th>
         <td><b>saṃlallai</b> "afternoon"</td></tr>
     <tr><td><b>Bhartośāvi</b> (the most important Yunyalailtulu festivity)</td></tr>
     <tr><td><b>Kūlḫanari</b> (a winter festival of Kenengyry origin)</td></tr>
 
-    <tr><th rowspan="3" style="max-width:250px;">A few illnesses, health conditions or disorders:</th>
+    <tr><th rowspan="3">A few illnesses, health conditions or disorders:</th>
         <td><b>norganai</b> "urticaria"</td></tr>
     <tr><td><b>udhilelnai</b> "autism"</td></tr>
     <tr><td><b>percibrāḍai</b> "influenza"</td></tr>
 
-    <tr><th rowspan="4" style="max-width:250px;">Some locations, including large delimited areas, as well as many toponyms:</th>
+    <tr><th rowspan="4">Some locations, including large delimited areas, as well as many toponyms:</th>
         <td><b>ābābi</b> "square"</td></tr>
     <tr><td><b>cadātāyi</b> "tropics"</td></tr>
     <tr><td><b>Mūnnakṣalti</b></td></tr>
     <tr><td><b>Anābāndirai</b></td></tr>
 
-    <tr><th rowspan="4" style="max-width:250px;">All ethnonyms:</th>
+    <tr><th rowspan="4">All ethnonyms:</th>
         <td><b>dundulanyä</b> "Dundulanyä"</td></tr>
     <tr><td><b>ṣurṭāgi</b> "Skyrdagor(s)"</td></tr>
     <tr><td><b>tayubeśī</b> "Toyubeshians"</td></tr>
     <tr><td><b>laḫābī</b> "Laḫobs"</td></tr>
-          </table>
-          <table style="max-width:47%;">
+          </table></div>
+          <div class="inlinetable">
+          <table>
           <caption><b>Singularia tantum</b></caption>
           <tr><th rowspan="6">Many collective nouns:</th>
             <td><b>śvaṅga</b> "money"</td></tr>
@@ -4053,33 +4101,33 @@
             <tr><td><b>ṭēmba</b> "legumes"</td></tr>
             <tr><td><b>mugba</b> "cereals"</td></tr>
             <tr><td><b>jeta</b> "free time"</td></tr>
-          <tr><th rowspan="3" style="max-width:250px;">Feelings and sensations:</th>
+          <tr><th rowspan="3">Feelings and sensations:</th>
             <td><b>lāca</b> "romantic love"</td></tr>
             <tr><td><b>ṭärṇa</b> "fun"</td></tr>
             <tr><td><b>välna</b> "sadness"</td></tr>
-          <tr><th rowspan="4" style="max-width:250px;">Certain uncountable things:</th>
+          <tr><th rowspan="4">Certain uncountable things:</th>
             <td><b>paɂe</b> "dust"</td></tr>
             <tr><td><b>iḫare</b> "spices"</td></tr>
             <tr><td><b>ḍaṃla</b> "ice"</td></tr>
             <tr><td><b>m̃āku</b> "ash"</td></tr>
-          <tr><th rowspan="3" style="max-width:250px;">Certain illnesses, health conditions or disorders:</th>
+          <tr><th rowspan="3">Certain illnesses, health conditions or disorders:</th>
             <td><b>khuṃɂanūkare</b> "blue plague"</td></tr>
             <tr><td><b>khoppuḍu</b> "cough" (cf. pluralizable <b>khoptya</b> "a single instance of coughing")</td></tr>
             <tr><td><b>loviśñīya</b> "runny nose"</td></tr>
-          <tr><th rowspan="5" style="max-width:250px;">Proper nouns referring to certain concepts:</th>
+          <tr><th rowspan="5">Proper nouns referring to certain concepts:</th>
             <td><b>yunya</b>, <b>mīmamvīsidam</b> "Dundulanyä-Skyrdagor 'Internet'";</td></tr>
             <tr><td>individual sports, such as <b>teyakaitsu</b> or <b>yalkatūfa</b>;</td></tr>
             <tr><td>cardinal points (<b>anūṭa</b> "north", <b>prādauna</b> "south", <b>nilāḍa</b> "east", <b>śusopa</b> "west");</td></tr>
             <tr><td>musical genres, such as <b>nāsibe</b>, <b>ḍāfukulebe</b>;</td></tr>
             <tr><td>specialistic terminology made with suffixes (or compounds) related to science (<b>-śodda</b>, <b>-yuhlä</b>), diseases (<b>-nūkare</b>, <b>-hūttlä</b>), and political/philosophical currents (<b>-kumāṣa</b>)</td></tr>
-          <tr><th rowspan="6" style="max-width:250px;">Most toponyms:</th>
+          <tr><th rowspan="6">Most toponyms:</th>
             <td><b>Laḫduliśūse</b> "the Dundulanyä Confederation"</td></tr>
             <tr><td><b>Lusaṃrīte</b></td></tr>
             <tr><td><b>Ṣurṭāgah</b> "Skyrdagtez"</td></tr>
             <tr><td><b>Lāltaṣveya</b></td></tr>
             <tr><td><b>Naṅgaśūra</b></td></tr>
             <tr><td><b>Dändämämine</b></td></tr>
-          </table>
+          </table></div>
         </div>
         <p>A few nouns do not have a singular, but can have a dual and a plural form. Their citation form is usually the dual:</p>
           <ul class="in-text">
@@ -4128,13 +4176,13 @@
   </tr>
   <tr>
     <td rowspan="2">Positional prefix</td>
-    <td rowspan="2"><i>-sa-</i><br/>inverse deixis prefix</td>
+    <td rowspan="2"><i>-sa-</i><br>inverse deixis prefix</td>
     <td>Incorporated verbal root</td>
     <td rowspan="2"><b>Stem</b></td>
     <td rowspan="2">Tense markers</td>
     <td rowspan="2">Ablative motion marker</td>
     <td rowspan="2"><b>Evidential marker</b></td>
-    <td rowspan="2">Irrealis marker<br/>(<i>-g-</i>)</td>
+    <td rowspan="2">Irrealis marker<br>(<i>-g-</i>)</td>
     <td rowspan="2">Causative or applicative marker</td>
     <td rowspan="2"><b>Trigger/voice</b></td>
     <td rowspan="2"><b>Personal agreement</b></td>
@@ -4155,7 +4203,7 @@
 
       <p>Incorporated nominal roots include for example morphemes such as <i>tan-</i> for a long object (cf. <i>taṇḍa</i> "stick, cane") resulting in forms such as <i>taṃlobh-</i> "to affix; carve (on a stick, a post)", or <i>ghar-</i> for "wood" with forms such as <i>ghahräś-</i> "to debark" (<i>√räś-</i> "to peel") or <i>gharṇevy-</i> "to carve wood" (<i>nevy-</i> "to shape").</p>
 
-      <p>The prefix <i>yau-</i> fills the incorporated nominal root slot, however it denotes repetition and patient plurality and is always used together with the agentive trigger, as shown in forms such as <i>yaukṛsūn</i> "I waited for all of them", <i>yaucikhūn</i> "I offered [them] a drink one by one".<br/>Similarly, the prefixes <i>sya-</i> (exhaustive), <i>tra-</i> (iterative) and <i>cū-</i> (excessive) fill the slot of the incorporated root. <i>sya-</i> is uncommon in the modern language, as it is often used as a synonym of <i>yau-</i>; the original difference being that it does not apply to transitive verbs only, and it does not imply a repeated or prolonged action. Cf. forms such as <i>syanīyūn</i> "I said it all", <i>tranīyūn</i> "I said it again", <i>cūnīyūn</i> "I said too much".</p>
+      <p>The prefix <i>yau-</i> fills the incorporated nominal root slot, however it denotes repetition and patient plurality and is always used together with the agentive trigger, as shown in forms such as <i>yaukṛsūn</i> "I waited for all of them", <i>yaucikhūn</i> "I offered [them] a drink one by one".<br>Similarly, the prefixes <i>sya-</i> (exhaustive), <i>tra-</i> (iterative) and <i>cū-</i> (excessive) fill the slot of the incorporated root. <i>sya-</i> is uncommon in the modern language, as it is often used as a synonym of <i>yau-</i>; the original difference being that it does not apply to transitive verbs only, and it does not imply a repeated or prolonged action. Cf. forms such as <i>syanīyūn</i> "I said it all", <i>tranīyūn</i> "I said it again", <i>cūnīyūn</i> "I said too much".</p>
 
       <p>A verb root can also be reduplicated using the zero-grade version of itself as the incorporated root. The resulting verbs can have different meanings but usually intensive (as a less formal alternative to the intensive TAM) or iterative-continuous, e.g. <i>cyūcyavūh</i> "I really want it" (<i>√cyo-</i> "to want"). Some reduplicated stems are effectively lexicalized, such as <i>nīne-</i> "to repeat" (<i>√ne-</i> "to say"), and can therefore form the base for further derived forms, e.g. <i>imyamam</i> "glutton" (<i>√yam-</i> "to eat").</p>
 
@@ -4442,7 +4490,7 @@
     The fact that there is no syntactical difference between the morphological pronouns and those that are nouns also means that every word used pronominally, including given names, requires that person's verbal concord, i.e. a given name used as a second-person pronoun will be used in concordance with a second-person verb. Honorific adpositions (most notably <b>svo</b>) used together with pronouns do not decline; the title or given name used with them declines instead.</p>
     <h4 id="PERSONAL">Personal pronouns</h4>
     <p>First- and second-person pronouns have the same declension as nouns, although with the peculiarity of having neither a vocative nor a bound form and having the same form in the direct and ergative cases, as well as sporadic contractions in a few forms. In the traditional analysis, the singular is taken as the root and it is considered to be a nominal with suppletive stems in the dual and plural.</p>
-      <div class="inlinetable declension" style="overflow-x:auto;"><table>
+      <div class="inlinetable-wrapper" style="overflow-x:auto;"><div class="inlinetable"><table>
         <caption>First person (<i>√yuna</i>)</caption>
           <tr>
             <th></th>
@@ -4496,8 +4544,8 @@
             <td>amūga</td>
             <td><small>yunai ga</small><br>īnega</td>
           </tr>
-        </table>
-        <table>
+        </table></div>
+        <div class="inlinetable"><table>
         <caption>Second person (<i>√kata</i>)</caption>
           <tr>
             <th></th>
@@ -4551,7 +4599,7 @@
             <td>kotūga</td>
             <td><small>cītai ga</small><br>cīṅga</td>
           </tr>
-        </table>
+        </table></div>
       </div>
       <p>Table notes:</p>
       <ol>
@@ -4559,7 +4607,7 @@
         <li>In older Dundulanyä <i>amūvītha</i>.</li>
       </ol>
     <p>The reflexive pronoun <b>śaṃḫe</b> is actually a contraction of <i>śaniḫe</i>, meaning "soul" (from <i>√śan-</i> "to breathe); in post-Classical Dundulanyä, the two originally interchangeable forms became specialized, with the contracted form being used as a pronoun and the full one as a noun. Being a contracted form of a 1st apophonical declension noun, it regularly follows that declension (all the forms where the root is in the zero grade, as well as the singular and plural bound forms, are identical to the declined forms of <i>śaniḫe</i>):</p>
-    <div class="inlinetable declension" style="overflow-x:auto;"><table>
+    <div class="inlinetable-wrapper" style="overflow-x:auto;"><div class="inlinetable"><table>
         <caption>Reflexive <i>śaṃḫe</i> (<i>śan-iḫ-</i>)</caption>
           <tr>
             <th></th>
@@ -4619,7 +4667,7 @@
             <td>śaṃḫiv</td>
             <td>śāniḫ</td>
           </tr>
-        </table>
+        </table></div>
       </div>
 
     <p>The following words include the personal pronouns as well as words used as pronoun equivalents, not actually distinguishable from the personal pronouns listed above, except for the fact that the latter do not have any clear reconstructed etymology and are generally only used as pronouns. Most of them are also markedly feminine or masculine.</p>
@@ -4901,10 +4949,10 @@
     <tr>
         <th>1</th>
         <td>1</td>
-        <td><strong>emibe</strong><br/><em>emi</em></td>
+        <td><strong>emibe</strong><br><em>emi</em></td>
         <td>lumpyä</td>
         <td>emibukoma</td>
-        <td>b̃āɂemibe <small><em>(adv.)</em></small><br/>emibūśila</td>
+        <td>b̃āɂemibe <small><em>(adv.)</em></small><br>emibūśila</td>
         <td>lumpyäyāṭ</td>
     </tr>
     <tr>
@@ -4914,7 +4962,7 @@
         <td>hälinaika</td>
         <td>riräye</td>
         <td>riräkoma</td>
-        <td>b̃ārirä <small><em>(adv.)</em></small><br/>riräśila</td>
+        <td>b̃ārirä <small><em>(adv.)</em></small><br>riräśila</td>
         <td>hälinaikyāṭ</td>
     </tr>
     <tr>
@@ -4924,7 +4972,7 @@
         <td>kiṅkesi</td>
         <td>kiṅkye</td>
         <td>kiṅkakoma</td>
-        <td>b̃ākiṅka <small><em>(adv.)</em></small><br/>kiṅkośila</td>
+        <td>b̃ākiṅka <small><em>(adv.)</em></small><br>kiṅkośila</td>
         <td>kiṅkesyāṭ</td>
     </tr>
     <tr>
@@ -4934,7 +4982,7 @@
         <td>nältaisi</td>
         <td>nältaye</td>
         <td>nältakoma</td>
-        <td>b̃ānälte <small><em>(adv.)</em></small><br/>nältauśila</td>
+        <td>b̃ānälte <small><em>(adv.)</em></small><br>nältauśila</td>
         <td>nältaisyāṭ</td>
     </tr>
     <tr>
@@ -5353,7 +5401,7 @@
 <li><i>lūkr-</i> (to fold) → <i>ulūkrura</i> (wardrobe [the elements composing it, and colloquially, by extension, the piece of furniture])</li>
 </ul>
 
-<p><b>-s-e</b>, with a zero grade root, is a synonym of <b>-ura</b>, but generally used in a compound where the first element denotes the agent, or with a verb prefix.<br/>Note that apophonical roots ending in <i>-ar-</i>, no matter the class, lengthen the vowel to <i>-ār-</i> and do not add the <i>-s-</i>.</p>
+<p><b>-s-e</b>, with a zero grade root, is a synonym of <b>-ura</b>, but generally used in a compound where the first element denotes the agent, or with a verb prefix.<br>Note that apophonical roots ending in <i>-ar-</i>, no matter the class, lengthen the vowel to <i>-ār-</i> and do not add the <i>-s-</i>.</p>
 <ul>
 <li><i>nādah</i> (leg) + <i>śro-</i> (to propel, launch) → <i>nādaśrūse</i> (bicycle, bike)</li>
 <li><i>pūnan</i> (worker) + <i>ṣar-</i> (to rule) → <i>pūnaṃṣāre</i> (worker cooperative)</li>
@@ -5389,7 +5437,7 @@
   <li><i>remy-</i> (to help) → <i>riṇūmyoba</i> (helper)</li>
 </ul>
 
-<p><b>-īya</b>, with zero grade apophony, forms mostly non-human agent nouns. It is no longer productive.<br/>In some older coinings, it surfaces simply as <b>-ya</b>.</p>
+<p><b>-īya</b>, with zero grade apophony, forms mostly non-human agent nouns. It is no longer productive.<br>In some older coinings, it surfaces simply as <b>-ya</b>.</p>
 <ul>
   <li><i>śan-</i> (to breathe) → <i>śñīya</i> (nose)</li>
   <li><i>śmer-</i> (to bake, roast) → <i>śmirīya</i> (oven)</li>
@@ -5893,6 +5941,7 @@
      EH.1. Dundulanyä actually includes some features and words (notably the ethnonym and glottonym itself) from some other unfinished projects I was working on in 2020-21, such as a reboot of Tameï &#8211; another a priori conlang of mine (although set on Earth) &#8211; and some sketched attempts at Hurro-Urartian diachronic conlanging. <a href="#footnote-ori-1-ref">&#8617;</a>
   </p></div>
 
+  <script src="parts/dropdown.js"></script>
   <script src="parts/footer.js"></script>
 </body>
 </html>
