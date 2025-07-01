@@ -1,0 +1,34 @@
+[
+    {
+        "id": "1",
+        "dun": "homfonū lupphanat yiyāpūva saṃhāram āp̃āja.",
+        "mor": "homf-∅-on-ū-(a) lupphan-at yiy-∅-āp-ū-a saṃhār0m-∅ āp̃āj-∅-∅-a",
+        "gloss": "blush-<small>EXP-CAUS-AG-PRES.3SG.IND</small>. message-<small>ACC.SG</small>. read-<small>EXP-SITU-AG-IMPF.3SG</small>. boy-<small>DIR.SG</small>. smile.<small>INTENS-EXP-PAT-PERF.3</small>.",
+        "eng": "While reading the heart-warming message, the boy suddenly smiled.",
+        "keys": ["situational", "contemporaneous"]
+    },
+    {
+        "id": "2",
+        "dun": "lalābat śuthart ba ñeɂāhai bhityai cami ledhisat layūvāhai.",
+        "mor": "lalāba=t śuth0r=t ba ñeɂ-∅-∅-āhai bhity-ai cami ledhis-at le-∅-ū-āhai",
+        "gloss": "wife.<small>DIR.SG=</small>and. husband.<small>DIR.SG=</small>and. <small>TOPIC</small>. be_small-<small>EXP-PAT-PRES.3PL.IND</small>. attention_toward_somebody-<small>DIR.PL</small>. great. deep_affection_love-<small>ACC.SG</small>. give_birth_to-<small>EXP-AG-PRES.3PL.IND</small>.",
+        "eng": "Between husband and wife, little attentions beget much love.",
+        "keys": ["explicit topic", "gnomic", "adjective", "attributive verb"]
+    },
+    {
+        "id": "3",
+        "dun": "homfonū lupphanat yiyāpūva saṃhāram āp̃āja.",
+        "mor": "homf-∅-on-ū-(a) lupphan-at yiy-∅-āp-ū-a saṃhār0m-∅ āp̃āj-∅-∅-a",
+        "gloss": "blush-<small>EXP-CAUS-AG-PRES.3SG.IND</small>. message-<small>ACC.SG</small>. read-<small>EXP-SITU-AG-IMPF.3SG</small>. boy-<small>DIR.SG</small>. smile.<small>INTENS-EXP-PAT-PERF.3</small>.",
+        "eng": "Keep your children's feet dry and warm.",
+        "keys": ["situational", "contemporaneous"]
+    },
+    {
+        "id": "4",
+        "dun": "viṣmaih remyūvevu saṃlulyoṭu se dā pañjallevu.",
+        "mor": "viṣ0m-aih remy-∅-ū-evu saṃluly-oṭu se dā pañjall-∅-∅-evu",
+        "gloss": "other-<small>ACC.PL</small>. help-<small>-EXP-AG-PRES.1PL.IND</small>. hero-<small>ESS.PL</small>. <small>TRANSL</small>. too.<small>EMPH</small>. become-<small>EXP-PAT-PRES.1PL.IND</small>.",
+        "eng": "Help others and you're a hero too.",
+        "keys": ["impersonal", "gnomic", "juxtaposition"]
+    }
+]
