@@ -51,6 +51,11 @@ body {
     font-weight: 400;
     color: rgb(var(--color-txt));
 }
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: rgb(var(--color-bg));
+  }
+}
 p {
     text-align: justify;
     padding-right: 1%;
@@ -122,14 +127,6 @@ caption {
     font-weight: 550;
     font-style: normal;
 }
-/* .gloss {
-    border-style: none none none solid;
-    border-color: rgb(153, 102, 255);
-    padding: 9px 30px 9px 18px;
-    margin-left: 1.6667rem;
-    margin-bottom: 0.35rem;
-    background-image: linear-gradient(to right, rgba(229, 204, 255, 0.7), rgba(242, 230, 255, 0.4));
-} */
 
 /* gloss containers */
 .gloss {
@@ -156,15 +153,6 @@ caption {
     transform: translateX(0.2778rem);
     box-shadow: 0 0.25rem 0.9rem rgba(var(--color-shadow), 0.1);
 }
-blockquote {
-    border-left: 0.3rem solid rgb(var(--color-thickbdr));
-    background: linear-gradient(to right, rgba(var(--color-gradstart), 0.7), rgba(var(--color-gradend), 0.5));
-    padding: 0.75rem 1.7rem 0.75rem 1.1rem;
-    margin-left: 1.6667rem;
-    margin-bottom: 0.6rem;
-    border-radius: 8px;
-    transition: all 0.3s ease;
-} /* legacy code for some sections */
 
 /* IPA */
 .ipa {
@@ -455,6 +443,31 @@ div.fixed {
   /* Permette lo scrolling se il menu è troppo alto */
   max-height: 86vh;  /* Il menu non supererà l'86% dello schermo */
   overflow-y: auto;
+}
+
+/* "Back to top" button */
+#topButton {
+  display: none;
+  position: fixed;
+  bottom: 5px;
+  right: 65px;
+  z-index: 2000;
+  width: 40px;
+  height: 40px;
+  font-size: 1.25rem;
+  padding: 6px;
+  color: rgb(var(--color-menuicon));
+  border: 3px solid rgba(var(--color-fnotes-menu-bdr), 0.9);
+  border-radius: 30px;
+  text-align: center;
+  background-color: rgba(var(--color-fnotes-menu-fill), 0.9);
+  margin: 14px 14px 14px 100px;
+  cursor: pointer;
+}
+
+#topButton:hover {
+  background-color: rgba(var(--color-dropdown-linkhover-bg), 0.9);
+  color: rgb(var(--color-dropdown-linkhover));
 }
 
 /* Links inside the menu */
