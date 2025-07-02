@@ -7,11 +7,11 @@ Color palette: red/orange. */
     --color-glosstrans: 0, 0, 0;
     --color-headers: 128, 0, 0;
     --color-thickbdr: 179, 0, 0;
-    --color-gradstart: 230, 138, 0;
+    --color-gradstart: 255, 80, 80;
     --color-gradend: 255, 214, 204;
     --color-shadow: 158, 74, 46;
     --color-fnotes-menu-bdr: 179, 0, 0;
-    --color-fnotes-menu-fill: 255, 214, 204;
+    --color-fnotes-menu-fill: 255, 51, 51;
     --color-menuicon: 128, 0, 0;
     --color-listmarker: 175, 106, 175;
     --color-links: 230, 57, 0;
