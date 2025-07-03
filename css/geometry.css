@@ -43,6 +43,15 @@ Standard color palette (home and meta pages, fallback): earthy tones. */
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+@media screen and (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
 /* general text */
 body {
     background-color: rgba(var(--color-bg), 0.65);
@@ -463,6 +472,7 @@ div.fixed {
   background-color: rgba(var(--color-fnotes-menu-fill), 0.9);
   margin: 14px 14px 14px 100px;
   cursor: pointer;
+  transition: all 0.2s ease;
 }
 
 #topButton:hover {
@@ -476,6 +486,7 @@ div.fixed {
   padding: 6px 10px;
   text-decoration: none;
   display: block;
+  transition: all 0.2s ease;
 }
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
@@ -485,97 +496,66 @@ div.fixed {
 }
 
 /* Section navigation */
-.navsection {
-  text-align: center;
-  margin: auto;
-  font-family: "Comfortaa", sans-serif;
-  display: block;
+.auto-nav {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 1rem;
+    align-items: start;
+    margin: 1rem 0;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #eee;
 }
-
-.navsection a {
-  border: 1px solid rgba(var(--color-fnotes-menu-bdr), 0.9);
-  background-color: rgba(var(--color-fnotes-menu-fill), 0.3);
-  padding: 8px 12px;
-  margin-right: 0.7222rem;
-  margin-bottom: 0.45rem;
-  border-radius: 16px;
-  overflow: hidden;
-  display: inline-block;
+.auto-nav h3 {
+    margin: 0;
+    grid-column: 1;
 }
-
-.navsection a:hover {
-  border: 1px solid rgb(var(--color-nav-hover-border));
-  background-color: rgba(var(--color-dropdown-linkhover-bg), 0.9);
-  color: rgb(var(--color-dropdown-linkhover));
-  padding: 8px 12px;
-  margin-right: 0.7222rem;
-  margin-bottom: 0.45rem;
-  border-radius: 16px;
-  overflow: hidden;
-  display: inline-block;
-  box-shadow: 0 3px 6px rgb(var(--color-nav-hover-shadow));
-}
-
-/* Backwards navigation */
-.backwardsnav {
-  float: right;
-  margin-top: 1rem;
-  margin-right: 1.6667rem;
-  margin-bottom: 0;
-  font-size: 0.7778rem;
-  font-family: "Comfortaa", sans-serif;
-}
-
-.backwardsnav a {
-  border: 1px solid rgba(var(--color-fnotes-menu-bdr), 0.9);
-  background-color: rgba(var(--color-fnotes-menu-fill), 0.3);
-  padding: 5px 5px;
-  margin-left: 0.8889rem;
-  border-radius: 14px;
-  overflow: hidden;
-}
-
-.backwardsnav a:hover {
-  border: 1px solid rgb(var(--color-nav-hover-border));
-  background-color: rgba(var(--color-dropdown-linkhover-bg), 0.9);
-  color: rgb(var(--color-dropdown-linkhover));
-  padding: 5px 5px;
-  margin-left: 0.8889rem;
-  border-radius: 14px;
-  overflow: hidden;
-  box-shadow: 0 3px 6px rgb(var(--color-nav-hover-shadow));
-}
-
-.container {
-  display: flex;
-  justify-content: space-between; /* Spinge gli elementi agli estremi */
-  align-items: center;
-  width: 100%; /* Assicura che occupi tutta la larghezza disponibile */
-  height: auto; /* Assicura che non ci sia altezza fissa */
-}
-
-@media (max-width: 768px) {  /* Regole valide solo su mobile */
-  .container {
-    flex-direction: column; /* Dispone gli elementi uno sotto l'altro */
-    align-items: flex-start; /* Mantiene il titolo allineato a sinistra */
-    text-align: left;
-  }
-
-  .backwardsnav {
+.nav-links {
+    grid-column: 1 / -1;
     display: flex;
-    flex-direction: column; /* Mette i link uno sotto l'altro */
-    align-items: flex-end;  /* Allinea a destra */
-    width: 100%; /* Assicura che il menu non si restringa */
-    margin-top: 0.55rem; /* Aggiunge spazio tra il titolo e il menu */
-    margin-right: 10px; /* Riduce il margine per adattarsi */
-  }
-
-  .backwardsnav a {
-    margin-left: 0; /* Rimuove il margine sinistro */
-    margin-top: 0.2778rem; /* Distanza tra i link */
-    padding: 8px 10px; /* Un po' più di padding per leggibilità */
-    width: auto; /* Impedisce che i bottoni si comprimano */
-  }
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+.nav-link {
+    display: inline-block;
+    padding: 6px 12px;
+    border: 1px solid rgba(var(--color-fnotes-menu-bdr), 0.9);
+    background-color: rgba(var(--color-fnotes-menu-fill), 0.3);
+    border-radius: 12px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: all 0.2s ease;
+    color: inherit;
+    font-family: "Comfortaa", sans-serif;
+}
+.nav-link:hover {
+    border: 1px solid rgb(var(--color-nav-hover-border));
+    background-color: rgba(var(--color-dropdown-linkhover-bg), 0.9);
+    color: rgb(var(--color-dropdown-linkhover));
+    box-shadow: 0 3px 6px rgb(var(--color-nav-hover-shadow));
+    border-radius: 12px;
+}
+.back-link {
+    grid-column: 2;
+    font-size: 0.85em;
+    justify-self: end;
+    align-self: center;
+}
+@media (max-width: 768px) {
+    .auto-nav {
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+    }
+    .back-link {
+        grid-column: 1;
+        justify-self: start;
+        order: -1;
+        margin-bottom: 0.5rem;
+    }
+    .nav-links {
+        grid-column: 1;
+        justify-content: center;
+    }
 }
 
 /* tooltips */
@@ -598,6 +578,7 @@ div.fixed {
   border-radius: 6px;
   position: absolute;
   z-index: 1;
+  transition: all 0.2s ease;
 }
 .tooltip:hover .tooltiptext {
   visibility: visible;
