@@ -51,51 +51,43 @@
       font-size: 3.4em;
     }
     .row {
-  margin: auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: flex-start;
-  gap: 20px;
-}
-.langs {
-  /* float: left;
-  margin: 2px 15px 30px 15px; */
-  padding: 4px 10px;
-  height: 410px;
-  min-width: 28%;
-  max-width: 28%;
-  border-radius: 6px;
-  border: 2px solid;
-  text-align: center;
-  overflow: auto;
-  margin-bottom: 1.1112rem; /* Aggiunge spazio tra le righe */
-}
-div.langs p {
-  text-indent: 0;
-  padding-right: 0;
-  margin-top: 8px;
-}
-/* Titoli delle lingue nei box */
-div.langtitle {
-  border-radius: 6px;
-  border: 2px solid;
-  text-align: center;
-  font-family: "Comfortaa", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 1.3333em;
-  margin-top: 0.1666rem;
-  padding-top: 3px;
-  margin-bottom: 0.6667rem;
-  padding-bottom: 3px;
-}
-@media screen and (max-width: 950px) {
-  .langs {
-    width: 90%;
-    max-width: 90%;
-  }
-}
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px 20px;
+      margin: 0 1.8rem 2.1rem 1.8rem;
+    }
+    .langs {
+      padding: 4px 10px;
+      height: 410px;
+      border: 2px solid;
+      border-radius: 6px;
+      text-align: center;
+      overflow: auto;
+    }
+    .langs p {
+      text-indent: 0;
+      padding-right: 0;
+      margin-top: 8px;
+    }
+    .langtitle {
+      border: 2px solid;
+      border-radius: 6px;
+      text-align: center;
+      font: 700 1.3333em "Comfortaa", sans-serif;
+      margin: 0.1666rem 0 0.6667rem;
+      padding: 0.34rem 0;
+      word-spacing: 0.15em;
+      letter-spacing: 0em;
+    }
+    @media (max-width: 950px) {
+      .row {
+        grid-template-columns: 1fr;
+      }
+      .langs {
+        width: 90%;
+        max-width: 90%;
+      }
+    }
   </style>
 </head>
 <body>
@@ -116,52 +108,55 @@ div.langtitle {
 
   <p>Please note this site is still under construction and <s>barred</s> pages in the tables below are not available yet. Many others are simple placeholders.</p>
 <div class="row">
-  <div class="langs" style="border-color: rgb(153, 102, 255)">
-   <div class="langtitle" style="border-color: rgb(153, 102, 255); background-color: rgba(229, 204, 255, 1)">Dundulanyä</div>
-     <p><a href="dundu.htm"><b>Grammar</b></a></p>
-     <p>Setting: <a href="dunduconf.htm"><b>Confederation of the United Dundulanyä Republics</b></a></p>
-     <p>Culture: <a href="dundu/liter.htm"><b><s>Literature</s></b></a> &middot; <a href="dundu/names.htm"><b>Anthroponymy</b></a> &middot; <a href="dundu/time.htm"><b>Calendar</b> and time</a></p>
-     <p>More: <a href="dundu/swadesh-ljak.htm"><b>Swadesh, Leipzig-Jakarta</b> and other lists</a> &middot; <a href="dundu/phrasebook.htm"><b>Phrasebook</b></a> &middot; <a href="dundu/thematic.htm"><b>Thematic wordlists</b></a> &middot; <a href="dundu/218sent.htm"><b>Sample sentences</b></a> &middot; <a href="dundu/translations.htm"><b>Translations</b></a></p>
-     <p>Miscellanea: <a href="autnotes.htm"><b>Author&apos;s notes and thoughts</b></a> &middot; <a href="eastereggs.htm"><b>Easter eggs</b>, for those who don&apos;t want to play along</a></p>
-  </div>
-  <div class="langs" style="border-color: rgb(26, 117, 255);">
-   <div class="langtitle" style="border-color: rgb(26, 117, 255); background-color: rgba(230, 255, 255, 1)">Seraltonian languages</div>
-     <p><b>Cerian</b>: <a href="cerian.htm"><s>Grammar</s></a></p>
-     <p><b>Nordûlaki</b>: <a href="nordulaki.htm"><s>Grammar</s></a></p>
-  </div>
-  <div class="langs" style="border-color: rgb(179, 0, 0);">
-   <div class="langtitle" style="border-color: rgb(179, 0, 0); background-color: rgba(255, 214, 204)">Skyrdagor <small>and languages of Southern Jūhma</small></div>
-     <p><b>Skyrdagor</b>: <a href="langs/skyrdagor.htm">Grammar</a></p>
-  </div>
-</div>
-<div class="row">
-  <div class="langs">
-   <div class="langtitle">Other Eventoan languages</div>
-     <p><b>Tarueb</b>: <a href="langs/tarueb.htm">Grammar</a></p>
-  </div>
-  <div class="langs" style="border-color: rgb(102, 0, 0);">
-   <div class="langtitle" style="border-color: rgb(102, 0, 0); background-color: rgba(255, 240, 179)">Eventoa<small>, the setting</small></div>
-     <p><a href="eventoa.htm"><b>The planet</b></a></p>
-     <p>Continents: <a href="places/lusamrite.htm"><s>Lusaṃrīte</s></a> &middot; <a href="places/juhma.htm"><s>Jūhma</s></a> &middot; <a href="places/seralton.htm"><s>Seralton</s></a> &middot; <a href="places/xacoro.htm"><s>Xacoro</s></a></p>
-  </div>
-  <div class="langs">
-   <div class="langtitle" style="border-color: #221c1a; background-color: #fbf4df;">Divertissements <small>and meta pages</small></div>
-     <p><a href="diver/atlantic.htm"><b>Atlantic</b> (2019-20), an a posteriori romlang</a></p>
-     <p><a href="diver/limenc.htm"><b>Limẽc</b> (2025), a strangely familiar romlang</a></p>
-     <p>Meta: <a href="meta/resources.htm">Resources and suggestions</a> &middot; <a href="meta/recent.htm">Recent changes</a> &middot; <a href="meta/archive.htm">The <b>Epistolarium</b>, archive of older posts and comments</a></p>
-  </div>
-</div>
-<div class="row">
-</div>
-  <script src="parts/topbutton.js" defer></script>
+        <section class="langs" style="border-color: rgb(153, 102, 255)">
+            <h2 class="langtitle" style="border-color: rgb(153, 102, 255); background-color: rgba(229, 204, 255, 1)">Dundulanyä</h2>
+            <p><a href="dundu.htm"><strong>Grammar</strong></a></p>
+            <p>Setting: <a href="dunduconf.htm"><strong>Confederation of the United Dundulanyä Republics</strong></a></p>
+            <p>Culture: <a href="dundu/liter.htm"><strong><s>Literature</s></strong></a> · <a href="dundu/names.htm"><strong>Anthroponymy</strong></a> · <a href="dundu/time.htm"><strong>Calendar</strong> and time</a></p>
+            <p>More: <a href="dundu/swadesh-ljak.htm"><strong>Swadesh, Leipzig-Jakarta</strong> and other lists</a> · <a href="dundu/phrasebook.htm"><strong>Phrasebook</strong></a> · <a href="dundu/thematic.htm"><strong>Thematic wordlists</strong></a> · <a href="dundu/218sent.htm"><strong>Sample sentences</strong></a> · <a href="dundu/translations.htm"><strong>Translations</strong></a></p>
+            <p>Miscellanea: <a href="autnotes.htm"><strong>Author's notes and thoughts</strong></a> · <a href="eastereggs.htm"><strong>Easter eggs</strong>, for those who don't want to play along</a></p>
+        </section>
 
-  <footer style="clear:both;">
+        <section class="langs" style="border-color: rgb(26, 117, 255)">
+            <h2 class="langtitle" style="border-color: rgb(26, 117, 255); background-color: rgba(230, 255, 255, 1)">Seraltonian languages</h2>
+            <p><strong>Cerian</strong>: <a href="cerian.htm"><s>Grammar</s></a></p>
+            <p><strong>Nordûlaki</strong>: <a href="nordulaki.htm"><s>Grammar</s></a></p>
+        </section>
+
+        <section class="langs" style="border-color: rgb(179, 0, 0)">
+            <h2 class="langtitle" style="border-color: rgb(179, 0, 0); background-color: rgba(255, 214, 204)">Skyrdagor <small>and languages of Southern Jūhma</small></h2>
+            <p><strong>Skyrdagor</strong>: <a href="langs/skyrdagor.htm">Grammar</a></p>
+        </section>
+
+        <section class="langs">
+            <h2 class="langtitle">Other Eventoan languages</h2>
+            <p><strong>Tarueb</strong>: <a href="langs/tarueb.htm">Grammar</a></p>
+        </section>
+
+        <section class="langs" style="border-color: rgb(102, 0, 0)">
+            <h2 class="langtitle" style="border-color: rgb(102, 0, 0); background-color: rgba(255, 240, 179)">Eventoa<small>, the setting</small></h2>
+            <p><a href="eventoa.htm"><strong>The planet</strong></a></p>
+            <p>Continents: <a href="places/lusamrite.htm"><s>Lusaṃrīte</s></a> · <a href="places/juhma.htm"><s>Jūhma</s></a> · <a href="places/seralton.htm"><s>Seralton</s></a> · <a href="places/xacoro.htm"><s>Xacoro</s></a></p>
+        </section>
+
+        <section class="langs">
+            <h2 class="langtitle" style="border-color: #221c1a; background-color: #fbf4df">Divertissements <small>and meta pages</small></h2>
+            <p><a href="diver/atlantic.htm"><strong>Atlantic</strong> (2019-20), an a posteriori romlang</a></p>
+            <p><a href="diver/limenc.htm"><strong>Limẽc</strong> (2025), a strangely familiar romlang</a></p>
+            <p>Meta: <a href="meta/resources.htm">Resources and suggestions</a> · <a href="meta/recent.htm">Recent changes</a> · <a href="meta/archive.htm">The <strong>Epistolarium</strong>, archive of older posts and comments</a></p>
+        </section>
+    </div>
+
+  <script src="parts/topbutton.js" defer></script>
+  <script src="parts/footer.js" defer></script>
+
+ <!-- <footer>
    <p style="text-align:center;"><a href="sitemap.htm">Site map</a></p>
     <p style="text-align:center;">All content is available under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> unless otherwise noted.<br>
     <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://licensebuttons.net/i/l/by-nc-sa/transparent/00/33/33/88x31.png" alt="Attribution-NonCommercial-ShareAlike 4.0 International" width="88" height="31" loading="lazy"></a></p>
     <p style="text-align:center; font-size:14px;"><i>OpenMoji</i> emojis used under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p>
     <p style="text-align:center; font-size:14px;"><a href="meta/credits.htm">Full credits</a> &middot; <a href="meta/privacy.htm">Privacy policy</a></p>
     <p style="text-align:center;"><i>Lilaë</i>, 2022-25. Made on Linux with ❤️</p>
-    </footer>
+    </footer> -->
 </body>
 </html>
