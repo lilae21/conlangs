@@ -10,7 +10,7 @@
   <meta name="DC.subject" content="conlangs, constructed languages, Dundulanyä, Dundulanya, Eventoa, conlanging, linguistics, artificial languages">
   <meta name="DC.description" content="Site map of Lilaë's conlangs, a website by Italian conlanger Lilaë where his conlanging and conworlding work is shared.">
   <meta name="DC.date.created" content="2025-03-30">
-  <meta name="DC.date.modified" content="2025-07-02">
+  <meta name="DC.date.modified" content="2025-07-04">
   <meta name="DC.type" content="Text">
   <meta name="DC.format" content="text/html">
   <meta name="DC.identifier" content="https://lilae21.github.io/conlangs/sitemap.htm">
@@ -47,15 +47,40 @@
   <link rel="apple-touch-icon" sizes="180x180" href="asset/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="asset/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="asset/favicon-16x16.png">
+  <style>
+    ul {
+      border-left: none;
+      background-image: none;
+    }
+    ul li {
+      border-left: 0.3rem solid rgb(var(--color-thickbdr));
+      background: linear-gradient(to right, rgba(var(--color-gradstart), 0.7), rgba(var(--color-gradend), 0.5));
+      padding: 0.28rem 1.7rem 0.28rem 1.1rem;
+      margin-bottom: 0.6rem;
+      border-radius: 8px;
+    }
+    ul.nest {
+      list-style-type: disc;
+    }
+    ::marker {
+      font-weight: 700;
+    }
+    ul.nest li {
+      padding-left: 0.64em;
+      border-left: none;
+      background-image: none;
+      padding-bottom: 0.0225em;
+    }
+  </style>
 </head>
 <body>
     <button onclick="topFunction()" id="topButton" title="Go to top"><i class="ph ph-arrow-line-up"></i></button>
   <h1>Site map</h1>
   <ul>
     <li><a href="index.htm">Home page</a></li>
-    <li><b>Site map</b></li>
-    <li><i>Dundulanyä</i> (<a href="dundu.htm">Main / the Grammar</a> &middot; <a href="dundu-index.htm">Grammar index</a>)
-      <ul>
+    <li><strong>Site map</strong></li>
+    <li><em>Dundulanyä</em> (<a href="dundu.htm">Main / the Grammar</a> &middot; <a href="dundu-index.htm">Grammar index</a>)
+      <ul class="nest">
         <li><a href="dunduconf.htm">The Confederation of the United Dundulanyä Republics (CUDR)</a></li>
         <li><a href="dundu/liter.htm">Literature</a></li>
         <li><a href="dundu/time.htm">Calendar and time</a></li>
@@ -68,37 +93,37 @@
         <li><a href="autnotes.htm">Author's notes</a></li>
         <li><a href="eastereggs.htm">Easter eggs</a></li>
       </ul></li>
-    <li><i>The Seraltonian languages</i>
-      <ul>
+    <li><em>The Seraltonian languages</em>
+      <ul class="nest">
         <li><a href="cerian.htm">Cerian</a></li>
         <li><a href="nordulaki.htm">Nordûlaki</a></li>
       </ul></li>
-    <li><i>Skyrdagor and languages of Southern Jūhma</i>
-      <ul>
+    <li><em>Skyrdagor and languages of Southern Jūhma</em>
+      <ul class="nest">
         <li><a href="langs/skyrdagor.htm">Skyrdagor</a></li>
       </ul></li>
-    <li><i>Other Eventoan languages</i>
-      <ul>
+    <li><em>Other Eventoan languages</em>
+      <ul class="nest">
         <li><a href="langs/tarueb.htm">Tarueb</a></li>
       </ul>
-    <li><i>Eventoa, the setting</i> (<a href="eventoa.htm">Main</a>)
-      <ul>
+    <li><em>Eventoa, the setting</em> (<a href="eventoa.htm">Main</a>)
+      <ul class="nest">
         <li><a href="places/lusamrite.htm">Lusaṃrīte</a></li>
         <li><a href="places/juhma.htm">Jūhma</a></li>
         <li><a href="places/seralton.htm">Seralton</a></li>
         <li><a href="places/xacoro.htm">Xacoro</a></li>
         <li>Countries
-          <ul>
+          <ul class="nest">
           <li><a href="dunduconf.htm">The Confederation of the United Dundulanyä Republics (CUDR)</a></li>
           </ul></li>
       </ul></li>
-    <li><i>Divertissements</i>
-      <ul>
+    <li><em>Divertissements</em>
+      <ul class="nest">
         <li><a href="diver/atlantic.htm">Atlantic (2019-20)</a></li>
         <li><a href="diver/limenc.htm">Limẽc</a></li>
       </ul></li>
-    <li><i>Meta pages</i>
-      <ul>
+    <li><em>Meta pages</em>
+      <ul class="nest">
         <li><a href="autnotes.htm">Author's notes about Dundulanyä</a></li>
         <li><a href="meta/aboutme.htm">"About me" page</a></li>
         <li><a href="eastereggs.htm">Easter eggs in Dundulanyä</a></li>
