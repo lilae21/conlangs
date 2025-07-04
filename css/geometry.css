@@ -132,7 +132,7 @@ h4, caption {
     font-weight: 600;
     margin-bottom: 0.2rem;
 }
-.gloss i {
+.gloss em {
     display: block;
     margin-top: 0.3rem;
     color: rgb(var(--color-glosstrans));
