@@ -42,7 +42,6 @@ Standard color palette (home and meta pages, fallback): earthy tones. */
 *, *::before, *::after {
     box-sizing: border-box;
 }
-
 html {
     scroll-behavior: smooth;
 }
@@ -94,47 +93,27 @@ h1 {
 }
 
 /* sections */
-
-h2 {
-    font-size: 1.5556em;
+h2, h3, h4, caption {
     color: rgb(var(--color-headers));
     margin-left: 0.25rem;
-    word-spacing: 0.3056em;
     letter-spacing: 0.0555em;
     font-family: "Comfortaa", sans-serif;
-    font-weight: 700;
     font-style: normal;
+    font-weight: 700;
+}
+h2 {
+    font-size: 1.5556em;
+    word-spacing: 0.3056em;
 }
 h3 {
     font-size: 1.3333em;
-    color: rgb(var(--color-headers));
-    margin-left: 0.25rem;
-    letter-spacing: 0.0555em;
     margin-bottom: 0;
     margin-top: 0.55rem;
-    font-family: "Comfortaa", sans-serif;
-    font-weight: 700;
-    font-style: normal;
 }
-h4 {
+h4, caption {
     font-size: 1.1111em;
-    color: rgb(var(--color-headers));
-    margin-left: 0.25rem;
-    margin-bottom: 0.7778rem;
-    letter-spacing: 0.0555em;
-    font-family: "Comfortaa", sans-serif;
-    font-weight: 550;
-    font-style: normal;
-}
-caption {
-    font-size: 1.1111em;
-    color: rgb(var(--color-headers));
-    margin-left: 0.25rem;
     margin-bottom: 0.25rem;
-    letter-spacing: 0.0555em;
-    font-family: "Comfortaa", sans-serif;
     font-weight: 550;
-    font-style: normal;
 }
 
 /* gloss containers */
@@ -203,7 +182,7 @@ ul {
     border-radius: 8px;
     transition: all 0.3s ease;
 }
-ul.nest {
+ul.nest, ol.nest {
     border-left: none;
     background-image: none;
     list-style-type: none;
@@ -217,17 +196,16 @@ ul.in-text {
     padding: 0;
     margin-left: 2%;
 }
-ul.in-text li {
+ul.in-text li, ol li {
     border-left: 0.3rem solid rgb(var(--color-thickbdr));
     background: linear-gradient(to right, rgba(var(--color-gradstart), 0.7), rgba(var(--color-gradend), 0.5));
     padding: 0.4rem 1.7rem 0.4rem 1.1rem;
     margin-left: 1%;
     margin-bottom: 0.6rem;
     border-radius: 8px;
-    transition: all 0.3s ease;
 }
 
-/* numbered lists */
+/* ordered lists, overriding the above */
 ol {
   line-height: 1.6;
   margin-left: -0.55rem;
@@ -238,19 +216,9 @@ ol {
   font-size: 0.85em;
 }
 ol li {
-    border-left: 0.3rem solid rgb(var(--color-thickbdr));
-    background: linear-gradient(to right, rgba(var(--color-gradstart), 0.7), rgba(var(--color-gradend), 0.5));
-    padding: 0.4rem 1.7rem 0.4rem 1.1rem;
     margin-left: 1.6667rem;
-    margin-bottom: 0.6rem;
-    border-radius: 8px;
-    transition: all 0.3s ease;
 }
 ol.nest {
-    border-left: none;
-    background-image: none;
-    list-style-type: none;
-    padding: 0.2rem 0 0 0;
     margin-left: 0.3333rem;
 }
 ol.nest li {
@@ -369,7 +337,6 @@ td {
   box-shadow: 0.1rem 0.25rem 0.8rem rgba(172, 0, 230, 0.15);
   width: fit-content;
 }
-
 .info-introduction th {
   text-align: left;
   font-size: 1.0556em;
@@ -404,18 +371,6 @@ div.fixed {
   margin: 14px 14px 14px 100px;
   z-index: 9999;
 }
-.fixed p {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 0.8889em;
-  padding: 6px;
-  text-indent: 0;
-  text-align: center;
-  font-family: "Comfortaa", sans-serif;
-}
 .menu {
   margin: 0;
   position: absolute;
@@ -437,20 +392,17 @@ div.fixed {
   position: absolute;
   background-color: rgba(var(--color-fnotes-menu-fill), 0.9);
   border: 1px solid rgba(var(--color-fnotes-menu-bdr), 0.9);
-  /* min-width: 240px; */
   width: max(40%, 250px);
   bottom: 110%;
   right: 0%;
   margin-bottom: 4px;
-  /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
   border-radius: 17px 45px 5px 45px;
   z-index: 9998;
   overflow: hidden;
   font-family: "Comfortaa", sans-serif;
   font-weight: 350;
   font-size: 0.8889rem;
-  /* Permette lo scrolling se il menu è troppo alto */
-  max-height: 86vh;  /* Il menu non supererà l'86% dello schermo */
+  max-height: 86vh; /* scrolling */
   overflow-y: auto;
 }
 
@@ -474,10 +426,15 @@ div.fixed {
   cursor: pointer;
   transition: all 0.2s ease;
 }
-
 #topButton:hover {
   background-color: rgba(var(--color-dropdown-linkhover-bg), 0.9);
   color: rgb(var(--color-dropdown-linkhover));
+}
+@media (max-width: 768px) {
+  #topButton {
+    left: 0;
+    margin: 14px 14px 14px 14px;
+  }
 }
 
 /* Links inside the menu */
