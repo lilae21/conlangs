@@ -414,6 +414,15 @@ footer a:hover:not(:has(> img)), footer a:active:not(:has(> img)) {
   background-color: rgba(var(--color-bg), 0);
   border-radius: none;
 }
+@media (max-width: 768px) {
+  .footer-cont {
+    justify-content: center;
+  }
+  .footer-right {
+    font-size: 0.84em;
+    padding-bottom: 1.2em;
+  }
+}
 
 /* menu */
 div.fixed {
