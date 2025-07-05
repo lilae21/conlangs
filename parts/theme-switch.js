@@ -4,18 +4,28 @@ const lightThemeStyle = document.getElementById('lightThemeStyle');
 const darkThemeStyle = document.getElementById('darkThemeStyle');
 let currentMode = 'auto';
 window.themePreferences = window.themePreferences || {};
-// Rileva preferenza sistema
 function getSystemPreference() {
     return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
 }
 function savePreference(mode) {
-    window.themePreferences.mode = mode;
-    window.themePreferences.timestamp = Date.now();
+    try {
+        sessionStorage.setItem('themeMode', mode);
+        console.log('Preference saved:', mode);
+    } catch (e) {
+        console.warn('sessionStorage unavailable');
+    }
 }
 function loadPreference() {
-    if (window.themePreferences && window.themePreferences.mode) {
-        return window.themePreferences.mode;
+    try {
+        const saved = sessionStorage.getItem('themeMode');
+        if (saved) {
+            console.log('Preference saved:', saved);
+            return saved;
+        }
+    } catch (e) {
+        console.warn('sessionStorage unavailable');
     }
+    console.log('No preference saved, falling back to auto');
     return 'auto';
 }
 // vero e proprio cambio tema
@@ -44,6 +54,7 @@ function updateUI() {
 }
 // Applica il tema modificando gli attributi media
 function applyTheme(mode) {
+    console.log('🎨 applyTheme called with:', mode);
     currentMode = mode;
     if (mode === 'auto') {
         lightThemeStyle.removeAttribute('media');
@@ -60,6 +71,7 @@ function applyTheme(mode) {
 }
 // Logica del toggle
 function toggleTheme() {
+    console.log('🔄 toggleTheme called, currentMode:', currentMode);
     const systemPref = getSystemPreference();
     if (currentMode === 'auto') {
         applyTheme(systemPref === 'dark' ? 'light' : 'dark');
