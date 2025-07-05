@@ -356,22 +356,7 @@ td {
   font-size: 1.0556em;
 }
 
-/* old footer */
-/* footer {
-  margin-bottom: 1%;
-  margin-left: calc(-50vw + 50%);
-  margin-right: calc(-50vw + 50%);
-  padding-left: calc(50vw - 50%);
-  padding-right: calc(50vw - 50%);
-  border-style: solid none none none;
-  border-color: rgb(var(--color-thickbdr));
-  background-image: linear-gradient(to bottom, rgba(var(--color-gradstart), 1), rgba(var(--color-gradend), 0.8));
-  font-family: "Comfortaa", sans-serif;
-  font-weight: 350;
-  font-size: 0.8889em;
-} */
-
-/* new footer */
+/* footer */
 .footer-cont {
     display: flex;
     flex-wrap: wrap-reverse;
@@ -417,6 +402,8 @@ footer a:hover:not(:has(> img)), footer a:active:not(:has(> img)) {
 @media (max-width: 768px) {
   .footer-cont {
     justify-content: center;
+    padding-left: 0.9em;
+    padding-right: 0.9em;
   }
   .footer-right {
     font-size: 0.84em;
