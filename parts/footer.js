@@ -7,18 +7,18 @@ document.addEventListener("DOMContentLoaded", function () {
                 const link = document.getElementById("footer-link");
                 if (window.location.pathname.endsWith("index.htm") || window.location.pathname.endsWith("index.html")) {
                     link.href = "https://lilae21.github.io/conlangs/sitemap.htm";
-                    link.textContent = "Site map";
+                    const ism = document.createElement("i");
+                    ism.className = "ph ph-compass";
+                    ism.setAttribute("aria-label", "Site map");
+                    link.textContent = "";
+                    link.appendChild(ism);
                 } else {
                     link.href = "https://lilae21.github.io/conlangs/index.htm";
-                    const img = document.createElement("img");
-                    img.src = "https://lilae21.github.io/conlangs/asset/home.png";
-                    img.alt = "Back to homepage";
-                    img.style.width = "30px";
-                    img.style.height = "30px";
-                    img.style.marginBottom = "-6px";
-                    img.style.marginRight = "6px";
+                    const i = document.createElement("i");
+                    i.className = "ph ph-house";
+                    i.setAttribute("aria-label", "Back to homepage");
                     link.textContent = "";
-                    link.appendChild(img);
+                    link.appendChild(i);
                 }
                 fetch("https://lilae21.github.io/conlangs/parts/footer-config.json")
                     .then(response => response.json())

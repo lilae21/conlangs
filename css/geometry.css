@@ -58,6 +58,8 @@ body {
     font-family: "Junicode", serif;
     font-weight: 400;
     color: rgb(var(--color-txt));
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 @media screen and (min-width: 768px) {
   body {
@@ -354,8 +356,8 @@ td {
   font-size: 1.0556em;
 }
 
-/* footer */
-footer {
+/* old footer */
+/* footer {
   margin-bottom: 1%;
   margin-left: calc(-50vw + 50%);
   margin-right: calc(-50vw + 50%);
@@ -367,6 +369,50 @@ footer {
   font-family: "Comfortaa", sans-serif;
   font-weight: 350;
   font-size: 0.8889em;
+} */
+
+/* new footer */
+.footer-cont {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;
+}
+.footer-right {
+    text-align: right;
+}
+.footer-right span {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+footer .icons {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.875em;
+    font-size: 1.25em;
+}
+footer {
+    margin-top: 1.4rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
+    padding-left: calc(50vw - 50%);
+    padding-right: calc(50vw - 50%);
+    background-color: rgb(var(--color-fnotes-menu-fill));
+    color: rgb(var(--color-glosstrans));
+    font-family: "Comfortaa", sans-serif;
+    font-size: 0.8888em;
+}
+footer a:link, footer a:visited {
+  color: rgb(var(--color-glosstrans));
+  text-decoration: none;
+}
+footer a:hover:not(:has(> img)), footer a:active:not(:has(> img)) {
+  color: rgb(var(--color-links));
+  background-color: rgba(var(--color-bg), 0);
+  border-radius: none;
 }
 
 /* menu */
@@ -568,14 +614,14 @@ div.fixed {
 /* color csv */
 .colors {
   display: flex;
-  flex-wrap: wrap; /* Per far andare a capo gli elementi se necessario */
-  gap: 0.5556em; /* Distanza tra gli elementi */
-  justify-content: center; /* Centra gli elementi orizzontalmente */
+  flex-wrap: wrap;
+  gap: 0.5556em;
+  justify-content: center;
 }
 
 .color-item {
   display: flex;
-  align-items: center; /* Allinea verticalmente */
+  align-items: center;
   margin-left: 0.5556rem;
 }
 
@@ -619,11 +665,11 @@ div.fixed {
   margin-bottom: 6px;
 }
 .numbered-example .number {
-  width: 30px; /* larghezza fissa */
+  width: 30px;
   margin-right: 0;
   color: rgb(var(--color-listmarker));
   font-size: 1.3rem;
   font-style: italic;
   flex-shrink: 0;
-  text-align: right; /* allinea i numeri a destra */
+  text-align: right;
 }
