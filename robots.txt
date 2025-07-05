@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /*.js$
+Disallow: /meta/empty-page-template.htm
+
+Sitemap: https://lilae21.github.io/conlangs/sitemap.xml
