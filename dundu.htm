@@ -10,7 +10,7 @@
   <meta name="DC.subject" content="conlangs, constructed languages, Dundulanyä, Dundulanya, Eventoa, conlanging, linguistics, artificial languages">
   <meta name="DC.description" content="Grammar of Dundulanyä, an artistic constructed language created and developed by Italian conlanger Lilaë starting in 2021 as the chief language of the conworlding project Eventoa.">
   <meta name="DC.date.created" content="2025-03-30">
-  <meta name="DC.date.modified" content="2025-07-05">
+  <meta name="DC.date.modified" content="2025-07-06">
   <meta name="DC.type" content="Text">
   <meta name="DC.format" content="text/html">
   <meta name="DC.identifier" content="https://lilae21.github.io/conlangs/dundu.htm">
@@ -39,8 +39,8 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/geometry.css">
-  <link rel="stylesheet" href="css/dundu.css">
-  <!-- <link rel="stylesheet" media="(prefers-color-scheme: dark)" href="css/dundu-darkmode.css"> -->
+  <link rel="stylesheet" id="lightThemeStyle" href="css/dundu.css">
+  <link rel="stylesheet" id="darkThemeStyle" media="(prefers-color-scheme: dark)" href="css/dundu-darkmode.css">
   <!-- Icons -->
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.2/src/regular/style.css">
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.2/src/fill/style.css">
@@ -53,6 +53,9 @@
 
 <body>
   <h1>Dundulanyä</h1>
+  <button class="theme-toggle" id="themeToggle">
+    <span class="theme-icon"><i class="ph-duotone ph-moon-stars" id="themeIcon"></i></span>
+  </button>
   <div class="fixed dropdown"><i class="ph-duotone ph-book menu"></i>
     <div class="dropdown-content">
     <!-- meta -->
@@ -5752,6 +5755,7 @@
      EH.1. Dundulanyä actually includes some features and words (notably the ethnonym and glottonym itself) from some other unfinished projects I was working on in 2020-21, such as a reboot of Tameï &#8211; another a priori conlang of mine (although set on Earth) &#8211; and some sketched attempts at Hurro-Urartian diachronic conlanging. <a href="#footnote-ori-1-ref">&#8617;</a>
   </p></div>
 
+  <script src="parts/theme-switch.js"></script>
   <script src="parts/remove-padding-caption.js"></script>
   <script src="parts/dropdown.js" defer></script>
   <script src="parts/menuicon.js" defer></script>
