@@ -10,7 +10,7 @@
   <meta name="DC.subject" content="conlangs, constructed languages, Tarueb, Eventoa, conlanging, artificial languages">
   <meta name="DC.description" content="Grammar of Tarueb, an artistic constructed language created and developed by Italian conlanger Lilaë as part of the conworlding project Eventoa.">
   <meta name="DC.date.created" content="2025-03-30">
-  <meta name="DC.date.modified" content="2025-07-03">
+  <meta name="DC.date.modified" content="2025-07-06">
   <meta name="DC.type" content="Text">
   <meta name="DC.format" content="text/html">
   <meta name="DC.identifier" content="https://lilae21.github.io/conlangs/langs/tarueb.htm">
@@ -51,8 +51,11 @@
 </head>
 <body>
   <h1>Tarueb</h1>
-  <div class="fixed dropdown"><i class="ph-duotone ph-book menu"></i>
-      <div class="dropdown-content">
+  <nav class="dropdown" aria-label="Main menu">
+    <button class="menu-button" id="menu-toggle" aria-expanded="false" aria-controls="main-menu" aria-haspopup="true" aria-label="Open menu">
+      <i class="ph-duotone ph-book menu-icon" id="menu-icon"></i>
+    </button>
+    <div class="dropdown-content" id="main-menu" role="menu" aria-hidden="true">
       <i><a href="../index.htm">Back to home page</a></i>
       <a href="#ORI">External history</a>
       <a href="#HIS">History</a>
@@ -61,7 +64,7 @@
       <a href="#SYN">Syntax</a>
       <a href="#PHO">Phonology</a>
       </div>
-    </div>
+    </nav>
     <button onclick="topFunction()" id="topButton" title="Go to top"><i class="ph ph-arrow-line-up"></i></button>
   <div class="info-introduction">
     <table>

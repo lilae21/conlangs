@@ -56,15 +56,18 @@
     <span class="theme-icon"><i class="ph-duotone ph-moon-stars" id="themeIcon"></i></span>
   </button>
   <div class="subtitle">Swadesh, Leipzig-Jakarta and other lists</div>
-    <div class="fixed dropdown"><i class="ph-duotone ph-book menu"></i>
-      <div class="dropdown-content">
+    <nav class="dropdown" aria-label="Main menu">
+    <button class="menu-button" id="menu-toggle" aria-expanded="false" aria-controls="main-menu" aria-haspopup="true" aria-label="Open menu">
+      <i class="ph-duotone ph-book menu-icon" id="menu-icon"></i>
+    </button>
+    <div class="dropdown-content" id="main-menu" role="menu" aria-hidden="true">
       <i><a href="../dundu.htm">Dundulanyä main page</a></i>
       <a href="#KYOIKU">Kyōiku kanji<br><small>(First and second grade)</small></a>
       <a href="#DOLG">Dolgopolsky list</a>
       <a href="#LJAK">Leipzig-Jakarta list</a>
       <a href="#SWA">Swadesh list</a>
       </div>
-    </div>
+    </nav>
     <button onclick="topFunction()" id="topButton" title="Go to top"><i class="ph ph-arrow-line-up"></i></button>
   <p>This page gives Dundulanyä translations for some of the most common lexicostatistic and other types of wordlists. Colexifications in the source language(s) which correspond to more than a single Dundulanyä word are treated as multiple entries called <i>N</i>a, <i>N</i>b and so on.</p>
 

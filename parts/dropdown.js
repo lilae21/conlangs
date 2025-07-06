@@ -1,28 +1,44 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const dropdown = document.querySelector('.fixed.dropdown');
-  if (!dropdown) return;
+  const toggleBtn = document.getElementById('menu-toggle');
+  const menu = document.getElementById('main-menu');
+  const dropdown = toggleBtn.closest('.dropdown');
 
-  const dropdownContent = dropdown.querySelector('.dropdown-content');
   let closeTimeout;
 
+  const openMenu = () => {
+    menu.style.display = 'block';
+    menu.setAttribute('aria-hidden', 'false');
+    toggleBtn.setAttribute('aria-expanded', 'true');
+  };
+  const closeMenu = () => {
+    menu.style.display = 'none';
+    menu.setAttribute('aria-hidden', 'true');
+    toggleBtn.setAttribute('aria-expanded', 'false');
+  };
+
+  // CLICK
+  toggleBtn.addEventListener('click', (e) => {
+    const isOpen = menu.getAttribute('aria-hidden') === 'false';
+    isOpen ? closeMenu() : openMenu();
+  });
+
+  // HOVER
   dropdown.addEventListener('mouseenter', () => {
     clearTimeout(closeTimeout);
-    dropdownContent.style.display = 'block';
+    openMenu();
   });
-
   dropdown.addEventListener('mouseleave', () => {
-    closeTimeout = setTimeout(() => {
-      dropdownContent.style.display = 'none';
-    }, 300);
+    closeTimeout = setTimeout(closeMenu, 300);
   });
-
-  dropdownContent.addEventListener('mouseenter', () => {
+  menu.addEventListener('mouseenter', () => {
     clearTimeout(closeTimeout);
   });
+  menu.addEventListener('mouseleave', () => {
+    closeTimeout = setTimeout(closeMenu, 300);
+  });
 
-  dropdownContent.addEventListener('mouseleave', () => {
-    closeTimeout = setTimeout(() => {
-      dropdownContent.style.display = 'none';
-    }, 300);
+  // ESC
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeMenu();
   });
 });

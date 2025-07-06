@@ -58,14 +58,17 @@
     <span class="theme-icon"><i class="ph-duotone ph-moon-stars" id="themeIcon"></i></span>
   </button>
   <div class="subtitle">subtitle</div>
-  <div class="fixed dropdown"><i class="ph-duotone ph-book menu"></i>
-      <div class="dropdown-content">
+  <nav class="dropdown" aria-label="Main menu">
+    <button class="menu-button" id="menu-toggle" aria-expanded="false" aria-controls="main-menu" aria-haspopup="true" aria-label="Open menu">
+      <i class="ph-duotone ph-book menu-icon" id="menu-icon"></i>
+    </button>
+    <div class="dropdown-content" id="main-menu" role="menu" aria-hidden="true">
       <i><a href="../dundu.htm">Dundulanyä main page</a></i>
       <a href="#DOLG">Dolgopolsky list</a>
       <a href="#LJAK">Leipzig-Jakarta list</a>
       <a href="#SWA">Swadesh list</a>
       </div>
-    </div>
+    </nav>
     <button onclick="topFunction()" id="topButton" title="Go to top"></button>
   <p>text</p>
   <script src="../parts/theme-switch.js"></script>

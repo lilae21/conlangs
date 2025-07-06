@@ -56,28 +56,26 @@
   <button class="theme-toggle" id="themeToggle">
     <span class="theme-icon"><i class="ph-duotone ph-moon-stars" id="themeIcon"></i></span>
   </button>
-  <div class="fixed dropdown"><i class="ph-duotone ph-book menu"></i>
-    <div class="dropdown-content">
-    <!-- meta -->
+  <nav class="dropdown" aria-label="Main menu">
+    <button class="menu-button" id="menu-toggle" aria-expanded="false" aria-controls="main-menu" aria-haspopup="true" aria-label="Open menu">
+      <i class="ph-duotone ph-book menu-icon" id="menu-icon"></i>
+    </button>
+    <div class="dropdown-content" id="main-menu" role="menu" aria-hidden="true">
       <i><a href="index.htm">Back to home page</a></i>
       <small><a href="autnotes.htm">Author's notes</a>
       <a href="https://cals.info/language/dundulanya/" target="_blank">Dundulanyä on CALS</a>
       <!-- <a href="" target="_blank">Dundulanyä on ConWorkShop</a> -->
       <a href="eastereggs.htm">Easter eggs</a></small>
-    <!-- more -->
       <a href="dundu/translations.htm">Translations</a>
       <a href="dundu/218sent.htm">Sample sentences</a>
       <a href="dundu/thematic.htm">Thematic wordlists</a>
       <a href="dundu/phrasebook.htm">Phrasebook</a>
       <a href="dundu/swadesh-ljak.htm">Swadesh, Leipzig-Jakarta and other lists</a>
-    <!-- culture -->
       <a href="dundu/time.htm">Calendar and time</a>
       <a href="dundu/names.htm">Anthroponymy</a>
       <a href="dundu/liter.htm">Literature</a>
-    <!-- setting -->
       <a href="eventoa.htm">Eventoa</a>
       <a href="dunduconf.htm">The Dundulanyä Confederation</a>
-    <!-- sections -->
       <a href="#ORI">External history</a>
       <a href="#HIS">History</a>
       <a href="#WRI">Orthography</a>
@@ -86,7 +84,7 @@
       <a href="#SYN">Syntax</a>
       <a href="#PHO">Phonology</a>
     </div>
-  </div>
+  </nav>
   <button onclick="topFunction()" id="topButton" title="Go to top"><i class="ph ph-arrow-line-up"></i></button>
     <div class="info-introduction">
     <table>

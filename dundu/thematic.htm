@@ -56,15 +56,18 @@
     <span class="theme-icon"><i class="ph-duotone ph-moon-stars" id="themeIcon"></i></span>
   </button>
   <div class="subtitle">A set of wordlists, organized by topic, with cultural and environmental notes</div>
-  <div class="fixed dropdown"><i class="ph-duotone ph-book menu"></i>
-      <div class="dropdown-content">
+  <nav class="dropdown" aria-label="Main menu">
+    <button class="menu-button" id="menu-toggle" aria-expanded="false" aria-controls="main-menu" aria-haspopup="true" aria-label="Open menu">
+      <i class="ph-duotone ph-book menu-icon" id="menu-icon"></i>
+    </button>
+    <div class="dropdown-content" id="main-menu" role="menu" aria-hidden="true">
       <i><a href="../dundu.htm">Dundulanyä main page</a></i>
       <a href="#EDUC">Education</a>
       <a href="#DAYTOOLS">Everyday goods, tools</a>
       <a href="#CLOTHING">Clothing</a>
       <a href="#KINSHIP">Kinship terminology</a>
       </div>
-    </div>
+    </nav>
     <button onclick="topFunction()" id="topButton" title="Go to top"><i class="ph ph-arrow-line-up"></i></button>
     <p><i>See also the <a href="dundu/time.htm">Calendar and time</a> page.</i></p>
 

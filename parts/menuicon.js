@@ -1,8 +1,16 @@
-const menuContainer = document.querySelector('.fixed');
-const menuIcon = menuContainer.querySelector('.menu');
-menuContainer.addEventListener('mouseenter', function() {
-    menuIcon.className = 'ph-duotone ph-book-open-text menu';
-});
-menuContainer.addEventListener('mouseleave', function() {
-    menuIcon.className = 'ph-duotone ph-book menu';
+document.addEventListener('DOMContentLoaded', () => {
+  const menuContainer = document.querySelector('.dropdown');
+  const menuIcon = document.getElementById('menu-icon');
+
+  if (!menuContainer || !menuIcon) return;
+
+  menuContainer.addEventListener('mouseenter', () => {
+    menuIcon.classList.remove('ph-book');
+    menuIcon.classList.add('ph-book-open-text');
+  });
+
+  menuContainer.addEventListener('mouseleave', () => {
+    menuIcon.classList.remove('ph-book-open-text');
+    menuIcon.classList.add('ph-book');
+  });
 });
