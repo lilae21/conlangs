@@ -410,11 +410,11 @@ footer a:hover:not(:has(> img)), footer a:active:not(:has(> img)) {
 @media (max-width: 768px) {
   .footer-cont {
     justify-content: center;
-    padding-left: 0.6em;
-    padding-right: 0.6em;
+    padding-left: 0.45em;
+    padding-right: 0.45em;
   }
   .footer-right {
-    font-size: 0.84em;
+    font-size: 0.8em;
     padding-bottom: 1.2em;
   }
 }
