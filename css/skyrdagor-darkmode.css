@@ -1,0 +1,28 @@
+/* CSS file used to style the pages about Skyrdagor.
+Color palette: red/orange. */
+
+:root {
+    --color-bg: 28, 5, 5;
+    --color-txt: 255, 235, 230;
+    --color-glosstrans: 230, 120, 100;
+    --color-headers: 255, 170, 150;
+    --color-thickbdr: 255, 100, 90;
+    --color-gradstart: 100, 10, 10;
+    --color-gradend: 50, 5, 5;
+    --color-shadow: 200, 90, 60;
+    --color-fnotes-menu-bdr: 255, 100, 100;
+    --color-fnotes-menu-fill: 90, 10, 10;/
+    --color-menuicon: 255, 120, 110;
+    --color-listmarker: 230, 150, 170;
+    --color-links: 255, 150, 100;
+    --color-linkhover: 144, 255, 144;
+    --color-linkhover-bg: 40, 80, 40;
+    --color-dropdown-links: 255, 230, 230;
+    --color-dropdown-linkhover: 255, 255, 200;
+    --color-dropdown-linkhover-bg: 120, 20, 20;
+    --color-nav-hover-border: 255, 110, 110;
+    --color-nav-hover-shadow: 140, 20, 0;
+    --color-thbg: 90, 15, 15;
+    --color-tableodd: 50, 10, 10;
+}
+

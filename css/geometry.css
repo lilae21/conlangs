@@ -716,3 +716,42 @@ footer a:hover:not(:has(> img)), footer a:active:not(:has(> img)) {
   flex-shrink: 0;
   text-align: right;
 }
+
+/* card grids */
+.card-grid {
+  display: grid;
+  justify-content: space-evenly;
+  gap: 0.7rem;
+  margin-left: 1.6666rem;
+  margin-right: 1.6666rem;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+@media (max-width: 768px) {
+  .card-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.6rem;
+  }
+}
+.card-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 0.7rem;
+  margin-left: 1.6666rem;
+  margin-right: 1.6666rem;
+}
+.card {
+    border-top: 0.3rem solid rgb(var(--color-thickbdr));
+    border-left: 0.1rem solid rgb(var(--color-thickbdr));
+    border-right: 0.1rem solid rgb(var(--color-thickbdr));
+    border-bottom: 0.1rem solid rgb(var(--color-thickbdr));
+    background: rgb(var(--color-gradstart));
+    padding: 0.75rem 1.7rem 0.75rem 1.1rem;
+    margin-bottom: 0.6rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    text-align: center;
+    font-size: 1.0556em;
+}

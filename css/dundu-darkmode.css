@@ -2,26 +2,26 @@
 Color palette: lilac/violet */
 
 :root {
-    --color-bg: 51, 0, 51;
-    --color-txt: 255, 230, 255;
-    --color-glosstrans: 255, 230, 255;
-    --color-headers: 217, 179, 255;
-    --color-thickbdr: 140, 26, 255;
-    --color-gradstart: 73, 4, 73;
-    --color-gradend: 38, 13, 38;
-    --color-shadow: 224, 102, 255;
-    --color-fnotes-menu-bdr: 255, 153, 255;
-    --color-fnotes-menu-fill: 77, 0, 102;
-    --color-menuicon: 217, 179, 255;
-    --color-listmarker: 255, 153, 255;
-    --color-links: 217, 179, 255;
-    --color-linkhover: 204, 255, 153;
-    --color-linkhover-bg: 143, 0, 179;
-    --color-dropdown-links: 236, 179, 255;
-    --color-dropdown-linkhover: 153, 0, 153;
-    --color-dropdown-linkhover-bg: 255, 153, 255;
-    --color-nav-hover-border: 153, 0, 255;
-    --color-nav-hover-shadow: 224, 102, 255;
-    --color-thbg: 71, 0, 179;
-    --color-tableodd: 96, 23, 207;
+    --color-bg: 25, 0, 38;
+    --color-txt: 245, 230, 255;
+    --color-glosstrans: 220, 160, 240;
+    --color-headers: 200, 160, 255;
+    --color-thickbdr: 192, 128, 255;
+    --color-gradstart: 70, 0, 105;
+    --color-gradend: 90, 30, 120;
+    --color-shadow: 230, 150, 255;
+    --color-fnotes-menu-bdr: 240, 180, 255;
+    --color-fnotes-menu-fill: 90, 0, 115;
+    --color-menuicon: 230, 150, 255;
+    --color-listmarker: 200, 160, 255;
+    --color-links: 230, 170, 255;
+    --color-linkhover: 255, 180, 100;
+    --color-linkhover-bg: 80, 0, 80;
+    --color-dropdown-links: 240, 230, 255;
+    --color-dropdown-linkhover: 255, 240, 255;
+    --color-dropdown-linkhover-bg: 160, 60, 210;
+    --color-nav-hover-border: 200, 100, 255;
+    --color-nav-hover-shadow: 120, 40, 160;
+    --color-thbg: 60, 0, 90;
+    --color-tableodd: 40, 0, 70;
 }

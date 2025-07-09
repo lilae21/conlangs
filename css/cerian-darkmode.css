@@ -1,0 +1,28 @@
+/* CSS file used to style the pages about Cerian, its parent language, and the continent of Seralton.
+Color palette: light blue/blue. */
+
+:root {
+    --color-bg: 10, 20, 30;
+    --color-txt: 220, 240, 255;
+    --color-glosstrans: 100, 160, 200;
+    --color-headers: 140, 180, 255;
+    --color-thickbdr: 90, 150, 255;
+    --color-gradstart: 20, 40, 60;
+    --color-gradend: 10, 25, 35;
+    --color-shadow: 0, 60, 130;
+    --color-fnotes-menu-bdr: 110, 180, 255;
+    --color-fnotes-menu-fill: 15, 40, 50;
+    --color-menuicon: 140, 180, 255;
+    --color-listmarker: 130, 160, 190;
+    --color-links: 90, 200, 255;
+    --color-linkhover: 255, 170, 90;
+    --color-linkhover-bg: 60, 40, 10;
+    --color-dropdown-links: 210, 230, 255;
+    --color-dropdown-linkhover: 255, 255, 255;
+    --color-dropdown-linkhover-bg: 20, 80, 160;
+    --color-nav-hover-border: 80, 160, 255;
+    --color-nav-hover-shadow: 0, 60, 130;
+    --color-thbg: 25, 80, 120;
+    --color-tableodd: 18, 60, 90;
+}
+

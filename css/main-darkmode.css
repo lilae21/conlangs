@@ -1,0 +1,27 @@
+/* CSS file for the dark version of the standard color palette (home and meta pages, fallback): earthy tones. */
+
+:root {
+    --color-bg: 30, 20, 15;
+    --color-txt: 245, 225, 210;
+    --color-glosstrans: 210, 140, 110;
+    --color-headers: 255, 180, 150;
+    --color-thickbdr: 200, 90, 60;
+    --color-gradstart: 60, 40, 25;
+    --color-gradend: 30, 20, 15;
+    --color-shadow: 0, 0, 0;
+    --color-fnotes-menu-bdr: 230, 120, 80;
+    --color-fnotes-menu-fill: 60, 40, 20;
+    --color-menuicon: 255, 190, 160;
+    --color-listmarker: 230, 190, 150;
+    --color-links: 255, 140, 90;
+    --color-linkhover: 110, 200, 230;
+    --color-linkhover-bg: 40, 60, 70;
+    --color-dropdown-links: 245, 225, 210;
+    --color-dropdown-linkhover: 30, 20, 15;
+    --color-dropdown-linkhover-bg: 230, 120, 80;
+    --color-nav-hover-border: 255, 140, 90;
+    --color-nav-hover-shadow: 90, 60, 30;
+    --color-thbg: 90, 60, 30;
+    --color-tableodd: 60, 40, 30;
+}
+
