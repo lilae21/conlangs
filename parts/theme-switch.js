@@ -63,7 +63,7 @@ function applyTheme(mode) {
         lightThemeStyle.removeAttribute('media');
         darkThemeStyle.setAttribute('media', 'not all');
     } else if (mode === 'dark') {
-        lightThemeStyle.setAttribute('media', 'not all');
+        lightThemeStyle.removeAttribute('media');
         darkThemeStyle.removeAttribute('media');
     }
     savePreference(mode);
