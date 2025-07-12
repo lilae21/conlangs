@@ -63,8 +63,8 @@ body {
 }
 @media screen and (min-width: 768px) {
   body {
-    margin-right: 3.45rem;
-    margin-left: 3.45rem;
+    margin-right: 4.5rem;
+    margin-left: 4.5rem;
   }
 }
 @media (prefers-color-scheme: dark) {
