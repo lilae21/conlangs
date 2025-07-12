@@ -15,6 +15,7 @@ Color palette: light blue/blue. */
     --color-menuicon: 140, 180, 255;
     --color-listmarker: 130, 160, 190;
     --color-links: 90, 200, 255;
+    --color-links-visited: 129, 188, 218;
     --color-linkhover: 255, 170, 90;
     --color-linkhover-bg: 60, 40, 10;
     --color-dropdown-links: 210, 230, 255;

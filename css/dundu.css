@@ -15,6 +15,7 @@ Color palette: lilac/violet */
     --color-menuicon: 172, 0, 230;
     --color-listmarker: 120, 80, 150;
     --color-links: 184, 77, 255;
+    --color-links-visited: 176, 117, 215;
     --color-linkhover: 230, 115, 0;
     --color-linkhover-bg: 255, 230, 204;
     --color-dropdown-links: 56, 0, 77;

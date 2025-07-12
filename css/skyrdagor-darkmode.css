@@ -15,6 +15,7 @@ Color palette: red/orange. */
     --color-menuicon: 255, 120, 110;
     --color-listmarker: 230, 150, 170;
     --color-links: 255, 150, 100;
+    --color-links-visited: 221, 163, 136;
     --color-linkhover: 144, 255, 144;
     --color-linkhover-bg: 40, 80, 40;
     --color-dropdown-links: 255, 230, 230;

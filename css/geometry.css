@@ -17,18 +17,19 @@ Standard color palette (home and meta pages, fallback): earthy tones. */
 :root {
     font-size: 18px;
     --color-bg: 251, 235, 230;
-    --color-txt: 77, 37, 0; /* p generale */
+    --color-txt: 77, 37, 0;
     --color-glosstrans: 0, 96, 128;
-    --color-headers: 102, 0, 0; /* h1 etc. */
+    --color-headers: 102, 0, 0; /* h1 ecc. */
     --color-thickbdr: 102, 0, 0;
     --color-gradstart: 255, 240, 179;
     --color-gradend: 251, 235, 230;
-    --color-shadow: 0, 0, 0; /* ombre dei gloss in movimento */
+    --color-shadow: 0, 0, 0;
     --color-fnotes-menu-bdr: 204, 82, 0;
     --color-fnotes-menu-fill: 255, 240, 179;
     --color-menuicon: 102, 0, 0;
     --color-listmarker: 77, 37, 0; /* numeri ol */
     --color-links: 204, 82, 0;
+    --color-links-visited: 158, 91, 46;
     --color-linkhover: 0, 153, 204;
     --color-linkhover-bg: 179, 236, 255;
     --color-dropdown-links: 102, 0, 0;
@@ -237,11 +238,21 @@ ol.nest li {
 }
 
 /* unvisited and visited links */
-a:link, a:visited {
-  color: rgb(var(--color-links));
+a {
   text-decoration: none;
+  border-bottom: 1px dashed transparent;
+  color: rgb(var(--color-links));
 }
-
+a:not(.nav-link):not(.menulink):not(footer *):link {
+  border-bottom-color: rgba(var(--color-links), 0.65);
+}
+a:not(.nav-link):not(.menulink):not(footer *):visited {
+  color: rgb(var(--color-links-visited));
+  border-bottom-color: rgb(var(--color-links-visited));
+}
+a.nav-link:link, a.nav-link:visited {
+  color: rgb(var(--color-links));
+}
 /* mouse over and selected links */
 a:hover:not(:has(> img)), a:active:not(:has(> img)) {
   color: rgb(var(--color-linkhover));

@@ -15,6 +15,7 @@ Color palette: b&w but mimicking old paper. */
     --color-menuicon: 34, 28, 26;
     --color-listmarker: 71, 102, 133;
     --color-links: 141, 166, 131;
+    --color-links-visited: 95, 118, 86;
     --color-linkhover: 82, 155, 156;
     --color-linkhover-bg: 225, 173, 109;
     --color-dropdown-links: 34, 28, 26;
