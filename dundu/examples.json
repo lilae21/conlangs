@@ -19,11 +19,11 @@
     },
     {
         "id": "3",
-        "dun": "homfonū lupphanat yiyāpūva saṃhāram āp̃āja.",
-        "mor": "homf-∅-on-ū-(a) lupphan-at yiy-∅-āp-ū-a saṃhār0m-∅ āp̃āj-∅-∅-a",
-        "gloss": "blush-<small>EXP-CAUS-AG-PRES.3SG.IND</small>. message-<small>ACC.SG</small>. read-<small>EXP-SITU-AG-IMPF.3SG</small>. boy-<small>DIR.SG</small>. smile.<small>INTENS-EXP-PAT-PERF.3</small>.",
+        "dun": "epeneyo junairān neftai papṣaiṅ saṃdhauḫo.",
+        "mor": "epen-e=yo junai=rān neft-∅-∅-ai papṣ-∅-∅-ai=ṅ saṃdhā-∅-ū-ḫo",
+        "gloss": "child-<small>BOUND.PL=POSS.2PL</small>. foot/feet.<small>DIR.SG=POSS.3PL</small>. be_dry-<small>EXP-PAT-IMPF.3.SUBJ</small>. be_warm-<small>EXP-PAT-IMPF.3.SUBJ</small>=and. keep.<small>IMPER-EXP-AG-2PL</small>.",
         "eng": "Keep your children's feet dry and warm.",
-        "keys": ["situational", "contemporaneous"],
+        "keys": ["imperative", "gnomic", "juxtaposition"],
         "context": ["personal", "family", "care"]
     },
     {
@@ -34,16 +34,16 @@
         "eng": "Help others and you're a hero too.",
         "keys": ["impersonal", "gnomic", "juxtaposition"],
         "context": ["care", "help"]
-    }
+    },
     {
         "id": "5",
-        "dun": "meśiḫe ga nāsoke. tuḫḫe tamemikṣūmi",
+        "dun": "meśiḫe ga nāsoke. tuḫḫe tamemikṣūmi.",
         "mor": "meśiḫ-e ga nāsok-e . tuḫḫ-e tamemikṣū-∅-mi-(a)",
         "gloss": "eye-<small>DIR.SG</small>. <small>COP</small>. blind-<small>DIR.SG</small>. . heart-<small>DIR.SG</small>. look.<small>NEC-EXP-CIRC-PRES.3SG.IND</small>.",
         "eng": "The eyes are blind. One must look with the heart.",
         "keys": ["impersonal", "gnomic", "circumstantial", "instrumental"],
         "context": ["personal", "reflection"]
-    }
+    },
     {
         "id": "6",
         "dun": "lila ba yuna nadlalosah śodah.",
@@ -52,5 +52,23 @@
         "eng": "I know who I want to take me home.",
         "keys": ["relative", "desiderative", "knowledge"],
         "context": ["personal", "care", "relations"]
+    },
+    {
+        "id": "7",
+        "dun": "nayiḫe sebāre yäyīsūva, līdade ālīce tabheltā yajajak nīyūnī.",
+        "mor": "nayiḫ-e sebāre yäyīsū-∅-∅-a līdad-e ālīce tabhelt-ā yajaj-ak nī-∅-ū-(n)ī",
+        "gloss": "sentence-<small>DIR.SG</small>. once_more. read.<small>NECESS-EXP-PAT-PRES.3SG.IND</small>. teacher-<small>DIR.SG</small>. thus.<small>DIST</small>. concern-<small>LOC.SG</small>. student-<small>DAT.SG</small>. say-<small>EXP-AG-PAST.3SG.IND</small>.",
+        "eng": "The teacher, caringly, told the student to read the sentence once again.",
+        "keys": ["correlatives", "implicit topic"],
+        "context": ["care", "study", "classroom", "teaching"]
+    },
+    {
+        "id": "8",
+        "dun": "nayiḫat sebāre yēyū tati līdade tabheltā yajajak nīyūnī.",
+        "mor": "nayiḫ-at sebāre yēy-∅-ū-∅ tati līdad-e tabhelt-ā yajaj-ak nī-∅-ū-(n)ī",
+        "gloss": "sentence-<small>ACC.SG</small>. once_more. read.<small>IMP-EXP-AG-2SG</small>. <small>QUOT</small>. teacher-<small>DIR.SG</small>. concern-<small>LOC.SG</small>. student-<small>DAT.SG</small>. say-<small>EXP-AG-PAST.3SG.IND</small>.",
+        "eng": "«Read the sentence once again» told the teacher caringly to the student.",
+        "keys": ["quotative", "imperative"],
+        "context": ["care", "study", "classroom", "teaching"]
     }
 ]
