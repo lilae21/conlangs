@@ -1,0 +1,512 @@
+Lexember 2019 theme list:
+Day 1: Naps and feeling drowsy
+Day 2: E-mails, web searches
+Day 3: Basic computing
+Day 4 (created on Dec 7): Emotions: cosiness, kindness, and lack of them
+Day 5 (created on Dec 8): Society of Antiquity
+Day 6: Safety equipment, specifically safety belts
+Day 7: Safety equipment (part 2); parts of a car
+Day 8: Parts of a car: transmission
+Day 9: Technology of Antiquity
+Day 10: Things in a bathroom
+Day 11: Building materials
+Day 12: Technology of Antiquity (part 2)
+Day 13: Things in a bathroom (part 2)
+Day 14: Pastimes and hobbies
+Day 15: Entertainment industry: television
+Day 16: Entertainment industry: television (part 2)
+Day 17: Things in a bathroom (part 3)
+Day 18: Things in a living room
+Day 19: Society of Antiquity (part 2)
+Day 20: Geometry
+Day 21: Basic computing (part 2)
+Day 22: In the kitchen
+Day 23: Technology of Antiquity (part 3)
+Day 24: Kūlħanarai
+Day 25: Family bonds, celebrations
+Day 26: Pollution
+Day 27: Medieval society
+Day 28: Pollution (part 2) and its mitigation
+Day 29: Basic computing (part 2)
+Day 30: Medieval society and technology (part 2)
+Day 31: Geometry (part 2)
+
+Possible themes: travel; seafaring, fishing; parts of a car (continued); Civ6 transl. (Continued), pollution, bedroom things?, love, “a night out in Līlasuṃghāṇa”, bedroom things
+
+Lexember 2019, day 1:
+
+Chlouvānem:
+- nīmąlke “to be, feel dizzy” (< nī- ‘within inside’ + √mąlk- ‘to tremble, vibrate’)
+- nīmąlkanah “dizzyness”
+- (idiom:) lāṃṭam mūmikē “I feel dizzy” (lit. ‘[my] head is dancing’)
+- nyumbiñcañih “micro nap, very short nap” (dimin. of “nyumbiceh” ‘nap’, itself a diminutive of “nyumba” (nap, rest), from √nyumb- (to rest))
+- kurike (√kury-, class 3) “to feel drowsy”
+- kuris “drowsyness”
+- nyumbųkuris “feeling drowsy after waking up from a nap” (< nyumbų (abl. of “nyumba” (nap, rest)) + kuris)
+- mešīlkuris “feeling of tired eyes” (< mešīn ‘eye, pair of eyes’ + kuris)
+- ḍuṇṣe (√ḍuṇṣ-, class 2 (u>i)) “to twinkle”
+- ḍiṇṣaṇah “continuous, protracted twinkling”
+- yūgurḍiṇṣaṇah “pins and needles” (lit. “limb twinkling”)
+- yūgurpudbhas “limb numbness” (lit. “limb sleep”)
+
+Atlantic:
+- “curcuvia” [kurˈkuvja], dial. also “curcuiva” [kurˈkuɪ̯va] or “cuhurbia” [kuˈχurbja] “head” (< Latin “cucurbitam” ‘pumpkin’, development analogue to colloquial Italian “zucca”)
+- “curcuvia-aḍ-bolyori” [kurˈkuvja ab‿bɔˈjɔri] “dizzyness” (literally “dancing head”, yes it’s the same idiom in two unrelated conlangs)
+- “culyuni” [kuˈjuni], dial. [kuˈʎuni] or [ku(ɖ]ˈɖuni] (vulgar) “testicle” (< V.Lat. *cōleōnem)
+- “disculyunyoṭ” [diskujuˈɲɔθ] (vulgar) “coward” (< dis- (< Lat. dē-ex-) + culyuni + -oṭ (< Lat. -ātum))
+
+
+day 2:
+
+Chlouvānem (theme: “e-mails, web searches”)
+- pahaikā “post” (< pahām “message”)
+- mulipahaikā (formal term) “e-mail” (muli-/mulya “lightning; here: electricity” + pahaikā)
+- mulpa “e-mail (usually the service, may also be used for the message)” (acronym of the above)
+- pahaikaurah “post office” (pahaikā + place-forming suffix -ūrah) (colloquially just ‘pahaikā’)
+- mulitadhulta “e-mail (a message)” (muli-/mulya “lightning; here: electricity” + tadhulta “letter”)
+- pęrdmulpa “spam, junk mail” (√pęrd- (to annoy) + mulpa)
+- penaikāram “website, webpage” ((muli)penai “internet” + the singulative suffix -kāram, i.e. “a single place/point in the net”)
+- tamišarim “video” (< ta-√miš- “to look at, watch”)
+- tamindarim “audio” (< ta-√mind- “to listen to”)
+- khlavanah “search” (< √khlu- “to look for, search”)
+- tatālonīn “something which/someone who finds; search engine; specifically, the search engine in the Inquisition’s intranet” (< ta-tad-√lun- “to find (something while looking for it)”)
+- “search for…” is “khlavanah” preceded by a noun in the dative singular (and “search in” with the locative singular), i.e.: penaikāramom khlavanah (search for pages); vāyamom (for images)/tamišarimom (for videos)/naviṣyom (for books)/lališenom (for news)/luvāye (in the (online) market)/ñålkæšye (in the map(s))
+
+Atlantic:
+- periri [ˈpɛriri] “to search, look for” (< Lat. quærere)
+- pesiṭuri [pɛziˈθuri] “investigator; researcher; search engine” (< quæsītōrem)
+- pexuni [pɛˈçʉni] “search” (< quæstiōnem)
+- pexuni pro … poinos (search for pages)/imoginis (images)/horuminus (video)/anunxoxunis (news)/miarcis (goods, i.e. shopping)/pexuni nûs atlantis (search in maps)
+- piṭixuni [piθiˈçʉni] “question, request” (< petītiōnem)
+- pruvent [pruˈvɛn], dial. pruviant [pruˈvjan] “result” (< prōventum, but reanalyzed as neuter therefore with the new plural “pruventa” [pruˈvɛnta])
+- pesiṭ [pɛˈziθ] (neuter) “result (of a search), finding” (< quæsītum, but synchronically an usage of the past participle of “periri”)
+- results in search engines may be termed as “poinos/imoginis pruventos/pesiṭos, horuminus pruventus/pesiṭus, etc”. (but “pruventa/pesiṭa nûs atlantis”)
+
+day 3:
+
+Chlouvānem (theme: "basic computing" (mostly continued from yesterday's)):
+- bulka "base, pedestal, platform" (I actually didn't have such a basic word! Or actually I did, but the one I had, "šermālgis", is better used for a not visible, below-ground base (as the ones of houses), or in an abstract sense (e.g. "šermālgyumi tarlāmaha" 'elementary school', lit. 'school of the bases, the basics'), while "bulka" is used for visible bases (like the ones of cups))
+- pūmbulka "operating system" (√pūn- "to work" + bulka)
+- ānnatulje (class 2 verb, u>i ablaut) "to install" (ān- "upwards" + na- "into" + √tulj- "to carry by vehicle (monodirectional)")
+- ānnatiljanah "installation"
+- ānnatiljaṃlene (pl. tantum) "installation options"
+- lātiṃdarbus "hard disk" (lātimas "centre" + darbus "disk")
+- sāṭṭiṃdarbus "external disk/drive" (sāṭṭimas "position on the side" + darbus)
+- lāpūlgis "peripherical" (lā "with" + √pūn- "to work")
+- pigdhulike "to update" (pid- "towards" + √khuly- "to lead, carry (monodir.)")
+- pigdholyanah "updating process"
+- pigdhulis "update"
+
+Lexember, day 6 (will catch up with days 4 and 5 later on):
+
+Chlouvānem - theme: safety equipment, specifically safety belts
+- marṣṭhra "safety" (< √mṛṣṭh- "to be safe")
+- marṣṭhṛdaramaita "safety procedure" (marṣṭhra + daramaita "procedure", lit. "action river")
+- marṣṭhradralāṇa "safety equipment, gear" (marṣṭhra + dralāṇa "equipment")
+- marṣṭhṛlilvan "safety belt, seat belt" (marṣṭhra + lilvan "belt, sash")
+- mbasike "to draw, extend"
+- tambasike "to attach, buckle (a belt, a rope)" (tad- "against" + √mbasy-)
+- tambasigis "buckle" (< tad-√mbasy-)
+- nalambasike "to fasten (e.g. a seat belt)" (nal- "convergent" + √mbasy-)
+- vāmbasike "to unfasten, unloose" (vād- "divergent" + √mbasy-)
+- nalambasidišña "seat belt indicator" (nal-√mbasy- + dišña "indicator")
+
+day 7:
+
+Chlouvānem - theme: "safety equipment" (part 2) and on to "parts of a car"
+- rokṣake "to crash" (class 9 verb: rokṣē - reikṣek - arākṣa)
+- rokṣūm "crash" (< √rokṣ-)
+- tæbhyogdis "softener, damper" (< tæ- (inceptive) + √bhyod- (to be soft))
+- rokṣṭæbhyogdis "airbag" (< √rokṣ- + tæbhyogdis, i.e. "crash softener")
+- pūrṣhįnna "steering wheel" (< √pūrṣ- (to go by vehicle, to drive (multidir.)) + hįnna "wheel")
+- rækike "to brake, decelerate" (class 10 verb: rækyē - ryakik - erīkya)
+- rækirṣūs "brake" (< √ræky-)
+- rækyanah “braking, deceleration” (< √ræky-)
+- junairækirṣūs “brake pedal” (< junai (foot) + rækirṣūs)
+- dhāṃrækirṣūs “handbrake” (< dhāna (hand) + rækirṣūs). I wanted to have a less SAE word but then I realized I could pair it well with the above (i.e. “foot brake”) instead
+
+Theme: “emotions, cosiness, kindness, and lack of them” (making up for Lexember 4, which I missed)
+- bulpake “to blush” (class 2 verb: bolpē - bulpek - ubulpa)
+- bulpūm “blushing” (< √bulp-)
+- bolpoe “congratulation, compliment (esp. endearing)” (< √bulp-)
+- nībolpanah “heart-warming situation” (nī- “within inside” + √bulp-)
+- nībolpāmita “mutual friendliness, altruism; the ideal of acting for others’ well-being, an integral part of Yunyalīlti-Chlouvānem cultural values) (< nī-√bulp-)
+- barabolpāvi “feeling of happiness because of someone else’s happiness” (< bara- “from afar” + √bulp- + the noun-forming suffix -āvi which roughly means “coming from, derived from”)
+- baraɂǣlnāvi “feeling of sadness because of someone else’s sadness” (< bara- + ǣlna “sadness” + -āvi)
+- sårṇake “to be rude”
+- sårṇišam “rudeness” (< √sårṇ-)
+- sårṇas “a rude act” (< √sårṇ-)
+
+
+Day 8:
+
+Chlouvānem – theme: “parts of a car: transmission”
+- taida “gear, cog” (a Lällshag borrowing)
+- rūsnatadmālas “transmission”; in other contexts “power control” (rūsna “power, strength” + tadmālas “control”)
+- rūsnatadmāltaidai “gearbox” (rūsnatadmālas + taidai, pl. of “taida”)
+- lyarake (class 1 verb) “to fit, to match”
+- tatalyarake “to correspond” (tad- “against” + √lyar-)
+- tatalyaroe “ratio, correspondence”; mechanics: “gear (ratio)” (< tad-√lyar-)
+- ālkigdis “lever” (< ān-√kit- “to put up”)
+- tatalyarenālkigdis “gear stick” (tatalyaroe + ālkigdis)
+- talyadis “gear stick” (colloquial) (portmanteau of “tatalyarenālkigdis”)
+- privastatalyaroe “reverse gear” (pri-√vas- “to drive behind, backwards (monodir.) + tatalyaroe)
+
+(making up for Lexember 5, so that I have now made additional words for both days I missed):
+
+theme: “society of Antiquity”, i.e. in order to create some new vocabulary I’m going to pick the lists of technologies and civics in Civilization VI and translate them. I’ll only add here the words that are new though
+- lāpogāmita “civilization” (lā “with, together” + poga “village”, implying that organized, cooperative village life is the trait that sets civilized societies apart from barbarians)
+- lādotoe “statute, code, codex” (< lād-√ut- “to lie in the centre”)
+- āndaralilāmita “craftsmanship, artisanship” (< āndaralila “artisan”). Displaced the earlier form “āndaralelyēmita” (not going to count this as an additional form) from the plural (āndaralelyē), cf. “lelyēmita” (family)
+- teilake “to trade, commerce” (backformation from “teilah” (goods))
+- teilanah “trading, trade, commerce” (< √teil-)
+- teiloe “transaction, trade, commercial exchange” (< √teil-)
+- pūrṣluvailila “travelling merchant” (< √pūrṣ- “to go by vehicle, to drive” (multidir.) + luvailila “merchant”)
+- nārvālyūkke (class 1 derived verb) “to be military” (< nārvālis “soldier”)
+- pūnīlāṇa “workforce, manpower” (collective of “pūnīn” (worker))
+- ūjānniltake (class 1 derived verb) “to be supernatural, mystic” (< uṣ- (un-) + √jān- (to feel) + -nilt- (-able), i.e. “to be something that senses cannot perceive”)
+- ūjānniltišam “mysticism” (< uṣ-√jān-nilt-)
+
+
+Day 9:
+Chlouvānem – theme: “technology of Antiquity” (continuing with the Civilization VI translations)
+- puhanyoe “pottery (ware), earthenware” (< puhanīs “ceramic (material)”)
+- puhanībān “pottery (workshop)” (< puhanīs)
+- mållūrah “stable; livestock farm” (< √måll- “to raise” (animals, but also used for children))
+- meināmilēkanah “weaning” (< meinā-√milk- “to wean, deprive”)
+- āvārḍalila “miner” (< āvārḍah “mine” + lila “person”)
+- kaikyādhūs “sailboat” (< kaikyā “sail” + the suffix “-dhūs” meaning ‘having a’)
+- sārvire ilēnitarlā “astrology” (literally “ancient astronomy”; it is not really distinguished from modern astronomy unless when discussing it as its most primitive form in history. The same logic also distinguishes chemistry and alchemy (“ancient chemistry” in Chl.))
+- rūdake “to irrigate” (backformation from “rūdas” (irrigation canal))
+- rūdanah “irrigation” (< √rūd-)
+- rūdmāloe “reservoir” (< √rūd- + √māl- “to keep”; the term is used even if the water is kept for non-agricultural purposes)
+
+
+Day 10:
+Chlouvānem — theme: “things in a bathroom”
+- pārailāmi “hairdryer” (< pārāk “hair” + īlāmi “heat”; I actually already had a word for that (būṃṣagis), which I now made a regionalism of the Eastern Inquisition)
+- pārāhatsunā “hair brush” (< pārāk + hatsunā “brush”)
+- hatsulgaltah “toothbrush holder” (< (aṣṭṛ)hatsunā “toothbrush” + galtah “cup”)
+- ndumbah “towel”
+- dhāndumbah “hand towel” (< dhāna “hand, pair of hands” + ndumbah)
+- mædhṛndumbah “bath towel” (< mædhram “body” + ndumbah)
+- ndumbidaṇḍa “towel rail” (< ndumbah + daṇḍa “cane, staff”)
+- mutrąkis “washbasin, sink” (< √mut- “to wash” + rąkis “tank”)
+- tåmbam “beak” (love when I realize I was still missing such basic words!)
+- mailtåmbam “faucet, tap” (< maila “water” + tåmbam “beak”)
+
+
+Day 11:
+Chlouvānem — theme: “building materials” (I actually started with the intention of continuing “technology of Antiquity” from two days ago, but one word led to the other and I expanded on this theme)
+- aphāḍās “brick” (< aphāḍa, perfect stem of √phāḍ- “to be hard”)
+- nulvas “mortar” (< Lällshag “nollwåse” (paste))
+- krīvah “clay” (< Proto-Lahob *kɨrīwor)
+- vajña “limestone”
+- aphāḍāndaraṇah “masonry” (aphāḍās + āndaraṇah “construction”)
+- ṛṣṭam “cement” (< PLB *ṛštom “lime”)
+- ṛṣṭakårḍīn “cement mixer” (ṛṣṭam + √kårḍ- “to mix”)
+- paṣṛṣṭam “concrete” (paṣ- “beyond” + ṛṣṭam)
+- ramvah “tar, bitumen, asphalt” (< PLB *ranwor (dense))
+- bausramvah “asphalt concrete” (< bausa “stone” + ramvah)
+
+Day 12:
+Chlouvānem — theme: “technology of Antiquity” (part 2)
+- nimās “ore” (< Lällshag “nimaasa” (metal, ore))
+- šuvīlke “to smelt” (< šu- “down” + √vīlk- “to melt, fuse”)
+- šuvīlka “smelting “(< šu-√vīlk-)
+- šuvīlkūrah “smelting facility” (< šu-√vīlk-)
+- šuvīlkṛṣūs “smelter” (< šu-√vīlk-)
+- svālacuvīlka “bronze working” (svālatam “bronze” + šuvīlka)
+- nāvlaras “pewter”
+- jñūvyūdhas “charcoal” (< jñūm “tree” or jñūk “wood” + vyūdhas “coal”)
+- šutulge (class 2 verb) “to forge” (< šu- “down” + √tug- “to beat”)
+- šutogīn “smith” (< šu-√tug-)
+- šutogīmbān “forge” (< šutogīn)
+(not counting this as a word, but I also decided that using metal names as pluralia tantum will have the meaning of collective nouns of products made from them, i.e. “-ware”: nāvlare “pewterware”, svālatāk “bronzeware”, kirme “ironware”, galkte “silverware”, etc.)
+
+Day 13:
+Chlouvānem — theme “things in a bathroom” (part 2)
+- kumbe (class 2 verb) “to absorb” (< Proto-Lahob *kumb-)
+- kumba (ablaut declension, pl. kombyē) “sponge” (< √kumb-)
+- kumbniltake (class 1 verb) “to be graspable (of concepts, things) (< √kumb- + -nilt- “-able”) and uṣkumbniltake (class 1 verb) “to be hard to grasp, difficult; illogical” (of concepts, things) (< √kumb-nilt-) (I’ll just consider these two as a single one, also they’re not really bathroom things after all)
+- vālṭhas “curtain”
+- pliṭvālṭhas (< (dašamitem)pliṭa “shower cubicle” + vālṭhas) or dašamitemvālṭhas “shower curtain” (< dašamitoe “shower” + vālṭhas) (again I’ll just consider these two as a single one)
+- sissamǣka “shaving cream, depilatory cream” (< siss- “to shave, cut hair” + mǣka “paste”)
+- nakaihatsunā “toilet brush” (< (kerg)nakai “water closet” + hatsunā “brush”)
+- nakairąkis “toilet cistern” (< (kerg)nakai + rąkis “tank”)
+- midvāhāris “bath rug” (< mi(ten)dvā(rma) “bathroom” + hāris “carpet”)
+- nenda “rubber”
+- nendahāris (< nenda “rubber” + hāris) or miteṃhāris ((daša)mitoe + hāris) “shower mat, anti-slippery mat”
+
+Day 14:
+Chlouvānem — theme: “pastimes and hobbies”
+- mbinanah “pastime, hobby” (< √mbun- “to like”)
+- nīgrembake “to puzzle, to present a puzzle” (< nī- “within” + √gremb- “to hide”)
+- nyegrembās “puzzle, riddle” (< nī-egremb- (perfect stem of nī-√gremb-))
+- tatālunarim “word search puzzle” (< ta-tad-√lun- “to find (something, while looking for it)”)
+- dhāḍāndaraṇah “conlanging” (< backformed from “āndṛdhāḍa” (conlang) - I had that term but not this one and the following two)
+- dhāḍāndarīn “conlanger” (< backf. from “āndṛdhāḍa”)
+- dhāḍāndṛke (irreg. verb) “to conlang” (< backf. from “āndṛdhāḍa”)
+- rilke (class 2 verb, √riṇ-) “to knit” (< Proto-Lahob *rin-)
+- reṇaṇah “knitting” (< √riṇ-)
+- iriṇās “knit, knitted garment, object” (< iriṇ- (perfect stem of √riṇ-))
+
+Atlantic:
+- bunjuvini “young man” (quite familiar, endearing, cf. It. “giovanotto”) (bun + juvini)
+- vixily “standard (flag)” (< Lat. vexilium)
+- lumb “loin” (< Lat. lumbum)
+- isprihori “to fold” (< *ex-plicāre)
+- isprihoment “folding” (isprihori + -ment)
+
+Day 15:
+Chlouvānem — theme: “entertainment industry: television”
+- chlævicugam “serial, TV series” (formal) (< chlæviṭa “TV set” + ṣugam “series”)
+- ṣugąlonīn “serial, TV series” (< ṣugą (essive case of “ṣugam”) + lun- “to go, walk (monodir.)”)
+- šusnīrṣmake “to censor” (< šusnīrṣmas “censorship”, itself from šu- “below” + snīrṣmas “blanket”)
+- šusnīrṣmadhurvān “censor” (< šusnīrṣmas + dhurvān (which is a specific rank but can be translated as “militia, trooper, police officer”))
+- šusnīrṣmęryūm “approval by censorship” - also commonly referred to by the acronym “šusnīyęri”, the authorization that allows any media to be published or transmitted in the Inquisition. Due to the obvious reasons of the technical barriers for TV transmissions, everything shown on TV has this approval, while for print media there is a substantial samizdat grey market not controlled by the state but de facto tolerated. (< šusnīrṣmas + ęryūm “permission”)
+- yanacomboe — the colloquial euphemism for the approval by censorship, literally “gift from above”
+- (not actually a new word, but the additional meaning is distant enough for me to add it here): boñjñoe “plot, storyline” (boñjñoe “water current” < buñjñ- “to run (of water)”)
+- navikṣugąlonīn “serialized TV adaptation (usually a mini-series) of a book”, quite common in Chlouvānem television, and usually following as close as possible the book. (< naviṣya “book” + ṣugąlonīn “TV series”)
+- nalmilēkanah “anthology” (nal- “convergent” + milk- “to take”)
+- nalmilēkanęs ṣugąlonīn “anthology series” (nalmilēkanęs (essive of “nalmilēkanah”) + ṣugąlonīn)
+
+Atlantic:
+- xart [ˈçærat] “series; TV series” (< Lat. sertum “joined, entwined”)
+- fluralexi [fluraˈlɛçi] “anthology” (< Renaissance Lat. flōrilegium, calqued from Gr. anthología, with -a- influenced by “flura” (Atl. plural of “flur” ‘flower’))
+- fassal [ˈfasaɬ] “episode” (borrowed from Ar. faṣl)
+- epeisodio(n) [ɛpei̯ˈzɔdjɔ(n)] (rare) “episode” (learned borrowing of Gr. epeisódion)
+- prex [ˈprɛç] "braid" (< Lat. plexum")
+- impreutiri [imˈprɛu̯tiri] "to plait, braid" (< Lat. in- + plectō)
+- imprexoxuni [imprɛçɵˈçʉni] “plot” (calqued from It. “intreccio”, ultimately from “impreutiri” + “-oxuni” (-ation))
+
+Day 16:
+Chlouvānem — theme: “entertainment industry: television (part 2)”
+- garjadumoe “documentary film” (< √garj- “to educate, teach” + dumoe “film, movie”)
+- taildṛke (irregular verb, compound of √dṛ-) “to animate, multiply an image” (< taili “much, many” + √dṛ- “to do, make”)
+- taildaraṇah “animation” (< tail-√dṛ-)
+- taildardumoe “cartoon, animated film” (< taildaraṇah + dumoe)
+- hulāpudbhiceh (colloquial) “evening TV programme for kids”, a collection of cartoons and sketches for young kids before bedtime (< diminutive from the phrase “hulābdān pudbhamai”, i.e. “may you sleep well” or “good night”). The most famous on Chlouvānem television, “jārdāklonoe” (literally “doll parade” or “puppet parade”, itself genericized as another name for this programme format) has been aired continuously for more than 50 years every evening on the First and Fifth channels of Chlouvānem TV (the Fifth channel, specifically aimed at children, was created later, but the programme has been aired contemporaneously on both, except in some special breaking news cases when it has not been aired on the First channel).
+- pāduljugąlonīn “TV series with a story arc, a plot that unfolds across many episodes” (< paṣ-√duld- “to move forward, to discontinuously move forward” + ṣugąlonīn “serial, TV series”)
+- ṭæṃṣake (class 11 verb: ṭæṃṣē - ṭyauṃṣek - uṭūṃṣa) “to motivate, incite”
+- ṭæṃṣanah “motivation, impulse; incitement” (< √ṭæṃṣ-)
+- ṭæṃṣagalamęlya “motivational show” (< √ṭæṃṣ- + galamęlya “broadcast”), i.e. a shows that presents news and reports of worker productivity to incite towards fulfillment of six-year plans
+- chlævilākilanah “debate, talk show” (< chlæviṭa “TV” + lākilanah “conversation”)
+
+Day 17:
+Chlouvānem — theme: “things in a bathroom (part 3)”
+- aṣṭṛbęnta “dental floss” (< aṣṭras “tooth” or aṣṭre “teeth” + bęnta “thread, string”)
+- ghorjake (class 9 verb: ghorjē - gheirjek - aghārja) “to rinse”
+- nīghorjīn “mouthwash” (< nī- “within” + √ghorj- “to rinse” with the -īn agentive suffix)
+- hihadamītah “nail clipper” (bahuvrīhi from √hih- “to be short” + damītah “nail”)
+- cassake (class 4 verb: cassē - kissek - ikissa) “to file (cut, smooth)”
+- kissṛṣūs “file” (tool) (< √cass-) and the rarer, more specific hyponym “damīktissṛṣūs” (nail file)
+- paršcañīh “tweezers” (< diminutive ultimately from √parṣ- “to pluck”)
+- bhaduhaiceh “cotton ball” (< bhadva “cotton” + haiceh (diminutive of “haitah” (ball)))
+- bhaduceh “cotton pad, cotton ball” (diminutive of “bhadva” (cotton))
+- phāṇḍikṣurga “deodorant stick, roll-on deodorant” (< √phāḍ- “to be hard” + bikṣurga “deodorant”)
+
+Day 18:
+Chlouvānem — theme: “things in a living room”
+- uṣveram “ottoman” (< Aṣasṝkami “ush weren” (pillow seat))
+- prācūtoe “window seat” (< prātas “wind” + šu-√ut- (to lie below))
+- hāribhagam “pillow used to seat on a carpet” (< hāris “carpet” + bhagam “pillow”)
+- kaɂauṃrāh “glass cupboard”, esp. one where decorative items are kept (< kaɂāh “glass” + uṃrāh “wardrobe”)
+- imišinās “decorative item, ornament” (< imišinā-, causative perfect stem of √miš- “to see”)
+- camigaraṇai “wall clock” (< cami “great, grand” + garaṇai “clock”, itself the plural of “garaṇa” (hour))
+- kaihāmaha “small statue of a kaihā, kept and worshipped as a sort of shrine in Chlouvānem houses” (< kaihā (wandering god-like soul, not unlike Shintō kami) + amaha (abode))
+- įkṣveichlæviṭa “wall-mounted TV” (< įs- “hanging” + ṣveya “wall” + chlæviṭa “TV set”)
+- naviṣilāṇa “home library” (< naviṣya “book”)
+- tamišarilāṇa “video library” (< tamišarim “video”)
+
+Day 19:
+Chlouvānem — “society of Antiquity (part 2)” (getting back to translating civics and technologies from Civilization VI: that's quite a good source for finding missing common words. This time it’s actually the game’s Classical Era, but I’ll still refer to it as Antiquity as “Classical Era” in Chlouvānem history mostly refers to a linguistic/literary stage, and the “Classical Era” of Western civilizations is something that has nothing to do with Chlouvānem)
+
+- paṣlerjike “to steer, govern” (< paṣ- “beyond” + √lerjy- “to bring (by vehicle) (multidir.)”
+- paṣlerjyanah “politics” (< paṣ-√lerj- “to steer, govern”)
+- paṣlerjyoe “government” (< paṣ-√lerj-)
+- paṣlerjirṣūs “steering” (< paṣ-√lerj-)
+- baltīkāram “leisure activity” (< baltīs “free time, leisure, recreation”)
+- bræšlalila “playwright” (< √bræšl- “to stage, put on a theatrical production” + lila “person”)
+- bræšlatorai “theatre/movie director” (< √bræšl- + torai (arch.) “commander”)
+- ṣryaḍhaṇah “acting” (< √ṣryaḍh- “to recite”)
+- lussigis “strategy, tactics” (< √luss- “to obtain” + -gis (a deverbal suffix that forms nouns denoting something used for the action of the verb)
+- heirdhulta “chronicle, written history” (< heirah “year” + dhulta “writing, something written”)
+
+Day 20:
+Chlouvānem — theme: “geometry”
+- rāṣmake “to be empty” (ultimately from the same non-Chlouvānem root as “rāṣmāṇa” (void), a word that I already had and now I explain as cognate to this one)
+- rāṣmūrah “space (physical extent)” (< √rāṣm-)
+- rāṣmūrtarlā “geometry” (< rāṣmūrah + tarlā “study, knowledge”)
+- rāṣmūrdišña “dimension” (< rāṣmūrah + dišña “index, factor”)
+- acāṃkrās “line segment” (< acāṃkra-, perfect stem of √cāṃkr- “to end, to limit, border” - i.e. “delimited”)
+- svātras “straight line; (roads, circuits): straight” (< √svātr- “to be straight”)
+- pidilākās “plane” (< pid-ilāka-, perfect stem of pid-√milk- “to extend”)
+- vaitimas “corner, nook, angle” (< vai-√tyā- “to stand in a corner”)
+- vaitimbān “nook, corner of a room” (< vai-√tyā)
+- jallavaitimas “solid angle” (< jallas “object, solid” (actually the “solid” meaning was something I also added today) + vaitimas) and pidilākāvaitimas “plane angle” (< pidilākās + vaitimas)
+
+Day 21:
+Chlouvānem — theme: “basic computing (part 2)”
+- ḍūsvake (class 2 verb) “to recognize, identify” (new root, < Proto-Lahob *zdūsw-o- (to recognize))
+- kuviḍūsvake “to log in” (< kuvi- “from outside” + √ḍūsv-)
+- neniḍūsvake “to log out” (< neni- “from inside” + √ḍūsv-)
+- kuviḍosvanah “login” (< kuvi-√ḍūsv-)
+- neniḍosvanah “logout” (< neni-√ḍūsv-)
+- ḍūsumaiva “password” (< √ḍūsv- + maiva “word”)
+- kåmbaneh “layer; (computing) screen, monitor”
+- pūnikåmbaneh “desktop” (< √pūn- “to work” + kåmbaneh)
+- hṛmake (class 2 verb) “to bind together as a fagot”
+- hṛma (abl. declension, pl. harmyē) “bundle of sticks, fagot; (computing) folder” (< √hṛm-)
+
+Day 22:
+Chlouvānem — theme: “in the kitchen”
+- rupphliṭa “baking tray, sheet; cake pan” (< √ruth- “to bake” + pliṭa “box”)
+- nevyīn “mold (the container)” (< √nevy- “to shape”)
+- ruthnevyīn “cake mold” (< √ruth- + nevyīn)
+- rithīn “oven” (< √ruth-)
+- ñiklatirē “microwave” (< √ñik- “to be small” + latirē “wave”)
+- ñiklatirlithīn “microwave oven” (< ñiklatirē + rithīn)
+- lunaimukṣa “teapot” (< lunai “tea” + mukṣa “vessel”)
+- jultadiga “kettle” (a bahuvrihi made of two verb roots: √jult- “to boil” + √dig- “to pour”)
+- supṣa “cork”
+- bikṣupṣa “bottle opener” (< bis- “away” + supṣa)
+
+Day 23:
+Chlouvānem — theme: “technology (and science) of Antiquity (part 3)”
+- kirmašuvīlka “iron working” (kirmas “iron” + šuvīlka “smelting”)
+- gundadartarlālila “mathematician” (gundadartarlā “mathematics” + lila “person”)
+- karimbāndaraṇah “shipbuilding” (karimbas “ship” + āndaraṇah “construction”)
+- karimbāndrūrah “shipyard” (karimbas + āndrūrah “construction site”)
+- pūnṛṣūs “machine” (< √pūn- “to work”)
+- pūnṛṣūdaraṇah “engineering” (< pūnṛṣūs + daraṇah “making”)
+- pūnṛṣūdarīn “engineer” (< pūnṛṣūs + darīn “maker”)
+- yunyāmita “physics” (in itself) (< yunya “nature”)
+- yunyāmitarlā “physics” (the study of) (< yunyāmita + tarlā “study, science, -logy”)
+- yunyāmitarlālila “physicist” (< yunyāmitarlā + lila)
+
+
+Day 24 (text wall incoming!)
+Chlouvānem — theme: “Kūlħanarai”
+
+as a “Christmas special” or something like that, today's theme is very conworld-specific.
+
+While there is no festivity with a symbology close to Christmas for the Chlouvānem, there is one in Aselism, the religion of Evandorian (Western) civilizations, also most widespread on Calémere - the festivity of Rebirth (Cálen Ecozóntan in Cerian), which has some parallels to Christmas being a religious feast with syncretic origins, the main gift-giving festivity in Western culture, and falling in winter - however it is a blending of different midwinter festivals, and it falls around 15 days after the Western New Year.
+
+Rebirth is not celebrated in the Chlouvānem Inquisition (any non-Yunyalīlti festivity is banned) but it was once part of the culture in the Northwest, which had been colonized by Western powers before the Chlouvānem conquered it in modern times. Just north of the Northwest of the Inquisition is the cultural area of the Kenengyry peoples, which were a part of the Kaiṣamā (and millions of them, especially Soenjoans and Kuyugwazians, immigrated into the Inquisition at the time) and have their own winter festival, with roots in the common Kenengyry shamanism, with slightly varying traditions from people to people, and with cognate names in the various languages (for example “kuvul hynyrŏŋ” in Soenjoan or “kuy khanŭrokŭ” in Kuyugwazian).
+
+During Kaiṣamā times, the authorities in the Inquisition in the Northwestern dioceses artificially created a new Yunyalīlti-friendly winter festival, the Kūlħanarai ([kuːɴ̆ħänäʀæɪ̯] in Standard Chl.; plurale tantum, likely from Soenjoan), blending Western Rebirth customs, which despite the bans was still followed by non-Chlouvānem in the Northwest, with those of the Kenengyry winter festival. Even its date – 29 haunyai (fifth month of the year, well in the middle of winter) – was chosen to be between the Western New Year (in the Chl. calendar usually on 21 haunyai) and Rebirth (4 and 5 laindyai, the following month (haunyai has 31 days)); note that the Kenengyry festival does not have a common set date across all Kenengyry peoples (the Džemlešwi, for example, celebrate it more than a month before the “Northwestern” Kūlħaranai), and for some of them it varies each year. The intent of this new festival was to prevent any non-Yunyalīlti derive of celebrating Rebirth or anti-Kaiṣamā ones from celebrating the Western New Year by shifting its imagery and merging it with another festivity from peoples of the Union.
+
+Today, the Kūlħaranai are full public holidays in three dioceses (Srāmiṇajāṇai, Tārṣaivai, and Yultijaiṭa) and are observed and celebrated by most non-Chlouvānem (with the option for people celebrating it of not working) in two more (sparsely populated Ūnikadīltha and Līnajoṭa): basically, all of the Northeast except for the deserts of Samvālṣāṇṭrē (which were mostly uninhabited until modern times); nowadays people of all ethnicities celebrate it.
+
+Now, today’s words:
+- soruga “fermented mare milk” (< Soenjoan “sŏryg”) - it is the traditional Kenengyry drink and is still fairly popular in those countries, as well as a symbolic drink in festive occasions, especially inside the family. However, in the Chlouvānem Inquisition, it is not that widespread and quite expensive to get (compared to other foodstuffs); most Northwestern families try to get some for Kūlħaranai, and that makes up a good majority of the yearly consumption in the Inquisition.
+- gūlṣaga (< Soen. “guol šag” ‘snow horse’), a mythical white horse that is the gift-giving figure for children during the Northwestern Kūlħanarai (which are, anyway, not the main gift-giving holiday - as in the rest of the Chlouvānem world, the Bhaivyāvāṣaryai near the summer solstice are). The gift-giver role is Western: the snow horse, in Kenengyry folklore, is a magical horse that runs over the land bringing snow, and has nothing to do with gifts.
+- gūlṣaglāṇṭam (gūlṣaga + lāṇṭam “head”) - depiction of the head of the snow horse, a common Kūlħanarai decoration.
+- malātas (< Auralian “mlaṣs”): typical Kūlħanarai treat, a cinnamon-flavoured cookie with candied fruit in its dough. With different names and typically different shapes, it is part of Rebirth traditions of various Southern Evandorian countries (most notably Auralia and Helinetia)
+- yundahanā (< Soen. “ünda-khanaa” ‘apple paste’) - apple jam with spices, commonly eaten with Kūlħanarai treats.
+- ndajlam (< Aur. “ntfaj nklemt” ‘garnished whale’) - Kūlħanarai dinner; the name refers to what formerly was the traditional course of Rebirth dinners in Southern Evandor, based on whale meat. The term spread to the Auralian colonies in today's Chlouvānem Northwest and then to the local Chlouvānem, even in the areas that were colonies of other countries where the main course of Rebirth dinners wasn’t whale meat. Anyway, whales rarely ever get anywhere close to the Northwest in the first place.
+- batila - a small fish from the Carpan Sea (the inland sea the Northwest is washed by), which is a common year-round food, and in most of the Northwest fried batilai are the main course of a Kūlħanarai dinner.
+- naṃdaṣa (< Soen. “namdaš”) - sour cream made from mare or camel milk.
+- cūkṣarla (< Soen. “čüökh saryl”, lit. ‘horse puff’), another traditional Kūlħanarai food in the Northwest - a bite-sized puff pastry filled with minced seasoned horse meat. It is a common food in all Kenengyry countries, but its traditional place in winter festival meals is Soenjoan. In fact, “cūjaraṣi” (< Kuyugwazian “čüüh žaraš”) are the same thing (but can also have mare milk cheese as filling), and that word is more common outside of the Northwest, where they can be found as street food or    in Kenengyry restaurants. Northwesterners and Soenjoans in the Inquisition only call them “cūkṣarla”, Kuyugwazians call them “cūjaraṣi”, other Kenengyry and people from elsewhere or other ethnicities do not really care about the distinction and use the one they’re advertised with.
+- trevna (< Aur. “trwen” ‘jelly’) - grape jelly, the entrée of any Kūlħanarai dinner; traditionally, in Southern Evandor, it was the first thing eaten after breaking the pre-Rebirth fast.
+
+
+Day 25:
+Chlouvānem — theme: “family bonds, celebrations”
+- jaṃšāprimęlyanah “returning home to celebrate a festivity” (< jaṃšā “celebration, festivity” + primęlyanah “return”)
+- jūgṛkulke “to have a toast” (< jūgram “health” + √kul- “to say”)
+- jūgṛkilanah “toast” (< jūgṛ-√kul-)
+- jūgṛkiloe “round of toast” (< jūgṛ-√kul-)
+- cåtake (class 1 verb) “to be cosy, snug”
+- cåtra “cosiness (esp. of an atmosphere)” (< √cåt-)
+- cåtoe “cosy atmosphere” (< √cåt-)
+- špūktimālna “family bond” (< špūktin “relative” + mālna “union”)
+- meitokte (class 2 verb, mei-ta-√ut-: meitautē - meitotek - meitoɂuta) “to be positive, uplifting” (< mei “yes, right” + ta-√ut- “to lie”)
+- meitotra “positivity” (< mei-ta-√ut-)
+
+Atlantic:
+- “Dilcal Noiviṭoṭi!” [ˈdiɬkaɬ nwaviˈθɔθi] “Merry Christmas!” (lit. “may Christmas bring happiness”)
+
+
+Day 26:
+Chlouvānem — theme: “pollution”
+- kaplike (class 1 verb) “to corrupt, contaminate, pollute” (< Lällshag “kapull” ‘dirty’)
+- kaplyanah “corruption, pollution, contamination (process)” (< √kaply-)
+- kaplis “pollution (extent)” (< √kaply-)
+- kaplirṣūs “pollutant” (< √kaply-)
+- chlærikaplis “light pollution” (< chlærim “light” + kaplis)
+- mailkaplis “water pollution” (< maila “water” + kaplis)
+- lairkaplis “air pollution” (< lairē “air” + kaplis)
+- yāṃskaplis “sound pollution” (< yāṃsa “sound” + kaplis)
+- irālkaplis “ground pollution” (< irāṇa “soil” + kaplis)
+- nelikaplis “brainwashing” (< nelya “thought” + kaplis)
+
+Day 27:
+Chlouvānem — theme: “medieval society” (more Civ VI translations).
+Our Middle Ages actually don’t really have a counterpart for the whole Chlouvānem world. Individual states or areas had dark ages, but Chlouvānem history is typically divided in periods by the spreading of the Yunyalīlti religion (and, together with that, Chlouvānem settling) in other areas. The period of the Toyubeshian Expansion more or less corresponds to the technology level of 12th century Europe. Feudal structures were in place in various areas of the Chlouvānem world, even if a good portion of lands were under monastic rule, and most notably the area of Lake Lūlunīkam and a large portion of the Lānamilūki valley was under sovereignty of the Inquisition itself (Līlasuṃghāṇa, the holy city founded to be the seat of Inquisitorial power (and to this day its capital), had been founded halfway through the Classical Era).
+
+- karimbūkke (class 1 adjectival verb) “related to naval military, navigation, or naval engineering” (cf. the civic “Naval Tradition”, in Chl. “karimbūkire opašāmita”, where I could not use the genitive as it’d have been more like “tradition of [the/a single] ship”) (< karimbas “ship”)
+- paṣlerjīn “governor” (< paṣ-√lerjy- “to steer, govern”)
+- šupaṣlerjīn “vassal; official who has been granted land rights by a king” (< šu- “below” + paṣlerjīn)
+- vṛṣṇa “feudal land right given to a vassal” (some dictionaries cite a Near Eastern origin, with the possible meaning of “ceremony”)
+- vṛṣṇadarī “feudalism, feudal society” (< vṛṣṇa + darī “society”)
+- vṛṣṇalitta (ablaut decl., pl. vṛṣṇalettyē) “feudal tax, duties of a vassal towards the seigneur” (< vṛṣṇa + √litt- “to gain”)
+- varṣṇāvi “share of the produce that, under feudalism, villagers had to give their overlord” (< vṛṣṇa)
+- vṛṣṇūrah “fief, granted land” (< vṛṣṇa)
+- kamijilde “to administer” (< kami- “around” + √jild- “to act”)
+- kamijeldanah “administration” (< kami-√jild-)
+- ṣarikamijeldanah “civil service, bureaucracy, public administration” (< ṣari “lord”, possibly implying “ṣarivāṇa” (State) + kamijeldanah)
+
+
+Day 28:
+Chlouvānem — theme “pollution (part 2) and its mitigation”
+- kāmilrimya “environmental-friendly action” (< kāmila “blue” + rimya “help”), this is a kind of “grue” situation: green and blue are the typical colours of nature in Chlouvānem culture, but environmentalism (kāmilāmita) uses blue, as it’s a kind of “average” colour between water, plants, and the sky. (Blue used this way is typically Chlouvānem; in worldwide politics it is the colour of communism (whence also e.g. the blue background on the flag of the Chlouvānem Inquisition) - ultimately influenced by the proto-communist novel and one of the classics of worldwide literature “The Blue Sky after the Storm” (Birṣų ānat kāmilire lairē) by Chlouvānem writer Jauhækumyāvi Nahinuyāša Lañimulca)
+- kāmilrimilenas “environmental-friendly choice” (< kāmilrimya + lenas “choice”)
+- ghūsnake (class 3 verb) “to filter”
+- ghūsnas “filter” (< √ghūsn-)
+- ghausnanah “filtering” (< √ghūsn-)
+- vrāṣmaghūsnas “smoke filter” (< vrāṣmas “smoke” + ghūsnas)
+- durtalka “sewage” (< Lällshag “dor tagek” (bad river))
+- durtalkmaṇṭai (plurale tantum) “sewer(s)” (< durtalka + maṇṭai (pl. of “maṇṭa” (pipe)))
+- durtalghūsnas “sewage filter” (< durtalka + ghūsnas)
+- viṣṭargḍhūlam “noise barrier, sound wall” (< viṣ- “against, opposite” + ṭargas “noise” + ḍhūlam “shield”), also “viṣṭarḍhūlam” (which is by far more common in speech - [ʋiʂʈɐʀɡɖʱuːɴ̆ɐ̃m] vs. the easier [ʋiʂʈɐɻɖʱuːɴ̆ɐ̃m] - but less commonly written)
+
+Day 29:
+Chlouvānem — theme: “basic computing (part 2)”
+- pūlkīhake “to programme (mainly used for computers)” (< pūnas “work” + √kīh- “to prepare, make ready for use, make usable”)
+- pūlkēhīn “programmer” (< pūn-√kīh-)
+- pūlkįdhāḍa “programming language” (< pūn-√kīh- + dhāḍa “language”)
+- pūlkįkarṇus “source code” (< pūn-√kīh- + karṇus “code, encryption”)
+- givkarṇus “machine code” (< √giv- “to execute” + karṇus)
+- givoe “application, program” (< √giv-)
+- nakitūm “input” (< na-√kit- “to put inside, inwards”)
+- kaumęlyūm “output” (< kau-√męly- “to give outside, outwards”)
+- nakitalāpūlgis “input device” (< na-√kit- + lāpūlgis “peripherical”)
+- kaumęlilāpūlgis “output device” (< kau-√męly- + lāpūlgis)
+
+Day 30:
+Chlouvānem — theme: “medieval society and technology (part 2)”
+- ħauke (class 1 verb) “to hire, employ; borrow while giving a guarantee” (< Proto-Lahob *kʷāw-)
+- ħaunārvālis “mercenary” (< √ħau- + nārvālis “soldier”)
+- ħāvas “pledge, security” (< √ħau-)
+- ħāvoe “object that has been hired” (< √ħau-)
+- ħāvāršis (derogatory) “person who does any kind of job, often illegally, just for the sake of getting richer” (< √ħau-)
+- læchlijāṇa “funfair” (< √læchly- “to have fun” + jāṇa “field”)
+- nairīvayīn “apprentice” (< na-√irī-ve- “to learn”)
+- nairīvayaṇah “apprenticeship, internship” (< na-√irī-ve-) (synonym of the word “kēhanah” I already had)
+- pūnṛṣūlāṇa “machinery” (collective of “pūnṛṣūs” (machine))
+- nærjñunaigis “stirrup” (< √nærkh- “to ride, mount” + junai “foot” + -gis (here: “for”))
+
+Day 31 - first time I managed to complete Lexember!
+Chlouvānem — theme: “geometry (part 2)”
+- lallās “vertex, apex” (< lalla “high, upper”)
+- tailpāṇḍhūs “polygon” (< taili “many” + pāṇi “side” + -dhūs “-having”)
+- pāmvipāṇḍhūs “triangle” (< pāmvi “three” + pāṇi + -dhūs), nęltipāṇḍhūs “quadrilateral” (< nęlte “four” + pāṇi + -dhūs) and “šulkipāṇḍhūs” (pentagon) and so on, it’d feel like cheating to count all of those as separate new words
+- kamityāna “perimeter, circumference” (< kami-√tyā- “to stand around, be around, to surround”)
+- nītyāna “area, surface” (< nī-√tyā- “to stand within, be within”)
+- tailṣveidhūs “polyhedron” (< taili + ṣveya “wall; (geometry) face” (the ‘face’ meaning is another one I added today) + -dhūs), and similarly “tulūɂṣveidhūs” (hexahedron) and so on
+- mænaṣih “pyramid” (< Lällshag “mäna ci” ‘roof-like’)
+- lǣṣa “cube; die” (some linguists reconstruct a Proto-Lahob root *ŋōwšo from that and Kȯtıme Qoşazırme derivation “mȯçıdun” (box, casket), while others think it’s a Tamukāyi borrowing)
+- tilva “cone” (< Lällshag “tillwå” ‘pin’)
+- abotake (class 9 verb: abotire - abeitirek - aɂabātirā) “to be flat” (easter egg)
