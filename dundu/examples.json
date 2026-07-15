@@ -70,5 +70,59 @@
         "eng": "«Read the sentence once again» told the teacher caringly to the student.",
         "keys": ["quotative", "imperative"],
         "context": ["care", "study", "classroom", "teaching"]
+    },
+    {
+        "id": "9",
+        "dun": "raṅgrī tahindūvai yāṅga emibe katat henda &#8212; āvet äre idumat nayūvi.",
+        "mor": "raṅgr-ī tahind-∅-ū-ai yāṅg-∅-∅-a emibe kata-t hend-∅-∅-a āvet äre idum-at ne-∅-ū-i",
+        "gloss": "truth-<small>ESS.SG</small>. listen-<small>EXP-AG-IMPF.3.SUBJ</small>. know_how_to-<small>EXP-PAT-PRES.3SG.IND</small>. one.<small>DIR.SG</small>. <small>2SG-ACC</small> hear-<small>EXP-PAT-PRES.3SG.IND</small>. then.<small>DIST</small>. even. nothing-<small>ACC</small>.say-<small>EXP-AG-PRES.2SG.IND</small>.",
+        "eng": "One who really knows how to listen hears you, even when you don't say anything.",
+        "keys": ["correlatives", "impersonal", "adverbial phrase", "attributive verb"],
+        "context": ["care", "kindness", "personal", "relations"]
+    },
+    {
+        "id": "10",
+        "dun": "kaunū: kata ṣṭṛmyāhai prādruṭai ba taili emibe iduvet prādruṭiṣya.",
+        "mor": "kaun-∅-ū-∅ kata ṣṭṛ-∅-mi-āhai prādruṭ-ai ba taili emibe iduvet prādruṭ-iṣy-∅-∅-a",
+        "gloss": "remember.<small>IMPER-EXP-AG-2SG.IMPF</small>. <small>2SG.ERG</small>. worry-<small>EXP-CIRC-PRES.3SG.IND</small>. thing_happening-<small>DIR.PL</small>. <small>TOPIC</small>. many. one.<small>DIR.SG</small>. never. happen-<small>FUT-EXP-PAT-3.IND</small>.",
+        "eng": "Remember: many of the things you worry about are never going to happen.",
+        "keys": ["imperative", "adjunct", "circumstantial", "attributive verb"],
+        "context": ["reflection", "care", "personal", "relations"]
+    },
+    {
+        "id": "11",
+        "dun": "p̃ājonūvāt juthah.",
+        "mor": "p̃āj-∅-on-ū-āt juth-∅-∅-ah",
+        "gloss": "smile<small>-EXP-CAUS-AG-IMPF.2SG.SUBJ</small>. feel_relieved-<small>EXP-PAT-PRES.1SG.IND</small>.",
+        "eng": "I feel relieved that you comforted me. &#8212; Thanks for staying with me/being by my side.",
+        "keys": ["subjunctive"],
+        "context": ["thanks", "care", "mutual help", "relations", "emotions"]
+    },
+    {
+        "id": "12",
+        "dun": "tehindā mon kamicyusī p̃ocah.",
+        "mor": "tehind-∅-∅-ā mon kamicyus-ī p̃oc-∅-∅-ah",
+        "gloss": "listen-<small>EXP-PAT-IMPF.1SG.SUBJ</small>. <small>EXESS</small>. welcome-<small>ESS.SG</small>. feel<small>-EXP-PAT-PRES.1SG.IND</small>.",
+        "eng": "I feel welcome/invited/accepted that you listened to me. &#8212; Thanks for your attention.",
+        "keys": ["subjunctive", "exessive"],
+        "context": ["thanks", "speaking", "public", "audience", "emotions"]
+    },
+    {
+        "id": "13",
+        "dun": "nimmä tadāyā adrūvāt sāṭedemya.",
+        "mor": "nimmä tadāyā adr-∅-ū-āt sāṭede-∅-mi-a.",
+        "gloss": "Nimālśi.<small>ENDEAR.BOUND.SG</small>. instead_of. do.<small>PERF-EXP-AG-2SG.SUBJ</small>. flank.<small>PERF-EXP-CIRC-1SG.IND</small>.",
+        "eng": "I feel flanked/supported that you did it instead of me [Nimālśi]. &#8212; Thanks for doing that / for taking care of that / for relieving my mental load.",
+        "keys": ["subjunctive", "particles", "hypocoristic noun", "perfective subjunctive"],
+        "context": ["thanks", "care", "personal", "relations", "mutual help", "kindness", "emotions"]
+    },
+    {
+        "id": "14",
+        "dun": "hunu fähla tati inīyūvāt ṣubha ṣṭrah.",
+        "mor": "hunu fähl-∅-∅-a tati inī-∅-ū-āt ṣubha ṣṭṛ-∅-∅-ah.",
+        "gloss": "<small>MED.DIR</small> be_right-<small>EXP-PAT-PRES.3SG.IND</small>. <small>QUOT</small>. say.<small>PERF-EXP-AG-2SG.SUBJ</small>. little. worry-<small>EXP-PAT-PRES.1SG.IND</small>.<br>",
+        "eng": "I feel less worried/I worry less because you said I was right. &#8212; Thanks for [helping me and] saying it was right / for agreeing with me",
+        "keys": ["quotative", "subjunctive", "less-comparative", "comparative"],
+        "context": ["thanks", "emotions", "care", "kindness"]
     }
 ]
