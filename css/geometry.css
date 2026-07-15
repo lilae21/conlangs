@@ -61,6 +61,12 @@ body {
     color: rgb(var(--color-txt));
     margin-bottom: 0;
     padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main {
+    flex: 1 0 auto;
 }
 @media screen and (min-width: 768px) {
   body {
@@ -113,16 +119,20 @@ h2, h3, h4, caption {
 h2 {
     font-size: 1.5556em;
     word-spacing: 0.3056em;
+    margin-top: 1.9rem;
 }
 h3 {
     font-size: 1.3333em;
     margin-bottom: 0;
-    margin-top: 0.55rem;
+    margin-top: 1.55rem;
 }
 h4, caption {
     font-size: 1.1111em;
     margin-bottom: 0.25rem;
     font-weight: 550;
+}
+h4 {
+    margin-top: 1.36rem;
 }
 
 /* gloss containers */
@@ -482,8 +492,8 @@ footer a:hover:not(:has(> img)), footer a:active:not(:has(> img)) {
   overflow: hidden;
   font-family: "Comfortaa", sans-serif;
   font-weight: 350;
-  font-size: 0.8889rem;
-  max-height: 86vh; /* scrolling */
+  font-size: 0.86rem;
+  max-height: 90vh;
   overflow-y: auto;
   opacity: 1;
   visibility: visible;
