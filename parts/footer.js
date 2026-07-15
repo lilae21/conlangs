@@ -5,7 +5,12 @@ document.addEventListener("DOMContentLoaded", function () {
             document.body.insertAdjacentHTML("beforeend", html);
             requestAnimationFrame(() => {
                 const link = document.getElementById("footer-link");
-                if (window.location.pathname.endsWith("index.htm") || window.location.pathname.endsWith("index.html")) {
+                const path = window.location.pathname;
+                const isHome = path.endsWith("index.htm") ||
+                               path.endsWith("index.html") ||
+                               path.endsWith("/"); // copre anche https://lilae21.github.io/conlangs/
+
+                if (isHome) {
                     link.href = "https://lilae21.github.io/conlangs/sitemap.htm";
                     const ism = document.createElement("i");
                     ism.className = "ph ph-compass";
@@ -20,6 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     link.textContent = "";
                     link.appendChild(i);
                 }
+
                 fetch("https://lilae21.github.io/conlangs/parts/footer-config.json")
                     .then(response => response.json())
                     .then(config => {
