@@ -5,6 +5,7 @@ Standard color palette (home and meta pages, fallback): earthy tones. */
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+
 @font-face {
   font-family: Junicode;
   src: url(/conlangs/asset/JunicodeVF-Roman.woff2);
@@ -188,6 +189,38 @@ h4 {
   font-size: 1.2223em;
   color: rgb(var(--color-headers));
   padding: 0.6rem;
+}
+
+/* language cards */
+.cardicon {
+  font-size: 2.5rem;
+}
+.langcard {
+  font-family: "Comfortaa", sans-serif;
+  text-align: center;
+  border-top: 0.3rem solid rgb(var(--color-thickbdr));
+  border-left: 0.1rem solid rgb(var(--color-thickbdr));
+  border-right: 0.1rem solid rgb(var(--color-thickbdr));
+  border-bottom: 0.1rem solid rgb(var(--color-thickbdr));
+  background: rgb(var(--color-gradstart));
+  padding: 0.2rem;
+  margin-bottom: 0.7rem;
+  border-radius: 8px;
+  color: rgb(var(--color-glosstrans));
+  max-width: 15.5rem;
+  min-width: 12.5rem;
+  align-content: center;
+}
+.langcard p {
+  text-align: center;
+  text-indent: 0;
+  margin-top: 0.24rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.84rem;
+}
+p.langitem {
+  font-weight: 500;
+  font-size: 1rem;
 }
 
 /* lists */
